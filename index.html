@@ -50,6 +50,14 @@ header.h .stamp .dot.stale { background: var(--yellow); }
 header.h .stamp .dot.err { background: var(--red); }
 header.h .stamp .reload { font: inherit; border: 0; background: transparent; color: var(--text-muted); cursor: pointer; font-size: 12px; padding: 0 0 0 6px; }
 header.h .stamp .reload:hover { color: var(--text); }
+header.h .stamp .open-cal {
+  display: inline-flex; align-items: center; gap: 4px;
+  font: inherit; font-size: 11.5px; font-weight: 600;
+  text-decoration: none; color: #fff; background: #1c1c1e;
+  padding: 4px 10px; border-radius: 999px;
+  margin-left: 8px; transition: background .15s;
+}
+header.h .stamp .open-cal:hover { background: #3a3a3f; }
 
 .stale-banner {
   background: linear-gradient(135deg, #fff7e0 0%, #fff2c2 100%);
@@ -196,6 +204,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <div class="stamp" id="stamp">
       <span class="dot" id="dot-status"></span><span id="updated">caricamento…</span>
       <button class="reload" title="Ricarica" onclick="location.reload()">↻</button>
+      <a class="open-cal" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener" title="Apri Google Calendar">📅 Apri Calendar</a>
     </div>
   </header>
 
@@ -205,7 +214,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <div class="kpis">
     <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi" data-source="asana" title="Clicca per filtrare solo Asana"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo Asana"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Monday + Zoho</div></div>
     <div class="kpi" data-source="canva" title="Clicca per filtrare solo Canva"><div class="label">Canva</div><div class="value" id="k-canva">–</div><div class="sub">Tag aperti</div></div>
     <div class="kpi" data-source="monday" title="Clicca per filtrare solo Monday"><div class="label">Monday</div><div class="value" id="k-monday">–</div><div class="sub">Items aperti</div></div>
     <div class="kpi" data-source="zoho-projects" title="Clicca per filtrare solo Zoho Projects"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Tag pending</div></div>
@@ -330,7 +339,14 @@ function makeItem(key, url, flags){
 // ── Renderers ──
 function renderCal(items){
   const box=$("cards-cal"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
+  // Nascondi eventi già passati (grace: 30 min dopo lo start per non far sparire troppo presto le call in corso)
+  const nowMs = Date.now();
+  const GRACE_MS = 30 * 60 * 1000;
+  items = (items||[]).filter(ev => {
+    const t = new Date(ev.start_iso).getTime();
+    return !isNaN(t) && (t + GRACE_MS) >= nowMs;
+  });
+  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
   let last=""; const todayKey=new Date().toDateString(); let todayCount=0;
   items.forEach(ev=>{
     const s=new Date(ev.start_iso); const dKey=s.toDateString();
@@ -470,6 +486,9 @@ async function loadHub(){
       emptyHint: "Letto da Gmail label «Zoho Projects/Tag Pending Reply»"
     });
     renderCanva(hub.canva || []);
+    // KPI "Task aperti" = somma Asana + Monday + Zoho Projects
+    const totalTasks = (hub.asana?.length || 0) + (hub.monday?.length || 0) + (hub.zoho_projects?.length || 0);
+    $("k-asana").textContent = totalTasks;
     if(hub.updated_at){
       const u = new Date(hub.updated_at);
       const minsAgo = Math.round((Date.now() - u.getTime()) / 60000);
