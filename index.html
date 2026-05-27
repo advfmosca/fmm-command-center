@@ -476,7 +476,7 @@ function renderCal(items){
     const t = new Date(ev.start_iso).getTime();
     return !isNaN(t) && (t + GRACE_MS) >= nowMs;
   });
-  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
+  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma<small>Letto da Google Calendar — oggi e domani</small></div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
   let last=""; const todayKey=new Date().toDateString(); let todayCount=0;
   items.forEach(ev=>{
     const s=new Date(ev.start_iso); const dKey=s.toDateString();
@@ -514,7 +514,7 @@ function renderGeneric(boxId, countId, kpiId, items, opts){
 
 function renderAsana(items){
   const box=$("cards-asana"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task aperto</div>'; $("count-asana").textContent="0"; $("k-asana").textContent="0"; return; }
+  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task aperto<small>Letto da Asana — task assegnati a te</small></div>'; $("count-asana").textContent="0"; $("k-asana").textContent="0"; return; }
   const groups={};
   items.forEach(t=>{ const p=t.project||"Generale"; (groups[p]||(groups[p]=[])).push(t); });
   const keys=Object.keys(groups).sort((a,b)=>a==="Generale"?1:b==="Generale"?-1:a.localeCompare(b));
@@ -547,7 +547,7 @@ function renderAsana(items){
 function renderCanva(items){
   const box=$("cards-canva"); box.innerHTML="";
   if(!items?.length){
-    box.innerHTML='<div class="placeholder">Nessun tag aperto<small>Vedrai qui i commenti Canva che ti taggano e non hai ancora risposto.</small></div>';
+    box.innerHTML='<div class="placeholder">Nessun tag aperto<small>Letto da Canva — mention a te non ancora risposte</small></div>';
     $("count-canva").textContent="0"; $("k-canva").textContent="0"; return;
   }
   items.forEach(c=>{
@@ -613,12 +613,12 @@ async function loadHub(){
     renderCal(hub.calendar || []);
     renderAsana(hub.asana || []);
     renderGeneric("cards-monday", "count-monday", "k-monday", hub.monday || [], {
-      emptyTitle: "Nessun item Monday assegnato",
-      emptyHint: "Workspace SENAPE — letto via api.monday.com/v2"
+      emptyTitle: "Nessun item assegnato",
+      emptyHint: "Letto da Monday — workspace SENAPE"
     });
     renderGeneric("cards-zoho-proj", "count-zoho-proj", "k-zoho-proj", hub.zoho_projects || [], {
       emptyTitle: "Nessun tag in attesa di risposta",
-      emptyHint: "Letto da Gmail label «Zoho Projects/Tag Pending Reply»"
+      emptyHint: "Letto da Gmail — label «Zoho Projects/Tag Pending Reply»"
     });
     renderCanva(hub.canva || []);
     // KPI "Task aperti" e tutti gli altri vengono ricalcolati da recalcCounts() in applyDismissed()
