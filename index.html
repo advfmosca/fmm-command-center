@@ -385,7 +385,44 @@ function applyDismissed(){
     tBtn.style.display = "none";
     showHidden = false;
   }
+  recalcCounts();
   applyFilter(localStorage.getItem("fmm-hub-filter") || "all");
+}
+
+// ── recalcCounts: aggiorna KPI + badge colonna in base agli item VISIBILI ──
+// Risolve il bug: dismiss nascondeva gli item ma i contatori restavano sull'originale.
+function recalcCounts(){
+  const cfg = [
+    {src: "calendar",      cnt: "count-cal",       kpi: "k-cal",       todayOnly: true},
+    {src: "asana",         cnt: "count-asana",     kpi: null,          todayOnly: false},
+    {src: "canva",         cnt: "count-canva",     kpi: "k-canva",     todayOnly: false},
+    {src: "monday",        cnt: "count-monday",    kpi: "k-monday",    todayOnly: false},
+    {src: "zoho-projects", cnt: "count-zoho-proj", kpi: "k-zoho-proj", todayOnly: false},
+  ];
+  let asanaVis = 0, mondayVis = 0, zohoVis = 0;
+  cfg.forEach(c => {
+    const col = document.querySelector(`.col[data-source="${c.src}"]`);
+    if(!col) return;
+    let visible = 0, todayVisible = 0;
+    col.querySelectorAll(".item").forEach(it => {
+      const hidden = it.dataset.hidden === "1";
+      if(!hidden || showHidden){
+        visible++;
+        if(it.dataset.today === "1") todayVisible++;
+      }
+    });
+    const cEl = document.getElementById(c.cnt);
+    if(cEl) cEl.textContent = visible;
+    if(c.kpi){
+      const kEl = document.getElementById(c.kpi);
+      if(kEl) kEl.textContent = c.todayOnly ? todayVisible : visible;
+    }
+    if(c.src === "asana") asanaVis = visible;
+    if(c.src === "monday") mondayVis = visible;
+    if(c.src === "zoho-projects") zohoVis = visible;
+  });
+  // KPI aggregato "Task aperti" = Asana + Monday + Zoho Projects (solo visibili)
+  $("k-asana").textContent = asanaVis + mondayVis + zohoVis;
 }
 
 // ── Item builder (dismiss button + data-key) ──
@@ -561,9 +598,7 @@ async function loadHub(){
       emptyHint: "Letto da Gmail label «Zoho Projects/Tag Pending Reply»"
     });
     renderCanva(hub.canva || []);
-    // KPI "Task aperti" = somma Asana + Monday + Zoho Projects
-    const totalTasks = (hub.asana?.length || 0) + (hub.monday?.length || 0) + (hub.zoho_projects?.length || 0);
-    $("k-asana").textContent = totalTasks;
+    // KPI "Task aperti" e tutti gli altri vengono ricalcolati da recalcCounts() in applyDismissed()
     if(hub.updated_at){
       const u = new Date(hub.updated_at);
       const minsAgo = Math.round((Date.now() - u.getTime()) / 60000);
