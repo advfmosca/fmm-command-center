@@ -18,7 +18,7 @@
       "html_link": "https://www.google.com/calendar/event?eid=N2NmdGhlZm40ZWtwZTZndXB2ZjFucWNnaWcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": "stop",
-      "is_aghc": true,
+      "is_aghc": false,
       "is_urgent": true
     },
     {
@@ -117,7 +117,7 @@
       "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA1MjhUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
-      "is_aghc": true,
+      "is_aghc": false,
       "is_urgent": false
     },
     {
@@ -165,7 +165,7 @@
       "days_to_due": -5,
       "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "name": "Report ADV Clienti",
@@ -183,7 +183,7 @@
       "days_to_due": 2,
       "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "name": "Per Video Social",
@@ -192,7 +192,7 @@
       "days_to_due": null,
       "notes": "chiarabizzocchi2@gmail.com\ninfo@hotelalbatros.biz",
       "permalink": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1213083942474458",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "name": "landing offerte",
@@ -201,7 +201,7 @@
       "days_to_due": null,
       "notes": "https://offertefamily.com/lp/hotel-4-stelle-vista-mare-a-ravello-costiera-amalfitana-hotel-bonadies-offerte-family/",
       "permalink": "https://app.asana.com/1/1199398735335909/project/1210287447734208/task/1213188177262210",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "name": "account  pubblicitario per ig e yt -->",
@@ -213,117 +213,7 @@
       "is_aghc": false
     }
   ],
-  "canva": [
-    {
-      "title": "PED HOTEL LUNETTA GIUGNO - LUGLIO  2026",
-      "edit_url": "https://www.canva.com/d/JxrGtdAPNXa4RIy",
-      "view_url": "https://www.canva.com/d/FITV0wtQDFWf1r1",
-      "updated_iso": "2026-05-27T16:05:54+02:00",
-      "page_count": 35,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED ALTAFIUMARA GIUGNO  2026",
-      "edit_url": "https://www.canva.com/d/zrpm-7JZhW0pcXc",
-      "view_url": "https://www.canva.com/d/QgL-egyvJW1R7XJ",
-      "updated_iso": "2026-05-27T12:55:24+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PUNTEBIANCHE social STRATEGY AG 2026",
-      "edit_url": "https://www.canva.com/d/ow9jPopb1rGSG-9",
-      "view_url": "https://www.canva.com/d/6si-3uHodsjbusf",
-      "updated_iso": "2026-05-27T10:18:22+02:00",
-      "page_count": 48,
-      "category": "strategy",
-      "is_aghc": true
-    },
-    {
-      "title": "PED VILLA ERMELLINA  MAGGIO GIUGNO 2026",
-      "edit_url": "https://www.canva.com/d/nwkJKBXH7h1Mk6z",
-      "view_url": "https://www.canva.com/d/GMzqAkZg0M4SLOO",
-      "updated_iso": "2026-05-26T18:08:52+02:00",
-      "page_count": 17,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED  TENUTA MONTEMAGNO  GIUGNO 2026",
-      "edit_url": "https://www.canva.com/d/y7BvY06Nqpy5Z4E",
-      "view_url": "https://www.canva.com/d/2N3n6W-iyGPrJ8f",
-      "updated_iso": "2026-05-26T15:06:10+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED HOTEL DELLA PIANA GIUGNO - LUGLIO 2026",
-      "edit_url": "https://www.canva.com/d/ju6WPHyj9fmFGcH",
-      "view_url": "https://www.canva.com/d/nQTauI1QimBQ0CZ",
-      "updated_iso": "2026-05-26T14:25:30+02:00",
-      "page_count": 36,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED TERRAZZA FLAVIA giugno-luglio 2026",
-      "edit_url": "https://www.canva.com/d/fxJZ7VSfd2ceAxY",
-      "view_url": "https://www.canva.com/d/v71hwTpGif6ryzW",
-      "updated_iso": "2026-05-26T14:22:39+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED MARCELLA ROYAL giugno - luglio 2026",
-      "edit_url": "https://www.canva.com/d/0j0wgSAwwZ6hkV6",
-      "view_url": "https://www.canva.com/d/DH37cM9o8ILGrM2",
-      "updated_iso": "2026-05-26T14:18:07+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED HOTEL CASTELLO  GIUGNO - LUGLIO  2026",
-      "edit_url": "https://www.canva.com/d/GFemhOiTwSUQRuA",
-      "view_url": "https://www.canva.com/d/fSSis7snyQX6aiz",
-      "updated_iso": "2026-05-26T14:11:38+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED HEMANAIRE GIUGNO-LUGLIO 2026",
-      "edit_url": "https://www.canva.com/d/tG7ycy9ZUyGmsDA",
-      "view_url": "https://www.canva.com/d/AIgte2_rCh7S3bH",
-      "updated_iso": "2026-05-26T14:03:29+02:00",
-      "page_count": 12,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "PED  VILLA GIADA GIUGNO-LUGLIO-AGOSTO 2026",
-      "edit_url": "https://www.canva.com/d/3fVRRyCNU2ID_x2",
-      "view_url": "https://www.canva.com/d/5KJlR5hSaci85Uh",
-      "updated_iso": "2026-05-26T13:57:54+02:00",
-      "page_count": 37,
-      "category": "ped",
-      "is_aghc": true
-    },
-    {
-      "title": "TENUTA MONTEMAGNO social STRATEGY AG 2026",
-      "edit_url": "https://www.canva.com/d/BIIZR943XIS4T3U",
-      "view_url": "https://www.canva.com/d/pWRJOSE8JOrxsOU",
-      "updated_iso": "2026-05-26T12:52:39+02:00",
-      "page_count": 46,
-      "category": "strategy",
-      "is_aghc": true
-    }
-  ],
-  "slack": [],
+  "canva": [],
   "monday": [],
   "zoho_projects": []
 }

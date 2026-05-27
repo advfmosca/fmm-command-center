@@ -61,6 +61,11 @@ header.h .stamp .reload:hover { color: var(--text); }
 
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: 18px; }
 .kpi { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 13px 15px; min-width: 0; }
+.kpi[data-source] { cursor: pointer; transition: transform .08s, box-shadow .15s, border-color .15s; user-select: none; }
+.kpi[data-source]:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.07); border-color: #cdd3df; }
+.kpi[data-source].kpi-active { outline: 3px solid #1c1c1e; outline-offset: -3px; }
+.kpi[data-source].kpi-active .label { color: #1c1c1e; }
+.kpi.total[data-source].kpi-active { outline-color: #fff; }
 .kpi .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 6px; font-weight: 600; }
 .kpi .value { font-size: 24px; font-weight: 700; line-height: 1.1; color: #0f0f10; font-variant-numeric: tabular-nums; word-break: break-word; }
 .kpi .sub { font-size: 11px; color: var(--text-dim); margin-top: 4px; }
@@ -99,14 +104,31 @@ section.col .body::-webkit-scrollbar { width: 6px; }
 section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
 .item {
+  position: relative;
   background: #fff; border: 1px solid var(--border); border-radius: 10px;
-  padding: 10px 12px; margin-bottom: 8px;
+  padding: 10px 12px; padding-right: 28px; margin-bottom: 8px;
   display: flex; flex-direction: column; gap: 6px;
   text-decoration: none; color: inherit;
   transition: border-color .15s, transform .08s, box-shadow .15s;
 }
 .item:last-child { margin-bottom: 0; }
 .item:hover { border-color: #cdd3df; box-shadow: 0 2px 6px rgba(0,0,0,.06); transform: translateY(-1px); }
+.item.is-hidden { opacity: 0.45; background: var(--bg-soft); }
+
+.item .dismiss {
+  position: absolute; top: 6px; right: 6px;
+  width: 22px; height: 22px;
+  border: 0; background: transparent;
+  color: var(--text-dim); cursor: pointer;
+  font-size: 16px; line-height: 1; padding: 0;
+  border-radius: 5px;
+  opacity: 0; transition: opacity .15s, background .15s, color .15s;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.item:hover .dismiss { opacity: 1; }
+.item .dismiss:hover { background: #fee2e2; color: #991b1b; }
+.item .dismiss.is-undo { opacity: 1; color: #1f6b3a; }
+.item .dismiss.is-undo:hover { background: #d1fadf; color: #14532d; }
 .item .name { font-weight: 600; font-size: 13px; line-height: 1.3; word-break: break-word; }
 .item .meta { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
 .item .meta .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
@@ -182,18 +204,19 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   </div>
 
   <div class="kpis">
-    <div class="kpi total"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana</div></div>
-    <div class="kpi"><div class="label">Design recenti</div><div class="value" id="k-canva">–</div><div class="sub">Canva</div></div>
-    <div class="kpi"><div class="label">Slack</div><div class="value" id="k-slack">–</div><div class="sub">Mention + DM</div></div>
-    <div class="kpi"><div class="label">Monday</div><div class="value" id="k-monday">–</div><div class="sub">Items aperti</div></div>
-    <div class="kpi"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Tag pending</div></div>
+    <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo Asana"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana</div></div>
+    <div class="kpi" data-source="canva" title="Clicca per filtrare solo Canva"><div class="label">Canva</div><div class="value" id="k-canva">–</div><div class="sub">Tag aperti</div></div>
+    <div class="kpi" data-source="monday" title="Clicca per filtrare solo Monday"><div class="label">Monday</div><div class="value" id="k-monday">–</div><div class="sub">Items aperti</div></div>
+    <div class="kpi" data-source="zoho-projects" title="Clicca per filtrare solo Zoho Projects"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Tag pending</div></div>
   </div>
 
   <div class="filter-bar">
     <span class="lbl">Filtra:</span>
     <button class="filter-chip active" data-filter="all">Tutto</button>
     <button class="filter-chip" data-filter="today">Solo oggi</button>
+    <span style="flex:1"></span>
+    <button id="toggle-hidden" class="filter-chip" style="display:none">Mostra <span id="hidden-count">0</span> nascosti</button>
   </div>
 
   <div class="board">
@@ -215,11 +238,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     </section>
     <section class="col" data-source="canva">
       <h2><span class="col-ico">🎨</span>Canva<span class="pill" id="count-canva">…</span></h2>
-      <div class="body" id="cards-canva"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
-    </section>
-    <section class="col" data-source="slack">
-      <h2><span class="col-ico">💬</span>Slack<span class="pill" id="count-slack">…</span></h2>
-      <div class="body" id="cards-slack"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+      <div class="body" id="cards-canva"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
   </div>
 
@@ -239,6 +258,76 @@ function fmtDateShort(d){
 function isToday(d){ const n=new Date(); return d.getFullYear()===n.getFullYear()&&d.getMonth()===n.getMonth()&&d.getDate()===n.getDate(); }
 function esc(s){ return (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]); }
 
+// ── Dismiss state ─────────────────────────────────
+const DISMISSED = new Set(JSON.parse(localStorage.getItem("fmm-dismissed") || "[]"));
+let showHidden = false;
+
+function persistDismissed(){
+  try { localStorage.setItem("fmm-dismissed", JSON.stringify([...DISMISSED])); } catch(e){}
+}
+function dismissItem(key, event){
+  if(event){ event.preventDefault(); event.stopPropagation(); }
+  if(!key) return;
+  DISMISSED.add(key);
+  persistDismissed();
+  applyDismissed();
+}
+function undismissItem(key, event){
+  if(event){ event.preventDefault(); event.stopPropagation(); }
+  if(!key) return;
+  DISMISSED.delete(key);
+  persistDismissed();
+  applyDismissed();
+}
+function applyDismissed(){
+  document.querySelectorAll(".item").forEach(c=>{
+    const k = c.dataset.key;
+    const isHidden = k && DISMISSED.has(k);
+    c.classList.toggle("is-hidden", !!isHidden);
+    // Visibility considered together with the active filter
+    c.dataset.hidden = isHidden ? "1" : "0";
+    // Swap button between dismiss and undo
+    const btn = c.querySelector(".dismiss");
+    if(btn){
+      btn.classList.toggle("is-undo", !!isHidden);
+      btn.textContent = isHidden ? "↺" : "×";
+      btn.title = isHidden ? "Mostra di nuovo" : "Nascondi";
+      btn.onclick = (e) => isHidden ? undismissItem(k, e) : dismissItem(k, e);
+    }
+  });
+  const dCount = DISMISSED.size;
+  const tBtn = $("toggle-hidden");
+  if(dCount > 0){
+    tBtn.style.display = "";
+    $("hidden-count").textContent = dCount;
+    tBtn.firstChild.nodeValue = showHidden ? "Nascondi i " : "Mostra ";
+  } else {
+    tBtn.style.display = "none";
+    showHidden = false;
+  }
+  applyFilter(localStorage.getItem("fmm-hub-filter") || "all");
+}
+
+// ── Item builder (dismiss button + data-key) ──
+function buildItemHTML(name, subtitle, snippet, pills){
+  return `<button class="dismiss" title="Nascondi">×</button>
+    <div class="name">${esc(name||"(senza titolo)")}</div>
+    ${subtitle?`<div class="sender">${esc(subtitle)}</div>`:""}
+    ${snippet?`<div class="snippet">${esc(snippet)}</div>`:""}
+    <div class="meta">${pills.join("")}</div>`;
+}
+
+function makeItem(key, url, flags){
+  const a = document.createElement("a"); a.className = "item";
+  a.dataset.today = flags.is_today?"1":"0";
+  a.dataset.urgent = flags.is_urgent?"1":"0";
+  a.dataset.aghc = flags.is_aghc?"1":"0";
+  a.dataset.key = key || url || "";
+  a.href = url || "#"; a.target = "_blank"; a.rel = "noopener";
+  return a;
+}
+
+// ── Renderers ──
 function renderCal(items){
   const box=$("cards-cal"); box.innerHTML="";
   if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
@@ -247,15 +336,13 @@ function renderCal(items){
     const s=new Date(ev.start_iso); const dKey=s.toDateString();
     if(dKey===todayKey) todayCount++;
     if(dKey!==last){ const h=document.createElement("div"); h.className="day-group"; h.textContent=dKey===todayKey?"Oggi":fmtDateShort(s); box.appendChild(h); last=dKey; }
-    const a=document.createElement("a"); a.className="item";
-    a.dataset.today=dKey===todayKey?"1":"0"; a.dataset.urgent=ev.is_urgent?"1":"0"; a.dataset.aghc=ev.is_aghc?"1":"0";
-    a.href=ev.html_link||"#"; a.target="_blank"; a.rel="noopener";
+    const a = makeItem(ev.html_link, ev.html_link, {is_today: dKey===todayKey, is_urgent: ev.is_urgent, is_aghc: ev.is_aghc});
     const p=[`<span class="pill time">${esc(fmtTime(s))}</span>`];
     if(ev.conference_url) p.push(`<span class="pill ok">Meet</span>`);
     if(ev.alert_kind==="anomaly") p.push(`<span class="pill danger">Anomalia</span>`);
     else if(ev.alert_kind==="stop") p.push(`<span class="pill warn">Fermo</span>`);
     if(ev.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
-    a.innerHTML=`<div class="name">${esc(ev.summary||"(senza titolo)")}</div><div class="meta">${p.join("")}</div>`;
+    a.innerHTML = buildItemHTML(ev.summary, null, null, p);
     box.appendChild(a);
   });
   $("count-cal").textContent=items.length; $("k-cal").textContent=todayCount;
@@ -268,14 +355,12 @@ function renderGeneric(boxId, countId, kpiId, items, opts){
     $(countId).textContent="0"; if(kpiId) $(kpiId).textContent="0"; return;
   }
   items.forEach(it=>{
-    const a=document.createElement("a"); a.className="item";
-    a.dataset.today=it.is_today?"1":"0"; a.dataset.urgent=it.is_urgent?"1":"0"; a.dataset.aghc=it.is_aghc?"1":"0";
-    a.href=it.url||"#"; a.target="_blank"; a.rel="noopener";
+    const a = makeItem(it.url, it.url, {is_today: it.is_today, is_urgent: it.is_urgent, is_aghc: it.is_aghc});
     const p=[];
     if(it.status) p.push(`<span class="pill ${esc(it.status_kind||"muted")}">${esc(it.status)}</span>`);
     if(it.due) p.push(`<span class="pill time">${esc(it.due)}</span>`);
     if(it.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
-    a.innerHTML=`<div class="name">${esc(it.name||"(senza titolo)")}</div>${it.subtitle?`<div class="sender">${esc(it.subtitle)}</div>`:""}${it.notes?`<div class="snippet">${esc(it.notes)}</div>`:""}<div class="meta">${p.join("")}</div>`;
+    a.innerHTML = buildItemHTML(it.name, it.subtitle, it.notes, p);
     box.appendChild(a);
   });
   $(countId).textContent=items.length; if(kpiId) $(kpiId).textContent=items.length;
@@ -292,11 +377,11 @@ function renderAsana(items){
     h.innerHTML=`${esc(k)} <span class="pill">${groups[k].length}</span>`;
     box.appendChild(h);
     groups[k].forEach(t=>{
-      const a=document.createElement("a"); a.className="item";
-      a.dataset.today=(t.days_to_due===0)?"1":"0";
-      a.dataset.urgent=(t.days_to_due!==null&&t.days_to_due<=2)?"1":"0";
-      a.dataset.aghc=t.is_aghc?"1":"0";
-      a.href=t.permalink||"#"; a.target="_blank"; a.rel="noopener";
+      const a = makeItem(t.permalink, t.permalink, {
+        is_today: t.days_to_due===0,
+        is_urgent: t.days_to_due!==null && t.days_to_due<=2,
+        is_aghc: t.is_aghc
+      });
       const p=[];
       if(t.days_to_due!==null&&t.days_to_due<0) p.push(`<span class="pill danger">Scaduto ${Math.abs(t.days_to_due)}g</span>`);
       else if(t.days_to_due===0) p.push(`<span class="pill warn">Oggi</span>`);
@@ -304,62 +389,70 @@ function renderAsana(items){
       else if(t.days_to_due!==null) p.push(`<span class="pill time">${t.days_to_due}g</span>`);
       if(t.notes) p.push(`<span class="pill muted">📝</span>`);
       if(t.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
-      a.innerHTML=`<div class="name">${esc(t.name)}</div>${t.notes?`<div class="snippet">${esc(t.notes)}</div>`:""}<div class="meta">${p.join("")}</div>`;
+      a.innerHTML = buildItemHTML(t.name, null, t.notes, p);
       box.appendChild(a);
     });
   });
   $("count-asana").textContent=items.length; $("k-asana").textContent=items.length;
 }
 
+// Canva ora = SOLO mention. items shape: {design_title, design_url, comment_id, author, comment_text, created_iso, is_aghc}
 function renderCanva(items){
   const box=$("cards-canva"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun design recente</div>'; $("count-canva").textContent="0"; $("k-canva").textContent="0"; return; }
-  items.forEach(d=>{
-    const u=d.updated_iso?new Date(d.updated_iso):null; const today=u&&isToday(u);
-    const a=document.createElement("a"); a.className="item";
-    a.dataset.today=today?"1":"0"; a.dataset.urgent="0"; a.dataset.aghc=d.is_aghc?"1":"0";
-    a.href=d.edit_url||d.view_url||"#"; a.target="_blank"; a.rel="noopener";
-    const p=[];
-    if(d.category==="strategy") p.push(`<span class="pill strategy">Strategy</span>`);
-    else if(d.category==="report") p.push(`<span class="pill report">Monthly Report</span>`);
-    else if(d.category==="ped") p.push(`<span class="pill ped">PED</span>`);
-    if(d.page_count) p.push(`<span class="pill muted">${d.page_count} pag</span>`);
-    if(u) p.push(`<span class="pill time">${today?fmtTime(u):fmtDateShort(u)}</span>`);
-    if(d.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
-    a.innerHTML=`<div class="name">${esc(d.title||"(senza titolo)")}</div><div class="meta">${p.join("")}</div>`;
+  if(!items?.length){
+    box.innerHTML='<div class="placeholder">Nessun tag aperto<small>Vedrai qui i commenti Canva che ti taggano e non hai ancora risposto.</small></div>';
+    $("count-canva").textContent="0"; $("k-canva").textContent="0"; return;
+  }
+  items.forEach(c=>{
+    const created = c.created_iso ? new Date(c.created_iso) : null;
+    const today = created && isToday(created);
+    // Key stabile: comment_id se presente, altrimenti design_url + author
+    const key = c.comment_id || (c.design_url + "::" + (c.author||""));
+    const a = makeItem(key, c.design_url, {is_today: !!today, is_urgent: true, is_aghc: c.is_aghc});
+    const p=[`<span class="pill danger">@Te</span>`];
+    if(c.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
+    if(created) p.push(`<span class="pill time">${esc(today?fmtTime(created):fmtDateShort(created))}</span>`);
+    const subtitle = c.author ? `Da ${c.author}` : null;
+    a.innerHTML = buildItemHTML(c.design_title, subtitle, c.comment_text, p);
     box.appendChild(a);
   });
   $("count-canva").textContent=items.length; $("k-canva").textContent=items.length;
 }
 
-function renderSlack(items){
-  const box=$("cards-slack"); box.innerHTML="";
-  if(!items?.length){
-    box.innerHTML='<div class="placeholder">Nessuna menzione recente<small>Vedrai qui DM e tag attivi.</small></div>';
-    $("count-slack").textContent="0"; $("k-slack").textContent="0"; return;
-  }
-  items.forEach(m=>{
-    const a=document.createElement("a"); a.className="item";
-    a.dataset.today="1"; a.dataset.urgent="1"; a.dataset.aghc="0";
-    a.href=m.permalink||"#"; a.target="_blank"; a.rel="noopener";
-    a.innerHTML=`<div class="name">${esc(m.from||"?")}</div><div class="snippet">${esc(m.text||"")}</div><div class="meta"><span class="pill muted">${esc(m.channel||"DM")}</span></div>`;
-    box.appendChild(a);
-  });
-  $("count-slack").textContent=items.length; $("k-slack").textContent=items.length;
-}
-
+// ── Filters ──
 function applyFilter(name){
-  document.querySelectorAll(".filter-chip").forEach(b=>b.classList.toggle("active", b.dataset.filter===name));
+  document.querySelectorAll(".filter-chip[data-filter]").forEach(b=>b.classList.toggle("active", b.dataset.filter===name));
   document.querySelectorAll(".item").forEach(c=>{
-    let show=true;
-    if(name==="today") show=c.dataset.today==="1";
-    if(name==="urgent") show=c.dataset.urgent==="1";
-    if(name==="aghc") show=c.dataset.aghc==="1";
-    c.style.display=show?"":"none";
+    const hidden = c.dataset.hidden === "1";
+    let show = true;
+    if(hidden && !showHidden) show = false;
+    if(name==="today") show = show && c.dataset.today==="1";
+    c.style.display = show ? "" : "none";
   });
   try{ localStorage.setItem("fmm-hub-filter", name); }catch(e){}
 }
-document.querySelectorAll(".filter-chip").forEach(b=>b.addEventListener("click", ()=>applyFilter(b.dataset.filter)));
+document.querySelectorAll(".filter-chip[data-filter]").forEach(b=>b.addEventListener("click", ()=>applyFilter(b.dataset.filter)));
+$("toggle-hidden").addEventListener("click", ()=>{
+  showHidden = !showHidden;
+  $("toggle-hidden").firstChild.nodeValue = showHidden ? "Nascondi i " : "Mostra ";
+  applyFilter(localStorage.getItem("fmm-hub-filter") || "all");
+});
+
+// ── Clickable KPI tabs (filter board to single source) ──
+let activeSource = null;
+function focusSource(src){
+  activeSource = (activeSource === src) ? null : src;
+  document.querySelectorAll(".kpi[data-source]").forEach(k=>{
+    k.classList.toggle("kpi-active", k.dataset.source === activeSource);
+  });
+  document.querySelectorAll(".col[data-source]").forEach(c=>{
+    c.style.display = (activeSource === null || c.dataset.source === activeSource) ? "" : "none";
+  });
+  try{ activeSource ? localStorage.setItem("fmm-hub-focus", activeSource) : localStorage.removeItem("fmm-hub-focus"); }catch(e){}
+}
+document.querySelectorAll(".kpi[data-source]").forEach(k=>{
+  k.addEventListener("click", ()=>focusSource(k.dataset.source));
+});
 
 async function loadHub(){
   try {
@@ -377,7 +470,6 @@ async function loadHub(){
       emptyHint: "Letto da Gmail label «Zoho Projects/Tag Pending Reply»"
     });
     renderCanva(hub.canva || []);
-    renderSlack(hub.slack || []);
     if(hub.updated_at){
       const u = new Date(hub.updated_at);
       const minsAgo = Math.round((Date.now() - u.getTime()) / 60000);
@@ -386,7 +478,9 @@ async function loadHub(){
       if(minsAgo > 120){ dot.className = "dot stale"; $("banner-stale").classList.add("show"); }
       else { dot.className = "dot ok"; }
     }
-    try{ const saved=localStorage.getItem("fmm-hub-filter"); if(saved&&saved!=="all") applyFilter(saved); }catch(e){}
+    applyDismissed();
+    // Ripristina focus singola sorgente se selezionata in passato
+    try{ const f = localStorage.getItem("fmm-hub-focus"); if(f) focusSource(f); }catch(e){}
   } catch(err) {
     document.querySelectorAll(".body").forEach(el => {
       el.innerHTML = '<div class="placeholder error">hub.json non disponibile<small>' + esc(err.message) + '</small></div>';
