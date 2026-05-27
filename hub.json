@@ -1,0 +1,203 @@
+{
+  "updated_at": "2026-05-27T11:36:00+02:00",
+  "source": "fmm-command-center-refresh (sample data — primo deploy)",
+  "errors": [],
+  "calendar": [
+    {
+      "summary": "🔴 Hotel Olimpic New · spesa anomala alta",
+      "start_iso": "2026-05-27T09:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=dWxvdWs0aTZ1YmhpN2x1bnJqcXFpY21yYWcgbW9zY2FkdkBt",
+      "conference_url": null,
+      "alert_kind": "anomaly",
+      "is_aghc": false,
+      "is_urgent": true
+    },
+    {
+      "summary": "⚫ Hotel e Villaggi - Bee Family · nuovo account fermo",
+      "start_iso": "2026-05-27T09:15:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=N2NmdGhlZm40ZWtwZTZndXB2ZjFucWNnaWcgbW9zY2FkdkBt",
+      "conference_url": null,
+      "alert_kind": "stop",
+      "is_aghc": true,
+      "is_urgent": true
+    },
+    {
+      "summary": "Scintille Piano ADS",
+      "start_iso": "2026-05-27T11:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NmZna3E3NWZqbjdvc2J2ZnE0dmhsaXVoYzkgbW9zY2FkdkBt",
+      "conference_url": "https://meet.google.com/qra-vobf-gwh",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "verifica campagne lanciate con app",
+      "start_iso": "2026-05-27T12:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NDUydmw5dnRnYnBvOG0wN212c3NqZzE0bm0gbW9zY2FkdkBt",
+      "conference_url": "https://meet.google.com/zrt-drbv-jjo",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "THE LINEA - Kickoff",
+      "start_iso": "2026-05-28T16:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NHNscmhmcGdqa2I5ZmRsdWFkYzl0ajdxMjMgbW9zY2FkdkBt",
+      "conference_url": "https://meet.google.com/yvz-webg-xqt",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
+      "start_iso": "2026-05-28T16:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA1MjhUMTQwMDAwWiBtb3NjYWR2QG0",
+      "conference_url": null,
+      "alert_kind": null,
+      "is_aghc": true,
+      "is_urgent": false
+    }
+  ],
+  "email": [
+    {
+      "subject": "Social Strategy Puntebianche Resort",
+      "sender": "Arianna Petrini",
+      "snippet": "Ciao Giulia, ti invio la Strategy di Puntebianche Resort. Fammi sapere cosa ne pensi. Grazie mille! AG Hotel Consulting Arianna Petrini | Social Media Agent",
+      "thread_id": "19e6887211322cd6",
+      "date_iso": "2026-05-27T10:22:13+02:00",
+      "is_important": true,
+      "is_aghc": true
+    }
+  ],
+  "asana": [
+    {
+      "name": "Wordpress Aziendale",
+      "project": "Generale",
+      "due_on": "2026-05-07",
+      "days_to_due": -20,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
+      "is_aghc": false
+    },
+    {
+      "name": "Dolmen",
+      "project": "Generale",
+      "due_on": "2026-05-08",
+      "days_to_due": -19,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
+      "is_aghc": false
+    },
+    {
+      "name": "HELIOS - Check Ads",
+      "project": "Generale",
+      "due_on": "2026-05-15",
+      "days_to_due": -12,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214773766143125",
+      "is_aghc": false
+    },
+    {
+      "name": "DOLMEN - Creative Bea",
+      "project": "Generale",
+      "due_on": "2026-05-15",
+      "days_to_due": -12,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214696051014723",
+      "is_aghc": false
+    },
+    {
+      "name": "oggi sento Andres per la carta da sostituire su meta poi ti aggiorno",
+      "project": "HOY village",
+      "due_on": "2026-05-19",
+      "days_to_due": -8,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
+      "is_aghc": false
+    },
+    {
+      "name": "Report ADV Clienti ",
+      "project": "Generale",
+      "due_on": "2026-05-22",
+      "days_to_due": -5,
+      "notes": "Da inviare ad Ambra",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808713739118",
+      "is_aghc": false
+    },
+    {
+      "name": "Report ADV BeeFamily",
+      "project": "Generale",
+      "due_on": "2026-05-22",
+      "days_to_due": -5,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
+      "is_aghc": true
+    },
+    {
+      "name": "Per Video Social ",
+      "project": "Albatros",
+      "due_on": null,
+      "days_to_due": null,
+      "notes": "chiarabizzocchi2@gmail.com\ninfo@hotelalbatros.biz",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1213083942474458",
+      "is_aghc": true
+    },
+    {
+      "name": "landing offerte ",
+      "project": "Bonadies",
+      "due_on": null,
+      "days_to_due": null,
+      "notes": "https://offertefamily.com/lp/hotel-4-stelle-vista-mare-a-ravello-costiera-amalfitana-hotel-bonadies-offerte-family/",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1210287447734208/task/1213188177262210",
+      "is_aghc": true
+    }
+  ],
+  "canva": [
+    {
+      "title": "PUNTEBIANCHE social STRATEGY AG 2026",
+      "edit_url": "https://www.canva.com/d/Avuaw7qgFFRaiEO",
+      "view_url": "https://www.canva.com/d/KnYJFJASNGmaYoE",
+      "updated_iso": "2026-05-26T18:18:22+02:00",
+      "page_count": 48,
+      "category": "strategy",
+      "is_aghc": true
+    },
+    {
+      "title": "PED VILLA ERMELLINA MAGGIO GIUGNO 2026",
+      "edit_url": "https://www.canva.com/d/IKr6iasOVOTVmXm",
+      "view_url": "https://www.canva.com/d/SA0-bLyWLFrtf3B",
+      "updated_iso": "2026-05-26T17:25:32+02:00",
+      "page_count": 17,
+      "category": "ped",
+      "is_aghc": true
+    },
+    {
+      "title": "PED ALTAFIUMARA GIUGNO 2026",
+      "edit_url": "https://www.canva.com/d/pyry6A_fYp-Gji5",
+      "view_url": "https://www.canva.com/d/SNTrUndgLSVgY-A",
+      "updated_iso": "2026-05-26T17:07:14+02:00",
+      "page_count": 12,
+      "category": "ped",
+      "is_aghc": true
+    },
+    {
+      "title": "PED TENUTA MONTEMAGNO GIUGNO 2026",
+      "edit_url": "https://www.canva.com/d/ATjnuwrziAA4iC8",
+      "view_url": "https://www.canva.com/d/vJfvk47pleL2EuJ",
+      "updated_iso": "2026-05-26T14:26:10+02:00",
+      "page_count": 12,
+      "category": "ped",
+      "is_aghc": true
+    },
+    {
+      "title": "4.Monthly Report_Hotel Regno Aprile",
+      "edit_url": "https://www.canva.com/d/cu_1QjS9WmK6-AA",
+      "view_url": "https://www.canva.com/d/J9HzpgK4jJY3KmU",
+      "updated_iso": "2026-05-26T07:40:45+02:00",
+      "page_count": 26,
+      "category": "report",
+      "is_aghc": true
+    }
+  ],
+  "slack": []
+}
