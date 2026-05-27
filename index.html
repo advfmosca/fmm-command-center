@@ -423,6 +423,28 @@ function recalcCounts(){
   });
   // KPI aggregato "Task aperti" = Asana + Monday + Zoho Projects (solo visibili)
   $("k-asana").textContent = asanaVis + mondayVis + zohoVis;
+
+  // ── Ricalcola i count dei project-group Asana e nascondi i gruppi vuoti ──
+  // Fix bug: dopo dismiss, il badge totale Asana andava a 0 ma i pill dei project-group
+  // restavano sui valori del primo render (es. HOY VILLAGE 1, TASTO 9 1, GENERALE 5).
+  const asanaCol = document.querySelector('.col[data-source="asana"]');
+  if(asanaCol){
+    const projCounts = {};
+    asanaCol.querySelectorAll('.item').forEach(it => {
+      const hidden = it.dataset.hidden === "1";
+      if(!hidden || showHidden){
+        const p = it.dataset.project || "Generale";
+        projCounts[p] = (projCounts[p]||0) + 1;
+      }
+    });
+    asanaCol.querySelectorAll('.project-group').forEach(g => {
+      const p = g.dataset.project;
+      const n = projCounts[p] || 0;
+      const pill = g.querySelector('.pill');
+      if(pill) pill.textContent = n;
+      g.style.display = n === 0 ? "none" : "";
+    });
+  }
 }
 
 // ── Item builder (dismiss button + data-key) ──
@@ -497,7 +519,7 @@ function renderAsana(items){
   items.forEach(t=>{ const p=t.project||"Generale"; (groups[p]||(groups[p]=[])).push(t); });
   const keys=Object.keys(groups).sort((a,b)=>a==="Generale"?1:b==="Generale"?-1:a.localeCompare(b));
   keys.forEach(k=>{
-    const h=document.createElement("div"); h.className="project-group";
+    const h=document.createElement("div"); h.className="project-group"; h.dataset.project=k;
     h.innerHTML=`${esc(k)} <span class="pill">${groups[k].length}</span>`;
     box.appendChild(h);
     groups[k].forEach(t=>{
@@ -506,6 +528,7 @@ function renderAsana(items){
         is_urgent: t.days_to_due!==null && t.days_to_due<=2,
         is_aghc: t.is_aghc
       });
+      a.dataset.project = k;
       const p=[];
       if(t.days_to_due!==null&&t.days_to_due<0) p.push(`<span class="pill danger">Scaduto ${Math.abs(t.days_to_due)}g</span>`);
       else if(t.days_to_due===0) p.push(`<span class="pill warn">Oggi</span>`);
