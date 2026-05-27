@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T17:05:14.454231+02:00",
+  "updated_at": "2026-05-27T17:39:22.294811+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -183,15 +183,6 @@
       "days_to_due": 2,
       "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
-      "is_aghc": false
-    },
-    {
-      "name": "landing offerte",
-      "project": "Bonadies",
-      "due_on": null,
-      "days_to_due": null,
-      "notes": "https://offertefamily.com/lp/hotel-4-stelle-vista-mare-a-ravello-costiera-amalfitana-hotel-bonadies-offerte-family/",
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1210287447734208/task/1213188177262210",
       "is_aghc": false
     },
     {
