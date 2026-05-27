@@ -389,6 +389,17 @@ function applyDismissed(){
   applyFilter(localStorage.getItem("fmm-hub-filter") || "all");
 }
 
+// ── Empty-state placeholders centralizzati (mostrati quando visible==0) ──
+// Source of truth: usati sia dai renderer all'init (hub vuoto) sia da recalcCounts
+// quando tutti gli item sono dismissed/filtrati.
+const EMPTY_STATES = {
+  "calendar":      { title: "Nessun evento in programma",         hint: "Letto da Google Calendar — oggi e domani" },
+  "asana":         { title: "Nessun task aperto",                  hint: "Letto da Asana — task assegnati a te" },
+  "canva":         { title: "Nessun tag aperto",                   hint: "Letto da Canva — mention a te non ancora risposte" },
+  "monday":        { title: "Nessun item assegnato",               hint: "Letto da Monday — workspace SENAPE" },
+  "zoho-projects": { title: "Nessun tag in attesa di risposta",    hint: "Letto da Gmail — label «Zoho Projects/Tag Pending Reply»" }
+};
+
 // ── recalcCounts: aggiorna KPI + badge colonna in base agli item VISIBILI ──
 // Risolve il bug: dismiss nascondeva gli item ma i contatori restavano sull'originale.
 function recalcCounts(){
@@ -420,6 +431,25 @@ function recalcCounts(){
     if(c.src === "asana") asanaVis = visible;
     if(c.src === "monday") mondayVis = visible;
     if(c.src === "zoho-projects") zohoVis = visible;
+
+    // Empty-state placeholder: se 0 visibili e box non ha già un placeholder,
+    // iniettalo. Se torna > 0, rimuovilo. Uso classe .empty-state per distinguere
+    // dai placeholder messi dai renderer al primo render (che restano se hub vuoto).
+    const body = col.querySelector('.body');
+    if(body){
+      const existing = body.querySelector('.placeholder.empty-state');
+      if(visible === 0 && !body.querySelector('.placeholder')){
+        const es = EMPTY_STATES[c.src];
+        if(es){
+          const ph = document.createElement('div');
+          ph.className = 'placeholder empty-state';
+          ph.innerHTML = `${es.title}<small>${es.hint}</small>`;
+          body.appendChild(ph);
+        }
+      } else if(visible > 0 && existing){
+        existing.remove();
+      }
+    }
   });
   // KPI aggregato "Task aperti" = Asana + Monday + Zoho Projects (solo visibili)
   $("k-asana").textContent = asanaVis + mondayVis + zohoVis;
