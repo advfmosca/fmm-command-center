@@ -187,8 +187,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <div class="kpi"><div class="label">Design recenti</div><div class="value" id="k-canva">–</div><div class="sub">Canva</div></div>
     <div class="kpi"><div class="label">Slack</div><div class="value" id="k-slack">–</div><div class="sub">Mention + DM</div></div>
     <div class="kpi"><div class="label">Monday</div><div class="value" id="k-monday">–</div><div class="sub">Items aperti</div></div>
-    <div class="kpi"><div class="label">Zoho CRM</div><div class="value" id="k-zoho">–</div><div class="sub">Lead / Deal</div></div>
-    <div class="kpi"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Task aperti</div></div>
+    <div class="kpi"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Tag pending</div></div>
   </div>
 
   <div class="filter-bar">
@@ -209,10 +208,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <section class="col" data-source="monday">
       <h2><span class="col-ico">📋</span>Monday<span class="pill" id="count-monday">…</span></h2>
       <div class="body" id="cards-monday"><div class="skeleton"></div><div class="skeleton"></div></div>
-    </section>
-    <section class="col" data-source="zoho">
-      <h2><span class="col-ico">🔶</span>Zoho CRM<span class="pill" id="count-zoho">…</span></h2>
-      <div class="body" id="cards-zoho"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
     <section class="col" data-source="zoho-projects">
       <h2><span class="col-ico">📂</span>Zoho Projects<span class="pill" id="count-zoho-proj">…</span></h2>
@@ -376,10 +371,6 @@ async function loadHub(){
     renderGeneric("cards-monday", "count-monday", "k-monday", hub.monday || [], {
       emptyTitle: "Nessun item Monday assegnato",
       emptyHint: "Workspace SENAPE — letto via api.monday.com/v2"
-    });
-    renderGeneric("cards-zoho", "count-zoho", "k-zoho", hub.zoho || [], {
-      emptyTitle: "Zoho CRM non ancora configurato",
-      emptyHint: "In attesa di definire la sorgente dati"
     });
     renderGeneric("cards-zoho-proj", "count-zoho-proj", "k-zoho-proj", hub.zoho_projects || [], {
       emptyTitle: "Nessun tag in attesa di risposta",
