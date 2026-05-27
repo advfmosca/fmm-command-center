@@ -374,16 +374,16 @@ async function loadHub(){
     renderCal(hub.calendar || []);
     renderAsana(hub.asana || []);
     renderGeneric("cards-monday", "count-monday", "k-monday", hub.monday || [], {
-      emptyTitle: "Nessun dato Monday",
-      emptyHint: "Connetti l'action Zapier «Monday — Get Items» per popolare questa colonna."
+      emptyTitle: "Nessun item Monday assegnato",
+      emptyHint: "Workspace SENAPE — letto via api.monday.com/v2"
     });
     renderGeneric("cards-zoho", "count-zoho", "k-zoho", hub.zoho || [], {
-      emptyTitle: "Nessun dato Zoho CRM",
-      emptyHint: "Connetti l'action Zapier «Zoho CRM — Find Module Entries» per popolare."
+      emptyTitle: "Zoho CRM non ancora configurato",
+      emptyHint: "In attesa di definire la sorgente dati"
     });
     renderGeneric("cards-zoho-proj", "count-zoho-proj", "k-zoho-proj", hub.zoho_projects || [], {
-      emptyTitle: "Nessun dato Zoho Projects",
-      emptyHint: "Connetti l'action Zapier «Zoho Projects — List Tasks» per popolare."
+      emptyTitle: "Nessun tag in attesa di risposta",
+      emptyHint: "Letto da Gmail label «Zoho Projects/Tag Pending Reply»"
     });
     renderCanva(hub.canva || []);
     renderSlack(hub.slack || []);
