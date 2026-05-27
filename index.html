@@ -38,26 +38,17 @@ body {
 
 header.h { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
 header.h .title-block { display: flex; align-items: center; gap: 12px; }
-header.h .brand-logo { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; display: block; background: #1c1c1e; }
+header.h .brand-logo { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; display: block; }
 header.h .title-text { display: flex; flex-direction: column; }
 header.h h1 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
 header.h .sub { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
-header.h .stamp { font-size: 11px; color: var(--text-dim); text-align: right; }
-header.h .stamp b { color: var(--text); font-weight: 600; }
-header.h .stamp .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--gray); margin-right: 6px; vertical-align: middle; }
+header.h .stamp { font-size: 11px; color: var(--text-dim); text-align: right; line-height: 1.45; }
+header.h .stamp b { color: var(--text); font-weight: 600; font-size: 13px; }
+header.h .stamp .stamp-label { display: inline-flex; align-items: center; gap: 6px; }
+header.h .stamp .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--gray); vertical-align: middle; }
 header.h .stamp .dot.ok { background: var(--green); }
 header.h .stamp .dot.stale { background: var(--yellow); }
 header.h .stamp .dot.err { background: var(--red); }
-header.h .stamp .reload { font: inherit; border: 0; background: transparent; color: var(--text-muted); cursor: pointer; font-size: 12px; padding: 0 0 0 6px; }
-header.h .stamp .reload:hover { color: var(--text); }
-header.h .stamp .open-cal {
-  display: inline-flex; align-items: center; gap: 4px;
-  font: inherit; font-size: 11.5px; font-weight: 600;
-  text-decoration: none; color: #fff; background: #1c1c1e;
-  padding: 4px 10px; border-radius: 999px;
-  margin-left: 8px; transition: background .15s;
-}
-header.h .stamp .open-cal:hover { background: #3a3a3f; }
 
 .stale-banner {
   background: linear-gradient(135deg, #fff7e0 0%, #fff2c2 100%);
@@ -86,6 +77,8 @@ header.h .stamp .open-cal:hover { background: #3a3a3f; }
 .filter-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px; border: 1px solid #d2d2d7; background: #fff; color: var(--text); cursor: pointer; font: inherit; font-size: 12.5px; font-weight: 500; transition: background .15s, border-color .15s; }
 .filter-chip:hover { background: var(--bg-soft); }
 .filter-chip.active { background: #1c1c1e; color: #fff; border-color: #1c1c1e; }
+.filter-chip.util { background: #1c1c1e; color: #fff; border-color: #1c1c1e; text-decoration: none; font-size: 12px; }
+.filter-chip.util:hover { background: #3a3a3f; }
 
 .board { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; align-items: start; }
 @media (max-width: 600px) { .board { grid-template-columns: 1fr; } }
@@ -199,19 +192,15 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <header class="h">
     <div class="title-block">
-      <svg class="brand-logo" viewBox="0 0 44 44" aria-hidden="true">
-        <circle cx="22" cy="22" r="22" fill="#1c1c1e"/>
-        <text x="22" y="20" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#fff">FMM</text>
-        <text x="22" y="32" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="5" font-weight="500" fill="#b8b8bf" letter-spacing="1">CONSULTANT</text>
-      </svg>
+      <img class="brand-logo" src="assets/fmm-logo.svg" alt="FMM Consultant">
       <div class="title-text">
         <h1>Command Center</h1>
+        <div class="sub" id="hdr-sub">Pesca live da Calendar · Asana · Monday · Zoho · Canva</div>
       </div>
     </div>
-    <div class="stamp" id="stamp">
-      <span class="dot" id="dot-status"></span><span id="updated">caricamento…</span>
-      <button class="reload" title="Ricarica" onclick="location.reload()">↻</button>
-      <a class="open-cal" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener" title="Apri Google Calendar">📅 Apri Calendar</a>
+    <div class="stamp" id="hdr-stamp">
+      <span class="stamp-label"><span class="dot" id="dot-status"></span>Aggiornato:</span><br>
+      <b id="updated">caricamento…</b>
     </div>
   </header>
 
@@ -233,6 +222,8 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <button class="filter-chip" data-filter="today">Solo oggi</button>
     <span style="flex:1"></span>
     <button id="toggle-hidden" class="filter-chip" style="display:none">Mostra <span id="hidden-count">0</span> nascosti</button>
+    <a class="filter-chip util" href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener" title="Apri Google Calendar">📅 Apri Calendar</a>
+    <button class="filter-chip util" id="btn-reload" title="Ricarica" onclick="location.reload()">↻ Ricarica</button>
   </div>
 
   <div class="board">
@@ -559,7 +550,10 @@ async function loadHub(){
     if(hub.updated_at){
       const u = new Date(hub.updated_at);
       const minsAgo = Math.round((Date.now() - u.getTime()) / 60000);
-      $("updated").innerHTML = "Aggiornato <b>" + fmtTime(u) + "</b> · " + minsAgo + " min fa";
+      const dd = String(u.getDate()).padStart(2,"0");
+      const mm = String(u.getMonth()+1).padStart(2,"0");
+      const yyyy = u.getFullYear();
+      $("updated").textContent = `${dd}/${mm}/${yyyy} ${fmtTime(u)} · ${minsAgo} min fa`;
       const dot = $("dot-status");
       if(minsAgo > 120){ dot.className = "dot stale"; $("banner-stale").classList.add("show"); }
       else { dot.className = "dot ok"; }
