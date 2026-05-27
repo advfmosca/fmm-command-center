@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T17:56:42.042489+02:00",
+  "updated_at": "2026-05-27T18:20:39.992190+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -87,7 +87,7 @@
     {
       "summary": "Ordine Biancheria",
       "start_iso": "2026-05-27T13:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmIya184OHFrY2I5cDZncjMwYjlsNzRwNGFkaGs3MHM0YWNxNjY4XzIwMjYwNTI3VDExMzAwMFogbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA1MjdUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
       "is_aghc": false,
@@ -98,6 +98,15 @@
       "start_iso": "2026-05-27T17:00:00+02:00",
       "html_link": "https://www.google.com/calendar/event?eid=NWJvN2FzdjY3bHQ1aTkwcmUwdDE5NWxqc2YgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": "https://meet.google.com/gjq-ovkm-hqe",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-05-27T18:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjdUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": null,
       "alert_kind": null,
       "is_aghc": false,
       "is_urgent": false
