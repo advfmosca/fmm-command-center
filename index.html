@@ -209,10 +209,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <div class="kpis">
     <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi" data-source="asana" title="Clicca per filtrare solo Asana"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Monday + Zoho</div></div>
-    <div class="kpi" data-source="canva" title="Clicca per filtrare solo Canva"><div class="label">Canva</div><div class="value" id="k-canva">–</div><div class="sub">Tag aperti</div></div>
-    <div class="kpi" data-source="monday" title="Clicca per filtrare solo Monday"><div class="label">Monday</div><div class="value" id="k-monday">–</div><div class="sub">Items aperti</div></div>
-    <div class="kpi" data-source="zoho-projects" title="Clicca per filtrare solo Zoho Projects"><div class="label">Zoho Projects</div><div class="value" id="k-zoho-proj">–</div><div class="sub">Tag pending</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Canva + Monday + Zoho</div></div>
   </div>
 
   <div class="filter-bar">
@@ -406,11 +403,11 @@ function recalcCounts(){
   const cfg = [
     {src: "calendar",      cnt: "count-cal",       kpi: "k-cal",       todayOnly: true},
     {src: "asana",         cnt: "count-asana",     kpi: null,          todayOnly: false},
-    {src: "canva",         cnt: "count-canva",     kpi: "k-canva",     todayOnly: false},
-    {src: "monday",        cnt: "count-monday",    kpi: "k-monday",    todayOnly: false},
-    {src: "zoho-projects", cnt: "count-zoho-proj", kpi: "k-zoho-proj", todayOnly: false},
+    {src: "canva",         cnt: "count-canva",     kpi: null,          todayOnly: false},
+    {src: "monday",        cnt: "count-monday",    kpi: null,          todayOnly: false},
+    {src: "zoho-projects", cnt: "count-zoho-proj", kpi: null,          todayOnly: false},
   ];
-  let asanaVis = 0, mondayVis = 0, zohoVis = 0;
+  let asanaVis = 0, canvaVis = 0, mondayVis = 0, zohoVis = 0;
   cfg.forEach(c => {
     const col = document.querySelector(`.col[data-source="${c.src}"]`);
     if(!col) return;
@@ -429,6 +426,7 @@ function recalcCounts(){
       if(kEl) kEl.textContent = c.todayOnly ? todayVisible : visible;
     }
     if(c.src === "asana") asanaVis = visible;
+    if(c.src === "canva") canvaVis = visible;
     if(c.src === "monday") mondayVis = visible;
     if(c.src === "zoho-projects") zohoVis = visible;
 
@@ -451,8 +449,8 @@ function recalcCounts(){
       }
     }
   });
-  // KPI aggregato "Task aperti" = Asana + Monday + Zoho Projects (solo visibili)
-  $("k-asana").textContent = asanaVis + mondayVis + zohoVis;
+  // KPI aggregato "Task aperti" = Asana + Canva + Monday + Zoho Projects (solo visibili)
+  $("k-asana").textContent = asanaVis + canvaVis + mondayVis + zohoVis;
 
   // ── Ricalcola i count dei project-group Asana e nascondi i gruppi vuoti ──
   // Fix bug: dopo dismiss, il badge totale Asana andava a 0 ma i pill dei project-group
@@ -578,7 +576,7 @@ function renderCanva(items){
   const box=$("cards-canva"); box.innerHTML="";
   if(!items?.length){
     box.innerHTML='<div class="placeholder">Nessun tag aperto<small>Letto da Canva — mention a te non ancora risposte</small></div>';
-    $("count-canva").textContent="0"; $("k-canva").textContent="0"; return;
+    $("count-canva").textContent="0"; return;
   }
   items.forEach(c=>{
     const created = c.created_iso ? new Date(c.created_iso) : null;
@@ -593,7 +591,7 @@ function renderCanva(items){
     a.innerHTML = buildItemHTML(c.design_title, subtitle, c.comment_text, p);
     box.appendChild(a);
   });
-  $("count-canva").textContent=items.length; $("k-canva").textContent=items.length;
+  $("count-canva").textContent=items.length;
 }
 
 // ── Filters ──
@@ -642,11 +640,11 @@ async function loadHub(){
     const hub = await res.json();
     renderCal(hub.calendar || []);
     renderAsana(hub.asana || []);
-    renderGeneric("cards-monday", "count-monday", "k-monday", hub.monday || [], {
+    renderGeneric("cards-monday", "count-monday", null, hub.monday || [], {
       emptyTitle: "Nessun item assegnato",
       emptyHint: "Letto da Monday — workspace SENAPE"
     });
-    renderGeneric("cards-zoho-proj", "count-zoho-proj", "k-zoho-proj", hub.zoho_projects || [], {
+    renderGeneric("cards-zoho-proj", "count-zoho-proj", null, hub.zoho_projects || [], {
       emptyTitle: "Nessun tag in attesa di risposta",
       emptyHint: "Letto da Gmail — label «Zoho Projects/Tag Pending Reply»"
     });
