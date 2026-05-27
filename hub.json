@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T16:11:59.158983+02:00",
+  "updated_at": "2026-05-27T16:42:30.392442+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -36,7 +36,7 @@
       "html_link": "https://www.google.com/calendar/event?eid=NGx0ZWk3MmFya20wcnQwNnRlbmQ3N3BzZGMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
-      "is_aghc": false,
+      "is_aghc": true,
       "is_urgent": false
     },
     {
@@ -214,6 +214,62 @@
     }
   ],
   "canva": [],
-  "monday": [],
+  "monday": [
+    {
+      "name": "Jungano",
+      "subtitle": "2025 - 2026 Report trimestrali Senape",
+      "status": null,
+      "status_kind": null,
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup Meta",
+      "subtitle": "Start up nuovi progetti",
+      "status": null,
+      "status_kind": null,
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup TikTok e TikTok ADS",
+      "subtitle": "Start up nuovi progetti",
+      "status": null,
+      "status_kind": null,
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup GMB",
+      "subtitle": "Start up nuovi progetti",
+      "status": null,
+      "status_kind": null,
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "User e Pass / Gmail per Tik Tok",
+      "subtitle": "Account TIK TOK AGHC",
+      "status": null,
+      "status_kind": null,
+      "due": "2025-04-04",
+      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    }
+  ],
   "zoho_projects": []
 }
