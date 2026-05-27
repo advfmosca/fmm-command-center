@@ -194,8 +194,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <div class="title-block">
       <img class="brand-logo" src="assets/fmm-logo.svg" alt="FMM Consultant">
       <div class="title-text">
-        <h1>Command Center</h1>
-        <div class="sub" id="hdr-sub">Pesca live da Calendar · Asana · Monday · Zoho · Canva</div>
+        <h1 id="hdr-h1">Ciao Fra</h1>
       </div>
     </div>
     <div class="stamp" id="hdr-stamp">
@@ -265,6 +264,24 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 const WORKER_URL = "https://twilight-base-d96cfmm-dismiss.moscadv.workers.dev/";
 
 const $ = (id) => document.getElementById(id);
+
+// ── Saluto dinamico in base all'orario (Europe/Rome) ──
+function computeGreeting(now = new Date()){
+  const h = now.getHours();
+  const m = now.getMinutes();
+  const t = h * 60 + m;            // minuti dalla mezzanotte
+  if (t >=  5*60 && t < 12*60)        return "Buongiorno Fra";
+  if (t >= 12*60 && t < 14*60 + 30)   return "Ciao Fra";
+  if (t >= 14*60 + 30 && t < 18*60)   return "Buon pomeriggio Fra";
+  if (t >= 18*60 && t < 22*60)        return "Buonasera Fra";
+  return "Notte fonda, Fra";
+}
+function setGreeting(){
+  const el = $("hdr-h1"); if(el) el.textContent = computeGreeting();
+}
+setGreeting();
+// Se la pagina resta aperta a lungo, ricalcola ogni 5 min così attraversiamo le fasce.
+setInterval(setGreeting, 5 * 60 * 1000);
 function pad(n){ return n<10 ? "0"+n : ""+n; }
 function fmtTime(d){ return pad(d.getHours())+":"+pad(d.getMinutes()); }
 function fmtDateShort(d){
