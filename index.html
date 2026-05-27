@@ -390,11 +390,11 @@ function applyDismissed(){
 // Source of truth: usati sia dai renderer all'init (hub vuoto) sia da recalcCounts
 // quando tutti gli item sono dismissed/filtrati.
 const EMPTY_STATES = {
-  "calendar":      { title: "Nessun evento in programma",         hint: "Letto da Google Calendar — oggi e domani" },
-  "asana":         { title: "Nessun task aperto",                  hint: "Letto da Asana — task assegnati a te" },
-  "canva":         { title: "Nessun tag aperto",                   hint: "Letto da Canva — mention a te non ancora risposte" },
-  "monday":        { title: "Nessun item assegnato",               hint: "Letto da Monday — workspace SENAPE" },
-  "zoho-projects": { title: "Nessun tag in attesa di risposta",    hint: "Letto da Gmail — label «Zoho Projects/Tag Pending Reply»" }
+  "calendar":      { title: "Nessun evento in programma" },
+  "asana":         { title: "Nessun task aperto" },
+  "canva":         { title: "Nessun tag aperto" },
+  "monday":        { title: "Nessun item assegnato" },
+  "zoho-projects": { title: "Nessun tag in attesa di risposta" }
 };
 
 // ── recalcCounts: aggiorna KPI + badge colonna in base agli item VISIBILI ──
@@ -441,7 +441,7 @@ function recalcCounts(){
         if(es){
           const ph = document.createElement('div');
           ph.className = 'placeholder empty-state';
-          ph.innerHTML = `${es.title}<small>${es.hint}</small>`;
+          ph.innerHTML = es.title;
           body.appendChild(ph);
         }
       } else if(visible > 0 && existing){
@@ -504,7 +504,7 @@ function renderCal(items){
     const t = new Date(ev.start_iso).getTime();
     return !isNaN(t) && (t + GRACE_MS) >= nowMs;
   });
-  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma<small>Letto da Google Calendar — oggi e domani</small></div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
+  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
   let last=""; const todayKey=new Date().toDateString(); let todayCount=0;
   items.forEach(ev=>{
     const s=new Date(ev.start_iso); const dKey=s.toDateString();
@@ -525,7 +525,7 @@ function renderCal(items){
 function renderGeneric(boxId, countId, kpiId, items, opts){
   const box=$(boxId); box.innerHTML="";
   if(!items?.length){
-    box.innerHTML=`<div class="placeholder">${opts.emptyTitle}<small>${opts.emptyHint||""}</small></div>`;
+    box.innerHTML=`<div class="placeholder">${opts.emptyTitle}</div>`;
     $(countId).textContent="0"; if(kpiId) $(kpiId).textContent="0"; return;
   }
   items.forEach(it=>{
@@ -542,7 +542,7 @@ function renderGeneric(boxId, countId, kpiId, items, opts){
 
 function renderAsana(items){
   const box=$("cards-asana"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task aperto<small>Letto da Asana — task assegnati a te</small></div>'; $("count-asana").textContent="0"; $("k-asana").textContent="0"; return; }
+  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task aperto</div>'; $("count-asana").textContent="0"; $("k-asana").textContent="0"; return; }
   const groups={};
   items.forEach(t=>{ const p=t.project||"Generale"; (groups[p]||(groups[p]=[])).push(t); });
   const keys=Object.keys(groups).sort((a,b)=>a==="Generale"?1:b==="Generale"?-1:a.localeCompare(b));
@@ -575,7 +575,7 @@ function renderAsana(items){
 function renderCanva(items){
   const box=$("cards-canva"); box.innerHTML="";
   if(!items?.length){
-    box.innerHTML='<div class="placeholder">Nessun tag aperto<small>Letto da Canva — mention a te non ancora risposte</small></div>';
+    box.innerHTML='<div class="placeholder">Nessun tag aperto</div>';
     $("count-canva").textContent="0"; return;
   }
   items.forEach(c=>{
@@ -641,12 +641,10 @@ async function loadHub(){
     renderCal(hub.calendar || []);
     renderAsana(hub.asana || []);
     renderGeneric("cards-monday", "count-monday", null, hub.monday || [], {
-      emptyTitle: "Nessun item assegnato",
-      emptyHint: "Letto da Monday — workspace SENAPE"
+      emptyTitle: "Nessun item assegnato"
     });
     renderGeneric("cards-zoho-proj", "count-zoho-proj", null, hub.zoho_projects || [], {
-      emptyTitle: "Nessun tag in attesa di risposta",
-      emptyHint: "Letto da Gmail — label «Zoho Projects/Tag Pending Reply»"
+      emptyTitle: "Nessun tag in attesa di risposta"
     });
     renderCanva(hub.canva || []);
     // KPI "Task aperti" e tutti gli altri vengono ricalcolati da recalcCounts() in applyDismissed()
