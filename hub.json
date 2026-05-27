@@ -422,6 +422,49 @@
       "is_aghc": false
     }
   ],
+  "project": [
+    {
+      "project_name": "CEA % - BEAUTY POINT ARONA",
+      "task_code": "ALB9-T355 Chiamata maggio 26 manager/beauty",
+      "task_label": "Compito commento aggiunto",
+      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 08:55 Subject: [CEA % - BEAUTY POINT ARONA] [ALB9-",
+      "sender": "marketing@cea.management",
+      "thread_id": "19e6486c4609cd8d",
+      "date_iso": "2026-05-26T13:43:21Z",
+      "is_aghc": false
+    },
+    {
+      "project_name": "CEA % - BEAUTY POINT ARONA",
+      "task_code": "ALB9-T355 Chiamata maggio 26 manager/beauty",
+      "task_label": "Compito commento aggiunto",
+      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 10:07 Subject: [CEA % - BEAUTY POINT ARONA] [ALB9-",
+      "sender": "marketing@cea.management",
+      "thread_id": "19e6486afe3330fb",
+      "date_iso": "2026-05-26T13:43:14Z",
+      "is_aghc": false
+    },
+    {
+      "project_name": "Med&Tech - MARCO BALDANZI",
+      "task_code": "M-D0-T5 Creare Automation Marketing OPEN DAY 18/06/2026 - Total Lift",
+      "task_label": "Compito commento aggiunto",
+      "snippet": "---------- Forwarded message --------- Da: Med&Tech - MARCO BALDANZI Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 15:36 Subject: [Med&Tech - MARCO BALDANZI] [M-",
+      "sender": "marketing@cea.management",
+      "thread_id": "19e648692914bd4d",
+      "date_iso": "2026-05-26T13:43:09Z",
+      "is_aghc": false
+    }
+  ],
+  "monday": [
+    {
+      "title": "Mention Maria Vittoria Rossi - Visura e Carta (ritardo 1gg)",
+      "snippet": "\"@Francesco M Mosca eccomi con Visura e Carta. fammi sapere se serve altro e avvisami appena è tutto fatto. grazie 💓 V…\"",
+      "monday_link": "https://senapedigital.monday.com/pulses/11733603274",
+      "html_link": "https://www.google.com/calendar/event?eid=b3V0aW5jbTcxcWVhbWM2OTUyMmozNTdqczggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "start_iso": "2026-05-27T09:30:00+02:00",
+      "is_urgent": true,
+      "is_aghc": false
+    }
+  ],
   "canva": [
     {
       "title": "PED ALTAFIUMARA GIUGNO  2026",

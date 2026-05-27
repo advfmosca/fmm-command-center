@@ -29,8 +29,8 @@
   .filters button.active { background:#1f2330; color:#fff; border-color:#1f2330; }
   .filters button:hover:not(.active) { background:#f0f2f6; }
 
-  .board { display:grid; grid-template-columns:repeat(5, minmax(260px, 1fr)); gap:12px; align-items:start; }
-  @media (max-width:1280px){ .board{ grid-template-columns:repeat(3, minmax(260px, 1fr)); } }
+  .board { display:grid; grid-template-columns:repeat(6, minmax(240px, 1fr)); gap:12px; align-items:start; }
+  @media (max-width:1500px){ .board{ grid-template-columns:repeat(3, minmax(260px, 1fr)); } }
   @media (max-width:880px){ .board{ grid-template-columns:repeat(2, minmax(260px, 1fr)); } }
   @media (max-width:600px){ .board{ grid-template-columns:1fr; } }
 
@@ -79,8 +79,9 @@
   @keyframes pulse { 0%,100%{ opacity:0.5; } 50%{ opacity:0.75; } }
 
   .ico.calendar { background:#ffe7d4; }
-  .ico.email    { background:#e0f0ff; }
   .ico.asana    { background:#ffe2e6; }
+  .ico.project  { background:#fde7d2; }
+  .ico.monday   { background:#dff0ff; }
   .ico.canva    { background:#e8e2ff; }
   .ico.slack    { background:#f3e5d8; }
 
@@ -96,7 +97,7 @@
 <header class="hub">
   <div class="title">
     <h1><span class="badge-fmm">FMM</span> Command Center</h1>
-    <div class="subline">Hub centralizzato — snapshot da Gmail · Asana · Calendar · Canva · Slack</div>
+    <div class="subline">Hub centralizzato — Calendar · Asana · Zoho Projects · Monday · Canva · Slack</div>
   </div>
   <div class="summary">
     <span class="chip"><span class="dot" id="dot-status"></span><span class="updated" id="updated">caricamento…</span><button class="reload" title="Ricarica" onclick="location.reload()">↻</button></span>
@@ -112,16 +113,16 @@
   <button data-filter="today">Solo oggi</button>
   <button data-filter="urgent">Urgenti</button>
   <button data-filter="aghc">Solo clienti AGHC</button>
-  <button data-filter="zoho">Solo Zoho Projects</button>
   <button class="restore-dismiss" id="btn-restore-dismiss" title="Ripristina card chiuse">↩ Ripristina chiuse (<span id="dismiss-count">0</span>)</button>
 </div>
 
 <div class="board">
   <section class="col" data-source="calendar"><header><div class="col-title"><span class="ico calendar">📅</span>Agenda</div><span class="count" id="count-cal">…</span></header><div class="cards" id="cards-cal"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
-  <section class="col" data-source="email"><header><div class="col-title"><span class="ico email">✉️</span>Email</div><span class="count" id="count-mail">…</span></header><div class="cards" id="cards-mail"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
-  <section class="col" data-source="asana"><header><div class="col-title"><span class="ico asana">✅</span>Asana · per progetto</div><span class="count" id="count-asana">…</span></header><div class="cards" id="cards-asana"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
-  <section class="col" data-source="canva"><header><div class="col-title"><span class="ico canva">🎨</span>Canva · da rivedere</div><span class="count" id="count-canva">…</span></header><div class="cards" id="cards-canva"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
-  <section class="col" data-source="slack"><header><div class="col-title"><span class="ico slack">💬</span>Slack · menzioni e DM</div><span class="count" id="count-slack">…</span></header><div class="cards" id="cards-slack"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
+  <section class="col" data-source="asana"><header><div class="col-title"><span class="ico asana">✅</span>Asana</div><span class="count" id="count-asana">…</span></header><div class="cards" id="cards-asana"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
+  <section class="col" data-source="project"><header><div class="col-title"><span class="ico project">📊</span>Zoho Projects</div><span class="count" id="count-project">…</span></header><div class="cards" id="cards-project"><div class="skeleton"></div><div class="skeleton"></div></div></section>
+  <section class="col" data-source="monday"><header><div class="col-title"><span class="ico monday">📌</span>Monday</div><span class="count" id="count-monday">…</span></header><div class="cards" id="cards-monday"><div class="skeleton"></div></div></section>
+  <section class="col" data-source="canva"><header><div class="col-title"><span class="ico canva">🎨</span>Canva</div><span class="count" id="count-canva">…</span></header><div class="cards" id="cards-canva"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
+  <section class="col" data-source="slack"><header><div class="col-title"><span class="ico slack">💬</span>Slack</div><span class="count" id="count-slack">…</span></header><div class="cards" id="cards-slack"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div></section>
 </div>
 
 <footer class="hub">
@@ -215,30 +216,58 @@ function renderCal(items){
   $("count-cal").textContent=rendered;
 }
 
-function renderMail(items){
-  const box=$("cards-mail"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Inbox pulita 🎉</div>'; $("count-mail").textContent=0; return; }
+function renderProject(items){
+  const box=$("cards-project"); box.innerHTML="";
+  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task Zoho aperto</div>'; $("count-project").textContent=0; return; }
+  // Raggruppo per project_name
+  const groups={};
+  items.forEach(p=>{ const k=p.project_name||"Zoho Project"; (groups[k]||(groups[k]=[])).push(p); });
+  const keys=Object.keys(groups).sort();
+  let rendered=0;
+  keys.forEach(k=>{
+    const h=document.createElement("div"); h.className="group-header"; h.textContent=`${k} · ${groups[k].length}`; box.appendChild(h);
+    groups[k].forEach(p=>{
+      const dismissId = makeCardId("project", p.thread_id || (p.task_code+p.task_label));
+      if(isDismissed(dismissId)) return;
+      const date=p.date_iso?new Date(p.date_iso):null;
+      const today=date&&isToday(date);
+      const a=document.createElement("a");
+      a.className="card"; a.dataset.today=today?"1":"0"; a.dataset.urgent="1"; a.dataset.aghc=p.is_aghc?"1":"0";
+      a.href=p.thread_id?`https://mail.google.com/mail/u/0/#inbox/${p.thread_id}`:"#"; a.target="_blank"; a.rel="noopener";
+      const pills=[];
+      if(p.task_code) pills.push(`<span class="pill zoho-proj">${esc(p.task_code)}</span>`);
+      if(p.is_aghc) pills.push(`<span class="pill client">AGHC</span>`);
+      if(date) pills.push(`<span class="pill">${esc(today?fmtTime(date):fmtDateShort(date))}</span>`);
+      a.innerHTML=`<div class="top"><div class="name">${esc(p.task_label||p.task_code||"(senza titolo)")}</div></div><div class="extra snippet">${esc(p.snippet||"")}</div><div class="meta">${pills.join("")}</div>`;
+      addDismissBtn(a, dismissId);
+      box.appendChild(a); rendered++;
+    });
+  });
+  if(!rendered) box.innerHTML='<div class="placeholder">Tutto chiuso 👌<small>Premi ↩ Ripristina per riportare le card.</small></div>';
+  $("count-project").textContent=rendered;
+}
+
+function renderMonday(items){
+  const box=$("cards-monday"); box.innerHTML="";
+  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessuna mention Monday</div>'; $("count-monday").textContent=0; return; }
   let rendered=0;
   items.forEach(m=>{
-    const dismissId = makeCardId("mail", m.thread_id || m.subject);
+    const dismissId = makeCardId("monday", m.monday_link || m.title);
     if(isDismissed(dismissId)) return;
-    const date=m.date_iso?new Date(m.date_iso):null;
-    const today=date&&isToday(date);
+    const start=m.start_iso?new Date(m.start_iso):null;
+    const today=start&&isToday(start);
     const a=document.createElement("a");
-    a.className="card"; a.dataset.today=today?"1":"0"; a.dataset.urgent=m.is_important?"1":"0"; a.dataset.aghc=m.is_aghc?"1":"0"; a.dataset.zoho=(m.is_zoho||m.is_zoho_project)?"1":"0";
-    a.href=m.thread_id?`https://mail.google.com/mail/u/0/#inbox/${m.thread_id}`:"#"; a.target="_blank"; a.rel="noopener";
-    const pills=[];
-    if(m.is_important) pills.push(`<span class="pill urgent">Important</span>`);
-    if(m.is_zoho_project) pills.push(`<span class="pill zoho-proj">Zoho Project</span>`);
-    else if(m.is_zoho) pills.push(`<span class="pill zoho">Zoho</span>`);
+    a.className="card"; a.dataset.today=today?"1":"0"; a.dataset.urgent="1"; a.dataset.aghc=m.is_aghc?"1":"0";
+    a.href=m.monday_link||m.html_link||"#"; a.target="_blank"; a.rel="noopener";
+    const pills=[`<span class="pill urgent">Mention</span>`];
     if(m.is_aghc) pills.push(`<span class="pill client">AGHC</span>`);
-    if(date) pills.push(`<span class="pill">${esc(today?fmtTime(date):fmtDateShort(date))}</span>`);
-    a.innerHTML=`<div class="top"><div class="name">${esc(m.subject||"(nessun oggetto)")}</div></div><div class="extra">${esc(m.sender||"")}</div><div class="extra snippet">${esc(m.snippet||"")}</div><div class="meta">${pills.join("")}</div>`;
+    if(start) pills.push(`<span class="pill">${esc(today?fmtTime(start):fmtDateShort(start))}</span>`);
+    a.innerHTML=`<div class="top"><div class="name">${esc(m.title||"(senza titolo)")}</div></div><div class="extra snippet">${esc(m.snippet||"")}</div><div class="meta">${pills.join("")}</div>`;
     addDismissBtn(a, dismissId);
     box.appendChild(a); rendered++;
   });
-  if(!rendered) box.innerHTML='<div class="placeholder">Tutto chiuso 👌<small>Premi ↩ Ripristina per riportare le card.</small></div>';
-  $("count-mail").textContent=rendered;
+  if(!rendered) box.innerHTML='<div class="placeholder">Tutto chiuso 👌</div>';
+  $("count-monday").textContent=rendered;
 }
 
 function renderAsana(items){
@@ -340,8 +369,9 @@ async function loadHub(){
     const hub = await res.json();
 
     renderCal(hub.calendar || []);
-    renderMail(hub.email || []);
     renderAsana(hub.asana || []);
+    renderProject(hub.project || []);
+    renderMonday(hub.monday || []);
     renderCanva(hub.canva || []);
     renderSlack(hub.slack || []);
 
