@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T14:49:08.642930+02:00",
+  "updated_at": "2026-05-27T15:06:13+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -112,15 +112,6 @@
       "is_urgent": false
     },
     {
-      "summary": "THE LINEA - Kickoff",
-      "start_iso": "2026-05-28T16:00:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=NHNscmhmcGdqa2I5ZmRsdWFkYzl0ajdxMjMgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "conference_url": "https://meet.google.com/yvz-webg-xqt",
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
       "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
       "start_iso": "2026-05-28T16:00:00+02:00",
       "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA1MjhUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -141,59 +132,58 @@
   ],
   "email": [
     {
+      "subject": "Accettato: THE LINEA - Kickoff - lun 22 giu 2026 15:30 - 17:00 (CEST) (moscadv@gmail.com)",
+      "sender": "flvippoliti@gmail.com",
+      "snippet": "THE LINEA - Kickoff Flavia Ippoliti ha accettato l'invito. Partecipa con Google Meet Link della riunione meet.google.com/yvz-webg-xqt Quando lunedì 22 giu 2026 ⋅ 15:30 – 17:00 (Ora dell'Europa",
+      "thread_id": "19e6980850a49602",
+      "date_iso": "2026-05-27T12:54:50Z",
+      "is_important": true,
+      "is_aghc": false
+    },
+    {
       "subject": "Notifica esito ordine: eseguito",
       "sender": "info@credem.it",
       "snippet": "Gentile MOSCA FRANCESCO MARIA, ti confermiamo l'esito positivo del seguente ordine: Operazione: Bonifico Italia e Area Euro istantaneo Beneficiario: Francesco Maria Mosca Numero conto beneficiario:",
       "thread_id": "19e6966402289c4c",
       "date_iso": "2026-05-27T12:26:08Z",
       "is_important": false,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Nuovo PIN Scalapay attivato sul tuo account",
       "sender": "support@scalapay.com",
-      "snippet": "Nuovo PIN Scalapay attivato sul tuo account Ciao Francesco Maria, Il tuo PIN di sicurezza è stato",
+      "snippet": "Nuovo PIN Scalapay attivato sul tuo account ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ Nuovo PIN Scalapay attivato sul tuo account Ciao Francesco Maria, Il tuo PIN di sicurezza è stat",
       "thread_id": "19e6963e016a54d1",
       "date_iso": "2026-05-27T12:23:33Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Did you pack your data?",
       "sender": "no-reply@revolut.com",
-      "snippet": "Travelling the world? Stay connected Browse data plans Hi Francesco Maria, Tired of hunting for free WiFi abroad? With eSIM, you can access data plans across 100+ countries",
+      "snippet": "Travelling the world? Stay connected Browse data plans Hi Francesco Maria, Tired of hunting for free WiFi abroad? With eSIM, you can access data plans across 100+ countries worldwide from as little as",
       "thread_id": "19e695eda59b3a62",
       "date_iso": "2026-05-27T12:18:04Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Francesco maria, il tuo Conto Corrente a Zero Spese ti aspetta",
       "sender": "preventivo@emails.facile.it",
-      "snippet": "Attivalo e inizia subito a risparmiare Facile.it è un sito nella titolarità di Facile.it SpA con socio unico P.IVA 07902950968 Tutti i diritti riservati. Il servizio di",
+      "snippet": "Attivalo e inizia subito a risparmiare Fa‌c‌‌il‌e‌‌.‌i‌t‌ è un sito nella titolarità di Fa‌c‌‌il‌e‌‌.‌i‌t‌ SpA con socio unico P.IVA 07902950968 Tutti i diritti riservati. Il servizio di",
       "thread_id": "19e6937c94bebf98",
       "date_iso": "2026-05-27T11:35:20Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Invito aggiornato: veridfica OPEN DAI ADS - mer 27 mag 2026 12:45 - 13:15 (CEST) (moscadv@gmail.com)",
       "sender": "kk@cea.management",
-      "snippet": "veridfica OPEN DAI ADS Partecipa con Google Meet - Hai ricevuto un invito da Francesco Carnielli a partecipare all'evento veridfica OPEN DAI ADS il giorno mercoledì 27 mag 2026 ⋅ 12:45 – 13:15",
+      "snippet": "veridfica OPEN DAI ADS Partecipa con Google Meet - Hai ricevuto un invito da Francesco Carnielli a partecipare all'evento veridfica OPEN DAI ADS il giorno mercoledì 27 mag 2026 ⋅ 12:45 – 13:15 (Ora",
       "thread_id": "19e68fc2d4949f12",
       "date_iso": "2026-05-27T10:30:16Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Social Strategy Puntebianche Resort",
@@ -202,31 +192,25 @@
       "thread_id": "19e6887211322cd6",
       "date_iso": "2026-05-27T08:22:13Z",
       "is_important": true,
-      "is_aghc": true,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": true
     },
     {
       "subject": "Il tuo miglior venditore sei ancora tu. È un problema.",
       "sender": "noreply@em.scalabile.net",
-      "snippet": "Il tuo miglior venditore sei ancora tu. È un problema. Leggilo su Linkedin | Tempo di lettura 3 min Se chiudi tu il 70% dei contratti importanti, non hai un'azienda.",
+      "snippet": "Il tuo miglior venditore sei ancora tu. È un problema. Leggilo su Linkedin | Tempo di lettura 3 min Se chiudi tu il 70% dei contratti importanti, non hai un'azienda. Hai un lavoro autonomo con dei",
       "thread_id": "19e687f7dfa9b1fc",
       "date_iso": "2026-05-27T08:14:05Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Alert Accesso Internet Banking",
       "sender": "info@credem.it",
-      "snippet": "Gentile MOSCA FRANCESCO MARIA , ti informiamo che il 27/05/2026 alle ore 14:25 è stato effettuato un accesso al servizio di Mobile Banking n. 01171054.",
+      "snippet": "Gentile MOSCA FRANCESCO MARIA , ti informiamo che il 27/05/2026 alle ore 14:25 è stato effettuato un accesso al servizio di Mobile Banking n. 01171054. Questa segnalazione gratuita viene inviata per",
       "thread_id": "19e686e561df48b1",
       "date_iso": "2026-05-27T12:26:25Z",
       "is_important": false,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Francesco Maria: 1 nuova offerta di lavoro",
@@ -235,163 +219,124 @@
       "thread_id": "19e684bbed43003d",
       "date_iso": "2026-05-27T07:17:34Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "📊 Report campagne Facebook — 2026-05-26",
       "sender": "project@cea.management",
-      "snippet": "📊 Report Campagne Facebook Dati del giorno precedente — 2026-05-26 Buongiorno! Ecco il report automatico delle campagne Facebook attive. Trovi in allegato i due file CSV con tutti i dati di ieri.",
+      "snippet": "📊 Report Campagne Facebook Dati del giorno precedente — 2026-05-26 Buongiorno! Ecco il report automatico delle campagne Facebook attive. Trovi in allegato i due file CSV con tutti i dati di ieri. 📁",
       "thread_id": "19e68056fe073b2d",
       "date_iso": "2026-05-27T06:00:33Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Di cosa abbiamo parlato al SEO for AI?",
       "sender": "info@seozoom.it",
-      "snippet": "Ecco la roadmap operativa condivisa al SEO for AI e il tuo prossimo passo.",
+      "snippet": "Ecco la roadmap operativa condivisa al SEO for AI e il tuo prossimo passo. Se non leggi il messaggio correttamente, clicca qui Tool Formazione Blog SEOZoom \"Ora puoi dire di far parte dell'era",
       "thread_id": "19e67be75665f10a",
       "date_iso": "2026-05-27T04:43:13Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "[Action Advised] Ensure you trust all Google Trust Services Root CAs and ECDSA certificate chains before Jun 15, 2026",
       "sender": "CloudPlatform-noreply@google.com",
-      "snippet": "Review changes to intermediate CAs and TLS certificate types. MY CONSOLE Hello Francesco Maria, In Q2 2026, to improve efficiency, we will be updating the Transport Layer Security (TLS) certificate",
+      "snippet": "Review changes to intermediate CAs and TLS certificate types. MY CONSOLE Hello Francesco Maria, In Q2 2026, to improve efficiency, we will be updating the Transport Layer Security (TLS) certificate fo",
       "thread_id": "19e677225301691b",
       "date_iso": "2026-05-27T03:19:53Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Moana Pozzi è stata assassinata?",
       "sender": "italian-quora-digest@quora.com",
-      "snippet": "Moana morì all'Hôtel-Dieu di Lione, dove era ricoverata da cinque mesi, il 15 settembre 1994.",
+      "snippet": "Moana morì all'Hôtel-Dieu di Lione, dove era ricoverata da cinque mesi, il 15 settembre 1994. Ci sono varie teorie sulla sua morte ma la più attendibile è la seguente: La sua morte, ufficialmen…",
       "thread_id": "19e6704814964509",
       "date_iso": "2026-05-27T01:20:08Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Follow Clean Avenue Laundry for Updates & Special Offers 💙",
       "sender": "clean-avenue-laundry-27835@cleancloudapp.com",
-      "snippet": "Logo Laundry Tips, Promos & More — Follow Us Today! ✨ Temporary Closure Tomorrow Due to Weather Hi there, We hope you're doing well!",
+      "snippet": "Logo Laundry Tips, Promos & More — Follow Us Today! ✨ Temporary Closure Tomorrow Due to Weather Hi there, We hope you're doing well! 😊 We'd love to invite you to follow Clean Avenue Laundry",
       "thread_id": "19e66f14115724fd",
       "date_iso": "2026-05-27T00:59:06Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Re: VILLA ERMELLINA SIENA - PED MAGGIO/GIUGNO 2026",
       "sender": "nicola.foschini@753hospitality.com",
-      "snippet": "Grazie Simone Ok per noi Nicola Sent from Outlook for iOS",
+      "snippet": "Grazie Simone Ok per noi Nicola Sent from Outlook for iOS From: Simone Pisa AG <smm@aghotelconsulting.it> Sent: Tuesday, May 26, 2026 6:25:05 PM To: Nicola Foschini | 753 Hospitality <nicola.",
       "thread_id": "19e651acbc67905d",
       "date_iso": "2026-05-26T17:30:41Z",
       "is_important": true,
-      "is_aghc": true,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": true
     },
     {
       "subject": "La tua ricevuta Meta inserzioni (ID dell'account: 1695132911866990)",
       "sender": "noreply@business-updates.facebook.com",
-      "snippet": "Questa non è una fattura Transazione per CIA ADV (1695132911866990) ID della transazione 27180906554931880-27199090449780165 Riepilogo del pagamento Importo addebitato 192,00 € (EUR)",
+      "snippet": "Questa non è una fattura Transazione per CIA ADV (1695132911866990) ID della transazione 27180906554931880-27199090449780165 Riepilogo del pagamento Importo addebitato 192,00 € (EUR) Intervallo di dat",
       "thread_id": "19e6502f3219a13f",
       "date_iso": "2026-05-26T15:59:11Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "[TRA 60 MINUTI INIZIA] Ultima possibilità",
       "sender": "marco.lutzu@drlutz.com",
-      "snippet": "Una brevissima email solo per ricordarti che tra 60 minuti chiudo le iscrizioni a Scrivere per Vendere con l'AI.",
+      "snippet": "Una brevissima email solo per ricordarti che tra 60 minuti chiudo le iscrizioni a \"Scrivere per Vendere con l'AI\". Il biglietti partono da 97 euro. Dentro lo START hai: 5 serate live con",
       "thread_id": "19e64cf0a2f65aba",
       "date_iso": "2026-05-26T15:02:25Z",
       "is_important": false,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Accettato: THE LINEA - Kickoff - gio 28 mag 2026 16:00 - 17:00 (CEST) (moscadv@gmail.com)",
       "sender": "flvippoliti@gmail.com",
-      "snippet": "THE LINEA - Kickoff Flavia Ippoliti ha accettato l'invito. Partecipa con Google Meet Link della riunione meet.google.com/yvz-webg-xqt",
+      "snippet": "THE LINEA - Kickoff Flavia Ippoliti ha accettato l'invito.",
       "thread_id": "19e64cc941e69793",
       "date_iso": "2026-05-26T14:59:49Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": false
     },
     {
       "subject": "Fwd: [CEA % - BEAUTY POINT ARONA] [ALB9-T355 Chiamata maggio 26 manager/beauty] Compito commento aggiunto",
       "sender": "marketing@cea.management",
-      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 08:55 Subject: [CEA % - BEAUTY POINT ARONA] [ALB9-",
+      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 08:55",
       "thread_id": "19e6486c4609cd8d",
       "date_iso": "2026-05-26T13:43:21Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": true,
-      "is_zoho_project": true
+      "is_aghc": false
     },
     {
       "subject": "Fwd: [CEA % - BEAUTY POINT ARONA] [ALB9-T355 Chiamata maggio 26 manager/beauty] Compito commento aggiunto",
       "sender": "marketing@cea.management",
-      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 10:07 Subject: [CEA % - BEAUTY POINT ARONA] [ALB9-",
+      "snippet": "---------- Forwarded message --------- Da: CEA % - BEAUTY POINT ARONA Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 10:07",
       "thread_id": "19e6486afe3330fb",
       "date_iso": "2026-05-26T13:43:14Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": true,
-      "is_zoho_project": true
+      "is_aghc": false
     },
     {
       "subject": "Fwd: [Med&Tech - MARCO BALDANZI] [M-D0-T5 Creare Automation Marketing OPEN DAY 18/06/2026 - Total Lift] Compito commento aggiunto",
       "sender": "marketing@cea.management",
-      "snippet": "---------- Forwarded message --------- Da: Med&Tech - MARCO BALDANZI Notifica <notifications@zohoprojects.eu> Date: mar 26 mag 2026 alle ore 15:36 Subject: [Med&Tech - MARCO BALDANZI] [M-",
+      "snippet": "---------- Forwarded message --------- Da: Med&Tech - MARCO BALDANZI Notifica <notifications@zohoprojects.eu>",
       "thread_id": "19e648692914bd4d",
       "date_iso": "2026-05-26T13:43:09Z",
       "is_important": true,
-      "is_aghc": false,
-      "is_zoho": true,
-      "is_zoho_project": true
+      "is_aghc": false
     },
     {
       "subject": "Re: ADÈSSO HOTEL - PED GIUGNO 2026",
       "sender": "comunicazione@adessohotel.it",
-      "snippet": "ok! approvato LinkedIn Instagram Maps Francesca Polverini/ Comunicazione comunicazione@adessohotel.it",
+      "snippet": "ok! approvato LinkedIn Instagram Maps Francesca Polverini/ Comunicazione comunicazione@adessohotel.it +39.06.878088 Via Guido Mazzoni 18 00162 - Roma www.adessohotel.it This e-mail message may contain",
       "thread_id": "19e5faedc93042b9",
       "date_iso": "2026-05-26T13:18:02Z",
       "is_important": true,
-      "is_aghc": true,
-      "is_zoho": false,
-      "is_zoho_project": false
-    },
-    {
-      "subject": "Alert Accesso Internet Banking",
-      "sender": "info@credem.it",
-      "snippet": "Gentile MOSCA FRANCESCO MARIA , ti informiamo che il 26/05/2026 alle ore 15:15 è stato effettuato un accesso al servizio di Mobile Banking n. 01171054.",
-      "thread_id": "19e646e23ba7a52a",
-      "date_iso": "2026-05-26T13:16:29Z",
-      "is_important": false,
-      "is_aghc": false,
-      "is_zoho": false,
-      "is_zoho_project": false
+      "is_aghc": true
     }
   ],
   "asana": [
@@ -400,7 +345,7 @@
       "project": "Generale",
       "due_on": "2026-05-07",
       "days_to_due": -20,
-      "notes": "",
+      "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
       "is_aghc": false
     },
@@ -409,26 +354,8 @@
       "project": "Generale",
       "due_on": "2026-05-08",
       "days_to_due": -19,
-      "notes": "",
+      "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
-      "is_aghc": false
-    },
-    {
-      "name": "HELIOS - Check Ads",
-      "project": "Generale",
-      "due_on": "2026-05-15",
-      "days_to_due": -12,
-      "notes": "",
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214773766143125",
-      "is_aghc": false
-    },
-    {
-      "name": "DOLMEN - Creative Bea",
-      "project": "Generale",
-      "due_on": "2026-05-15",
-      "days_to_due": -12,
-      "notes": "",
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214696051014723",
       "is_aghc": false
     },
     {
@@ -436,9 +363,18 @@
       "project": "HOY village",
       "due_on": "2026-05-19",
       "days_to_due": -8,
-      "notes": "",
+      "notes": null,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
       "is_aghc": false
+    },
+    {
+      "name": "Report ADV BeeFamily",
+      "project": "Generale",
+      "due_on": "2026-05-22",
+      "days_to_due": -5,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
+      "is_aghc": true
     },
     {
       "name": "Report ADV Clienti ",
@@ -452,10 +388,10 @@
     {
       "name": "Report ADV BeeFamily",
       "project": "Generale",
-      "due_on": "2026-05-22",
-      "days_to_due": -5,
-      "notes": "",
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
+      "due_on": "2026-05-29",
+      "days_to_due": 2,
+      "notes": null,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
       "is_aghc": true
     },
     {
@@ -489,8 +425,8 @@
   "canva": [
     {
       "title": "PED ALTAFIUMARA GIUGNO  2026",
-      "edit_url": "https://www.canva.com/d/IpNKSWxu12cNZ7P",
-      "view_url": "https://www.canva.com/d/qfyDmJTqs2zsHNA",
+      "edit_url": "https://www.canva.com/d/yqKSFNnus0X-Iax",
+      "view_url": "https://www.canva.com/d/WZRhdW_Vjr7M6uj",
       "updated_iso": "2026-05-27T12:55:24+02:00",
       "page_count": 12,
       "category": "ped",
@@ -498,8 +434,8 @@
     },
     {
       "title": "PUNTEBIANCHE social STRATEGY AG 2026",
-      "edit_url": "https://www.canva.com/d/vTEAJpKwjTU7Ylk",
-      "view_url": "https://www.canva.com/d/HCBJT1i2ICIOA8Y",
+      "edit_url": "https://www.canva.com/d/O4xQq8UIKjxRomW",
+      "view_url": "https://www.canva.com/d/AW9RexWvI0lhyBh",
       "updated_iso": "2026-05-27T10:18:22+02:00",
       "page_count": 48,
       "category": "strategy",
@@ -507,8 +443,8 @@
     },
     {
       "title": "PED VILLA ERMELLINA  MAGGIO GIUGNO 2026",
-      "edit_url": "https://www.canva.com/d/0B3UrUM2MLP4Rif",
-      "view_url": "https://www.canva.com/d/A-LXmrELXcD5pQ7",
+      "edit_url": "https://www.canva.com/d/mWZIJuVRt4R7Nwl",
+      "view_url": "https://www.canva.com/d/HQuSAVSmqtKQmQq",
       "updated_iso": "2026-05-26T18:08:52+02:00",
       "page_count": 17,
       "category": "ped",
@@ -516,8 +452,8 @@
     },
     {
       "title": " PED  TENUTA MONTEMAGNO  GIUGNO 2026",
-      "edit_url": "https://www.canva.com/d/dCf_G8JrC0AS251",
-      "view_url": "https://www.canva.com/d/6OvduePmdtGPr1N",
+      "edit_url": "https://www.canva.com/d/5CFT2D3JohAcii6",
+      "view_url": "https://www.canva.com/d/Np0a3cEozWf0YUZ",
       "updated_iso": "2026-05-26T15:06:10+02:00",
       "page_count": 12,
       "category": "ped",
@@ -525,8 +461,8 @@
     },
     {
       "title": "PED HOTEL DELLA PIANA GIUGNO - LUGLIO 2026",
-      "edit_url": "https://www.canva.com/d/R72Q_PYUVq7-jjx",
-      "view_url": "https://www.canva.com/d/zEGcy0jqdk6r4wz",
+      "edit_url": "https://www.canva.com/d/BV8v54xa5xTUpGY",
+      "view_url": "https://www.canva.com/d/2tNMORSQ81IU8gJ",
       "updated_iso": "2026-05-26T14:25:30+02:00",
       "page_count": 36,
       "category": "ped",
@@ -534,8 +470,8 @@
     },
     {
       "title": "PED TERRAZZA FLAVIA giugno-luglio 2026",
-      "edit_url": "https://www.canva.com/d/7rpqMsGW78Biao1",
-      "view_url": "https://www.canva.com/d/z9iCGQnqGAfgMA_",
+      "edit_url": "https://www.canva.com/d/nvGH5iGH7GSOexM",
+      "view_url": "https://www.canva.com/d/LsCsdWfX-YOrW0t",
       "updated_iso": "2026-05-26T14:22:39+02:00",
       "page_count": 12,
       "category": "ped",
@@ -543,8 +479,8 @@
     },
     {
       "title": "PED MARCELLA ROYAL giugno - luglio 2026",
-      "edit_url": "https://www.canva.com/d/KBDqIek_ud8-C-N",
-      "view_url": "https://www.canva.com/d/idVrCP1HOTnj_f7",
+      "edit_url": "https://www.canva.com/d/aljIo_kVvl7hjXW",
+      "view_url": "https://www.canva.com/d/x88RCu8zRTk2Rm_",
       "updated_iso": "2026-05-26T14:18:07+02:00",
       "page_count": 12,
       "category": "ped",
@@ -552,8 +488,8 @@
     },
     {
       "title": "  PED HOTEL CASTELLO  GIUGNO - LUGLIO  2026 ",
-      "edit_url": "https://www.canva.com/d/S5ku-7a3U4dpTja",
-      "view_url": "https://www.canva.com/d/7HNgkLeHlGhtdDm",
+      "edit_url": "https://www.canva.com/d/bMf59WsqkFEaMpg",
+      "view_url": "https://www.canva.com/d/dy1CzbHvDWdswk2",
       "updated_iso": "2026-05-26T14:11:38+02:00",
       "page_count": 12,
       "category": "ped",
@@ -561,8 +497,8 @@
     },
     {
       "title": "PED HEMANAIRE GIUGNO-LUGLIO 2026",
-      "edit_url": "https://www.canva.com/d/j4GK_sga3TB4JWt",
-      "view_url": "https://www.canva.com/d/nXnZJ1Anv3Wgy-c",
+      "edit_url": "https://www.canva.com/d/cZxpnzVECMRAIph",
+      "view_url": "https://www.canva.com/d/bXasZNRVmRF3QoK",
       "updated_iso": "2026-05-26T14:03:29+02:00",
       "page_count": 12,
       "category": "ped",
@@ -570,8 +506,8 @@
     },
     {
       "title": "PED  VILLA GIADA GIUGNO-LUGLIO-AGOSTO 2026",
-      "edit_url": "https://www.canva.com/d/e-MwvUkQiTJN-So",
-      "view_url": "https://www.canva.com/d/Sk7_JxVdUI1Nu51",
+      "edit_url": "https://www.canva.com/d/VcYeERh2R5Pv4zo",
+      "view_url": "https://www.canva.com/d/vqiKhQvg763mSa4",
       "updated_iso": "2026-05-26T13:57:54+02:00",
       "page_count": 37,
       "category": "ped",
@@ -579,8 +515,8 @@
     },
     {
       "title": "TENUTA MONTEMAGNO social STRATEGY AG 2026",
-      "edit_url": "https://www.canva.com/d/5ZcHwNWDAbtcJKQ",
-      "view_url": "https://www.canva.com/d/T689nkZYe57FxCQ",
+      "edit_url": "https://www.canva.com/d/M2A4QUBc_6tnmQL",
+      "view_url": "https://www.canva.com/d/X6GgEUkYy8DBJXb",
       "updated_iso": "2026-05-26T12:52:39+02:00",
       "page_count": 46,
       "category": "strategy",
@@ -588,8 +524,8 @@
     },
     {
       "title": "4.Monthly Report _Villa Miliani Aprile",
-      "edit_url": "https://www.canva.com/d/CbBKPyhWLvzmUSl",
-      "view_url": "https://www.canva.com/d/MTYNbyGn_5f5aG2",
+      "edit_url": "https://www.canva.com/d/KBX6jJu6hOGp2bv",
+      "view_url": "https://www.canva.com/d/JVHcShvNJVBJCVB",
       "updated_iso": "2026-05-26T10:59:42+02:00",
       "page_count": 23,
       "category": "report",
