@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T17:56:24.079148+02:00",
+  "updated_at": "2026-05-27T17:56:42.042489+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -87,7 +87,7 @@
     {
       "summary": "Ordine Biancheria",
       "start_iso": "2026-05-27T13:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA1MjdUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmIya184OHFrY2I5cDZncjMwYjlsNzRwNGFkaGs3MHM0YWNxNjY4XzIwMjYwNTI3VDExMzAwMFogbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
       "is_aghc": false,
@@ -133,19 +133,19 @@
   "asana": [
     {
       "name": "Wordpress Aziendale",
-      "project": "Generale",
+      "project": null,
       "due_on": "2026-05-07",
       "days_to_due": -20,
-      "notes": null,
+      "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
       "is_aghc": false
     },
     {
       "name": "Dolmen",
-      "project": "Generale",
+      "project": null,
       "due_on": "2026-05-08",
       "days_to_due": -19,
-      "notes": null,
+      "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
       "is_aghc": false
     },
@@ -154,22 +154,22 @@
       "project": "HOY village",
       "due_on": "2026-05-19",
       "days_to_due": -8,
-      "notes": null,
+      "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
       "is_aghc": false
     },
     {
       "name": "Report ADV BeeFamily",
-      "project": "Generale",
+      "project": null,
       "due_on": "2026-05-22",
       "days_to_due": -5,
-      "notes": null,
+      "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
       "is_aghc": false
     },
     {
       "name": "Report ADV Clienti",
-      "project": "Generale",
+      "project": null,
       "due_on": "2026-05-22",
       "days_to_due": -5,
       "notes": "Da inviare ad Ambra",
@@ -178,15 +178,15 @@
     },
     {
       "name": "Report ADV BeeFamily",
-      "project": "Generale",
+      "project": null,
       "due_on": "2026-05-29",
       "days_to_due": 2,
-      "notes": null,
+      "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
       "is_aghc": false
     },
     {
-      "name": "account pubblicitario per ig e yt -->",
+      "name": "account  pubblicitario per ig e yt -->",
       "project": "Tasto 9",
       "due_on": null,
       "days_to_due": null,
