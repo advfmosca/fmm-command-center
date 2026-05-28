@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T15:03:03+02:00",
+  "updated_at": "2026-05-28T15:43:24+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -222,7 +222,7 @@
       "is_aghc": false
     },
     {
-      "name": "account  pubblicitario per ig e yt --> ",
+      "name": "account  pubblicitario per ig e yt -->",
       "project": "Tasto 9",
       "due_on": null,
       "days_to_due": null,
@@ -285,15 +285,26 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
   "zoho_projects": [
     {
+      "name": "L-FA-T411 Chiamata maggio 26 manager/beauty",
+      "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Alfredo De Grandis · 28/05",
+      "notes": "Alfredo: «Linda Nicetto può ripartire ho sistemato :) Aurora Scaccia Francesco Maria Mosca potete riattivare quella che c'è già senza che Linda ne prenoti un'altra e valutare come suggerisce di inserire nuove creatività se serve anche s…»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821059",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "ALB9-T355 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - BEAUTY POINT ARONA · Linda Nicetto · 28/05",
-      "notes": "Linda: «Francesco Maria Mosca Alfredo De Grandis — della sponsorizzata partita dall'app vedo 0 contatti. Risulta anche a voi?»",
+      "notes": "Linda: «Francesco Maria Mosca Alfredo De Grandis della sponsorizzata partita dall'app vedo 0 contatti. Risulta anche a voi?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191363",
@@ -335,23 +346,23 @@
       "is_aghc": false
     },
     {
-      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
-      "notes": "Aurora: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca — Aggiunte due creatività»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
       "name": "A374-T266 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
       "notes": "La cliente scrive: deve inserire una persona nel suo account pubblicitario per gestire Facebook/Instagram, ma per il 2FA chiede a noi di farlo. Tagga Alfredo De Grandis, Giulia Michieletto, Francesco Maria Mosca, Aurora Scaccia — cc Doc. Marco Facco. «Potete sentirla voi?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
+      "notes": "Aurora: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca — Aggiunte due creatività»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
