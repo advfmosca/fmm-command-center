@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T10:42:23+02:00",
+  "updated_at": "2026-05-28T11:41:34+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -45,7 +45,7 @@
       "html_link": "https://www.google.com/calendar/event?eid=MWRxamp2MG1oc2hzbW9zdGdkZmVhM2JwZGcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
-      "is_aghc": true,
+      "is_aghc": false,
       "is_urgent": false
     },
     {
@@ -117,7 +117,7 @@
       "html_link": "https://www.google.com/calendar/event?eid=MHZmamltcmFtNWRhZ2pkb3U0ZzZraGNzbjAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": "https://meet.google.com/wkv-ucjj-rtc",
       "alert_kind": null,
-      "is_aghc": true,
+      "is_aghc": false,
       "is_urgent": false
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "summary": "Set up nuovi prompt creative app+nuove ads dentisiti med&tech",
-      "start_iso": "2026-05-29T16:00:00+02:00",
+      "start_iso": "2026-05-29T15:00:00+02:00",
       "html_link": "https://www.google.com/calendar/event?eid=NzVpajZvOWxjY3BqaWJiNTY5aDM0YjlrYzlobThiOW9jOHNqaWI5bzY4cjNjZDFtNmxoamNkMzFjZyBtb3NjYWR2QG0&ctz=Europe/Rome",
       "conference_url": "https://meet.google.com/trp-rrkb-kkv",
       "alert_kind": null,
@@ -271,8 +271,8 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "In svolgimento",
-      "status_kind": "info",
+      "status": null,
+      "status_kind": null,
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
@@ -284,7 +284,7 @@
     {
       "name": "A374-T266 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri",
-      "notes": "La cliente mi scrive: deve inserire una persona nel suo account pubblicitario per gestire Facebook e Instagram, ma per via del 2FA chiede a noi di farlo. Potete sentirla voi?",
+      "notes": "La cliente scrive che deve inserire una persona nel suo account pubblicitario per gestire Facebook e Instagram, ma per via del 2FA chiede a noi di farlo. Tagga Alfredo, Giulia, Francesco, Aurora — cc Doc. Marco Facco. Potete sentirla voi?",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
