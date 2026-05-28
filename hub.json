@@ -1,30 +1,39 @@
 {
-  "updated_at": "2026-05-27T18:20:39.992190+02:00",
+  "updated_at": "2026-05-28T08:44:11.282804+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
     {
       "summary": "🔴 Hotel Olimpic New · spesa anomala alta",
-      "start_iso": "2026-05-27T09:00:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=dWxvdWs0aTZ1YmhpN2x1bnJqcXFpY21yYWcgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "start_iso": "2026-05-28T09:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=Z2dycWxlZ3V2cDdtNWZib2F2bzI5aGhtdWsgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": "anomaly",
       "is_aghc": false,
       "is_urgent": true
     },
     {
-      "summary": "⚫ Hotel e Villaggi - Bee Family · nuovo account fermo",
-      "start_iso": "2026-05-27T09:15:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=N2NmdGhlZm40ZWtwZTZndXB2ZjFucWNnaWcgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "summary": "🔴 Hotel Mauritius · spesa anomala alta",
+      "start_iso": "2026-05-28T09:15:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=ZmliNHE3Y2s0bmd1ZmwydWhsbXZrMTYxNGcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
-      "alert_kind": "stop",
+      "alert_kind": "anomaly",
       "is_aghc": false,
       "is_urgent": true
     },
     {
-      "summary": "⚫ ADV Esthetique · nuovo account fermo",
-      "start_iso": "2026-05-27T09:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=M2FkajJxMG4ydm00NHR0YmQyODJlNGJiNmsgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "summary": "[Asana] Report ADV BeeFamily (ritardo 6gg)",
+      "start_iso": "2026-05-28T09:30:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=MHY5OWl0bHVwbmQ4bzRhcnR2NXVoaWh2MmsgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "conference_url": null,
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "⚫ BRORA ADV · nuovo account fermo",
+      "start_iso": "2026-05-28T09:30:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=MWt0Z3QwMTJycG9kcmkzazJrNzJrbGRtNTggbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": "stop",
       "is_aghc": false,
@@ -32,84 +41,21 @@
     },
     {
       "summary": "Canva mentions (1)",
-      "start_iso": "2026-05-27T09:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=NGx0ZWk3MmFya20wcnQwNnRlbmQ3N3BzZGMgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "start_iso": "2026-05-28T09:45:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=MWRxamp2MG1oc2hzbW9zdGdkZmVhM2JwZGcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
       "alert_kind": null,
       "is_aghc": true,
       "is_urgent": false
     },
     {
-      "summary": "[Monday] Mention Maria Vittoria Rossi - Visura e Carta (ritardo 1gg)",
-      "start_iso": "2026-05-27T09:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=b3V0aW5jbTcxcWVhbWM2OTUyMmozNTdqczggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "summary": "⚫ El Cid Torre Pedrera · nuovo account fermo",
+      "start_iso": "2026-05-28T09:45:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=cmdkNzBpMmQ2MGhjM2dhOGEyMTd2MGxsbnMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "conference_url": null,
-      "alert_kind": null,
+      "alert_kind": "stop",
       "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "Canva mentions (2)",
-      "start_iso": "2026-05-27T09:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=dTkyMGkzZnFmaGZnYWZxM3U5NGl0OTZ0azAgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "conference_url": null,
-      "alert_kind": null,
-      "is_aghc": true,
-      "is_urgent": false
-    },
-    {
-      "summary": "Allenamento Calenda",
-      "start_iso": "2026-05-27T10:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA1MjdUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "conference_url": null,
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "Scintille Piano ADS",
-      "start_iso": "2026-05-27T11:00:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=NmZna3E3NWZqbjdvc2J2ZnE0dmhsaXVoYzkgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "conference_url": "https://meet.google.com/qra-vobf-gwh",
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "veridfica OPEN DAI ADS",
-      "start_iso": "2026-05-27T12:45:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=NzdqOG0zc2c2Zm5ndjk1djdjb2x0YXNjNGEgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "conference_url": "https://meet.google.com/wnx-qvwi-buc",
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "Ordine Biancheria",
-      "start_iso": "2026-05-27T13:30:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA1MjdUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "conference_url": null,
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "NUOVO WORKFLOW GRAFICHE AURA",
-      "start_iso": "2026-05-27T17:00:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=NWJvN2FzdjY3bHQ1aTkwcmUwdDE5NWxqc2YgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "conference_url": "https://meet.google.com/gjq-ovkm-hqe",
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
-    },
-    {
-      "summary": "Registrazione Ospiti",
-      "start_iso": "2026-05-27T18:00:00+02:00",
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjdUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "conference_url": null,
-      "alert_kind": null,
-      "is_aghc": false,
-      "is_urgent": false
+      "is_urgent": true
     },
     {
       "summary": "CEA + M&T : Check, Balance e Resolution",
@@ -137,6 +83,69 @@
       "alert_kind": null,
       "is_aghc": false,
       "is_urgent": false
+    },
+    {
+      "summary": "Adv Check Fra + Mark",
+      "start_iso": "2026-05-29T09:15:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA1MjlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-05-29T13:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA1MjlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": null,
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "LOBA // Full immersion strategy",
+      "start_iso": "2026-05-29T14:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=MHZmamltcmFtNWRhZ2pkb3U0ZzZraGNzbjAgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "conference_url": "https://meet.google.com/wkv-ucjj-rtc",
+      "alert_kind": null,
+      "is_aghc": true,
+      "is_urgent": false
+    },
+    {
+      "summary": "verifica campagne lanciate con app",
+      "start_iso": "2026-05-29T14:30:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NDUydmw5dnRnYnBvOG0wN212c3NqZzE0bm0gbW9zY2FkdkBt&ctz=Europe/Rome",
+      "conference_url": "https://meet.google.com/zrt-drbv-jjo",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "Set up nuovi prompt creative app+nuove ads dentisiti med&tech",
+      "start_iso": "2026-05-29T15:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=NzVpajZvOWxjY3BqaWJiNTY5aDM0YjlrYzlobThiOW9jOHNqaWI5bzY4cjNjZDFtNmxoamNkMzFjZyBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": "https://meet.google.com/trp-rrkb-kkv",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "Progress Interno AG",
+      "start_iso": "2026-05-29T15:30:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA1MjlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-05-29T18:00:00+02:00",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": null,
+      "alert_kind": null,
+      "is_aghc": false,
+      "is_urgent": false
     }
   ],
   "asana": [
@@ -144,7 +153,7 @@
       "name": "Wordpress Aziendale",
       "project": null,
       "due_on": "2026-05-07",
-      "days_to_due": -20,
+      "days_to_due": -21,
       "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
       "is_aghc": false
@@ -153,7 +162,7 @@
       "name": "Dolmen",
       "project": null,
       "due_on": "2026-05-08",
-      "days_to_due": -19,
+      "days_to_due": -20,
       "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
       "is_aghc": false
@@ -162,7 +171,7 @@
       "name": "oggi sento Andres per la carta da sostituire su meta poi ti aggiorno",
       "project": "HOY village",
       "due_on": "2026-05-19",
-      "days_to_due": -8,
+      "days_to_due": -9,
       "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
       "is_aghc": false
@@ -171,7 +180,7 @@
       "name": "Report ADV BeeFamily",
       "project": null,
       "due_on": "2026-05-22",
-      "days_to_due": -5,
+      "days_to_due": -6,
       "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
       "is_aghc": false
@@ -180,7 +189,7 @@
       "name": "Report ADV Clienti",
       "project": null,
       "due_on": "2026-05-22",
-      "days_to_due": -5,
+      "days_to_due": -6,
       "notes": "Da inviare ad Ambra",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808713739118",
       "is_aghc": false
@@ -189,7 +198,7 @@
       "name": "Report ADV BeeFamily",
       "project": null,
       "due_on": "2026-05-29",
-      "days_to_due": 2,
+      "days_to_due": 1,
       "notes": "",
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
       "is_aghc": false
@@ -262,5 +271,17 @@
       "is_aghc": true
     }
   ],
-  "zoho_projects": []
+  "zoho_projects": [
+    {
+      "name": "A374-T266 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri",
+      "notes": "La cliente mi scrive: deve inserire una persona nel mio account pubblicitario per gestire Facebook e Instagram, ma per via del 2FA chiede a noi di farlo. Potete sentirla voi?",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    }
+  ]
 }
