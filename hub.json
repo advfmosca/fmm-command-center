@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T14:41:51+02:00",
+  "updated_at": "2026-05-28T15:03:03+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -291,9 +291,64 @@
   ],
   "zoho_projects": [
     {
+      "name": "ALB9-T355 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - BEAUTY POINT ARONA · Linda Nicetto · 28/05",
+      "notes": "Linda: «Francesco Maria Mosca Alfredo De Grandis — della sponsorizzata partita dall'app vedo 0 contatti. Risulta anche a voi?»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191363",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ARKT-T291 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ELYSIR · Alfredo De Grandis · 28/05",
+      "notes": "Alfredo (con screenshot): «eccolo qui Edda De Mauri cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A64L-T21 Chiamata di attivazione Business Manager",
+      "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Giulia Michieletto · 28/05",
+      "notes": "Giulia: «Francesco Maria Mosca» (ping senza testo aggiuntivo — chiede attenzione)",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006152084",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ARKT-T291 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ELYSIR · Edda De Mauri · 28/05",
+      "notes": "Edda: «Alfredo De Grandis vedo che c'è un lead ma su APP non è tra i lead arrivati e nemmeno in chat — cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
+      "notes": "Aurora: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca — Aggiunte due creatività»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "A374-T266 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri",
-      "notes": "La cliente scrive: deve inserire una persona nel suo account pubblicitario per gestire Facebook/Instagram, ma per il 2FA chiede a noi di farlo. Tagga Alfredo De Grandis, Giulia Michieletto, Francesco Maria Mosca, Aurora Scaccia — cc Doc. Marco Facco. \"Potete sentirla voi?\"",
+      "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
+      "notes": "La cliente scrive: deve inserire una persona nel suo account pubblicitario per gestire Facebook/Instagram, ma per il 2FA chiede a noi di farlo. Tagga Alfredo De Grandis, Giulia Michieletto, Francesco Maria Mosca, Aurora Scaccia — cc Doc. Marco Facco. «Potete sentirla voi?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
