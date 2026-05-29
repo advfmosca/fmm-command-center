@@ -299,7 +299,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 }
 .task-modal {
   position: relative; background: #fff; border-radius: 14px;
-  width: 100%; max-width: 600px; max-height: 86vh; overflow: auto;
+  width: 100%; max-width: 600px; min-height: 160px; max-height: 86vh; overflow: auto;
   padding: 26px 24px 20px; box-shadow: 0 20px 60px rgba(0,0,0,.25);
 }
 .task-modal .modal-close {
@@ -361,13 +361,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .todo-item .notes .note-entry { font-size: 11.5px; line-height: 1.4; color: #38383d; display: flex; gap: 6px; }
 .todo-item .notes .note-entry .nts { color: var(--text-dim); font-size: 10.5px; font-weight: 600; white-space: nowrap; padding-top: 1px; }
 .todo-item .notes .note-entry .ntx { flex: 1; word-break: break-word; }
-.todo-item .add-note-row { display: flex; gap: 4px; margin-top: 6px; }
-.todo-item .add-note-row input { flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; font-size: 11.5px; font-family: inherit; background: #fff; outline: none; }
-.todo-item .add-note-row input:focus { border-color: #b8c4dd; }
-.todo-item .add-note-row button { border: 1px solid var(--border); background: #fff; color: var(--text-muted); border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 14px; line-height: 1; }
-.todo-item .add-note-row button:hover { background: var(--bg-soft); color: var(--blue); border-color: #cdd3df; }
-.todo-item .add-note-btn { background: none; border: 0; color: var(--text-muted); font-size: 11px; font-weight: 600; cursor: pointer; padding: 4px 0 0; align-self: flex-start; }
-.todo-item .add-note-btn:hover { color: var(--blue); }
 .todo-input button {
   border: 0; background: var(--blue); color: #fff;
   border-radius: 8px; padding: 0 14px; font-size: 18px; font-weight: 600;
@@ -1338,10 +1331,22 @@ function submitForm(){
 let modalCurrentKey = null;
 
 function openTaskModal(key){
-  const t = decodeTodo(key);
-  if(!t) return;
-  modalCurrentKey = key;
   const content = $("task-modal-content");
+  if(!content){ console.warn("openTaskModal: #task-modal-content missing"); return; }
+  if(!key){ console.warn("openTaskModal called without key"); return; }
+  const t = decodeTodo(key);
+  if(!t){
+    // Apri comunque il modal con un messaggio di errore visibile,
+    // così l'utente capisce cosa è successo invece di vedere un pill vuoto.
+    console.warn("openTaskModal: decodeTodo returned null for key", key);
+    modalCurrentKey = null;
+    content.innerHTML =
+      '<div class="m-title">Task non leggibile</div>' +
+      '<div class="m-row">La task selezionata ha un formato non riconosciuto o è stata rimossa. Prova a chiudere e riaprire la dashboard.</div>';
+    $("task-modal").hidden = false;
+    return;
+  }
+  modalCurrentKey = key;
   const metaBits = [];
   if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
   if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
@@ -1478,9 +1483,13 @@ function initTodos(){
   $("todo-list").addEventListener("click", e => {
     const item = e.target.closest(".todo-item"); if(!item) return;
     if(e.target.closest(".del")){ deleteTodo(item.dataset.key); return; }
-    // Click sul titolo (o area card escluso ×) → apre il modal task
-    if(e.target.closest(".title") || e.target === item){
-      openTaskModal(item.dataset.key);
+    // Apre il modal SOLO se è stato cliccato esattamente il titolo della card.
+    // (Cliccare su deadline/note/pills non apre il modal — evita aperture accidentali.)
+    const titleEl = e.target.closest(".title");
+    if(titleEl && item.contains(titleEl)){
+      const k = item.dataset.key;
+      if(k){ openTaskModal(k); }
+      else { console.warn("Todo item click: dataset.key missing"); }
     }
   });
   // Modal: close handlers
