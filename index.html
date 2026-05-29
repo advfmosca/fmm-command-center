@@ -523,7 +523,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
 <div class="task-modal-overlay" id="task-modal" hidden>
   <div class="task-modal" id="task-modal-body">
-    <button class="modal-close" id="task-modal-close" title="Chiudi">×</button>
+    <button class="modal-close" id="task-modal-close" title="Chiudi" onclick="closeTaskModal()">×</button>
     <div id="task-modal-content"></div>
   </div>
 </div>
@@ -1378,8 +1378,8 @@ function openTaskModal(key){
       `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
       deadlineHTML +
       '<h4>Note</h4>' + notesHTML +
-      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button">Aggiungi</button></div>' +
-      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button">Elimina task</button></div>';
+      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button" onclick="modalAddNote()">Aggiungi</button></div>' +
+      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button" onclick="modalDeleteTask()">Elimina task</button></div>';
   } catch(err){
     console.error("openTaskModal render error:", err);
     html =
@@ -1388,16 +1388,44 @@ function openTaskModal(key){
   }
   console.log("[openTaskModal] html length=", html.length);
   content.innerHTML = html;
-  $("task-modal").hidden = false;
-  // Tutti i click handler (× chiudi · Elimina · Aggiungi nota · Enter su input)
-  // sono gestiti via event delegation sul modal-overlay in initTodos(),
-  // così non vanno persi dopo i re-render del contenuto.
+  const m = $("task-modal");
+  m.hidden = false;
+  m.style.display = "";  // resetta eventuale display:none impostato in chiusura
+  // Bottoni × / Aggiungi / Elimina hanno onclick inline (modalDeleteTask/modalAddNote/closeTaskModal)
+  // così sono sempre attivi anche dopo re-render.
   setTimeout(() => { const inp = $("m-note-input"); if(inp) inp.focus(); }, 60);
 }
 function closeTaskModal(){
-  $("task-modal").hidden = true;
+  const m = $("task-modal");
+  if(m){
+    m.hidden = true;
+    m.style.display = "none";  // backup nel caso il CSS [hidden] non sia caricato
+  }
   modalCurrentKey = null;
 }
+// Esposte globalmente per gli onclick inline nei bottoni del modal (più robusto
+// dei listener delegati quando il content viene re-renderizzato).
+function modalDeleteTask(){
+  if(modalCurrentKey){ deleteTodo(modalCurrentKey); }
+  closeTaskModal();
+}
+function modalAddNote(){
+  const inp = $("m-note-input");
+  if(!inp || !modalCurrentKey){ return; }
+  const txt = inp.value.trim();
+  if(!txt){ inp.focus(); return; }
+  const t0 = decodeTodo(modalCurrentKey);
+  addNoteToTask(modalCurrentKey, txt);
+  inp.value = "";
+  if(t0){
+    const newKey = findTaskKeyByTs(t0.ts);
+    if(newKey) openTaskModal(newKey);
+    else closeTaskModal();
+  }
+}
+window.closeTaskModal = closeTaskModal;
+window.modalDeleteTask = modalDeleteTask;
+window.modalAddNote = modalAddNote;
 function findTaskKeyByTs(ts){
   let found = null;
   DISMISSED.forEach(k => {
