@@ -523,7 +523,8 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
 <div class="task-modal-overlay" id="task-modal" hidden>
   <div class="task-modal" id="task-modal-body">
-    <button class="modal-close" id="task-modal-close" title="Chiudi" onclick="closeTaskModal()">×</button>
+    <button class="modal-close" id="task-modal-close" title="Chiudi"
+      onclick="console.log('[X clicked]');var m=document.getElementById('task-modal');m.hidden=true;m.style.display='none';window.modalCurrentKey=null;return false;">×</button>
     <div id="task-modal-content"></div>
   </div>
 </div>
@@ -1354,6 +1355,7 @@ function openTaskModal(key){
     return;
   }
   modalCurrentKey = key;
+  window.modalCurrentKey = key;  // espongo globalmente per i bottoni onclick inline
 
   let html = "";
   try {
@@ -1378,8 +1380,8 @@ function openTaskModal(key){
       `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
       deadlineHTML +
       '<h4>Note</h4>' + notesHTML +
-      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button" onclick="modalAddNote()">Aggiungi</button></div>' +
-      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button" onclick="modalDeleteTask()">Elimina task</button></div>';
+      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button" onclick="console.log(\'[Aggiungi clicked]\');if(window.modalAddNote)window.modalAddNote();return false;">Aggiungi</button></div>' +
+      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button" onclick="console.log(\'[Elimina clicked, key=\'+window.modalCurrentKey+\']\');if(window.modalDeleteTask)window.modalDeleteTask();return false;">Elimina task</button></div>';
   } catch(err){
     console.error("openTaskModal render error:", err);
     html =
@@ -1402,6 +1404,7 @@ function closeTaskModal(){
     m.style.display = "none";  // backup nel caso il CSS [hidden] non sia caricato
   }
   modalCurrentKey = null;
+  window.modalCurrentKey = null;
 }
 // Esposte globalmente per gli onclick inline nei bottoni del modal (più robusto
 // dei listener delegati quando il content viene re-renderizzato).
