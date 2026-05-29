@@ -292,6 +292,10 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .combo .combo-popup button:hover { background: var(--bg-soft); color: var(--blue); }
 
 /* Modal task detail */
+/* Fix critico: senza questa override, il class selector `display: flex`
+   batte la UA stylesheet `[hidden] { display: none }` e la modal resta
+   sempre visibile (anche vuota appena la pagina si carica). */
+[hidden] { display: none !important; }
 .task-modal-overlay {
   position: fixed; inset: 0; background: rgba(15,15,20,0.5);
   display: flex; align-items: center; justify-content: center;
