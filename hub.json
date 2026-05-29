@@ -1,185 +1,161 @@
 {
-  "updated_at": "2026-05-29T15:08:03+02:00",
+  "updated_at": "2026-05-29T15:19:25.859236+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
     {
       "summary": "Adv Check Fra + Mark",
-      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA1MjlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "start_iso": "2026-05-29T09:15:00+02:00",
       "end_iso": "2026-05-29T10:30:00+02:00",
-      "location": null,
-      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "alert_kind": "anomaly",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "Adv Check Fra + Mark",
-      "url": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA1MjlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA1MjlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": "anomaly",
+      "is_aghc": false
     },
     {
       "summary": "[Asana] Report ADV BeeFamily",
-      "html_link": "https://www.google.com/calendar/event?eid=dGlwcDY0NzI4aThkcTdyc2JzcWpybnAzNG8gbW9zY2FkdkBt&ctz=Europe/Rome",
       "start_iso": "2026-05-29T09:30:00+02:00",
       "end_iso": "2026-05-29T09:45:00+02:00",
-      "location": null,
-      "conference_url": null,
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "[Asana] Report ADV BeeFamily",
-      "url": "https://www.google.com/calendar/event?eid=dGlwcDY0NzI4aThkcTdyc2JzcWpybnAzNG8gbW9zY2FkdkBt&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=dGlwcDY0NzI4aThkcTdyc2JzcWpybnAzNG8gbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "allin ads baldan italia",
-      "html_link": "https://www.google.com/calendar/event?eid=NTExMjMxOHYwNXY3MDAxODhjczJjMmJpZWYgbW9zY2FkdkBt&ctz=Europe/Rome",
       "start_iso": "2026-05-29T11:00:00+02:00",
       "end_iso": "2026-05-29T11:30:00+02:00",
-      "location": null,
-      "conference_url": "https://meet.google.com/fyq-tysp-axe",
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "allin ads baldan italia",
-      "url": "https://www.google.com/calendar/event?eid=NTExMjMxOHYwNXY3MDAxODhjczJjMmJpZWYgbW9zY2FkdkBt&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/fyq-tysp-axe",
+      "html_link": "https://www.google.com/calendar/event?eid=NTExMjMxOHYwNXY3MDAxODhjczJjMmJpZWYgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "OFF",
-      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA1MjlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "start_iso": "2026-05-29T13:00:00+02:00",
       "end_iso": "2026-05-29T19:00:00+02:00",
-      "location": null,
-      "conference_url": null,
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "OFF",
-      "url": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA1MjlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA1MjlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "LOBA // Full immersion strategy",
-      "html_link": "https://www.google.com/calendar/event?eid=MHZmamltcmFtNWRhZ2pkb3U0ZzZraGNzbjAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "start_iso": "2026-05-29T14:00:00+02:00",
       "end_iso": "2026-05-29T18:00:00+02:00",
-      "location": "Adèsso Hotel, Via Guido Mazzoni, 18-28, 00162 Roma RM, Italia",
-      "conference_url": "https://meet.google.com/wkv-ucjj-rtc",
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": true,
-      "title": "LOBA // Full immersion strategy",
-      "url": "https://www.google.com/calendar/event?eid=MHZmamltcmFtNWRhZ2pkb3U0ZzZraGNzbjAgbW9zY2FkdkBt&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": "Adèsso Hotel, Via Guido Mazzoni, 18-28, 00162 Roma RM, Italia",
+      "conference_url": "https://meet.google.com/wkv-ucjj-rtc",
+      "html_link": "https://www.google.com/calendar/event?eid=MHZmamltcmFtNWRhZ2pkb3U0ZzZraGNzbjAgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": true
     },
     {
       "summary": "verifica campagne lanciate con app",
-      "html_link": "https://www.google.com/calendar/event?eid=NDUydmw5dnRnYnBvOG0wN212c3NqZzE0bm0gbW9zY2FkdkBt&ctz=Europe/Rome",
       "start_iso": "2026-05-29T14:30:00+02:00",
       "end_iso": "2026-05-29T15:00:00+02:00",
-      "location": null,
-      "conference_url": "https://meet.google.com/zrt-drbv-jjo",
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "verifica campagne lanciate con app",
-      "url": "https://www.google.com/calendar/event?eid=NDUydmw5dnRnYnBvOG0wN212c3NqZzE0bm0gbW9zY2FkdkBt&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/zrt-drbv-jjo",
+      "html_link": "https://www.google.com/calendar/event?eid=NDUydmw5dnRnYnBvOG0wN212c3NqZzE0bm0gbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "Progress Interno AG",
-      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA1MjlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "start_iso": "2026-05-29T15:30:00+02:00",
       "end_iso": "2026-05-29T16:00:00+02:00",
-      "location": null,
-      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "Progress Interno AG",
-      "url": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA1MjlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA1MjlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "Set up nuovi prompt creative app+nuove ads dentisiti med&tech",
-      "html_link": "https://www.google.com/calendar/event?eid=NzVpajZvOWxjY3BqaWJiNTY5aDM0YjlrYzlobThiOW9jOHNqaWI5bzY4cjNjZDFtNmxoamNkMzFjZyBtb3NjYWR2QG0&ctz=Europe/Rome",
       "start_iso": "2026-05-29T17:30:00+02:00",
       "end_iso": "2026-05-29T19:00:00+02:00",
-      "location": null,
-      "conference_url": "https://meet.google.com/trp-rrkb-kkv",
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "Set up nuovi prompt creative app+nuove ads dentisiti med&tech",
-      "url": "https://www.google.com/calendar/event?eid=NzVpajZvOWxjY3BqaWJiNTY5aDM0YjlrYzlobThiOW9jOHNqaWI5bzY4cjNjZDFtNmxoamNkMzFjZyBtb3NjYWR2QG0&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/trp-rrkb-kkv",
+      "html_link": "https://www.google.com/calendar/event?eid=NzVpajZvOWxjY3BqaWJiNTY5aDM0YjlrYzlobThiOW9jOHNqaWI5bzY4cjNjZDFtNmxoamNkMzFjZyBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "start_iso": "2026-05-29T18:00:00+02:00",
       "end_iso": "2026-05-29T18:15:00+02:00",
-      "location": null,
-      "conference_url": null,
-      "alert_kind": null,
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
-      "is_aghc": false,
-      "title": "Registrazione Ospiti",
-      "url": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome"
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA1MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     },
     {
       "summary": "Flight to TIA (FR 5626)",
-      "html_link": "https://www.google.com/calendar/event?eid=Mm5nb2wyZXM2cDdtZjVzYnRxN2g4bG5oaDggbW9zY2FkdkBt&ctz=Europe/Rome",
       "start_iso": "2026-05-30T07:20:00+02:00",
       "end_iso": "2026-05-30T08:40:00+02:00",
-      "location": "NAP NAP",
-      "conference_url": null,
-      "alert_kind": null,
       "is_today": false,
       "is_tomorrow": true,
       "is_urgent": false,
-      "is_aghc": false,
-      "title": "Flight to TIA (FR 5626)",
-      "url": "https://www.google.com/calendar/event?eid=Mm5nb2wyZXM2cDdtZjVzYnRxN2g4bG5oaDggbW9zY2FkdkBt&ctz=Europe/Rome"
+      "location": "NAP NAP",
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Mm5nb2wyZXM2cDdtZjVzYnRxN2g4bG5oaDggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     }
   ],
   "asana": [
     {
       "name": "Wordpress Aziendale",
-      "project": null,
+      "project": "Generale",
       "notes": "",
       "due": "2026-05-07",
       "days_to_due": -22,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
-      "is_aghc": false,
-      "subtitle": "Generale",
-      "url": "https://app.asana.com/1/1199398735335909/task/1214320947633430"
+      "is_aghc": false
     },
     {
       "name": "Dolmen",
-      "project": null,
+      "project": "Generale",
       "notes": "",
       "due": "2026-05-08",
       "days_to_due": -21,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
-      "is_aghc": false,
-      "subtitle": "Generale",
-      "url": "https://app.asana.com/1/1199398735335909/task/1214320947633428"
+      "is_aghc": false
     },
     {
       "name": "oggi sento Andres per la carta da sostituire su meta poi ti aggiorno",
@@ -190,48 +166,40 @@
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
-      "is_aghc": false,
-      "subtitle": "HOY village",
-      "url": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102"
+      "is_aghc": false
     },
     {
       "name": "Report ADV BeeFamily",
-      "project": null,
+      "project": "Generale",
       "notes": "",
       "due": "2026-05-22",
       "days_to_due": -7,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
-      "is_aghc": false,
-      "subtitle": "Generale",
-      "url": "https://app.asana.com/1/1199398735335909/task/1214808462330671"
+      "is_aghc": false
     },
     {
       "name": "Report ADV Clienti",
-      "project": null,
+      "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-05-22",
       "days_to_due": -7,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1214808713739118",
-      "is_aghc": false,
-      "subtitle": "Generale",
-      "url": "https://app.asana.com/1/1199398735335909/task/1214808713739118"
+      "is_aghc": false
     },
     {
       "name": "Report ADV BeeFamily",
-      "project": null,
+      "project": "Generale",
       "notes": "",
       "due": "2026-05-29",
       "days_to_due": 0,
       "is_today": true,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
-      "is_aghc": false,
-      "subtitle": "Generale",
-      "url": "https://app.asana.com/1/1199398735335909/task/1215163241240361"
+      "is_aghc": false
     },
     {
       "name": "account  pubblicitario per ig e yt -->",
@@ -242,9 +210,31 @@
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1212704792995349",
-      "is_aghc": false,
-      "subtitle": "Tasto 9",
-      "url": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1212704792995349"
+      "is_aghc": false
+    }
+  ],
+  "asana_mentions": [
+    {
+      "name": "aggiornamento Last minute_ 29 maggio",
+      "subtitle": "Color Holiday · ambra.sartini · 29/05",
+      "notes": "ambra.sartini: «@Beatrice Santucci fai check prezzi? quando hai fatto avvisa @Francesco Maria Mosca grazie!»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215241954308745",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "aumento budget meta + google Albatros",
+      "subtitle": "Albatros · ambra.sartini · 29/05",
+      "notes": "ambra.sartini: «questo è stato fatto!»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/home",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
     }
   ],
   "canva": [],
@@ -252,9 +242,10 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Senza scadenza",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -263,9 +254,10 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Senza scadenza",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -274,9 +266,10 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Senza scadenza",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -285,9 +278,10 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Senza scadenza",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
@@ -296,10 +290,68 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Scaduto 420gg",
-      "status_kind": "danger",
+      "status": null,
+      "status_kind": null,
       "due": "2025-04-04",
+      "days_to_due": -420,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    }
+  ],
+  "monday_mentions": [
+    {
+      "name": "Fra puoi inserire le promo di Puntebianche Resort",
+      "subtitle": "Puntebianche Resort · AG Squad - PED 2026 AG · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/11865494769",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Hotel Livata",
+      "subtitle": "Hotel Livata · AG Squad - PED 2026 AG · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/18310973821",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "Gestione /Adèsso/ Hotel · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Magari Estates",
+      "subtitle": "Magari Estates · AG Squad - PED 2026 AG · 28/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/9441796229",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Hotel Castello",
+      "subtitle": "Hotel Castello · AG Squad - PED 2026 AG · 25/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/18311323116",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
@@ -309,7 +361,7 @@
     {
       "name": "B179-T23 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Alfredo De Grandis · 29/05",
-      "notes": "Alfredo De Grandis: «Giulia Michieletto Fai un check sul suo account pubblicitario perché ha questo avviso. Fai subito in mattinata, se puoi risolverlo da sola o contattando la cliente perfetto e la campagna partirà da qu…»",
+      "notes": "Alfredo De Grandis: «Giulia Michieletto Fai un check sul suo account pubblicitario perché ha questo avviso fai subito in mattinata, se puoi risolverlo da sola o contattando la cliente perfetto e la campagna p…»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
@@ -340,9 +392,9 @@
       "is_aghc": false
     },
     {
-      "name": "L-FA-T411 Chiamata maggio 26 manager/beauty",
+      "name": "L-FA-T411 Chiamata maggio 26 manager/beauty (update)",
       "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Alfredo De Grandis · 28/05",
-      "notes": "Alfredo De Grandis: «Linda Nicetto può ripartire ho sistemato :) Aurora Scaccia Francesco Maria Mosca potete riattivare quella che c'è già senza che Linda ne prenoti un'altra e valutare come suggerisce di inserire nuove c…»",
+      "notes": "Alfredo De Grandis: «Linda Nicetto può ripartire ho sistemato :) Aurora Scaccia Francesco Maria Mosca potete riattivare quella che c'è già senza che Linda ne prenoti un'altra e valutare come suggerisce d…»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821059",
@@ -384,9 +436,9 @@
       "is_aghc": false
     },
     {
-      "name": "ARKT-T291 Chiamata maggio 26 manager/beauty",
+      "name": "ARKT-T291 Chiamata maggio 26 manager/beauty (followup)",
       "subtitle": "CEA % - ELYSIR · Edda De Mauri · 28/05",
-      "notes": "Edda De Mauri: «Alfredo De Grandis vedo che c'è un lead ma su APP non è tra i lead arrivati e nemmeno in chat. cc Francesco Maria Mosca»",
+      "notes": "Edda De Mauri: «Alfredo De Grandis vedo che c'è un lead ma su APP non è tra i lead arrivati e nemmeno in chat cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
@@ -397,7 +449,7 @@
     {
       "name": "A374-T266 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
-      "notes": "Edda De Mauri: «la cliente mi scrive cosi'. [16:35, 27/05/2026] CEA Nelly Cociu: Edda. Devo inserire una persona nel mio account pubblicitario. Forse ho trovato una persona che mi aiuti a fare ciò che non riesco a se…»",
+      "notes": "Edda De Mauri: «la cliente mi scrive cosi' [16:35, 27/05/2026] CEA Nelly Cociu %: Edda. Devo inserire una persona nel mio account pubblicitario. Forse ho trovato una persona che mi aiuti a fare ciò che non …»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
@@ -408,83 +460,13 @@
     {
       "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
-      "notes": "Aurora Scaccia: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca. Aggiunte due creatività»",
+      "notes": "Aurora Scaccia: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca Aggiunte due creatività»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    }
-  ],
-  "asana_mentions": [
-    {
-      "name": "aumento budget meta + google Albatros",
-      "subtitle": "Albatros · ambra.sartini · 29/05",
-      "notes": "ambra.sartini: «questo è stato fatto! ciao»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1214926604233228",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": false
-    }
-  ],
-  "monday_mentions": [
-    {
-      "name": "Fra puoi inserire le promo di Puntebianche Resort",
-      "subtitle": "Puntebianche Resort · AG Squad - PED 2026 AG · 29/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/11865494769",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "Fra puoi inserire le promo di Hotel Livata",
-      "subtitle": "Hotel Livata · AG Squad - PED 2026 AG · 29/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/8667918867",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 29/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "Fra puoi inserire le promo di Magari Estates",
-      "subtitle": "Magari Estates · AG Squad - PED 2026 AG · 28/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/8667918867",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "Fra puoi inserire le promo di Hotel Castello",
-      "subtitle": "Hotel Castello · AG Squad - PED 2026 AG · 25/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/8667918867",
-      "is_today": false,
-      "is_urgent": false,
-      "is_aghc": true
     }
   ]
 }
