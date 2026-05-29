@@ -14,6 +14,7 @@
   --bg-card: #ffffff;
   --border: #ececef;
   --border-soft: #f4f4f5;
+  --zebra: #f6f7fb;
   --text: #1c1c1e;
   --text-muted: #6b6b70;
   --text-dim: #8a8a90;
@@ -113,6 +114,10 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   transition: border-color .15s, transform .08s, box-shadow .15s;
 }
 .item:last-child { margin-bottom: 0; }
+/* Zebra: alterna lo sfondo delle card per migliorare la leggibilità. nth-of-type
+   conta solo elementi dello stesso tag → i <div class="project-group"> non
+   interferiscono col count delle .item (che sono <a>). */
+.col .body .item:nth-of-type(even) { background: var(--zebra); }
 .item:hover { border-color: #cdd3df; box-shadow: 0 2px 6px rgba(0,0,0,.06); transform: translateY(-1px); }
 .item.is-hidden { opacity: 0.45; background: var(--bg-soft); }
 
@@ -155,6 +160,60 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 }
 .project-group:first-child { margin-top: 0; padding-top: 2px; }
 .project-group .pill { background: var(--border); color: #5a5a60; padding: 1px 7px; border-radius: 999px; font-size: 10px; font-weight: 600; letter-spacing: 0; text-transform: none; }
+
+/* ── To-Do FMM (col personale, localStorage) ──
+   Input nuova task + lista todos cliccabili (toggle done).
+   Le .todo-item NON sono <a>, sono <div> — nth-of-type lavora con <div>
+   anche qui ma all'interno della col-todos non c'è altro markup d'intralcio. */
+.todo-input {
+  display: flex; gap: 6px; padding: 8px 10px 10px;
+  border-bottom: 1px solid var(--border-soft); background: #fff;
+  position: sticky; top: 0; z-index: 2;
+}
+.todo-input input {
+  flex: 1; border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 10px; font-size: 13px; font-family: inherit;
+  background: #fafafb; color: var(--text); outline: none;
+  transition: border-color .15s, background .15s;
+}
+.todo-input input:focus { border-color: #b8c4dd; background: #fff; }
+.todo-input button {
+  border: 0; background: var(--blue); color: #fff;
+  border-radius: 8px; padding: 0 14px; font-size: 18px; font-weight: 600;
+  cursor: pointer; line-height: 1;
+}
+.todo-input button:hover { filter: brightness(1.08); }
+.todo-input button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.todo-item {
+  position: relative;
+  background: #fff; border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 12px 10px 36px; margin-bottom: 8px;
+  font-size: 13px; line-height: 1.35; word-break: break-word;
+  cursor: pointer; user-select: none;
+  transition: border-color .15s, background .15s, opacity .2s;
+}
+.col .body .todo-item:nth-of-type(even) { background: var(--zebra); }
+.todo-item:hover { border-color: #cdd3df; }
+.todo-item .check {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px; border: 2px solid #c4c7cc; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 11px; color: transparent; transition: all .15s;
+}
+.todo-item:hover .check { border-color: #8e94a0; }
+.todo-item.done { opacity: 0.55; }
+.todo-item.done .text { text-decoration: line-through; color: var(--text-muted); }
+.todo-item.done .check { background: var(--green); border-color: var(--green); color: #fff; }
+.todo-item .del {
+  position: absolute; top: 6px; right: 6px;
+  width: 22px; height: 22px; border: 0; background: transparent;
+  color: var(--text-dim); cursor: pointer; font-size: 16px; line-height: 1;
+  border-radius: 5px; opacity: 0; transition: opacity .15s, background .15s, color .15s;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.todo-item:hover .del { opacity: 1; }
+.todo-item .del:hover { background: #fee2e2; color: #991b1b; }
 
 .placeholder { color: var(--text-dim); font-style: italic; font-size: 12.5px; padding: 18px 10px; text-align: center; }
 .placeholder small { display: block; margin-top: 4px; color: #b9c0cc; font-size: 11px; font-style: normal; }
@@ -226,6 +285,16 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <section class="col" data-source="calendar">
       <h2><span class="col-ico">📅</span>Agenda FMM<span class="pill" id="count-cal">…</span></h2>
       <div class="body" id="cards-cal"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+    </section>
+    <section class="col" data-source="todos">
+      <h2><span class="col-ico">📝</span>To-Do FMM<span class="pill" id="count-todos">…</span></h2>
+      <div class="body" id="cards-todos">
+        <div class="todo-input">
+          <input type="text" id="todo-new" placeholder="Aggiungi un promemoria…" maxlength="200" autocomplete="off" />
+          <button id="todo-add" title="Aggiungi">+</button>
+        </div>
+        <div id="todo-list"></div>
+      </div>
     </section>
     <section class="col" data-source="asana">
       <h2><span class="col-ico">✅</span>Bee Family<span class="pill" id="count-asana">…</span></h2>
@@ -654,6 +723,84 @@ function focusSource(src){
 document.querySelectorAll(".kpi[data-source]").forEach(k=>{
   k.addEventListener("click", ()=>focusSource(k.dataset.source));
 });
+
+// ╭─────────────────────────────────────────────────────────────────╮
+// │ TO-DO FMM · promemoria personali, persistiti in localStorage    │
+// │ Schema: [{id, text, done, created_at}]                          │
+// │ Click sulla card = toggle done. × = elimina.                    │
+// │ Non sincronizzato cross-device (solo questo browser).           │
+// ╰─────────────────────────────────────────────────────────────────╯
+const TODOS_KEY = "fmm-todos-v1";
+function loadTodos(){
+  try { return JSON.parse(localStorage.getItem(TODOS_KEY)) || []; }
+  catch(e) { return []; }
+}
+function saveTodos(arr){
+  try { localStorage.setItem(TODOS_KEY, JSON.stringify(arr)); } catch(e){}
+}
+function renderTodos(){
+  const list = $("todo-list"); if(!list) return;
+  const todos = loadTodos();
+  list.innerHTML = "";
+  if(!todos.length){
+    list.innerHTML = '<div class="placeholder">Nessun promemoria<small>aggiungi sopra ↑</small></div>';
+  } else {
+    // Mostra prima i non-done, poi i done (visivamente in fondo)
+    const sorted = [...todos].sort((a,b) => {
+      if(a.done !== b.done) return a.done ? 1 : -1;
+      return (b.created_at || 0) - (a.created_at || 0);
+    });
+    sorted.forEach(t => {
+      const d = document.createElement("div");
+      d.className = "todo-item" + (t.done ? " done" : "");
+      d.dataset.id = t.id;
+      d.innerHTML =
+        '<span class="check">✓</span>' +
+        '<button class="del" title="Elimina">×</button>' +
+        '<span class="text">' + esc(t.text) + '</span>';
+      list.appendChild(d);
+    });
+  }
+  const open = todos.filter(t => !t.done).length;
+  $("count-todos").textContent = open;
+}
+function addTodo(text){
+  text = (text || "").trim();
+  if(!text) return;
+  const todos = loadTodos();
+  todos.push({ id: "t_" + Date.now() + "_" + Math.random().toString(36).slice(2,6), text, done: false, created_at: Date.now() });
+  saveTodos(todos);
+  renderTodos();
+}
+function toggleTodo(id){
+  const todos = loadTodos();
+  const t = todos.find(x => x.id === id);
+  if(!t) return;
+  t.done = !t.done;
+  saveTodos(todos);
+  renderTodos();
+}
+function deleteTodo(id){
+  const todos = loadTodos().filter(x => x.id !== id);
+  saveTodos(todos);
+  renderTodos();
+}
+function initTodos(){
+  const input = $("todo-new");
+  const btn = $("todo-add");
+  if(!input || !btn) return;
+  const submit = () => { addTodo(input.value); input.value = ""; input.focus(); };
+  btn.addEventListener("click", submit);
+  input.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
+  $("todo-list").addEventListener("click", e => {
+    const item = e.target.closest(".todo-item"); if(!item) return;
+    const id = item.dataset.id;
+    if(e.target.closest(".del")){ deleteTodo(id); }
+    else { toggleTodo(id); }
+  });
+  renderTodos();
+}
+initTodos();
 
 async function loadHub(){
   try {
