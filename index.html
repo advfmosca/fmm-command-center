@@ -179,22 +179,8 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 }
 .todo-card > h2 .pill {
   font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px;
-  background: var(--border); color: #5a5a60;
+  background: var(--border); color: #5a5a60; margin-left: auto;
 }
-.todo-card > h2 .todo-month-nav {
-  margin-left: auto; display: inline-flex; align-items: center; gap: 4px;
-  font-size: 12px; font-weight: 600; color: var(--text-muted);
-}
-.todo-card > h2 .todo-month-nav b {
-  font-weight: 700; color: var(--text); padding: 0 4px;
-  text-transform: capitalize; min-width: 56px; text-align: center;
-}
-.todo-card > h2 .todo-month-nav button {
-  width: 22px; height: 22px; border: 1px solid var(--border);
-  background: #fff; border-radius: 6px; cursor: pointer;
-  font-size: 14px; line-height: 1; padding: 0; color: var(--text);
-}
-.todo-card > h2 .todo-month-nav button:hover { background: var(--bg-soft); }
 .todo-card .body { padding: 10px; }
 
 /* Chip filtro per tag (con counter "aperte·chiuse") */
@@ -407,11 +393,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <h2>
       <span class="col-ico">📝</span>To-Do FMM
       <span class="pill" id="count-todos">…</span>
-      <span class="todo-month-nav">
-        <button id="todo-month-prev" title="Mese precedente">‹</button>
-        <b id="todo-month">…</b>
-        <button id="todo-month-next" title="Mese successivo">›</button>
-      </span>
     </h2>
     <div class="body" id="cards-todos">
       <button id="tf-open" class="tf-open-btn" type="button">+ Nuovo promemoria</button>
@@ -835,15 +816,26 @@ $("toggle-hidden").addEventListener("click", ()=>{
   applyFilter(localStorage.getItem("fmm-hub-filter") || "all");
 });
 
-// ── Clickable KPI tabs (filter board to single source) ──
+// ── Clickable KPI tabs ──
+// KPI "Eventi oggi" (data-source="calendar") → focus solo Agenda
+// KPI "Task aperti"  (data-source="asana")   → mostra tutte le colonne task
+//                                              (Bee Family + Senape/AGHC +
+//                                              CEA/Med&Tech + Canva), nasconde Agenda
 let activeSource = null;
+const TASK_SOURCES = new Set(["asana","monday","zoho-projects","canva"]);
+
 function focusSource(src){
   activeSource = (activeSource === src) ? null : src;
   document.querySelectorAll(".kpi[data-source]").forEach(k=>{
     k.classList.toggle("kpi-active", k.dataset.source === activeSource);
   });
   document.querySelectorAll(".col[data-source]").forEach(c=>{
-    c.style.display = (activeSource === null || c.dataset.source === activeSource) ? "" : "none";
+    const s = c.dataset.source;
+    let show;
+    if(activeSource === null) show = true;
+    else if(activeSource === "asana") show = TASK_SOURCES.has(s);  // tutte le colonne task
+    else show = (s === activeSource);
+    c.style.display = show ? "" : "none";
   });
   try{ activeSource ? localStorage.setItem("fmm-hub-focus", activeSource) : localStorage.removeItem("fmm-hub-focus"); }catch(e){}
 }
@@ -853,30 +845,23 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 
 // ╭─────────────────────────────────────────────────────────────────╮
 // │ TO-DO FMM · promemoria personali, cross-device                  │
-// │ Persistenza: riusa il Worker dismiss già esistente.             │
+// │ Logica block-notes: aggiungi → elimina (× hard delete).         │
+// │ Persistenza: riusa il Worker dismiss esistente.                 │
 // │                                                                 │
 // │ Schema v3 (corrente) dentro DISMISSED:                          │
-// │   __TASK__|<ts>|<urlencoded-json>      = task attiva            │
-// │   __TASKDONE__|<done_ts>|<urlencoded-json> = archivio counter   │
+// │   __TASK__|<ts>|<urlencoded-json>                               │
 // │   JSON payload: {t:title, c:cliente, a:attivita, g:tag, n:note} │
 // │                                                                 │
-// │ Schema v2 (legacy, read-only):                                  │
-// │   __TODO__|<ts>|<tag>|<text>           → mapped al campo title  │
-// │   __DONE__|<done_ts>|<tag>|<text>                               │
-// │                                                                 │
-// │ Schema v1 (legacy, read-only):                                  │
-// │   __TODO__|<ts>|<text>                 → tag="" title=text      │
-// │                                                                 │
-// │ × non elimina: ARCHIVIA. La task diventa __TASKDONE__ e         │
-// │ popola il counter del mese in cui è stata chiusa.               │
+// │ Schema legacy (read-only, retrocompatibilità):                  │
+// │   __TODO__|<ts>|<tag>|<text>  (v2) → title=text                 │
+// │   __TODO__|<ts>|<text>        (v1) → title=text, tag=""         │
+// │   __TASKDONE__/__DONE__ presenti? → ignorati, vecchi archivi    │
 // ╰─────────────────────────────────────────────────────────────────╯
 const TASK_PREFIX = "__TASK__|";
-const TASKDONE_PREFIX = "__TASKDONE__|";
-const TODO_PREFIX = "__TODO__|";     // legacy v1/v2
-const DONE_PREFIX = "__DONE__|";     // legacy v2
+const TASKDONE_PREFIX = "__TASKDONE__|";  // legacy archivio, ignorato
+const TODO_PREFIX = "__TODO__|";          // legacy v1/v2
+const DONE_PREFIX = "__DONE__|";          // legacy archivio, ignorato
 const TODOS_LOCAL_KEY = "fmm-todos-cache-v3";
-
-const MONTHS_IT = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
 
 function isTodoSpecialKey(k){
   return k.startsWith(TASK_PREFIX) || k.startsWith(TASKDONE_PREFIX)
@@ -893,16 +878,6 @@ function encodeTask(ts, fields){
     n: fields.note || ""
   };
   return TASK_PREFIX + ts + "|" + encodeURIComponent(JSON.stringify(payload));
-}
-function encodeTaskDone(doneTs, fields){
-  const payload = {
-    t: fields.title || "",
-    c: fields.cliente || "",
-    a: fields.attivita || "",
-    g: fields.tag || "",
-    n: fields.note || ""
-  };
-  return TASKDONE_PREFIX + doneTs + "|" + encodeURIComponent(JSON.stringify(payload));
 }
 function decodePayload(s){
   try { return JSON.parse(decodeURIComponent(s)); } catch(e) { return null; }
@@ -933,27 +908,6 @@ function decodeTodo(key){
   }
   return null;
 }
-// Ritorna { doneTs, title, cliente, attivita, tag, note, key } per task chiuse
-function decodeDone(key){
-  // v3
-  if(key.startsWith(TASKDONE_PREFIX)){
-    const rest = key.slice(TASKDONE_PREFIX.length);
-    const i = rest.indexOf("|"); if(i < 0) return null;
-    const doneTs = parseInt(rest.slice(0, i), 10); if(isNaN(doneTs)) return null;
-    const p = decodePayload(rest.slice(i + 1)); if(!p || !p.t) return null;
-    return { doneTs, title: p.t, cliente: p.c || "", attivita: p.a || "", tag: p.g || "", note: p.n || "", key };
-  }
-  // v2 legacy
-  if(key.startsWith(DONE_PREFIX)){
-    const parts = key.slice(DONE_PREFIX.length).split("|");
-    if(parts.length < 3) return null;
-    const doneTs = parseInt(parts[0], 10); if(isNaN(doneTs)) return null;
-    const tag = parts[1] || "";
-    const text = parts.slice(2).join("|"); if(!text) return null;
-    return { doneTs, title: text, cliente: "", attivita: "", tag, note: "", key };
-  }
-  return null;
-}
 
 // Estrae #tag inline dal testo (primo match). Tag sanitizzato a-z0-9_- minuscolo.
 function extractInlineTag(text){
@@ -975,25 +929,9 @@ function getActiveTodos(){
   DISMISSED.forEach(k => { const t = decodeTodo(k); if(t) out.push(t); });
   return out;
 }
-function getDoneTodos(){
-  const out = [];
-  DISMISSED.forEach(k => { const t = decodeDone(k); if(t) out.push(t); });
-  return out;
-}
 
 // Stato vista locale (non sincronizzato)
 let todoFilterTag = null;     // null = mostra tutti i gruppi; "" = solo "senza tag"; "aghc" = solo #aghc
-let todoStatsMonth = null;    // {y, m}; null = mese corrente
-function getStatsMonth(){
-  if(todoStatsMonth) return todoStatsMonth;
-  const n = new Date();
-  return { y: n.getFullYear(), m: n.getMonth() };
-}
-function formatMonth(sm){ return MONTHS_IT[sm.m] + " " + String(sm.y).slice(-2); }
-function isSameMonth(ts, sm){
-  const d = new Date(ts);
-  return d.getFullYear() === sm.y && d.getMonth() === sm.m;
-}
 
 function renderTodos(){
   const list = $("todo-list"); if(!list) return;
@@ -1015,26 +953,17 @@ function renderTodos(){
     localStorage.setItem(TODOS_LOCAL_KEY, JSON.stringify(all));
   } catch(e){}
 
-  const done = getDoneTodos();
-  const sm = getStatsMonth();
-  const doneThisMonth = done.filter(t => isSameMonth(t.doneTs, sm));
-
-  // Counter per tag (aperte + chiuse nel mese selezionato)
+  // Counter per tag (solo task aperte — block notes)
   const tagStats = {};
   active.forEach(t => {
     const k = t.tag || "";
-    if(!tagStats[k]) tagStats[k] = { open: 0, closed: 0 };
+    if(!tagStats[k]) tagStats[k] = { open: 0 };
     tagStats[k].open++;
-  });
-  doneThisMonth.forEach(t => {
-    const k = t.tag || "";
-    if(!tagStats[k]) tagStats[k] = { open: 0, closed: 0 };
-    tagStats[k].closed++;
   });
   const tagKeys = Object.keys(tagStats).sort((a,b) => {
     if(a === "" && b !== "") return 1;
     if(b === "" && a !== "") return -1;
-    const d = (tagStats[b].open + tagStats[b].closed) - (tagStats[a].open + tagStats[a].closed);
+    const d = tagStats[b].open - tagStats[a].open;
     if(d !== 0) return d;
     return a.localeCompare(b);
   });
@@ -1043,18 +972,15 @@ function renderTodos(){
   const stats = $("todo-stats");
   if(stats){
     const totOpen = active.length;
-    const totClosed = doneThisMonth.length;
     let html = '';
-    html += `<button class="tg-chip ${todoFilterTag === null ? 'active' : ''}" data-tag="__ALL__">Tutti <span class="ct">${totOpen}·${totClosed}</span></button>`;
+    html += `<button class="tg-chip ${todoFilterTag === null ? 'active' : ''}" data-tag="__ALL__">Tutti <span class="ct">${totOpen}</span></button>`;
     tagKeys.forEach(k => {
       const lbl = k ? '#' + esc(k) : 'senza tag';
       const cls = todoFilterTag === k ? 'active' : '';
-      html += `<button class="tg-chip ${cls}" data-tag="${esc(k)}">${lbl} <span class="ct">${tagStats[k].open}·${tagStats[k].closed}</span></button>`;
+      html += `<button class="tg-chip ${cls}" data-tag="${esc(k)}">${lbl} <span class="ct">${tagStats[k].open}</span></button>`;
     });
     stats.innerHTML = html;
   }
-  const monthEl = $("todo-month");
-  if(monthEl) monthEl.textContent = formatMonth(sm);
 
   // ── Lista task attive raggruppate per tag ──
   list.innerHTML = "";
@@ -1062,7 +988,7 @@ function renderTodos(){
     list.innerHTML = '<div class="placeholder">Nessun promemoria<small>aggiungi sopra ↑</small></div>';
   } else {
     const visibleTags = (todoFilterTag === null)
-      ? tagKeys.filter(k => tagStats[k].open > 0)
+      ? tagKeys
       : (tagStats[todoFilterTag] ? [todoFilterTag] : []);
     if(!visibleTags.length){
       list.innerHTML = '<div class="placeholder">Nessun promemoria con questo tag</div>';
@@ -1074,7 +1000,7 @@ function renderTodos(){
         header.className = "todo-group-header";
         const lbl = tagKey ? '#' + esc(tagKey) : 'senza tag';
         const s = tagStats[tagKey];
-        header.innerHTML = `<span class="name">${lbl}</span><span class="todo-group-meta">${s.open} aperte · ${s.closed} chiuse a ${formatMonth(sm)}</span>`;
+        header.innerHTML = `<span class="name">${lbl}</span><span class="todo-group-meta">${s.open}</span>`;
         list.appendChild(header);
         tagTodos.forEach(t => {
           const d = document.createElement("div");
@@ -1096,10 +1022,9 @@ function renderTodos(){
     }
   }
 
-  // Popola datalist (cliente, attività, tag) con valori storici
+  // Popola datalist (cliente, attività, tag) con valori storici delle task aperte
   const clienti = new Set(), attivita = new Set(), tags = new Set();
   active.forEach(t => { if(t.cliente) clienti.add(t.cliente); if(t.attivita) attivita.add(t.attivita); if(t.tag) tags.add(t.tag); });
-  done.forEach(t => { if(t.cliente) clienti.add(t.cliente); if(t.attivita) attivita.add(t.attivita); if(t.tag) tags.add(t.tag); });
   fillDatalist("cli-list", clienti);
   fillDatalist("att-list", attivita);
   fillDatalist("todo-tag-list", tags);
@@ -1143,17 +1068,9 @@ function addTask(fields){
 
 function deleteTodo(key){
   if(!key) return;
-  const t = decodeTodo(key);
+  // Hard delete (block-notes: niente archivio)
   DISMISSED.delete(key);
   syncRemote("remove", key);
-  // Archivia per counter
-  if(t){
-    const doneKey = encodeTaskDone(Date.now(), {
-      title: t.title, cliente: t.cliente, attivita: t.attivita, tag: t.tag, note: t.note
-    });
-    DISMISSED.add(doneKey);
-    syncRemote("add", doneKey);
-  }
   persistDismissed();
   renderTodos();
 }
@@ -1193,8 +1110,6 @@ function submitForm(){
 
 function initTodos(){
   const stats = $("todo-stats");
-  const mPrev = $("todo-month-prev");
-  const mNext = $("todo-month-next");
   const openBtn = $("tf-open");
   const saveBtn = $("tf-save");
   const cancelBtn = $("tf-cancel");
@@ -1237,16 +1152,6 @@ function initTodos(){
       renderTodos();
     });
   }
-  if(mPrev) mPrev.addEventListener("click", () => {
-    const sm = getStatsMonth(); let y = sm.y, m = sm.m - 1;
-    if(m < 0){ m = 11; y--; }
-    todoStatsMonth = { y, m }; renderTodos();
-  });
-  if(mNext) mNext.addEventListener("click", () => {
-    const sm = getStatsMonth(); let y = sm.y, m = sm.m + 1;
-    if(m > 11){ m = 0; y++; }
-    todoStatsMonth = { y, m }; renderTodos();
-  });
   renderTodos();
 }
 initTodos();
