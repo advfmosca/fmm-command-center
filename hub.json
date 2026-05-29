@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T15:40:05+02:00",
+  "updated_at": "2026-05-29T15:40:52+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -301,6 +301,17 @@
     }
   ],
   "monday_mentions": [
+    {
+      "name": "@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?",
+      "subtitle": "Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/9441796229?postId=4892091776",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "Fra puoi inserire le promo di Puntebianche Resort",
       "subtitle": "Puntebianche Resort · AG Squad - PED 2026 AG · 29/05",
