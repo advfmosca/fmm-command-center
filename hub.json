@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T17:43:50+02:00",
+  "updated_at": "2026-05-29T19:04:25+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -344,80 +344,25 @@
   ],
   "asana": [
     {
-      "name": "Wordpress Aziendale",
-      "project": "Generale",
-      "notes": null,
-      "due": "2026-05-07",
-      "days_to_due": -22,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633430",
-      "is_aghc": false
-    },
-    {
-      "name": "Dolmen",
-      "project": "Generale",
-      "notes": null,
-      "due": "2026-05-08",
-      "days_to_due": -21,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214320947633428",
-      "is_aghc": false
-    },
-    {
-      "name": "oggi sento Andres per la carta da sostituire su meta poi ti aggiorno",
-      "project": "HOY village",
-      "notes": null,
-      "due": "2026-05-19",
-      "days_to_due": -10,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1213134542985922/task/1214800644937102",
-      "is_aghc": false
-    },
-    {
-      "name": "Report ADV BeeFamily",
-      "project": "Generale",
-      "notes": null,
-      "due": "2026-05-22",
-      "days_to_due": -7,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808462330671",
-      "is_aghc": false
-    },
-    {
-      "name": "Report ADV Clienti ",
+      "name": "Report ADV Clienti",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
-      "due": "2026-05-22",
-      "days_to_due": -7,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1214808713739118",
-      "is_aghc": false
-    },
-    {
-      "name": "Report ADV BeeFamily",
-      "project": "Generale",
-      "notes": null,
       "due": "2026-05-29",
       "days_to_due": 0,
       "is_today": true,
       "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1215163241240361",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250251436356",
       "is_aghc": false
     },
     {
-      "name": "account  pubblicitario per ig e yt --> ",
-      "project": "Tasto 9",
-      "notes": "tasto nome gmail\n\ntastonovepodcast@gmail.com\nTasto9bee25!",
-      "due": null,
-      "days_to_due": null,
+      "name": "Report ADV BeeFamily",
+      "project": "Generale",
+      "notes": "",
+      "due": "2026-06-05",
+      "days_to_due": 7,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1212704792995349",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250332967041",
       "is_aghc": false
     }
   ],

@@ -784,19 +784,34 @@ function makeItem(key, url, flags){
 // ── Renderers ──
 function renderCal(items){
   const box=$("cards-cal"); box.innerHTML="";
-  // Nascondi eventi già passati (grace: 30 min dopo lo start per non far sparire troppo presto le call in corso)
+  // Filtra: solo OGGI + DOMANI (con grace 30min sugli eventi appena passati di oggi)
+  const now = new Date();
+  const todayKey0 = now.toDateString();
+  const tomorrow = new Date(now); tomorrow.setDate(now.getDate() + 1);
+  const tomorrowKey0 = tomorrow.toDateString();
   const nowMs = Date.now();
   const GRACE_MS = 30 * 60 * 1000;
   items = (items||[]).filter(ev => {
-    const t = new Date(ev.start_iso).getTime();
-    return !isNaN(t) && (t + GRACE_MS) >= nowMs;
+    const t = new Date(ev.start_iso);
+    if(isNaN(t.getTime())) return false;
+    const dKey = t.toDateString();
+    if(dKey !== todayKey0 && dKey !== tomorrowKey0) return false;
+    // Per gli eventi di oggi, nascondi quelli passati da più di 30min
+    if(dKey === todayKey0 && (t.getTime() + GRACE_MS) < nowMs) return false;
+    return true;
   });
-  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun evento in programma</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
-  let last=""; const todayKey=new Date().toDateString(); let todayCount=0;
+  if(!items.length){ box.innerHTML='<div class="placeholder">Nessun impegno oggi né domani</div>'; $("count-cal").textContent="0"; $("k-cal").textContent="0"; return; }
+  let last=""; const todayKey=new Date().toDateString();
+  const tmw=new Date(); tmw.setDate(tmw.getDate()+1); const tomorrowKey=tmw.toDateString();
+  let todayCount=0;
   items.forEach(ev=>{
     const s=new Date(ev.start_iso); const dKey=s.toDateString();
     if(dKey===todayKey) todayCount++;
-    if(dKey!==last){ const h=document.createElement("div"); h.className="day-group"; h.textContent=dKey===todayKey?"Oggi":fmtDateShort(s); box.appendChild(h); last=dKey; }
+    if(dKey!==last){
+      const h=document.createElement("div"); h.className="day-group";
+      h.textContent = dKey===todayKey ? "Oggi" : (dKey===tomorrowKey ? "Domani" : fmtDateShort(s));
+      box.appendChild(h); last=dKey;
+    }
     const a = makeItem(ev.html_link, ev.html_link, {is_today: dKey===todayKey, is_urgent: ev.is_urgent, is_aghc: ev.is_aghc});
     const p=[`<span class="pill time">${esc(fmtTime(s))}</span>`];
     if(ev.conference_url) p.push(`<span class="pill ok">Meet</span>`);
