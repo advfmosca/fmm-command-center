@@ -209,14 +209,14 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .todo-group-header:first-child { border-top: 0; margin-top: 0; padding-top: 4px; }
 .todo-group-header .name { color: var(--text); text-transform: lowercase; letter-spacing: 0.01em; }
 .todo-group-header .todo-group-meta { font-size: 11px; font-weight: 500; color: var(--text-dim); }
-/* Grid responsive: i todo si dispongono in colonne man mano che si aggiungono */
+/* Layout verticale single-column (priorità su deadline imminenti) */
 #todo-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 8px;
+  display: flex; flex-direction: column; gap: 8px;
+  max-width: 760px; margin: 0 auto;
 }
-#todo-list .placeholder { grid-column: 1 / -1; }
 #todo-list .todo-item { margin-bottom: 0; }
+#todo-list .todo-item .title { cursor: pointer; }
+#todo-list .todo-item .title:hover { color: var(--blue); }
 
 /* Bottone "+ Nuovo promemoria" (chiuso) */
 .tf-open-btn {
@@ -260,6 +260,89 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .tf-actions button.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
 .tf-actions button.primary:hover { filter: brightness(1.08); background: var(--blue); }
 .tf-actions button.primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Combobox cliente (input + ▾ button + popup lista) */
+.combo { position: relative; display: flex; }
+.combo input { padding-right: 30px !important; }
+.combo .combo-toggle {
+  position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+  width: 24px; height: 24px; border: 0; background: transparent;
+  color: var(--text-muted); cursor: pointer; font-size: 12px;
+  border-radius: 5px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.combo .combo-toggle:hover { background: var(--bg-soft); color: var(--blue); }
+.combo .combo-popup {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: #fff; border: 1px solid var(--border); border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.10);
+  max-height: 220px; overflow-y: auto; z-index: 50;
+  display: flex; flex-direction: column;
+}
+.combo .combo-popup:empty::before {
+  content: "Nessun cliente — scrivi per inserirne uno nuovo";
+  font-size: 12px; color: var(--text-dim); padding: 10px 12px; font-style: italic;
+}
+.combo .combo-popup button {
+  border: 0; background: transparent; text-align: left;
+  padding: 8px 12px; font-size: 13px; cursor: pointer; color: var(--text);
+  font-family: inherit; border-bottom: 1px solid var(--border-soft);
+}
+.combo .combo-popup button:last-child { border-bottom: 0; }
+.combo .combo-popup button:hover { background: var(--bg-soft); color: var(--blue); }
+
+/* Modal task detail */
+.task-modal-overlay {
+  position: fixed; inset: 0; background: rgba(15,15,20,0.5);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10000; padding: 20px; backdrop-filter: blur(2px);
+}
+.task-modal {
+  position: relative; background: #fff; border-radius: 14px;
+  width: 100%; max-width: 600px; max-height: 86vh; overflow: auto;
+  padding: 26px 24px 20px; box-shadow: 0 20px 60px rgba(0,0,0,.25);
+}
+.task-modal .modal-close {
+  position: absolute; top: 12px; right: 12px;
+  width: 30px; height: 30px; border: 0; background: var(--bg-soft);
+  border-radius: 8px; cursor: pointer; font-size: 18px; line-height: 1;
+  color: var(--text-muted); padding: 0;
+}
+.task-modal .modal-close:hover { background: #fee2e2; color: #991b1b; }
+.task-modal .m-title { font-size: 18px; font-weight: 700; line-height: 1.3; margin: 0 32px 8px 0; word-break: break-word; }
+.task-modal .m-meta { display: flex; flex-wrap: wrap; gap: 5px 8px; margin-bottom: 8px; }
+.task-modal .m-meta .ml-pill { background: #eef2ff; color: #1e3a8a; padding: 2px 9px; border-radius: 999px; font-weight: 600; font-size: 11.5px; }
+.task-modal .m-meta .ml-pill.cliente { background: #eafff1; color: #14532d; }
+.task-modal .m-meta .ml-pill.attivita { background: #ffedd5; color: #9a3412; }
+.task-modal .m-meta .ml-pill.tag { background: #ede0ff; color: #4c1d95; }
+.task-modal .m-row { font-size: 12.5px; color: var(--text-muted); margin: 2px 0; }
+.task-modal .m-deadline { font-size: 13px; font-weight: 600; margin: 4px 0 12px; display: inline-flex; gap: 4px; }
+.task-modal .m-deadline.ok    { color: #14532d; }
+.task-modal .m-deadline.warn  { color: #9a3412; }
+.task-modal .m-deadline.danger{ color: #991b1b; }
+.task-modal h4 { margin: 16px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); }
+.task-modal .m-notes { display: flex; flex-direction: column; gap: 6px; }
+.task-modal .m-notes .note-entry { font-size: 13px; line-height: 1.45; color: var(--text); display: flex; gap: 8px; padding: 8px 10px; background: var(--bg-soft); border-radius: 8px; }
+.task-modal .m-notes .note-entry .nts { color: var(--text-dim); font-size: 11px; font-weight: 700; white-space: nowrap; padding-top: 2px; min-width: 86px; }
+.task-modal .m-notes .note-entry .ntx { flex: 1; word-break: break-word; }
+.task-modal .m-notes:empty::before { content: "Nessuna nota"; font-size: 12.5px; color: var(--text-dim); font-style: italic; }
+.task-modal .m-addnote { display: flex; gap: 6px; margin-top: 10px; }
+.task-modal .m-addnote input {
+  flex: 1; border: 1px solid var(--border); border-radius: 8px;
+  padding: 8px 10px; font-size: 13px; font-family: inherit; background: #fff; outline: none;
+}
+.task-modal .m-addnote input:focus { border-color: #b8c4dd; }
+.task-modal .m-addnote button {
+  border: 0; background: var(--blue); color: #fff; border-radius: 8px;
+  padding: 0 16px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.task-modal .m-addnote button:hover { filter: brightness(1.08); }
+.task-modal .m-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+.task-modal .m-actions .delete-btn {
+  border: 1px solid #fecaca; background: #fff; color: #991b1b;
+  border-radius: 8px; padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.task-modal .m-actions .delete-btn:hover { background: #fee2e2; }
 
 /* Card task arricchita */
 .todo-item .title { font-weight: 600; font-size: 13.5px; line-height: 1.3; word-break: break-word; display: block; }
@@ -415,7 +498,11 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       <div id="todo-form" class="todo-form" hidden>
         <input id="tf-title" type="text" placeholder="Titolo task" maxlength="120" autocomplete="off" />
         <div class="tf-row">
-          <input id="tf-cliente" type="text" placeholder="Cliente (diventa anche tag)" list="cli-list" autocomplete="off" maxlength="60" />
+          <div class="combo">
+            <input id="tf-cliente" type="text" placeholder="Cliente (diventa anche tag)" list="cli-list" autocomplete="off" maxlength="60" />
+            <button type="button" class="combo-toggle" id="tf-cliente-toggle" title="Apri lista clienti">▾</button>
+            <div class="combo-popup" id="cli-popup" hidden></div>
+          </div>
           <input id="tf-attivita" type="text" placeholder="Attività" list="att-list" autocomplete="off" maxlength="60" />
           <input id="tf-deadline" type="date" />
         </div>
@@ -436,6 +523,13 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   <div class="signature">© Francesco Maria Mosca · FMM Consulting</div>
 </div>
 <div class="toast-wrap" id="toast-wrap"></div>
+
+<div class="task-modal-overlay" id="task-modal" hidden>
+  <div class="task-modal" id="task-modal-body">
+    <button class="modal-close" id="task-modal-close" title="Chiudi">×</button>
+    <div id="task-modal-content"></div>
+  </div>
+</div>
 
 <script>
 "use strict";
@@ -1073,61 +1167,57 @@ function renderTodos(){
     stats.innerHTML = html;
   }
 
-  // ── Lista task attive raggruppate per tag ──
+  // ── Lista task attive: flat verticale, ordinata per priorità ──
+  // Sort rule:
+  //   1. Tasks con deadline imminente (≤ 7g, incluso scadute) → prima, per deadline asc
+  //   2. Altre task (no deadline o deadline lontana > 7g)      → poi, per ts asc (oldest first)
   list.innerHTML = "";
-  if(!active.length){
-    list.innerHTML = '<div class="placeholder">Nessun promemoria<small>aggiungi sopra ↑</small></div>';
+  let visible = (todoFilterTag === null) ? active : active.filter(t => (t.tag || "") === todoFilterTag);
+  visible.sort((a, b) => {
+    const da = a.deadline ? daysUntilDeadline(a.deadline) : null;
+    const db = b.deadline ? daysUntilDeadline(b.deadline) : null;
+    const aImm = (da !== null) && da <= 7;
+    const bImm = (db !== null) && db <= 7;
+    if(aImm && !bImm) return -1;
+    if(bImm && !aImm) return 1;
+    if(aImm && bImm) return da - db;       // più imminente prima
+    return a.ts - b.ts;                    // resto: più vecchie prima
+  });
+
+  if(!visible.length){
+    list.innerHTML = '<div class="placeholder">' +
+      (active.length === 0 ? 'Nessun promemoria<small>aggiungi sopra ↑</small>' : 'Nessun promemoria con questo tag') +
+      '</div>';
   } else {
-    const visibleTags = (todoFilterTag === null)
-      ? tagKeys
-      : (tagStats[todoFilterTag] ? [todoFilterTag] : []);
-    if(!visibleTags.length){
-      list.innerHTML = '<div class="placeholder">Nessun promemoria con questo tag</div>';
-    } else {
-      visibleTags.forEach(tagKey => {
-        const tagTodos = active.filter(t => (t.tag || "") === tagKey).sort((a,b) => b.ts - a.ts);
-        if(!tagTodos.length) return;
-        const header = document.createElement("div");
-        header.className = "todo-group-header";
-        const lbl = tagKey ? '#' + esc(tagKey) : 'senza tag';
-        const s = tagStats[tagKey];
-        header.innerHTML = `<span class="name">${lbl}</span><span class="todo-group-meta">${s.open}</span>`;
-        list.appendChild(header);
-        tagTodos.forEach(t => {
-          const d = document.createElement("div");
-          d.className = "todo-item";
-          d.dataset.key = t.key;
-          // Meta line (cliente · attività · #tag)
-          const metaBits = [];
-          if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
-          if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
-          if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
-          // Deadline + countdown
-          let deadlineHTML = "";
-          if(t.deadline){
-            const days = daysUntilDeadline(t.deadline);
-            const lbl = deadlineLabel(days);
-            deadlineHTML = `<div class="deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} <span class="cd">· ${lbl.txt}</span></div>`;
-          }
-          // Notes thread (timestampate)
-          let notesHTML = "";
-          if(t.notes && t.notes.length){
-            notesHTML = '<div class="notes">' + t.notes.map(n =>
-              `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`
-            ).join("") + '</div>';
-          }
-          d.innerHTML =
-            '<button class="del" title="Elimina">×</button>' +
-            '<span class="title">' + esc(t.title) + '</span>' +
-            (metaBits.length ? '<div class="meta-line">' + metaBits.join("") + '</div>' : '') +
-            `<div class="created">Creata ${fmtDateTime(t.ts)}</div>` +
-            deadlineHTML +
-            notesHTML +
-            '<button class="add-note-btn" type="button">+ Aggiungi nota</button>';
-          list.appendChild(d);
-        });
-      });
-    }
+    visible.forEach(t => {
+      const d = document.createElement("div");
+      d.className = "todo-item";
+      d.dataset.key = t.key;
+      const metaBits = [];
+      if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
+      if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
+      if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
+      let deadlineHTML = "";
+      if(t.deadline){
+        const days = daysUntilDeadline(t.deadline);
+        const lbl = deadlineLabel(days);
+        deadlineHTML = `<div class="deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} <span class="cd">· ${lbl.txt}</span></div>`;
+      }
+      let notesHTML = "";
+      if(t.notes && t.notes.length){
+        notesHTML = '<div class="notes">' + t.notes.map(n =>
+          `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`
+        ).join("") + '</div>';
+      }
+      d.innerHTML =
+        '<button class="del" title="Elimina">×</button>' +
+        '<span class="title">' + esc(t.title) + '</span>' +
+        (metaBits.length ? '<div class="meta-line">' + metaBits.join("") + '</div>' : '') +
+        `<div class="created">Creata ${fmtDateTime(t.ts)}</div>` +
+        deadlineHTML +
+        notesHTML;
+      list.appendChild(d);
+    });
   }
 
   // Popola datalist (cliente, attività, tag) con valori storici delle task aperte
@@ -1240,6 +1330,117 @@ function submitForm(){
   closeTodoForm(true);
 }
 
+// ── Modal task detail ──
+let modalCurrentKey = null;
+
+function openTaskModal(key){
+  const t = decodeTodo(key);
+  if(!t) return;
+  modalCurrentKey = key;
+  const content = $("task-modal-content");
+  const metaBits = [];
+  if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
+  if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
+  if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
+  let deadlineHTML = "";
+  if(t.deadline){
+    const days = daysUntilDeadline(t.deadline);
+    const lbl = deadlineLabel(days);
+    deadlineHTML = `<div class="m-deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} · ${lbl.txt}</div>`;
+  }
+  let notesHTML = '<div class="m-notes">';
+  (t.notes || []).forEach(n => {
+    notesHTML += `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`;
+  });
+  notesHTML += '</div>';
+  content.innerHTML =
+    `<div class="m-title">${esc(t.title)}</div>` +
+    (metaBits.length ? `<div class="m-meta">${metaBits.join("")}</div>` : "") +
+    `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
+    deadlineHTML +
+    '<h4>Note</h4>' + notesHTML +
+    '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button">Aggiungi</button></div>' +
+    '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button">Elimina task</button></div>';
+  $("task-modal").hidden = false;
+  // Listeners interni
+  const inp = $("m-note-input");
+  const addBtn = $("m-note-add");
+  const delBtn = $("m-delete");
+  const submit = () => {
+    if(!modalCurrentKey) return;
+    const txt = inp.value.trim();
+    if(!txt){ inp.focus(); return; }
+    const t0 = decodeTodo(modalCurrentKey);
+    if(!t0) return;
+    addNoteToTask(modalCurrentKey, txt);
+    // addNoteToTask cambia la key → trova la nuova key per la stessa ts e riapri modal
+    const newKey = findTaskKeyByTs(t0.ts);
+    inp.value = "";
+    if(newKey){ openTaskModal(newKey); }
+    else { closeTaskModal(); }
+  };
+  if(addBtn) addBtn.addEventListener("click", submit);
+  if(inp){
+    inp.addEventListener("keydown", e => {
+      if(e.key === "Enter"){ e.preventDefault(); submit(); }
+      if(e.key === "Escape"){ closeTaskModal(); }
+    });
+  }
+  if(delBtn) delBtn.addEventListener("click", () => {
+    if(!modalCurrentKey) return;
+    deleteTodo(modalCurrentKey);
+    closeTaskModal();
+  });
+  setTimeout(() => inp && inp.focus(), 60);
+}
+function closeTaskModal(){
+  $("task-modal").hidden = true;
+  modalCurrentKey = null;
+}
+function findTaskKeyByTs(ts){
+  let found = null;
+  DISMISSED.forEach(k => {
+    if(found) return;
+    const d = decodeTodo(k);
+    if(d && d.ts === ts) found = k;
+  });
+  return found;
+}
+
+// ── Combobox cliente (popup con lista click-to-fill) ──
+function setupCombobox(){
+  const toggle = $("tf-cliente-toggle");
+  const input = $("tf-cliente");
+  const popup = $("cli-popup");
+  if(!toggle || !input || !popup) return;
+  let isOpen = false;
+  const renderPopup = () => {
+    const clienti = new Set();
+    getActiveTodos().forEach(t => { if(t.cliente) clienti.add(t.cliente); });
+    popup.innerHTML = "";
+    [...clienti].sort((a,b)=>a.localeCompare(b)).forEach(name => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = name;
+      b.addEventListener("click", () => {
+        input.value = name; popup.hidden = true; isOpen = false;
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+        input.focus();
+      });
+      popup.appendChild(b);
+    });
+  };
+  const openPopup = () => { renderPopup(); popup.hidden = false; isOpen = true; };
+  const closePopup = () => { popup.hidden = true; isOpen = false; };
+  toggle.addEventListener("click", e => {
+    e.stopPropagation();
+    if(isOpen) closePopup(); else openPopup();
+  });
+  document.addEventListener("click", e => {
+    if(isOpen && !e.target.closest(".combo")) closePopup();
+  });
+  input.addEventListener("keydown", e => { if(e.key === "Escape") closePopup(); });
+}
+
 function initTodos(){
   const stats = $("todo-stats");
   const openBtn = $("tf-open");
@@ -1273,31 +1474,24 @@ function initTodos(){
   $("todo-list").addEventListener("click", e => {
     const item = e.target.closest(".todo-item"); if(!item) return;
     if(e.target.closest(".del")){ deleteTodo(item.dataset.key); return; }
-    // Click su "+ Aggiungi nota" → mostra input inline
-    const addBtn = e.target.closest(".add-note-btn");
-    if(addBtn){
-      // Sostituisci il bottone con riga input + bottoni save/cancel
-      const row = document.createElement("div");
-      row.className = "add-note-row";
-      row.innerHTML =
-        '<input type="text" placeholder="Nuova nota…" maxlength="500" />' +
-        '<button type="button" class="save" title="Salva">✓</button>' +
-        '<button type="button" class="cancel" title="Annulla">×</button>';
-      addBtn.replaceWith(row);
-      const inp = row.querySelector("input");
-      const save = () => {
-        addNoteToTask(item.dataset.key, inp.value);
-        // renderTodos verrà chiamato → row sparisce
-      };
-      row.querySelector(".save").addEventListener("click", save);
-      row.querySelector(".cancel").addEventListener("click", () => renderTodos());
-      inp.addEventListener("keydown", ev => {
-        if(ev.key === "Enter"){ ev.preventDefault(); save(); }
-        if(ev.key === "Escape"){ renderTodos(); }
-      });
-      setTimeout(() => inp.focus(), 30);
+    // Click sul titolo (o area card escluso ×) → apre il modal task
+    if(e.target.closest(".title") || e.target === item){
+      openTaskModal(item.dataset.key);
     }
   });
+  // Modal: close handlers
+  const modal = $("task-modal");
+  if(modal){
+    modal.addEventListener("click", e => {
+      if(e.target === modal) closeTaskModal();  // click su overlay
+    });
+    document.addEventListener("keydown", e => {
+      if(e.key === "Escape" && !modal.hidden) closeTaskModal();
+    });
+  }
+  const modalClose = $("task-modal-close");
+  if(modalClose) modalClose.addEventListener("click", closeTaskModal);
+  setupCombobox();
   if(stats){
     stats.addEventListener("click", e => {
       const chip = e.target.closest(".tg-chip"); if(!chip) return;
