@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T16:43:06+02:00",
+  "updated_at": "2026-05-29T17:17:48+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -584,6 +584,39 @@
   ],
   "zoho_projects": [
     {
+      "name": "A9Y6-T30 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - FARMACIA SANTORO · Aurora Scaccia · 29/05",
+      "notes": "Aurora Scaccia: «Greta Bellorini campagna ferma finchè non pagano fattura (mandata giorni fa). Francesco Maria Mosca slitta a mercoledi 3 giugno»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004904552",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A9Y6-T30 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - FARMACIA SANTORO · Aurora Scaccia · 29/05",
+      "notes": "Aurora Scaccia: «Greta Bellorini campagna ferma finchè non pagano fattura (mandata giorni fa). Francesco Maria Mosca slitta a mercoledi 3 giugno»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004904552",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "B179-T23 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - NOVAME' · Aurora Scaccia · 29/05",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis la cliente deve accettarmi nel bm ma non risponde, se non riesco ad entrare non posso fare la campagna. Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "B179-T23 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Aurora Scaccia · 29/05",
       "notes": "Aurora Scaccia: «stesso problema di sempre - serve che l'amministratore, dunque giuli o cliente, contatti assistenza e dica di sbloccare la situazione. già successo altre volte. NON SE NE PUOOOO. Alfredo De Grandis Gi…»",
@@ -663,7 +696,7 @@
     {
       "name": "L-FA-T411 Chiamata maggio 26 manager/beauty",
       "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Alfredo De Grandis · 28/05",
-      "notes": "Alfredo De Grandis: «Linda Nicetto può ripartire ho sistemato :) Aurora Scaccia Francesco Maria Mosca potete riattivare quella che c'è già senza che Linda ne prenoti un'altra e valutare come suggerisce di inserire nuove c…»",
+      "notes": "Alfredo De Grandis: «Linda Nicetto può ripartire ho sistemato :) Aurora Scaccia Francesco Maria Mosca potete riattivare quella che c'è già senza che Linda ne prenoti un'altra»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821059",
@@ -711,28 +744,6 @@
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A374-T266 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
-      "notes": "Edda De Mauri: «la cliente mi scrive cosi'. CEA Nelly Cociu: Edda. Devo inserire una persona nel mio account pubblicitario. Devo chiedere a voi di farlo perché io non ho modo. Per via del 2fa. potete sentirla voi? Al…»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
-      "notes": "Aurora Scaccia: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca. Aggiunte due creatività»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
