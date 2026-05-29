@@ -198,6 +198,32 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .tg-chip .ct { opacity: 0.7; font-weight: 600; font-size: 11px; margin-left: 2px; }
 .tg-chip.active .ct { opacity: 0.85; }
 
+/* Pannello statistiche fine mese (task terminate) */
+.todo-stats-footer {
+  margin-top: 18px; padding: 12px 14px;
+  background: #f6f9f6; border: 1px solid #d1e7d8; border-radius: 10px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.todo-stats-footer:empty { display: none; }
+.todo-stats-footer .sf-head {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 13px; font-weight: 700; color: #14532d;
+}
+.todo-stats-footer .sf-head .sf-month-nav { display: inline-flex; align-items: center; gap: 4px; }
+.todo-stats-footer .sf-head .sf-month-nav button {
+  width: 22px; height: 22px; border: 1px solid #d1e7d8; background: #fff;
+  border-radius: 6px; cursor: pointer; font-size: 14px; line-height: 1; padding: 0;
+}
+.todo-stats-footer .sf-head .sf-month-nav button:hover { background: #f6f9f6; }
+.todo-stats-footer .sf-head .sf-month { text-transform: capitalize; min-width: 80px; text-align: center; }
+.todo-stats-footer .sf-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.todo-stats-footer .sf-tags .sf-tag {
+  background: #fff; border: 1px solid #d1e7d8; border-radius: 999px;
+  padding: 3px 10px; font-size: 12px; color: #14532d; font-weight: 600;
+}
+.todo-stats-footer .sf-tags .sf-tag b { font-size: 12.5px; margin-left: 2px; }
+.todo-stats-footer .sf-empty { font-size: 12.5px; color: #4a7058; font-style: italic; }
+
 /* Header di gruppo per tag */
 .todo-group-header {
   grid-column: 1 / -1;
@@ -341,12 +367,18 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   padding: 0 16px; font-size: 13px; font-weight: 600; cursor: pointer;
 }
 .task-modal .m-addnote button:hover { filter: brightness(1.08); }
-.task-modal .m-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+.task-modal .m-actions { display: flex; justify-content: space-between; gap: 8px; margin-top: 18px; }
 .task-modal .m-actions .delete-btn {
   border: 1px solid #fecaca; background: #fff; color: #991b1b;
-  border-radius: 8px; padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
+  border-radius: 8px; padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
 }
 .task-modal .m-actions .delete-btn:hover { background: #fee2e2; }
+.task-modal .m-actions .done-btn {
+  border: 0; background: var(--green); color: #fff;
+  border-radius: 8px; padding: 8px 18px; font-size: 13px; font-weight: 700; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.task-modal .m-actions .done-btn:hover { filter: brightness(1.08); }
 
 /* Card task arricchita */
 .todo-item .title { font-weight: 600; font-size: 13.5px; line-height: 1.3; word-break: break-word; display: block; }
@@ -392,17 +424,27 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .col .body .todo-item:nth-of-type(even),
 #todo-list .todo-item:nth-of-type(even) { background: var(--zebra); }
 .todo-item:hover { border-color: #cdd3df; }
+.todo-item .done,
 .todo-item .del {
-  position: absolute; top: 6px; right: 6px;
-  width: 22px; height: 22px; border: 0; background: transparent;
-  color: var(--text-dim); cursor: pointer; font-size: 16px; line-height: 1;
-  border-radius: 5px; opacity: 0; transition: opacity .15s, background .15s, color .15s;
+  position: absolute; top: 6px;
+  width: 24px; height: 24px; border: 0; background: transparent;
+  color: var(--text-dim); cursor: pointer; font-size: 15px; line-height: 1;
+  border-radius: 6px; opacity: 0; transition: opacity .15s, background .15s, color .15s;
   display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 700;
 }
+.todo-item .done { right: 34px; }   /* ✓ a sinistra */
+.todo-item .del  { right: 6px;  }   /* × a destra  */
+.todo-item:hover .done,
 .todo-item:hover .del { opacity: 1; }
-/* Su mobile/touch, sempre visibile (non c'è hover) */
-@media (hover: none) { .todo-item .del { opacity: 0.7; } }
-.todo-item .del:hover { background: #fee2e2; color: #991b1b; }
+/* Mobile/touch: sempre visibili (no hover) */
+@media (hover: none) {
+  .todo-item .done, .todo-item .del { opacity: 0.7; }
+}
+.todo-item .done:hover { background: #d1fadf; color: #14532d; }
+.todo-item .del:hover  { background: #fee2e2; color: #991b1b; }
+/* Card .todo-item ha padding-right maggiore per dare spazio ai 2 bottoni */
+.todo-item { padding-right: 64px !important; }
 
 .placeholder { color: var(--text-dim); font-style: italic; font-size: 12.5px; padding: 18px 10px; text-align: center; }
 .placeholder small { display: block; margin-top: 4px; color: #b9c0cc; font-size: 11px; font-style: normal; }
@@ -526,6 +568,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       </div>
       <div id="todo-stats" class="todo-stats"></div>
       <div id="todo-list"></div>
+      <div id="todo-stats-footer" class="todo-stats-footer"></div>
     </div>
   </section>
 
@@ -1005,7 +1048,7 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 // │   __TASKDONE__/__DONE__ → ignorati                              │
 // ╰─────────────────────────────────────────────────────────────────╯
 const TASK_PREFIX = "__TASK__|";
-const TASKDONE_PREFIX = "__TASKDONE__|";  // legacy archivio, ignorato
+const TASKDONE_PREFIX = "__TASKDONE__|";  // archivio task terminate per stats mensili
 const TODO_PREFIX = "__TODO__|";          // legacy v1/v2
 const DONE_PREFIX = "__DONE__|";          // legacy archivio, ignorato
 const TODOS_LOCAL_KEY = "fmm-todos-cache-v4";
@@ -1026,6 +1069,37 @@ function encodeTask(ts, fields){
     d: fields.deadline || 0
   };
   return TASK_PREFIX + ts + "|" + encodeURIComponent(JSON.stringify(payload));
+}
+function encodeTaskDone(doneTs, fields){
+  const payload = {
+    t: fields.title || "",
+    c: fields.cliente || "",
+    a: fields.attivita || "",
+    g: fields.tag || "",
+    n: Array.isArray(fields.notes) ? fields.notes : [],
+    d: fields.deadline || 0
+  };
+  return TASKDONE_PREFIX + doneTs + "|" + encodeURIComponent(JSON.stringify(payload));
+}
+function decodeDone(key){
+  if(!key.startsWith(TASKDONE_PREFIX)) return null;
+  const rest = key.slice(TASKDONE_PREFIX.length);
+  const i = rest.indexOf("|"); if(i < 0) return null;
+  const doneTs = parseInt(rest.slice(0, i), 10); if(isNaN(doneTs)) return null;
+  const p = decodePayload(rest.slice(i + 1)); if(!p || !p.t) return null;
+  let notes = [];
+  if(Array.isArray(p.n)){
+    notes = p.n.filter(x => x && x.x).map(x => ({ t: x.t || 0, x: String(x.x) }));
+  }
+  return {
+    doneTs, title: p.t, cliente: p.c || "", attivita: p.a || "",
+    tag: p.g || "", notes, deadline: p.d || 0, key
+  };
+}
+function getDoneTodos(){
+  const out = [];
+  DISMISSED.forEach(k => { const t = decodeDone(k); if(t) out.push(t); });
+  return out;
 }
 function decodePayload(s){
   try { return JSON.parse(decodeURIComponent(s)); } catch(e) { return null; }
@@ -1144,6 +1218,17 @@ function getActiveTodos(){
 
 // Stato vista locale (non sincronizzato)
 let todoFilterTag = null;     // null = mostra tutti i gruppi; "" = solo "senza tag"; "aghc" = solo #aghc
+let statsMonth = null;        // {y,m}; null = mese corrente
+function getStatsMonth(){
+  if(statsMonth) return statsMonth;
+  const n = new Date();
+  return { y: n.getFullYear(), m: n.getMonth() };
+}
+function statsMonthLabel(sm){ return MONTHS_IT[sm.m] + " " + sm.y; }
+function inMonth(ts, sm){
+  const d = new Date(ts);
+  return d.getFullYear() === sm.y && d.getMonth() === sm.m;
+}
 
 function renderTodos(){
   const list = $("todo-list"); if(!list) return;
@@ -1238,7 +1323,8 @@ function renderTodos(){
         ).join("") + '</div>';
       }
       d.innerHTML =
-        '<button class="del" title="Elimina">×</button>' +
+        '<button class="done" title="Terminata (archivia per le stats)">✓</button>' +
+        '<button class="del" title="Elimina senza archivio">×</button>' +
         '<span class="title">' + esc(t.title) + '</span>' +
         (metaBits.length ? '<div class="meta-line">' + metaBits.join("") + '</div>' : '') +
         `<div class="created">Creata ${fmtDateTime(t.ts)}</div>` +
@@ -1256,8 +1342,51 @@ function renderTodos(){
   fillDatalist("todo-tag-list", tags);
 
   $("count-todos").textContent = active.length;
+  renderStatsFooter();
   // Aggiorna anche il KPI globale "Task aperti" così l'utente vede il delta subito
   if(typeof recalcCounts === "function") recalcCounts();
+}
+
+function renderStatsFooter(){
+  const box = $("todo-stats-footer"); if(!box) return;
+  const done = getDoneTodos();
+  const sm = getStatsMonth();
+  const monthDone = done.filter(t => inMonth(t.doneTs, sm));
+
+  // Aggrega per tag (anche "senza tag" se necessario)
+  const byTag = {};
+  monthDone.forEach(t => {
+    const k = t.tag || "(senza tag)";
+    byTag[k] = (byTag[k] || 0) + 1;
+  });
+  const tagKeys = Object.keys(byTag).sort((a,b) => byTag[b] - byTag[a]);
+
+  let html = '<div class="sf-head">' +
+    `<span>📊 ${monthDone.length} task terminate a <span class="sf-month">${esc(statsMonthLabel(sm))}</span></span>` +
+    '<span class="sf-month-nav">' +
+      '<button type="button" id="sf-prev" title="Mese precedente">‹</button>' +
+      '<button type="button" id="sf-next" title="Mese successivo">›</button>' +
+    '</span></div>';
+  if(monthDone.length === 0){
+    html += '<div class="sf-empty">Nessuna task terminata in questo mese. Usa il ✓ sulle card per archiviarle.</div>';
+  } else {
+    html += '<div class="sf-tags">' + tagKeys.map(k =>
+      `<span class="sf-tag">${k === "(senza tag)" ? "senza tag" : "#" + esc(k)} <b>${byTag[k]}</b></span>`
+    ).join("") + '</div>';
+  }
+  box.innerHTML = html;
+  // Naviga mese
+  const prev = $("sf-prev"), next = $("sf-next");
+  if(prev) prev.addEventListener("click", () => {
+    const cur = getStatsMonth(); let y = cur.y, m = cur.m - 1;
+    if(m < 0){ m = 11; y--; }
+    statsMonth = { y, m }; renderStatsFooter();
+  });
+  if(next) next.addEventListener("click", () => {
+    const cur = getStatsMonth(); let y = cur.y, m = cur.m + 1;
+    if(m > 11){ m = 0; y++; }
+    statsMonth = { y, m }; renderStatsFooter();
+  });
 }
 
 function fillDatalist(id, valSet){
@@ -1321,12 +1450,31 @@ function addNoteToTask(oldKey, noteText){
 
 function deleteTodo(key){
   if(!key) return;
-  // Hard delete (block-notes: niente archivio)
+  // Hard delete (NESSUN archivio — usa "Terminata" se vuoi che conti per le stats)
   DISMISSED.delete(key);
   syncRemote("remove", key);
   persistDismissed();
   renderTodos();
 }
+
+// Marca la task come Terminata: rimossa dagli attivi + archiviata per le stats.
+function markTaskDone(key){
+  if(!key) return;
+  const t = decodeTodo(key);
+  if(!t){ deleteTodo(key); return; }
+  // Sposta in archivio
+  const doneKey = encodeTaskDone(Date.now(), {
+    title: t.title, cliente: t.cliente, attivita: t.attivita,
+    tag: t.tag, notes: t.notes, deadline: t.deadline
+  });
+  DISMISSED.delete(key);
+  DISMISSED.add(doneKey);
+  persistDismissed();
+  renderTodos();
+  syncRemote("remove", key);
+  syncRemote("add", doneKey);
+}
+window.markTaskDone = markTaskDone;
 
 function openTodoForm(){
   $("todo-form").hidden = false;
@@ -1408,8 +1556,8 @@ function openTaskModal(key){
       `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
       deadlineHTML +
       '<h4>Note</h4>' + notesHTML +
-      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button" onclick="console.log(\'[Aggiungi clicked]\');if(window.modalAddNote)window.modalAddNote();return false;">Aggiungi</button></div>' +
-      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button" onclick="console.log(\'[Elimina clicked, key=\'+window.modalCurrentKey+\']\');if(window.modalDeleteTask)window.modalDeleteTask();return false;">Elimina task</button></div>';
+      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button" onclick="if(window.modalAddNote)window.modalAddNote();return false;">Aggiungi</button></div>' +
+      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button" onclick="if(window.modalDeleteTask)window.modalDeleteTask();return false;">Elimina</button><button class="done-btn" id="m-done" type="button" onclick="if(window.modalDoneTask)window.modalDoneTask();return false;">✓ Terminata</button></div>';
   } catch(err){
     console.error("openTaskModal render error:", err);
     html =
@@ -1440,6 +1588,11 @@ function modalDeleteTask(){
   if(modalCurrentKey){ deleteTodo(modalCurrentKey); }
   closeTaskModal();
 }
+function modalDoneTask(){
+  if(modalCurrentKey){ markTaskDone(modalCurrentKey); }
+  closeTaskModal();
+}
+window.modalDoneTask = modalDoneTask;
 function modalAddNote(){
   const inp = $("m-note-input");
   if(!inp || !modalCurrentKey){ return; }
@@ -1548,6 +1701,7 @@ function initTodos(){
 
   $("todo-list").addEventListener("click", e => {
     const item = e.target.closest(".todo-item"); if(!item) return;
+    if(e.target.closest(".done")){ markTaskDone(item.dataset.key); return; }
     if(e.target.closest(".del")){ deleteTodo(item.dataset.key); return; }
     // Apre il modal SOLO se è stato cliccato esattamente il titolo della card.
     // (Cliccare su deadline/note/pills non apre il modal — evita aperture accidentali.)
