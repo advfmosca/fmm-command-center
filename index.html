@@ -209,7 +209,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <div class="kpis">
     <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Asana@ + Canva + Monday + Monday@ + Zoho</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Asana@ + Canva + Monday + Zoho</div></div>
   </div>
 
   <div class="filter-bar">
@@ -238,10 +238,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <section class="col" data-source="monday">
       <h2><span class="col-ico">📋</span>Monday<span class="pill" id="count-monday">…</span></h2>
       <div class="body" id="cards-monday"><div class="skeleton"></div><div class="skeleton"></div></div>
-    </section>
-    <section class="col" data-source="monday-mentions">
-      <h2><span class="col-ico">📌</span>Monday @Te<span class="pill" id="count-monday-mentions">…</span></h2>
-      <div class="body" id="cards-monday-mentions"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
     <section class="col" data-source="zoho-projects">
       <h2><span class="col-ico">📂</span>Zoho Projects<span class="pill" id="count-zoho-proj">…</span></h2>
@@ -402,8 +398,7 @@ const EMPTY_STATES = {
   "asana":            { title: "Nessun task aperto" },
   "asana-mentions":   { title: "Nessuna mention aperta" },
   "canva":            { title: "Nessun tag aperto" },
-  "monday":           { title: "Nessun item assegnato" },
-  "monday-mentions":  { title: "Nessuna notifica recente" },
+  "monday":           { title: "Nessun item Monday" },
   "zoho-projects":    { title: "Nessun tag in attesa di risposta" }
 };
 
@@ -416,10 +411,9 @@ function recalcCounts(){
     {src: "asana-mentions",   cnt: "count-asana-mentions",   kpi: null,          todayOnly: false},
     {src: "canva",            cnt: "count-canva",            kpi: null,          todayOnly: false},
     {src: "monday",           cnt: "count-monday",           kpi: null,          todayOnly: false},
-    {src: "monday-mentions",  cnt: "count-monday-mentions",  kpi: null,          todayOnly: false},
     {src: "zoho-projects",    cnt: "count-zoho-proj",        kpi: null,          todayOnly: false},
   ];
-  let asanaVis = 0, asanaMentionsVis = 0, canvaVis = 0, mondayVis = 0, mondayMentionsVis = 0, zohoVis = 0;
+  let asanaVis = 0, asanaMentionsVis = 0, canvaVis = 0, mondayVis = 0, zohoVis = 0;
   cfg.forEach(c => {
     const col = document.querySelector(`.col[data-source="${c.src}"]`);
     if(!col) return;
@@ -441,7 +435,6 @@ function recalcCounts(){
     if(c.src === "asana-mentions") asanaMentionsVis = visible;
     if(c.src === "canva") canvaVis = visible;
     if(c.src === "monday") mondayVis = visible;
-    if(c.src === "monday-mentions") mondayMentionsVis = visible;
     if(c.src === "zoho-projects") zohoVis = visible;
 
     // Empty-state placeholder: se 0 visibili e box non ha già un placeholder,
@@ -463,8 +456,8 @@ function recalcCounts(){
       }
     }
   });
-  // KPI aggregato "Task aperti" = Asana + Asana Mentions + Canva + Monday + Monday Mentions + Zoho Projects (solo visibili)
-  $("k-asana").textContent = asanaVis + asanaMentionsVis + canvaVis + mondayVis + mondayMentionsVis + zohoVis;
+  // KPI aggregato "Task aperti" = Asana + Asana Mentions + Canva + Monday (items + mentions) + Zoho Projects (solo visibili)
+  $("k-asana").textContent = asanaVis + asanaMentionsVis + canvaVis + mondayVis + zohoVis;
 
   // ── Ricalcola i count dei project-group Asana e nascondi i gruppi vuoti ──
   // Fix bug: dopo dismiss, il badge totale Asana andava a 0 ma i pill dei project-group
@@ -657,11 +650,14 @@ async function loadHub(){
     renderGeneric("cards-asana-mentions", "count-asana-mentions", null, hub.asana_mentions || [], {
       emptyTitle: "Nessuna mention aperta"
     });
-    renderGeneric("cards-monday", "count-monday", null, hub.monday || [], {
-      emptyTitle: "Nessun item assegnato"
-    });
-    renderGeneric("cards-monday-mentions", "count-monday-mentions", null, hub.monday_mentions || [], {
-      emptyTitle: "Nessuna notifica recente"
+    // Unifico Monday item assegnati + Monday mentions in un'unica colonna.
+    // Le mention vanno prima (status_kind="danger"/"warn"), poi i task assegnati.
+    const mondayUnified = [
+      ...(hub.monday_mentions || []),
+      ...(hub.monday || [])
+    ];
+    renderGeneric("cards-monday", "count-monday", null, mondayUnified, {
+      emptyTitle: "Nessun item Monday"
     });
     renderGeneric("cards-zoho-proj", "count-zoho-proj", null, hub.zoho_projects || [], {
       emptyTitle: "Nessun tag in attesa di risposta"
