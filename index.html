@@ -1052,6 +1052,7 @@ const TASKDONE_PREFIX = "__TASKDONE__|";  // archivio task terminate per stats m
 const TODO_PREFIX = "__TODO__|";          // legacy v1/v2
 const DONE_PREFIX = "__DONE__|";          // legacy archivio, ignorato
 const TODOS_LOCAL_KEY = "fmm-todos-cache-v4";
+const MONTHS_IT = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 
 function isTodoSpecialKey(k){
   return k.startsWith(TASK_PREFIX) || k.startsWith(TASKDONE_PREFIX)
