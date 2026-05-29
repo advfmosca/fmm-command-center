@@ -500,7 +500,11 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
             <button type="button" class="combo-toggle" id="tf-cliente-toggle" title="Apri lista clienti">▾</button>
             <div class="combo-popup" id="cli-popup" hidden></div>
           </div>
-          <input id="tf-attivita" type="text" placeholder="Attività" list="att-list" autocomplete="off" maxlength="60" />
+          <div class="combo">
+            <input id="tf-attivita" type="text" placeholder="Attività" list="att-list" autocomplete="off" maxlength="60" />
+            <button type="button" class="combo-toggle" id="tf-attivita-toggle" title="Apri lista attività">▾</button>
+            <div class="combo-popup" id="att-popup" hidden></div>
+          </div>
           <input id="tf-deadline" type="date" />
         </div>
         <textarea id="tf-note" placeholder="Note (opzionale)" maxlength="500" rows="2"></textarea>
@@ -1454,18 +1458,20 @@ function findTaskKeyByTs(ts){
   return found;
 }
 
-// ── Combobox cliente (popup con lista click-to-fill) ──
-function setupCombobox(){
-  const toggle = $("tf-cliente-toggle");
-  const input = $("tf-cliente");
-  const popup = $("cli-popup");
+// ── Combobox riusabile (input + ▾ + popup con lista click-to-fill) ──
+// Costruisce un combobox per ogni coppia di id passata. Il valuesFn è una
+// funzione che ritorna l'insieme dei valori da mostrare nel popup, ricalcolata
+// ad ogni apertura per stare sempre allineata con i todos attivi.
+function buildCombobox(inputId, toggleId, popupId, valuesFn){
+  const toggle = $(toggleId);
+  const input = $(inputId);
+  const popup = $(popupId);
   if(!toggle || !input || !popup) return;
   let isOpen = false;
   const renderPopup = () => {
-    const clienti = new Set();
-    getActiveTodos().forEach(t => { if(t.cliente) clienti.add(t.cliente); });
+    const values = valuesFn();
     popup.innerHTML = "";
-    [...clienti].sort((a,b)=>a.localeCompare(b)).forEach(name => {
+    [...values].sort((a,b)=>a.localeCompare(b)).forEach(name => {
       const b = document.createElement("button");
       b.type = "button"; b.textContent = name;
       b.addEventListener("click", () => {
@@ -1483,9 +1489,22 @@ function setupCombobox(){
     if(isOpen) closePopup(); else openPopup();
   });
   document.addEventListener("click", e => {
-    if(isOpen && !e.target.closest(".combo")) closePopup();
+    if(isOpen && !e.target.closest(`#${popupId}`) && !e.target.closest(`#${toggleId}`)) closePopup();
   });
   input.addEventListener("keydown", e => { if(e.key === "Escape") closePopup(); });
+}
+
+function setupCombobox(){
+  buildCombobox("tf-cliente", "tf-cliente-toggle", "cli-popup", () => {
+    const s = new Set();
+    getActiveTodos().forEach(t => { if(t.cliente) s.add(t.cliente); });
+    return s;
+  });
+  buildCombobox("tf-attivita", "tf-attivita-toggle", "att-popup", () => {
+    const s = new Set();
+    getActiveTodos().forEach(t => { if(t.attivita) s.add(t.attivita); });
+    return s;
+  });
 }
 
 function initTodos(){
