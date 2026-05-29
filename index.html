@@ -161,10 +161,36 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .project-group:first-child { margin-top: 0; padding-top: 2px; }
 .project-group .pill { background: var(--border); color: #5a5a60; padding: 1px 7px; border-radius: 999px; font-size: 10px; font-weight: 600; letter-spacing: 0; text-transform: none; }
 
-/* ── To-Do FMM (col personale, localStorage) ──
-   Input nuova task + lista todos cliccabili (toggle done).
-   Le .todo-item NON sono <a>, sono <div> — nth-of-type lavora con <div>
-   anche qui ma all'interno della col-todos non c'è altro markup d'intralcio. */
+/* ── To-Do FMM (card a larghezza piena sotto al board) ── */
+.todo-card {
+  margin-top: 16px;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+  overflow: hidden; display: flex; flex-direction: column;
+}
+.todo-card > h2 {
+  margin: 0; padding: 11px 14px; font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; gap: 8px;
+  border-bottom: 1px solid var(--border-soft); background: var(--bg-soft);
+}
+.todo-card > h2 .col-ico {
+  width: 22px; height: 22px; border-radius: 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #fff; border: 1px solid var(--border); font-size: 12px;
+}
+.todo-card > h2 .pill {
+  font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+  background: var(--border); color: #5a5a60; margin-left: auto;
+}
+.todo-card .body { padding: 10px; }
+/* Grid responsive: i todo si dispongono in colonne man mano che si aggiungono */
+#todo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 8px;
+}
+#todo-list .placeholder { grid-column: 1 / -1; }
+#todo-list .todo-item { margin-bottom: 0; }
+
 .todo-input {
   display: flex; gap: 6px; padding: 8px 10px 10px;
   border-bottom: 1px solid var(--border-soft); background: #fff;
@@ -193,7 +219,8 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   user-select: none;
   transition: border-color .15s, background .15s;
 }
-.col .body .todo-item:nth-of-type(even) { background: var(--zebra); }
+.col .body .todo-item:nth-of-type(even),
+#todo-list .todo-item:nth-of-type(even) { background: var(--zebra); }
 .todo-item:hover { border-color: #cdd3df; }
 .todo-item .del {
   position: absolute; top: 6px; right: 6px;
@@ -278,16 +305,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       <h2><span class="col-ico">📅</span>Agenda FMM<span class="pill" id="count-cal">…</span></h2>
       <div class="body" id="cards-cal"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
-    <section class="col" data-source="todos">
-      <h2><span class="col-ico">📝</span>To-Do FMM<span class="pill" id="count-todos">…</span></h2>
-      <div class="body" id="cards-todos">
-        <div class="todo-input">
-          <input type="text" id="todo-new" placeholder="Aggiungi un promemoria…" maxlength="200" autocomplete="off" />
-          <button id="todo-add" title="Aggiungi">+</button>
-        </div>
-        <div id="todo-list"></div>
-      </div>
-    </section>
     <section class="col" data-source="asana">
       <h2><span class="col-ico">✅</span>Bee Family<span class="pill" id="count-asana">…</span></h2>
       <div class="body" id="cards-asana"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
@@ -305,6 +322,17 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       <div class="body" id="cards-canva"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
   </div>
+
+  <section class="todo-card" data-source="todos">
+    <h2><span class="col-ico">📝</span>To-Do FMM<span class="pill" id="count-todos">…</span></h2>
+    <div class="body" id="cards-todos">
+      <div class="todo-input">
+        <input type="text" id="todo-new" placeholder="Aggiungi un promemoria…" maxlength="200" autocomplete="off" />
+        <button id="todo-add" title="Aggiungi">+</button>
+      </div>
+      <div id="todo-list"></div>
+    </div>
+  </section>
 
   <div class="signature">© Francesco Maria Mosca · FMM Consulting</div>
 </div>
