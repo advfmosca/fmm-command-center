@@ -232,22 +232,57 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 #todo-list .placeholder { grid-column: 1 / -1; }
 #todo-list .todo-item { margin-bottom: 0; }
 
-.todo-input {
-  display: flex; gap: 6px; padding: 0 0 12px;
-  flex-wrap: wrap;
+/* Bottone "+ Nuovo promemoria" (chiuso) */
+.tf-open-btn {
+  display: block; width: 100%;
+  background: #fafafb; color: var(--text);
+  border: 1px dashed var(--border); border-radius: 8px;
+  padding: 10px 12px; font-size: 13px; font-weight: 600; font-family: inherit;
+  cursor: pointer; margin-bottom: 12px; text-align: left;
+  transition: background .12s, border-color .12s, color .12s;
 }
-.todo-input input {
+.tf-open-btn:hover { background: #f1f3f7; border-color: #cdd3df; color: var(--blue); }
+
+/* Form espanso */
+.todo-form {
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 12px; margin-bottom: 12px;
+  background: #fafafb; border: 1px solid var(--border); border-radius: 10px;
+}
+.todo-form input, .todo-form textarea {
   border: 1px solid var(--border); border-radius: 8px;
   padding: 9px 10px; font-size: 13px; font-family: inherit;
-  background: #fafafb; color: var(--text); outline: none;
-  transition: border-color .15s, background .15s;
+  background: #fff; color: var(--text); outline: none;
+  transition: border-color .15s;
+  width: 100%;
 }
-.todo-input input:focus { border-color: #b8c4dd; background: #fff; }
-.todo-input #todo-new { flex: 1; min-width: 200px; }
-.todo-input #todo-tag { width: 110px; flex: 0 0 110px; font-size: 12px; }
-@media (max-width: 520px) {
-  .todo-input #todo-tag { flex: 1 0 100%; width: 100%; }
+.todo-form input:focus, .todo-form textarea:focus { border-color: #b8c4dd; }
+.todo-form #tf-title { font-weight: 600; font-size: 14px; }
+.todo-form textarea { resize: vertical; min-height: 38px; line-height: 1.4; }
+.tf-row { display: grid; grid-template-columns: 1fr 1fr 130px; gap: 6px; }
+@media (max-width: 640px) {
+  .tf-row { grid-template-columns: 1fr; }
 }
+.tf-actions { display: flex; gap: 6px; justify-content: flex-end; margin-top: 2px; }
+.tf-actions button {
+  border: 1px solid var(--border); background: #fff; color: var(--text);
+  border-radius: 8px; padding: 7px 14px; font-size: 13px; font-weight: 600;
+  font-family: inherit; cursor: pointer;
+  transition: background .12s, border-color .12s, color .12s;
+}
+.tf-actions button:hover { background: var(--bg-soft); }
+.tf-actions button.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+.tf-actions button.primary:hover { filter: brightness(1.08); background: var(--blue); }
+.tf-actions button.primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Card task arricchita */
+.todo-item .title { font-weight: 600; font-size: 13.5px; line-height: 1.3; word-break: break-word; display: block; }
+.todo-item .meta-line { font-size: 11.5px; color: var(--text-muted); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.todo-item .meta-line .ml-pill { background: #eef2ff; color: #1e3a8a; padding: 1px 7px; border-radius: 999px; font-weight: 600; font-size: 10.5px; }
+.todo-item .meta-line .ml-pill.cliente { background: #eafff1; color: #14532d; }
+.todo-item .meta-line .ml-pill.attivita { background: #ffedd5; color: #9a3412; }
+.todo-item .meta-line .ml-pill.tag { background: #ede0ff; color: #4c1d95; }
+.todo-item .note { font-size: 11.5px; color: #4a4a50; line-height: 1.4; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .todo-input button {
   border: 0; background: var(--blue); color: #fff;
   border-radius: 8px; padding: 0 14px; font-size: 18px; font-weight: 600;
@@ -379,11 +414,22 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       </span>
     </h2>
     <div class="body" id="cards-todos">
-      <div class="todo-input">
-        <input type="text" id="todo-new" placeholder="Promemoria… (puoi usare #tag inline)" maxlength="200" autocomplete="off" />
-        <input type="text" id="todo-tag" placeholder="#tag" list="todo-tag-list" autocomplete="off" maxlength="30" />
+      <button id="tf-open" class="tf-open-btn" type="button">+ Nuovo promemoria</button>
+      <div id="todo-form" class="todo-form" hidden>
+        <input id="tf-title" type="text" placeholder="Titolo task" maxlength="120" autocomplete="off" />
+        <div class="tf-row">
+          <input id="tf-cliente" type="text" placeholder="Cliente" list="cli-list" autocomplete="off" maxlength="60" />
+          <input id="tf-attivita" type="text" placeholder="Attività" list="att-list" autocomplete="off" maxlength="60" />
+          <input id="tf-tag" type="text" placeholder="#tag" list="todo-tag-list" autocomplete="off" maxlength="30" />
+        </div>
+        <textarea id="tf-note" placeholder="Note (opzionale)" maxlength="500" rows="2"></textarea>
+        <datalist id="cli-list"></datalist>
+        <datalist id="att-list"></datalist>
         <datalist id="todo-tag-list"></datalist>
-        <button id="todo-add" title="Aggiungi">+</button>
+        <div class="tf-actions">
+          <button id="tf-save" class="primary" type="button">Aggiungi</button>
+          <button id="tf-cancel" type="button">Annulla</button>
+        </div>
       </div>
       <div id="todo-stats" class="todo-stats"></div>
       <div id="todo-list"></div>
@@ -517,9 +563,12 @@ function applyDismissed(){
       btn.onclick = (e) => isHidden ? undismissItem(k, e) : dismissItem(k, e);
     }
   });
-  // Conta solo i veri dismiss (escludi le entry __TODO__/__DONE__ del modulo todos)
+  // Conta solo i veri dismiss (escludi tutte le key del modulo To-Do)
   let dCount = 0;
-  DISMISSED.forEach(k => { if(!k.startsWith(TODO_PREFIX) && !k.startsWith(DONE_PREFIX)) dCount++; });
+  DISMISSED.forEach(k => {
+    if(!k.startsWith(TODO_PREFIX) && !k.startsWith(DONE_PREFIX)
+       && !k.startsWith(TASK_PREFIX) && !k.startsWith(TASKDONE_PREFIX)) dCount++;
+  });
   const tBtn = $("toggle-hidden");
   if(dCount > 0){
     tBtn.style.display = "";
@@ -806,49 +855,104 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 // │ TO-DO FMM · promemoria personali, cross-device                  │
 // │ Persistenza: riusa il Worker dismiss già esistente.             │
 // │                                                                 │
-// │ Schema v2 dentro DISMISSED (lo stesso set sincronizzato):       │
-// │   __TODO__|<ts>|<tag>|<text>      = task attiva (visibile)      │
-// │   __DONE__|<done_ts>|<tag>|<text> = archivio per counter mese   │
+// │ Schema v3 (corrente) dentro DISMISSED:                          │
+// │   __TASK__|<ts>|<urlencoded-json>      = task attiva            │
+// │   __TASKDONE__|<done_ts>|<urlencoded-json> = archivio counter   │
+// │   JSON payload: {t:title, c:cliente, a:attivita, g:tag, n:note} │
 // │                                                                 │
-// │ Schema v1 (legacy) supportato in lettura:                       │
-// │   __TODO__|<ts>|<text>            → tag="" (senza tag)          │
+// │ Schema v2 (legacy, read-only):                                  │
+// │   __TODO__|<ts>|<tag>|<text>           → mapped al campo title  │
+// │   __DONE__|<done_ts>|<tag>|<text>                               │
 // │                                                                 │
-// │ × non elimina più: ARCHIVIA. Il task diventa __DONE__ e va a    │
-// │ popolare il counter del mese in cui è stato chiuso.             │
+// │ Schema v1 (legacy, read-only):                                  │
+// │   __TODO__|<ts>|<text>                 → tag="" title=text      │
+// │                                                                 │
+// │ × non elimina: ARCHIVIA. La task diventa __TASKDONE__ e         │
+// │ popola il counter del mese in cui è stata chiusa.               │
 // ╰─────────────────────────────────────────────────────────────────╯
-const TODO_PREFIX = "__TODO__|";
-const DONE_PREFIX = "__DONE__|";
-const TODOS_LOCAL_KEY = "fmm-todos-cache-v2";
+const TASK_PREFIX = "__TASK__|";
+const TASKDONE_PREFIX = "__TASKDONE__|";
+const TODO_PREFIX = "__TODO__|";     // legacy v1/v2
+const DONE_PREFIX = "__DONE__|";     // legacy v2
+const TODOS_LOCAL_KEY = "fmm-todos-cache-v3";
 
 const MONTHS_IT = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
 
-function isTodoSpecialKey(k){ return k.startsWith(TODO_PREFIX) || k.startsWith(DONE_PREFIX); }
-
-function encodeTodo(ts, tag, text){ return TODO_PREFIX + ts + "|" + (tag || "") + "|" + text; }
-function decodeTodo(key){
-  if(!key.startsWith(TODO_PREFIX)) return null;
-  const parts = key.slice(TODO_PREFIX.length).split("|");
-  if(parts.length < 2) return null;
-  const ts = parseInt(parts[0], 10); if(isNaN(ts)) return null;
-  // v1 legacy: ts|text (senza tag)
-  if(parts.length === 2){
-    const text = parts[1]; if(!text) return null;
-    return { ts, tag: "", text, key };
-  }
-  // v2: ts|tag|text
-  const tag = parts[1] || "";
-  const text = parts.slice(2).join("|"); if(!text) return null;
-  return { ts, tag, text, key };
+function isTodoSpecialKey(k){
+  return k.startsWith(TASK_PREFIX) || k.startsWith(TASKDONE_PREFIX)
+      || k.startsWith(TODO_PREFIX) || k.startsWith(DONE_PREFIX);
 }
-function encodeDone(doneTs, tag, text){ return DONE_PREFIX + doneTs + "|" + (tag || "") + "|" + text; }
+
+// Schema v3: payload JSON con campi {t,c,a,g,n} (compatti per ridurre lunghezza key)
+function encodeTask(ts, fields){
+  const payload = {
+    t: fields.title || "",
+    c: fields.cliente || "",
+    a: fields.attivita || "",
+    g: fields.tag || "",
+    n: fields.note || ""
+  };
+  return TASK_PREFIX + ts + "|" + encodeURIComponent(JSON.stringify(payload));
+}
+function encodeTaskDone(doneTs, fields){
+  const payload = {
+    t: fields.title || "",
+    c: fields.cliente || "",
+    a: fields.attivita || "",
+    g: fields.tag || "",
+    n: fields.note || ""
+  };
+  return TASKDONE_PREFIX + doneTs + "|" + encodeURIComponent(JSON.stringify(payload));
+}
+function decodePayload(s){
+  try { return JSON.parse(decodeURIComponent(s)); } catch(e) { return null; }
+}
+// Ritorna { ts, title, cliente, attivita, tag, note, key } per task attive
+// (gestisce v1, v2, v3)
+function decodeTodo(key){
+  // v3
+  if(key.startsWith(TASK_PREFIX)){
+    const rest = key.slice(TASK_PREFIX.length);
+    const i = rest.indexOf("|"); if(i < 0) return null;
+    const ts = parseInt(rest.slice(0, i), 10); if(isNaN(ts)) return null;
+    const p = decodePayload(rest.slice(i + 1)); if(!p || !p.t) return null;
+    return { ts, title: p.t, cliente: p.c || "", attivita: p.a || "", tag: p.g || "", note: p.n || "", key };
+  }
+  // v1/v2 legacy
+  if(key.startsWith(TODO_PREFIX)){
+    const parts = key.slice(TODO_PREFIX.length).split("|");
+    if(parts.length < 2) return null;
+    const ts = parseInt(parts[0], 10); if(isNaN(ts)) return null;
+    if(parts.length === 2){
+      const text = parts[1]; if(!text) return null;
+      return { ts, title: text, cliente: "", attivita: "", tag: "", note: "", key };
+    }
+    const tag = parts[1] || "";
+    const text = parts.slice(2).join("|"); if(!text) return null;
+    return { ts, title: text, cliente: "", attivita: "", tag, note: "", key };
+  }
+  return null;
+}
+// Ritorna { doneTs, title, cliente, attivita, tag, note, key } per task chiuse
 function decodeDone(key){
-  if(!key.startsWith(DONE_PREFIX)) return null;
-  const parts = key.slice(DONE_PREFIX.length).split("|");
-  if(parts.length < 3) return null;
-  const doneTs = parseInt(parts[0], 10); if(isNaN(doneTs)) return null;
-  const tag = parts[1] || "";
-  const text = parts.slice(2).join("|"); if(!text) return null;
-  return { doneTs, tag, text, key };
+  // v3
+  if(key.startsWith(TASKDONE_PREFIX)){
+    const rest = key.slice(TASKDONE_PREFIX.length);
+    const i = rest.indexOf("|"); if(i < 0) return null;
+    const doneTs = parseInt(rest.slice(0, i), 10); if(isNaN(doneTs)) return null;
+    const p = decodePayload(rest.slice(i + 1)); if(!p || !p.t) return null;
+    return { doneTs, title: p.t, cliente: p.c || "", attivita: p.a || "", tag: p.g || "", note: p.n || "", key };
+  }
+  // v2 legacy
+  if(key.startsWith(DONE_PREFIX)){
+    const parts = key.slice(DONE_PREFIX.length).split("|");
+    if(parts.length < 3) return null;
+    const doneTs = parseInt(parts[0], 10); if(isNaN(doneTs)) return null;
+    const tag = parts[1] || "";
+    const text = parts.slice(2).join("|"); if(!text) return null;
+    return { doneTs, title: text, cliente: "", attivita: "", tag, note: "", key };
+  }
+  return null;
 }
 
 // Estrae #tag inline dal testo (primo match). Tag sanitizzato a-z0-9_- minuscolo.
@@ -861,6 +965,9 @@ function extractInlineTag(text){
 }
 function sanitizeTag(s){
   return (s || "").trim().toLowerCase().replace(/^#+/, "").replace(/[^a-z0-9_-]/g, "").slice(0, 30);
+}
+function sanitizeField(s, max){
+  return (s || "").trim().replace(/\|/g, "/").slice(0, max || 100);
 }
 
 function getActiveTodos(){
@@ -891,7 +998,7 @@ function isSameMonth(ts, sm){
 function renderTodos(){
   const list = $("todo-list"); if(!list) return;
   let active = getActiveTodos();
-  // Fallback cache se vuoto (es. Worker offline al boot)
+  // Fallback cache se vuoto al boot
   if(!active.length){
     try {
       const cached = JSON.parse(localStorage.getItem(TODOS_LOCAL_KEY) || "[]");
@@ -901,7 +1008,7 @@ function renderTodos(){
       }
     } catch(e){}
   }
-  // Aggiorna cache (solo __TODO__/__DONE__ keys)
+  // Aggiorna cache (solo __TASK__/__TASKDONE__/legacy keys)
   try {
     const all = [];
     DISMISSED.forEach(k => { if(isTodoSpecialKey(k)) all.push(k); });
@@ -912,7 +1019,7 @@ function renderTodos(){
   const sm = getStatsMonth();
   const doneThisMonth = done.filter(t => isSameMonth(t.doneTs, sm));
 
-  // Counter per tag (open + closed nel mese selezionato)
+  // Counter per tag (aperte + chiuse nel mese selezionato)
   const tagStats = {};
   active.forEach(t => {
     const k = t.tag || "";
@@ -924,7 +1031,6 @@ function renderTodos(){
     if(!tagStats[k]) tagStats[k] = { open: 0, closed: 0 };
     tagStats[k].closed++;
   });
-  // Ordina tag: senza-tag in fondo, poi per numero totale desc, poi alfabetico
   const tagKeys = Object.keys(tagStats).sort((a,b) => {
     if(a === "" && b !== "") return 1;
     if(b === "" && a !== "") return -1;
@@ -933,7 +1039,7 @@ function renderTodos(){
     return a.localeCompare(b);
   });
 
-  // ── Chip filtro in cima (con counter open·closed) ──
+  // ── Chip filtro tag ──
   const stats = $("todo-stats");
   if(stats){
     const totOpen = active.length;
@@ -974,43 +1080,61 @@ function renderTodos(){
           const d = document.createElement("div");
           d.className = "todo-item";
           d.dataset.key = t.key;
+          // Build meta line (cliente · attività · #tag)
+          const metaBits = [];
+          if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
+          if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
+          if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
           d.innerHTML =
             '<button class="del" title="Chiudi e archivia">×</button>' +
-            '<span class="text">' + esc(t.text) + '</span>';
+            '<span class="title">' + esc(t.title) + '</span>' +
+            (metaBits.length ? '<div class="meta-line">' + metaBits.join("") + '</div>' : '') +
+            (t.note ? '<div class="note">' + esc(t.note) + '</div>' : '');
           list.appendChild(d);
         });
       });
     }
   }
 
-  // Popola la datalist con i tag già usati (active + done)
-  const dl = $("todo-tag-list");
-  if(dl){
-    const allTags = new Set();
-    active.forEach(t => { if(t.tag) allTags.add(t.tag); });
-    done.forEach(t => { if(t.tag) allTags.add(t.tag); });
-    dl.innerHTML = "";
-    [...allTags].sort().forEach(k => {
-      const o = document.createElement("option"); o.value = k; dl.appendChild(o);
-    });
-  }
+  // Popola datalist (cliente, attività, tag) con valori storici
+  const clienti = new Set(), attivita = new Set(), tags = new Set();
+  active.forEach(t => { if(t.cliente) clienti.add(t.cliente); if(t.attivita) attivita.add(t.attivita); if(t.tag) tags.add(t.tag); });
+  done.forEach(t => { if(t.cliente) clienti.add(t.cliente); if(t.attivita) attivita.add(t.attivita); if(t.tag) tags.add(t.tag); });
+  fillDatalist("cli-list", clienti);
+  fillDatalist("att-list", attivita);
+  fillDatalist("todo-tag-list", tags);
 
   $("count-todos").textContent = active.length;
 }
 
-function addTodo(text, tagInput){
-  text = (text || "").trim();
-  if(!text) return;
-  if(text.length > 200) text = text.slice(0, 200);
-  // 1. Estrai tag inline (#tag) dal testo
-  let { tag, text: cleaned } = extractInlineTag(text);
-  // 2. Se è stato inserito un tag nella tendina, ha precedenza
-  const tagFromInput = sanitizeTag(tagInput);
-  if(tagFromInput) tag = tagFromInput;
-  tag = sanitizeTag(tag);
-  const finalText = cleaned.trim() || text;
+function fillDatalist(id, valSet){
+  const dl = $(id); if(!dl) return;
+  dl.innerHTML = "";
+  [...valSet].sort((a,b)=>a.localeCompare(b)).forEach(v => {
+    const o = document.createElement("option"); o.value = v; dl.appendChild(o);
+  });
+}
+
+function addTask(fields){
+  // fields: { title, cliente, attivita, tag, note }
+  const title = sanitizeField(fields.title, 120);
+  if(!title) return;
+  // Estrai #tag inline dal titolo se nessun tag esplicito
+  let tag = sanitizeTag(fields.tag);
+  let finalTitle = title;
+  if(!tag){
+    const ex = extractInlineTag(title);
+    if(ex.tag){ tag = sanitizeTag(ex.tag); finalTitle = ex.text.trim() || title; }
+  }
+  const payload = {
+    title: finalTitle,
+    cliente: sanitizeField(fields.cliente, 60),
+    attivita: sanitizeField(fields.attivita, 60),
+    tag,
+    note: sanitizeField(fields.note, 500)
+  };
   const ts = Date.now();
-  const key = encodeTodo(ts, tag, finalText);
+  const key = encodeTask(ts, payload);
   DISMISSED.add(key);
   persistDismissed();
   renderTodos();
@@ -1020,12 +1144,13 @@ function addTodo(text, tagInput){
 function deleteTodo(key){
   if(!key) return;
   const t = decodeTodo(key);
-  // Rimuovi da attivi
   DISMISSED.delete(key);
   syncRemote("remove", key);
-  // Aggiungi all'archivio (per il counter mensile)
+  // Archivia per counter
   if(t){
-    const doneKey = encodeDone(Date.now(), t.tag, t.text);
+    const doneKey = encodeTaskDone(Date.now(), {
+      title: t.title, cliente: t.cliente, attivita: t.attivita, tag: t.tag, note: t.note
+    });
     DISMISSED.add(doneKey);
     syncRemote("add", doneKey);
   }
@@ -1033,22 +1158,71 @@ function deleteTodo(key){
   renderTodos();
 }
 
+function openTodoForm(){
+  $("todo-form").hidden = false;
+  $("tf-open").hidden = true;
+  setTimeout(() => $("tf-title").focus(), 50);
+}
+function closeTodoForm(reset){
+  $("todo-form").hidden = true;
+  $("tf-open").hidden = false;
+  if(reset){
+    $("tf-title").value = "";
+    $("tf-cliente").value = "";
+    $("tf-attivita").value = "";
+    $("tf-tag").value = "";
+    $("tf-note").value = "";
+  }
+}
+function submitForm(){
+  const fields = {
+    title: $("tf-title").value,
+    cliente: $("tf-cliente").value,
+    attivita: $("tf-attivita").value,
+    tag: $("tf-tag").value,
+    note: $("tf-note").value
+  };
+  if(!sanitizeField(fields.title, 120)){
+    $("tf-title").focus();
+    return;
+  }
+  addTask(fields);
+  closeTodoForm(true);
+  // Tieni il form aperto se l'utente clicca di nuovo + (reset campi)
+}
+
 function initTodos(){
-  const input = $("todo-new");
-  const tagIn = $("todo-tag");
-  const btn = $("todo-add");
   const stats = $("todo-stats");
   const mPrev = $("todo-month-prev");
   const mNext = $("todo-month-next");
-  if(!input || !btn) return;
-  const submit = () => {
-    addTodo(input.value, tagIn ? tagIn.value : "");
-    input.value = ""; if(tagIn) tagIn.value = "";
-    input.focus();
-  };
-  btn.addEventListener("click", submit);
-  input.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
-  if(tagIn) tagIn.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
+  const openBtn = $("tf-open");
+  const saveBtn = $("tf-save");
+  const cancelBtn = $("tf-cancel");
+  const tfTitle = $("tf-title");
+  const tfNote = $("tf-note");
+
+  if(openBtn) openBtn.addEventListener("click", openTodoForm);
+  if(saveBtn) saveBtn.addEventListener("click", submitForm);
+  if(cancelBtn) cancelBtn.addEventListener("click", () => closeTodoForm(true));
+
+  // Enter su input semplici → submit; Shift+Enter su textarea → newline
+  if(tfTitle) tfTitle.addEventListener("keydown", e => {
+    if(e.key === "Enter" && !e.shiftKey){ e.preventDefault(); submitForm(); }
+    if(e.key === "Escape"){ closeTodoForm(true); }
+  });
+  ["tf-cliente","tf-attivita","tf-tag"].forEach(id => {
+    const el = $(id); if(!el) return;
+    el.addEventListener("keydown", e => {
+      if(e.key === "Enter"){ e.preventDefault(); submitForm(); }
+      if(e.key === "Escape"){ closeTodoForm(true); }
+    });
+  });
+  if(tfNote) tfNote.addEventListener("keydown", e => {
+    if(e.key === "Escape"){ closeTodoForm(true); }
+    // Cmd+Enter / Ctrl+Enter → submit
+    if(e.key === "Enter" && (e.metaKey || e.ctrlKey)){ e.preventDefault(); submitForm(); }
+  });
+
   $("todo-list").addEventListener("click", e => {
     const del = e.target.closest(".del"); if(!del) return;
     const item = e.target.closest(".todo-item"); if(!item) return;
