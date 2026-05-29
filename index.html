@@ -491,7 +491,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       <span class="pill" id="count-todos">…</span>
     </h2>
     <div class="body" id="cards-todos">
-      <button id="tf-open" class="tf-open-btn" type="button">+ Nuovo promemoria</button>
+      <button id="tf-open" class="tf-open-btn" type="button">+ Nuova Task</button>
       <div id="todo-form" class="todo-form" hidden>
         <input id="tf-title" type="text" placeholder="Titolo task" maxlength="120" autocomplete="off" />
         <div class="tf-row">
@@ -1192,8 +1192,8 @@ function renderTodos(){
       const d = document.createElement("div");
       d.className = "todo-item";
       d.dataset.key = t.key;
+      // Mostra SOLO attività + tag (il cliente è già rappresentato dal tag)
       const metaBits = [];
-      if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
       if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
       if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
       let deadlineHTML = "";
@@ -1357,8 +1357,8 @@ function openTaskModal(key){
 
   let html = "";
   try {
+    // Mostra SOLO attività + tag (il cliente è rappresentato dal tag)
     const metaBits = [];
-    if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
     if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
     if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
     let deadlineHTML = "";
@@ -1389,37 +1389,10 @@ function openTaskModal(key){
   console.log("[openTaskModal] html length=", html.length);
   content.innerHTML = html;
   $("task-modal").hidden = false;
-  console.log("[openTaskModal] modal hidden?", $("task-modal").hidden, "content children:", content.children.length);
-  // Listeners interni
-  const inp = $("m-note-input");
-  const addBtn = $("m-note-add");
-  const delBtn = $("m-delete");
-  const submit = () => {
-    if(!modalCurrentKey) return;
-    const txt = inp.value.trim();
-    if(!txt){ inp.focus(); return; }
-    const t0 = decodeTodo(modalCurrentKey);
-    if(!t0) return;
-    addNoteToTask(modalCurrentKey, txt);
-    // addNoteToTask cambia la key → trova la nuova key per la stessa ts e riapri modal
-    const newKey = findTaskKeyByTs(t0.ts);
-    inp.value = "";
-    if(newKey){ openTaskModal(newKey); }
-    else { closeTaskModal(); }
-  };
-  if(addBtn) addBtn.addEventListener("click", submit);
-  if(inp){
-    inp.addEventListener("keydown", e => {
-      if(e.key === "Enter"){ e.preventDefault(); submit(); }
-      if(e.key === "Escape"){ closeTaskModal(); }
-    });
-  }
-  if(delBtn) delBtn.addEventListener("click", () => {
-    if(!modalCurrentKey) return;
-    deleteTodo(modalCurrentKey);
-    closeTaskModal();
-  });
-  setTimeout(() => inp && inp.focus(), 60);
+  // Tutti i click handler (× chiudi · Elimina · Aggiungi nota · Enter su input)
+  // sono gestiti via event delegation sul modal-overlay in initTodos(),
+  // così non vanno persi dopo i re-render del contenuto.
+  setTimeout(() => { const inp = $("m-note-input"); if(inp) inp.focus(); }, 60);
 }
 function closeTaskModal(){
   $("task-modal").hidden = true;
@@ -1511,18 +1484,51 @@ function initTodos(){
       else { console.warn("Todo item click: dataset.key missing"); }
     }
   });
-  // Modal: close handlers
+  // Modal: handler unico via event delegation sull'overlay.
+  // Gestisce: × chiudi, click overlay, Elimina, Aggiungi nota, Enter su input.
+  // Delegando, non importa quante volte rifaccio innerHTML del content:
+  // i bottoni nuovi vengono comunque catturati.
   const modal = $("task-modal");
   if(modal){
     modal.addEventListener("click", e => {
-      if(e.target === modal) closeTaskModal();  // click su overlay
+      if(e.target.closest("#task-modal-close")){ closeTaskModal(); return; }
+      if(e.target.closest("#m-delete")){
+        if(modalCurrentKey){ deleteTodo(modalCurrentKey); }
+        closeTaskModal();
+        return;
+      }
+      if(e.target.closest("#m-note-add")){
+        const inp = $("m-note-input");
+        if(inp && modalCurrentKey){
+          const txt = inp.value.trim();
+          if(txt){
+            const t0 = decodeTodo(modalCurrentKey);
+            addNoteToTask(modalCurrentKey, txt);
+            inp.value = "";
+            if(t0){
+              const newKey = findTaskKeyByTs(t0.ts);
+              if(newKey) openTaskModal(newKey);
+              else closeTaskModal();
+            }
+          } else { inp.focus(); }
+        }
+        return;
+      }
+      if(e.target === modal){ closeTaskModal(); }  // click su overlay
+    });
+    modal.addEventListener("keydown", e => {
+      if(e.target && e.target.id === "m-note-input"){
+        if(e.key === "Enter"){
+          e.preventDefault();
+          modal.querySelector("#m-note-add").click();
+        }
+        if(e.key === "Escape"){ closeTaskModal(); }
+      }
     });
     document.addEventListener("keydown", e => {
       if(e.key === "Escape" && !modal.hidden) closeTaskModal();
     });
   }
-  const modalClose = $("task-modal-close");
-  if(modalClose) modalClose.addEventListener("click", closeTaskModal);
   setupCombobox();
   if(stats){
     stats.addEventListener("click", e => {
