@@ -188,23 +188,13 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .todo-item {
   position: relative;
   background: #fff; border: 1px solid var(--border); border-radius: 10px;
-  padding: 10px 12px 10px 36px; margin-bottom: 8px;
+  padding: 10px 32px 10px 12px; margin-bottom: 8px;
   font-size: 13px; line-height: 1.35; word-break: break-word;
-  cursor: pointer; user-select: none;
-  transition: border-color .15s, background .15s, opacity .2s;
+  user-select: none;
+  transition: border-color .15s, background .15s;
 }
 .col .body .todo-item:nth-of-type(even) { background: var(--zebra); }
 .todo-item:hover { border-color: #cdd3df; }
-.todo-item .check {
-  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
-  width: 18px; height: 18px; border: 2px solid #c4c7cc; border-radius: 50%;
-  display: inline-flex; align-items: center; justify-content: center;
-  font-size: 11px; color: transparent; transition: all .15s;
-}
-.todo-item:hover .check { border-color: #8e94a0; }
-.todo-item.done { opacity: 0.55; }
-.todo-item.done .text { text-decoration: line-through; color: var(--text-muted); }
-.todo-item.done .check { background: var(--green); border-color: var(--green); color: #fff; }
 .todo-item .del {
   position: absolute; top: 6px; right: 6px;
   width: 22px; height: 22px; border: 0; background: transparent;
@@ -213,6 +203,8 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   display: inline-flex; align-items: center; justify-content: center;
 }
 .todo-item:hover .del { opacity: 1; }
+/* Su mobile/touch, sempre visibile (non c'è hover) */
+@media (hover: none) { .todo-item .del { opacity: 0.7; } }
 .todo-item .del:hover { background: #fee2e2; color: #991b1b; }
 
 .placeholder { color: var(--text-dim); font-style: italic; font-size: 12.5px; padding: 18px 10px; text-align: center; }
@@ -441,7 +433,9 @@ function applyDismissed(){
       btn.onclick = (e) => isHidden ? undismissItem(k, e) : dismissItem(k, e);
     }
   });
-  const dCount = DISMISSED.size;
+  // Conta solo i veri dismiss (escludi le entry __TODO__ che vivono nello stesso set)
+  let dCount = 0;
+  DISMISSED.forEach(k => { if(!k.startsWith(TODO_PREFIX)) dCount++; });
   const tBtn = $("toggle-hidden");
   if(dCount > 0){
     tBtn.style.display = "";
@@ -725,66 +719,93 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 });
 
 // ╭─────────────────────────────────────────────────────────────────╮
-// │ TO-DO FMM · promemoria personali, persistiti in localStorage    │
-// │ Schema: [{id, text, done, created_at}]                          │
-// │ Click sulla card = toggle done. × = elimina.                    │
-// │ Non sincronizzato cross-device (solo questo browser).           │
+// │ TO-DO FMM · promemoria personali, cross-device                  │
+// │ Persistenza: riusa il Worker dismiss già esistente.             │
+// │ Ogni todo è codificato come "key" speciale con prefisso         │
+// │ __TODO__|<ts>|<text> dentro lo stesso dismissed.json/Worker.    │
+// │ → da iPhone/desktop sincronizzato automaticamente.              │
+// │ Niente "done" toggle: la card resta visibile fino al click su × │
 // ╰─────────────────────────────────────────────────────────────────╯
-const TODOS_KEY = "fmm-todos-v1";
-function loadTodos(){
-  try { return JSON.parse(localStorage.getItem(TODOS_KEY)) || []; }
-  catch(e) { return []; }
+const TODO_PREFIX = "__TODO__|";
+const TODOS_LOCAL_KEY = "fmm-todos-cache";
+
+function encodeTodo(ts, text){ return TODO_PREFIX + ts + "|" + text; }
+function decodeTodo(key){
+  if(!key.startsWith(TODO_PREFIX)) return null;
+  const rest = key.slice(TODO_PREFIX.length);
+  const i = rest.indexOf("|");
+  if(i < 0) return null;
+  const ts = parseInt(rest.slice(0, i), 10);
+  const text = rest.slice(i + 1);
+  if(!text) return null;
+  return { ts, text, key };
 }
-function saveTodos(arr){
-  try { localStorage.setItem(TODOS_KEY, JSON.stringify(arr)); } catch(e){}
+
+// Lo "stato todos" deriva dal Set DISMISSED (già sincronizzato col Worker).
+function getTodos(){
+  const out = [];
+  DISMISSED.forEach(k => {
+    const t = decodeTodo(k);
+    if(t) out.push(t);
+  });
+  out.sort((a,b) => b.ts - a.ts); // più recenti in cima
+  // Cache locale di fallback (per quando dismissed.json è vuoto e Worker offline)
+  try { localStorage.setItem(TODOS_LOCAL_KEY, JSON.stringify(out)); } catch(e){}
+  return out;
 }
+
 function renderTodos(){
   const list = $("todo-list"); if(!list) return;
-  const todos = loadTodos();
+  let todos = getTodos();
+  // Fallback cache se DISMISSED vuoto ma c'erano todos cached (es. prima sync)
+  if(!todos.length){
+    try {
+      const cached = JSON.parse(localStorage.getItem(TODOS_LOCAL_KEY) || "[]");
+      if(Array.isArray(cached)){
+        cached.forEach(t => { if(t && t.key) DISMISSED.add(t.key); });
+        todos = getTodos();
+      }
+    } catch(e){}
+  }
   list.innerHTML = "";
   if(!todos.length){
     list.innerHTML = '<div class="placeholder">Nessun promemoria<small>aggiungi sopra ↑</small></div>';
   } else {
-    // Mostra prima i non-done, poi i done (visivamente in fondo)
-    const sorted = [...todos].sort((a,b) => {
-      if(a.done !== b.done) return a.done ? 1 : -1;
-      return (b.created_at || 0) - (a.created_at || 0);
-    });
-    sorted.forEach(t => {
+    todos.forEach(t => {
       const d = document.createElement("div");
-      d.className = "todo-item" + (t.done ? " done" : "");
-      d.dataset.id = t.id;
+      d.className = "todo-item";
+      d.dataset.key = t.key;
       d.innerHTML =
-        '<span class="check">✓</span>' +
         '<button class="del" title="Elimina">×</button>' +
         '<span class="text">' + esc(t.text) + '</span>';
       list.appendChild(d);
     });
   }
-  const open = todos.filter(t => !t.done).length;
-  $("count-todos").textContent = open;
+  $("count-todos").textContent = todos.length;
 }
+
 function addTodo(text){
   text = (text || "").trim();
   if(!text) return;
-  const todos = loadTodos();
-  todos.push({ id: "t_" + Date.now() + "_" + Math.random().toString(36).slice(2,6), text, done: false, created_at: Date.now() });
-  saveTodos(todos);
+  // tronca per sicurezza (anche se input ha maxlength)
+  if(text.length > 200) text = text.slice(0, 200);
+  const ts = Date.now();
+  const key = encodeTodo(ts, text);
+  DISMISSED.add(key);
+  persistDismissed();
   renderTodos();
+  // sync remoto (best-effort)
+  syncRemote("add", key);
 }
-function toggleTodo(id){
-  const todos = loadTodos();
-  const t = todos.find(x => x.id === id);
-  if(!t) return;
-  t.done = !t.done;
-  saveTodos(todos);
+
+function deleteTodo(key){
+  if(!key) return;
+  DISMISSED.delete(key);
+  persistDismissed();
   renderTodos();
+  syncRemote("remove", key);
 }
-function deleteTodo(id){
-  const todos = loadTodos().filter(x => x.id !== id);
-  saveTodos(todos);
-  renderTodos();
-}
+
 function initTodos(){
   const input = $("todo-new");
   const btn = $("todo-add");
@@ -793,10 +814,9 @@ function initTodos(){
   btn.addEventListener("click", submit);
   input.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
   $("todo-list").addEventListener("click", e => {
+    const del = e.target.closest(".del"); if(!del) return;
     const item = e.target.closest(".todo-item"); if(!item) return;
-    const id = item.dataset.id;
-    if(e.target.closest(".del")){ deleteTodo(id); }
-    else { toggleTodo(id); }
+    deleteTodo(item.dataset.key);
   });
   renderTodos();
 }
@@ -841,6 +861,9 @@ async function loadHub(){
       else { dot.className = "dot ok"; }
     }
     applyDismissed();
+    // Ri-render todos: dopo loadRemoteDismissed il Set DISMISSED può contenere
+    // nuove entry __TODO__ arrivate da altri device.
+    renderTodos();
     // Ripristina focus singola sorgente se selezionata in passato
     try{ const f = localStorage.getItem("fmm-hub-focus"); if(f) focusSource(f); }catch(e){}
   } catch(err) {
