@@ -209,7 +209,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <div class="kpis">
     <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Asana@ + Canva + Monday + Zoho</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Canva + Monday + Zoho</div></div>
   </div>
 
   <div class="filter-bar">
@@ -230,10 +230,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <section class="col" data-source="asana">
       <h2><span class="col-ico">✅</span>Asana<span class="pill" id="count-asana">…</span></h2>
       <div class="body" id="cards-asana"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
-    </section>
-    <section class="col" data-source="asana-mentions">
-      <h2><span class="col-ico">💬</span>Asana @Te<span class="pill" id="count-asana-mentions">…</span></h2>
-      <div class="body" id="cards-asana-mentions"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
     <section class="col" data-source="monday">
       <h2><span class="col-ico">📋</span>Monday<span class="pill" id="count-monday">…</span></h2>
@@ -396,7 +392,6 @@ function applyDismissed(){
 const EMPTY_STATES = {
   "calendar":         { title: "Nessun evento in programma" },
   "asana":            { title: "Nessun task aperto" },
-  "asana-mentions":   { title: "Nessuna mention aperta" },
   "canva":            { title: "Nessun tag aperto" },
   "monday":           { title: "Nessun item Monday" },
   "zoho-projects":    { title: "Nessun tag in attesa di risposta" }
@@ -408,12 +403,11 @@ function recalcCounts(){
   const cfg = [
     {src: "calendar",         cnt: "count-cal",              kpi: "k-cal",       todayOnly: true},
     {src: "asana",            cnt: "count-asana",            kpi: null,          todayOnly: false},
-    {src: "asana-mentions",   cnt: "count-asana-mentions",   kpi: null,          todayOnly: false},
     {src: "canva",            cnt: "count-canva",            kpi: null,          todayOnly: false},
     {src: "monday",           cnt: "count-monday",           kpi: null,          todayOnly: false},
     {src: "zoho-projects",    cnt: "count-zoho-proj",        kpi: null,          todayOnly: false},
   ];
-  let asanaVis = 0, asanaMentionsVis = 0, canvaVis = 0, mondayVis = 0, zohoVis = 0;
+  let asanaVis = 0, canvaVis = 0, mondayVis = 0, zohoVis = 0;
   cfg.forEach(c => {
     const col = document.querySelector(`.col[data-source="${c.src}"]`);
     if(!col) return;
@@ -432,7 +426,6 @@ function recalcCounts(){
       if(kEl) kEl.textContent = c.todayOnly ? todayVisible : visible;
     }
     if(c.src === "asana") asanaVis = visible;
-    if(c.src === "asana-mentions") asanaMentionsVis = visible;
     if(c.src === "canva") canvaVis = visible;
     if(c.src === "monday") mondayVis = visible;
     if(c.src === "zoho-projects") zohoVis = visible;
@@ -456,8 +449,8 @@ function recalcCounts(){
       }
     }
   });
-  // KPI aggregato "Task aperti" = Asana + Asana Mentions + Canva + Monday (items + mentions) + Zoho Projects (solo visibili)
-  $("k-asana").textContent = asanaVis + asanaMentionsVis + canvaVis + mondayVis + zohoVis;
+  // KPI aggregato "Task aperti" = Asana (items + mentions) + Canva + Monday (items + mentions) + Zoho Projects (solo visibili)
+  $("k-asana").textContent = asanaVis + canvaVis + mondayVis + zohoVis;
 
   // ── Ricalcola i count dei project-group Asana e nascondi i gruppi vuoti ──
   // Fix bug: dopo dismiss, il badge totale Asana andava a 0 ma i pill dei project-group
@@ -547,35 +540,61 @@ function renderGeneric(boxId, countId, kpiId, items, opts){
   $(countId).textContent=items.length; if(kpiId) $(kpiId).textContent=items.length;
 }
 
-function renderAsana(items){
+function renderAsana(items, mentions){
   const box=$("cards-asana"); box.innerHTML="";
-  if(!items?.length){ box.innerHTML='<div class="placeholder">Nessun task aperto</div>'; $("count-asana").textContent="0"; $("k-asana").textContent="0"; return; }
-  const groups={};
-  items.forEach(t=>{ const p=t.project||"Generale"; (groups[p]||(groups[p]=[])).push(t); });
-  const keys=Object.keys(groups).sort((a,b)=>a==="Generale"?1:b==="Generale"?-1:a.localeCompare(b));
-  keys.forEach(k=>{
-    const h=document.createElement("div"); h.className="project-group"; h.dataset.project=k;
-    h.innerHTML=`${esc(k)} <span class="pill">${groups[k].length}</span>`;
+  const ments = mentions || [];
+  const total = (items?.length||0) + ments.length;
+  if(!total){ box.innerHTML='<div class="placeholder">Nessun task aperto</div>'; $("count-asana").textContent="0"; return; }
+
+  // ── Mentions in cima (gruppo "💬 @Te") ──
+  if(ments.length){
+    const h=document.createElement("div"); h.className="project-group"; h.dataset.project="💬 @Te";
+    h.innerHTML=`💬 @Te <span class="pill">${ments.length}</span>`;
     box.appendChild(h);
-    groups[k].forEach(t=>{
-      const a = makeItem(t.permalink, t.permalink, {
-        is_today: t.days_to_due===0,
-        is_urgent: t.days_to_due!==null && t.days_to_due<=2,
-        is_aghc: t.is_aghc
+    ments.forEach(m=>{
+      const a = makeItem(m.url, m.url, {
+        is_today: !!m.is_today,
+        is_urgent: !!m.is_urgent,
+        is_aghc: !!m.is_aghc
       });
-      a.dataset.project = k;
+      a.dataset.project = "💬 @Te";
       const p=[];
-      if(t.days_to_due!==null&&t.days_to_due<0) p.push(`<span class="pill danger">Scaduto ${Math.abs(t.days_to_due)}g</span>`);
-      else if(t.days_to_due===0) p.push(`<span class="pill warn">Oggi</span>`);
-      else if(t.days_to_due!==null&&t.days_to_due<=2) p.push(`<span class="pill warn">+${t.days_to_due}g</span>`);
-      else if(t.days_to_due!==null) p.push(`<span class="pill time">${t.days_to_due}g</span>`);
-      if(t.notes) p.push(`<span class="pill muted">📝</span>`);
-      if(t.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
-      a.innerHTML = buildItemHTML(t.name, null, t.notes, p);
+      if(m.status) p.push(`<span class="pill ${esc(m.status_kind||"muted")}">${esc(m.status)}</span>`);
+      if(m.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
+      a.innerHTML = buildItemHTML(m.name, m.subtitle, m.notes, p);
       box.appendChild(a);
     });
-  });
-  $("count-asana").textContent=items.length; $("k-asana").textContent=items.length;
+  }
+
+  // ── Task assegnati raggruppati per progetto ──
+  if(items?.length){
+    const groups={};
+    items.forEach(t=>{ const p=t.project||"Generale"; (groups[p]||(groups[p]=[])).push(t); });
+    const keys=Object.keys(groups).sort((a,b)=>a==="Generale"?1:b==="Generale"?-1:a.localeCompare(b));
+    keys.forEach(k=>{
+      const h=document.createElement("div"); h.className="project-group"; h.dataset.project=k;
+      h.innerHTML=`${esc(k)} <span class="pill">${groups[k].length}</span>`;
+      box.appendChild(h);
+      groups[k].forEach(t=>{
+        const a = makeItem(t.permalink, t.permalink, {
+          is_today: t.days_to_due===0,
+          is_urgent: t.days_to_due!==null && t.days_to_due<=2,
+          is_aghc: t.is_aghc
+        });
+        a.dataset.project = k;
+        const p=[];
+        if(t.days_to_due!==null&&t.days_to_due<0) p.push(`<span class="pill danger">Scaduto ${Math.abs(t.days_to_due)}g</span>`);
+        else if(t.days_to_due===0) p.push(`<span class="pill warn">Oggi</span>`);
+        else if(t.days_to_due!==null&&t.days_to_due<=2) p.push(`<span class="pill warn">+${t.days_to_due}g</span>`);
+        else if(t.days_to_due!==null) p.push(`<span class="pill time">${t.days_to_due}g</span>`);
+        if(t.notes) p.push(`<span class="pill muted">📝</span>`);
+        if(t.is_aghc) p.push(`<span class="pill client">AGHC</span>`);
+        a.innerHTML = buildItemHTML(t.name, null, t.notes, p);
+        box.appendChild(a);
+      });
+    });
+  }
+  $("count-asana").textContent=total;
 }
 
 // Canva ora = SOLO mention. items shape: {design_title, design_url, comment_id, author, comment_text, created_iso, is_aghc}
@@ -646,10 +665,9 @@ async function loadHub(){
     if(!res.ok) throw new Error("HTTP " + res.status);
     const hub = await res.json();
     renderCal(hub.calendar || []);
-    renderAsana(hub.asana || []);
-    renderGeneric("cards-asana-mentions", "count-asana-mentions", null, hub.asana_mentions || [], {
-      emptyTitle: "Nessuna mention aperta"
-    });
+    // Unifico Asana task assegnati + Asana mentions in un'unica colonna.
+    // Le mention vanno in cima nel gruppo "💬 @Te", poi i task per progetto.
+    renderAsana(hub.asana || [], hub.asana_mentions || []);
     // Unifico Monday item assegnati + Monday mentions in un'unica colonna.
     // Le mention vanno prima (status_kind="danger"/"warn"), poi i task assegnati.
     const mondayUnified = [
