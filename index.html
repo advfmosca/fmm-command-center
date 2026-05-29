@@ -179,9 +179,50 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 }
 .todo-card > h2 .pill {
   font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px;
-  background: var(--border); color: #5a5a60; margin-left: auto;
+  background: var(--border); color: #5a5a60;
 }
+.todo-card > h2 .todo-month-nav {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 4px;
+  font-size: 12px; font-weight: 600; color: var(--text-muted);
+}
+.todo-card > h2 .todo-month-nav b {
+  font-weight: 700; color: var(--text); padding: 0 4px;
+  text-transform: capitalize; min-width: 56px; text-align: center;
+}
+.todo-card > h2 .todo-month-nav button {
+  width: 22px; height: 22px; border: 1px solid var(--border);
+  background: #fff; border-radius: 6px; cursor: pointer;
+  font-size: 14px; line-height: 1; padding: 0; color: var(--text);
+}
+.todo-card > h2 .todo-month-nav button:hover { background: var(--bg-soft); }
 .todo-card .body { padding: 10px; }
+
+/* Chip filtro per tag (con counter "aperte·chiuse") */
+.todo-stats { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
+.todo-stats:empty { display: none; }
+.tg-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: #fff; color: var(--text); border: 1px solid var(--border);
+  border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 500;
+  cursor: pointer; line-height: 1.3;
+  transition: background .12s, border-color .12s;
+}
+.tg-chip:hover { background: var(--bg-soft); border-color: #cdd3df; }
+.tg-chip.active { background: #1c1c1e; color: #fff; border-color: #1c1c1e; }
+.tg-chip .ct { opacity: 0.7; font-weight: 600; font-size: 11px; margin-left: 2px; }
+.tg-chip.active .ct { opacity: 0.85; }
+
+/* Header di gruppo per tag */
+.todo-group-header {
+  grid-column: 1 / -1;
+  display: flex; align-items: baseline; justify-content: space-between;
+  font-size: 12px; font-weight: 700; color: var(--text-muted);
+  padding: 10px 4px 4px; margin-top: 2px;
+  border-top: 1px solid var(--border-soft);
+}
+.todo-group-header:first-child { border-top: 0; margin-top: 0; padding-top: 4px; }
+.todo-group-header .name { color: var(--text); text-transform: lowercase; letter-spacing: 0.01em; }
+.todo-group-header .todo-group-meta { font-size: 11px; font-weight: 500; color: var(--text-dim); }
 /* Grid responsive: i todo si dispongono in colonne man mano che si aggiungono */
 #todo-list {
   display: grid;
@@ -192,17 +233,21 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 #todo-list .todo-item { margin-bottom: 0; }
 
 .todo-input {
-  display: flex; gap: 6px; padding: 8px 10px 10px;
-  border-bottom: 1px solid var(--border-soft); background: #fff;
-  position: sticky; top: 0; z-index: 2;
+  display: flex; gap: 6px; padding: 0 0 12px;
+  flex-wrap: wrap;
 }
 .todo-input input {
-  flex: 1; border: 1px solid var(--border); border-radius: 8px;
-  padding: 8px 10px; font-size: 13px; font-family: inherit;
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 9px 10px; font-size: 13px; font-family: inherit;
   background: #fafafb; color: var(--text); outline: none;
   transition: border-color .15s, background .15s;
 }
 .todo-input input:focus { border-color: #b8c4dd; background: #fff; }
+.todo-input #todo-new { flex: 1; min-width: 200px; }
+.todo-input #todo-tag { width: 110px; flex: 0 0 110px; font-size: 12px; }
+@media (max-width: 520px) {
+  .todo-input #todo-tag { flex: 1 0 100%; width: 100%; }
+}
 .todo-input button {
   border: 0; background: var(--blue); color: #fff;
   border-radius: 8px; padding: 0 14px; font-size: 18px; font-weight: 600;
@@ -324,12 +369,23 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
   </div>
 
   <section class="todo-card" data-source="todos">
-    <h2><span class="col-ico">📝</span>To-Do FMM<span class="pill" id="count-todos">…</span></h2>
+    <h2>
+      <span class="col-ico">📝</span>To-Do FMM
+      <span class="pill" id="count-todos">…</span>
+      <span class="todo-month-nav">
+        <button id="todo-month-prev" title="Mese precedente">‹</button>
+        <b id="todo-month">…</b>
+        <button id="todo-month-next" title="Mese successivo">›</button>
+      </span>
+    </h2>
     <div class="body" id="cards-todos">
       <div class="todo-input">
-        <input type="text" id="todo-new" placeholder="Aggiungi un promemoria…" maxlength="200" autocomplete="off" />
+        <input type="text" id="todo-new" placeholder="Promemoria… (puoi usare #tag inline)" maxlength="200" autocomplete="off" />
+        <input type="text" id="todo-tag" placeholder="#tag" list="todo-tag-list" autocomplete="off" maxlength="30" />
+        <datalist id="todo-tag-list"></datalist>
         <button id="todo-add" title="Aggiungi">+</button>
       </div>
+      <div id="todo-stats" class="todo-stats"></div>
       <div id="todo-list"></div>
     </div>
   </section>
@@ -461,9 +517,9 @@ function applyDismissed(){
       btn.onclick = (e) => isHidden ? undismissItem(k, e) : dismissItem(k, e);
     }
   });
-  // Conta solo i veri dismiss (escludi le entry __TODO__ che vivono nello stesso set)
+  // Conta solo i veri dismiss (escludi le entry __TODO__/__DONE__ del modulo todos)
   let dCount = 0;
-  DISMISSED.forEach(k => { if(!k.startsWith(TODO_PREFIX)) dCount++; });
+  DISMISSED.forEach(k => { if(!k.startsWith(TODO_PREFIX) && !k.startsWith(DONE_PREFIX)) dCount++; });
   const tBtn = $("toggle-hidden");
   if(dCount > 0){
     tBtn.style.display = "";
@@ -749,102 +805,273 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 // ╭─────────────────────────────────────────────────────────────────╮
 // │ TO-DO FMM · promemoria personali, cross-device                  │
 // │ Persistenza: riusa il Worker dismiss già esistente.             │
-// │ Ogni todo è codificato come "key" speciale con prefisso         │
-// │ __TODO__|<ts>|<text> dentro lo stesso dismissed.json/Worker.    │
-// │ → da iPhone/desktop sincronizzato automaticamente.              │
-// │ Niente "done" toggle: la card resta visibile fino al click su × │
+// │                                                                 │
+// │ Schema v2 dentro DISMISSED (lo stesso set sincronizzato):       │
+// │   __TODO__|<ts>|<tag>|<text>      = task attiva (visibile)      │
+// │   __DONE__|<done_ts>|<tag>|<text> = archivio per counter mese   │
+// │                                                                 │
+// │ Schema v1 (legacy) supportato in lettura:                       │
+// │   __TODO__|<ts>|<text>            → tag="" (senza tag)          │
+// │                                                                 │
+// │ × non elimina più: ARCHIVIA. Il task diventa __DONE__ e va a    │
+// │ popolare il counter del mese in cui è stato chiuso.             │
 // ╰─────────────────────────────────────────────────────────────────╯
 const TODO_PREFIX = "__TODO__|";
-const TODOS_LOCAL_KEY = "fmm-todos-cache";
+const DONE_PREFIX = "__DONE__|";
+const TODOS_LOCAL_KEY = "fmm-todos-cache-v2";
 
-function encodeTodo(ts, text){ return TODO_PREFIX + ts + "|" + text; }
+const MONTHS_IT = ["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"];
+
+function isTodoSpecialKey(k){ return k.startsWith(TODO_PREFIX) || k.startsWith(DONE_PREFIX); }
+
+function encodeTodo(ts, tag, text){ return TODO_PREFIX + ts + "|" + (tag || "") + "|" + text; }
 function decodeTodo(key){
   if(!key.startsWith(TODO_PREFIX)) return null;
-  const rest = key.slice(TODO_PREFIX.length);
-  const i = rest.indexOf("|");
-  if(i < 0) return null;
-  const ts = parseInt(rest.slice(0, i), 10);
-  const text = rest.slice(i + 1);
-  if(!text) return null;
-  return { ts, text, key };
+  const parts = key.slice(TODO_PREFIX.length).split("|");
+  if(parts.length < 2) return null;
+  const ts = parseInt(parts[0], 10); if(isNaN(ts)) return null;
+  // v1 legacy: ts|text (senza tag)
+  if(parts.length === 2){
+    const text = parts[1]; if(!text) return null;
+    return { ts, tag: "", text, key };
+  }
+  // v2: ts|tag|text
+  const tag = parts[1] || "";
+  const text = parts.slice(2).join("|"); if(!text) return null;
+  return { ts, tag, text, key };
+}
+function encodeDone(doneTs, tag, text){ return DONE_PREFIX + doneTs + "|" + (tag || "") + "|" + text; }
+function decodeDone(key){
+  if(!key.startsWith(DONE_PREFIX)) return null;
+  const parts = key.slice(DONE_PREFIX.length).split("|");
+  if(parts.length < 3) return null;
+  const doneTs = parseInt(parts[0], 10); if(isNaN(doneTs)) return null;
+  const tag = parts[1] || "";
+  const text = parts.slice(2).join("|"); if(!text) return null;
+  return { doneTs, tag, text, key };
 }
 
-// Lo "stato todos" deriva dal Set DISMISSED (già sincronizzato col Worker).
-function getTodos(){
+// Estrae #tag inline dal testo (primo match). Tag sanitizzato a-z0-9_- minuscolo.
+function extractInlineTag(text){
+  const m = (text || "").match(/(?:^|\s)#([a-zA-Z0-9_-]+)/);
+  if(!m) return { tag: "", text };
+  const tag = m[1].toLowerCase();
+  const cleaned = text.replace(m[0], " ").replace(/\s+/g, " ").trim();
+  return { tag, text: cleaned || text };
+}
+function sanitizeTag(s){
+  return (s || "").trim().toLowerCase().replace(/^#+/, "").replace(/[^a-z0-9_-]/g, "").slice(0, 30);
+}
+
+function getActiveTodos(){
   const out = [];
-  DISMISSED.forEach(k => {
-    const t = decodeTodo(k);
-    if(t) out.push(t);
-  });
-  out.sort((a,b) => b.ts - a.ts); // più recenti in cima
-  // Cache locale di fallback (per quando dismissed.json è vuoto e Worker offline)
-  try { localStorage.setItem(TODOS_LOCAL_KEY, JSON.stringify(out)); } catch(e){}
+  DISMISSED.forEach(k => { const t = decodeTodo(k); if(t) out.push(t); });
   return out;
+}
+function getDoneTodos(){
+  const out = [];
+  DISMISSED.forEach(k => { const t = decodeDone(k); if(t) out.push(t); });
+  return out;
+}
+
+// Stato vista locale (non sincronizzato)
+let todoFilterTag = null;     // null = mostra tutti i gruppi; "" = solo "senza tag"; "aghc" = solo #aghc
+let todoStatsMonth = null;    // {y, m}; null = mese corrente
+function getStatsMonth(){
+  if(todoStatsMonth) return todoStatsMonth;
+  const n = new Date();
+  return { y: n.getFullYear(), m: n.getMonth() };
+}
+function formatMonth(sm){ return MONTHS_IT[sm.m] + " " + String(sm.y).slice(-2); }
+function isSameMonth(ts, sm){
+  const d = new Date(ts);
+  return d.getFullYear() === sm.y && d.getMonth() === sm.m;
 }
 
 function renderTodos(){
   const list = $("todo-list"); if(!list) return;
-  let todos = getTodos();
-  // Fallback cache se DISMISSED vuoto ma c'erano todos cached (es. prima sync)
-  if(!todos.length){
+  let active = getActiveTodos();
+  // Fallback cache se vuoto (es. Worker offline al boot)
+  if(!active.length){
     try {
       const cached = JSON.parse(localStorage.getItem(TODOS_LOCAL_KEY) || "[]");
       if(Array.isArray(cached)){
-        cached.forEach(t => { if(t && t.key) DISMISSED.add(t.key); });
-        todos = getTodos();
+        cached.forEach(k => { if(typeof k === "string") DISMISSED.add(k); });
+        active = getActiveTodos();
       }
     } catch(e){}
   }
+  // Aggiorna cache (solo __TODO__/__DONE__ keys)
+  try {
+    const all = [];
+    DISMISSED.forEach(k => { if(isTodoSpecialKey(k)) all.push(k); });
+    localStorage.setItem(TODOS_LOCAL_KEY, JSON.stringify(all));
+  } catch(e){}
+
+  const done = getDoneTodos();
+  const sm = getStatsMonth();
+  const doneThisMonth = done.filter(t => isSameMonth(t.doneTs, sm));
+
+  // Counter per tag (open + closed nel mese selezionato)
+  const tagStats = {};
+  active.forEach(t => {
+    const k = t.tag || "";
+    if(!tagStats[k]) tagStats[k] = { open: 0, closed: 0 };
+    tagStats[k].open++;
+  });
+  doneThisMonth.forEach(t => {
+    const k = t.tag || "";
+    if(!tagStats[k]) tagStats[k] = { open: 0, closed: 0 };
+    tagStats[k].closed++;
+  });
+  // Ordina tag: senza-tag in fondo, poi per numero totale desc, poi alfabetico
+  const tagKeys = Object.keys(tagStats).sort((a,b) => {
+    if(a === "" && b !== "") return 1;
+    if(b === "" && a !== "") return -1;
+    const d = (tagStats[b].open + tagStats[b].closed) - (tagStats[a].open + tagStats[a].closed);
+    if(d !== 0) return d;
+    return a.localeCompare(b);
+  });
+
+  // ── Chip filtro in cima (con counter open·closed) ──
+  const stats = $("todo-stats");
+  if(stats){
+    const totOpen = active.length;
+    const totClosed = doneThisMonth.length;
+    let html = '';
+    html += `<button class="tg-chip ${todoFilterTag === null ? 'active' : ''}" data-tag="__ALL__">Tutti <span class="ct">${totOpen}·${totClosed}</span></button>`;
+    tagKeys.forEach(k => {
+      const lbl = k ? '#' + esc(k) : 'senza tag';
+      const cls = todoFilterTag === k ? 'active' : '';
+      html += `<button class="tg-chip ${cls}" data-tag="${esc(k)}">${lbl} <span class="ct">${tagStats[k].open}·${tagStats[k].closed}</span></button>`;
+    });
+    stats.innerHTML = html;
+  }
+  const monthEl = $("todo-month");
+  if(monthEl) monthEl.textContent = formatMonth(sm);
+
+  // ── Lista task attive raggruppate per tag ──
   list.innerHTML = "";
-  if(!todos.length){
+  if(!active.length){
     list.innerHTML = '<div class="placeholder">Nessun promemoria<small>aggiungi sopra ↑</small></div>';
   } else {
-    todos.forEach(t => {
-      const d = document.createElement("div");
-      d.className = "todo-item";
-      d.dataset.key = t.key;
-      d.innerHTML =
-        '<button class="del" title="Elimina">×</button>' +
-        '<span class="text">' + esc(t.text) + '</span>';
-      list.appendChild(d);
+    const visibleTags = (todoFilterTag === null)
+      ? tagKeys.filter(k => tagStats[k].open > 0)
+      : (tagStats[todoFilterTag] ? [todoFilterTag] : []);
+    if(!visibleTags.length){
+      list.innerHTML = '<div class="placeholder">Nessun promemoria con questo tag</div>';
+    } else {
+      visibleTags.forEach(tagKey => {
+        const tagTodos = active.filter(t => (t.tag || "") === tagKey).sort((a,b) => b.ts - a.ts);
+        if(!tagTodos.length) return;
+        const header = document.createElement("div");
+        header.className = "todo-group-header";
+        const lbl = tagKey ? '#' + esc(tagKey) : 'senza tag';
+        const s = tagStats[tagKey];
+        header.innerHTML = `<span class="name">${lbl}</span><span class="todo-group-meta">${s.open} aperte · ${s.closed} chiuse a ${formatMonth(sm)}</span>`;
+        list.appendChild(header);
+        tagTodos.forEach(t => {
+          const d = document.createElement("div");
+          d.className = "todo-item";
+          d.dataset.key = t.key;
+          d.innerHTML =
+            '<button class="del" title="Chiudi e archivia">×</button>' +
+            '<span class="text">' + esc(t.text) + '</span>';
+          list.appendChild(d);
+        });
+      });
+    }
+  }
+
+  // Popola la datalist con i tag già usati (active + done)
+  const dl = $("todo-tag-list");
+  if(dl){
+    const allTags = new Set();
+    active.forEach(t => { if(t.tag) allTags.add(t.tag); });
+    done.forEach(t => { if(t.tag) allTags.add(t.tag); });
+    dl.innerHTML = "";
+    [...allTags].sort().forEach(k => {
+      const o = document.createElement("option"); o.value = k; dl.appendChild(o);
     });
   }
-  $("count-todos").textContent = todos.length;
+
+  $("count-todos").textContent = active.length;
 }
 
-function addTodo(text){
+function addTodo(text, tagInput){
   text = (text || "").trim();
   if(!text) return;
-  // tronca per sicurezza (anche se input ha maxlength)
   if(text.length > 200) text = text.slice(0, 200);
+  // 1. Estrai tag inline (#tag) dal testo
+  let { tag, text: cleaned } = extractInlineTag(text);
+  // 2. Se è stato inserito un tag nella tendina, ha precedenza
+  const tagFromInput = sanitizeTag(tagInput);
+  if(tagFromInput) tag = tagFromInput;
+  tag = sanitizeTag(tag);
+  const finalText = cleaned.trim() || text;
   const ts = Date.now();
-  const key = encodeTodo(ts, text);
+  const key = encodeTodo(ts, tag, finalText);
   DISMISSED.add(key);
   persistDismissed();
   renderTodos();
-  // sync remoto (best-effort)
   syncRemote("add", key);
 }
 
 function deleteTodo(key){
   if(!key) return;
+  const t = decodeTodo(key);
+  // Rimuovi da attivi
   DISMISSED.delete(key);
+  syncRemote("remove", key);
+  // Aggiungi all'archivio (per il counter mensile)
+  if(t){
+    const doneKey = encodeDone(Date.now(), t.tag, t.text);
+    DISMISSED.add(doneKey);
+    syncRemote("add", doneKey);
+  }
   persistDismissed();
   renderTodos();
-  syncRemote("remove", key);
 }
 
 function initTodos(){
   const input = $("todo-new");
+  const tagIn = $("todo-tag");
   const btn = $("todo-add");
+  const stats = $("todo-stats");
+  const mPrev = $("todo-month-prev");
+  const mNext = $("todo-month-next");
   if(!input || !btn) return;
-  const submit = () => { addTodo(input.value); input.value = ""; input.focus(); };
+  const submit = () => {
+    addTodo(input.value, tagIn ? tagIn.value : "");
+    input.value = ""; if(tagIn) tagIn.value = "";
+    input.focus();
+  };
   btn.addEventListener("click", submit);
   input.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
+  if(tagIn) tagIn.addEventListener("keydown", e => { if(e.key === "Enter") submit(); });
   $("todo-list").addEventListener("click", e => {
     const del = e.target.closest(".del"); if(!del) return;
     const item = e.target.closest(".todo-item"); if(!item) return;
     deleteTodo(item.dataset.key);
+  });
+  if(stats){
+    stats.addEventListener("click", e => {
+      const chip = e.target.closest(".tg-chip"); if(!chip) return;
+      const tag = chip.dataset.tag;
+      if(tag === "__ALL__"){ todoFilterTag = null; }
+      else { todoFilterTag = (todoFilterTag === tag) ? null : tag; }
+      renderTodos();
+    });
+  }
+  if(mPrev) mPrev.addEventListener("click", () => {
+    const sm = getStatsMonth(); let y = sm.y, m = sm.m - 1;
+    if(m < 0){ m = 11; y--; }
+    todoStatsMonth = { y, m }; renderTodos();
+  });
+  if(mNext) mNext.addEventListener("click", () => {
+    const sm = getStatsMonth(); let y = sm.y, m = sm.m + 1;
+    if(m > 11){ m = 0; y++; }
+    todoStatsMonth = { y, m }; renderTodos();
   });
   renderTodos();
 }
