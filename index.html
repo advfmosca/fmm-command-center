@@ -268,7 +268,23 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .todo-item .meta-line .ml-pill.cliente { background: #eafff1; color: #14532d; }
 .todo-item .meta-line .ml-pill.attivita { background: #ffedd5; color: #9a3412; }
 .todo-item .meta-line .ml-pill.tag { background: #ede0ff; color: #4c1d95; }
-.todo-item .note { font-size: 11.5px; color: #4a4a50; line-height: 1.4; margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.todo-item .created { font-size: 10.5px; color: var(--text-dim); margin-top: 4px; }
+.todo-item .deadline { font-size: 11px; font-weight: 600; margin-top: 4px; display: inline-flex; gap: 4px; align-items: center; }
+.todo-item .deadline.ok    { color: #14532d; }
+.todo-item .deadline.warn  { color: #9a3412; }
+.todo-item .deadline.danger{ color: #991b1b; }
+.todo-item .deadline .cd { font-weight: 500; opacity: 0.85; }
+.todo-item .notes { margin-top: 8px; border-top: 1px dashed var(--border); padding-top: 6px; display: flex; flex-direction: column; gap: 4px; }
+.todo-item .notes .note-entry { font-size: 11.5px; line-height: 1.4; color: #38383d; display: flex; gap: 6px; }
+.todo-item .notes .note-entry .nts { color: var(--text-dim); font-size: 10.5px; font-weight: 600; white-space: nowrap; padding-top: 1px; }
+.todo-item .notes .note-entry .ntx { flex: 1; word-break: break-word; }
+.todo-item .add-note-row { display: flex; gap: 4px; margin-top: 6px; }
+.todo-item .add-note-row input { flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; font-size: 11.5px; font-family: inherit; background: #fff; outline: none; }
+.todo-item .add-note-row input:focus { border-color: #b8c4dd; }
+.todo-item .add-note-row button { border: 1px solid var(--border); background: #fff; color: var(--text-muted); border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 14px; line-height: 1; }
+.todo-item .add-note-row button:hover { background: var(--bg-soft); color: var(--blue); border-color: #cdd3df; }
+.todo-item .add-note-btn { background: none; border: 0; color: var(--text-muted); font-size: 11px; font-weight: 600; cursor: pointer; padding: 4px 0 0; align-self: flex-start; }
+.todo-item .add-note-btn:hover { color: var(--blue); }
 .todo-input button {
   border: 0; background: var(--blue); color: #fff;
   border-radius: 8px; padding: 0 14px; font-size: 18px; font-weight: 600;
@@ -399,9 +415,9 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
       <div id="todo-form" class="todo-form" hidden>
         <input id="tf-title" type="text" placeholder="Titolo task" maxlength="120" autocomplete="off" />
         <div class="tf-row">
-          <input id="tf-cliente" type="text" placeholder="Cliente" list="cli-list" autocomplete="off" maxlength="60" />
+          <input id="tf-cliente" type="text" placeholder="Cliente (diventa anche tag)" list="cli-list" autocomplete="off" maxlength="60" />
           <input id="tf-attivita" type="text" placeholder="Attività" list="att-list" autocomplete="off" maxlength="60" />
-          <input id="tf-tag" type="text" placeholder="#tag" list="todo-tag-list" autocomplete="off" maxlength="30" />
+          <input id="tf-deadline" type="date" />
         </div>
         <textarea id="tf-note" placeholder="Note (opzionale)" maxlength="500" rows="2"></textarea>
         <datalist id="cli-list"></datalist>
@@ -848,20 +864,30 @@ document.querySelectorAll(".kpi[data-source]").forEach(k=>{
 // │ Logica block-notes: aggiungi → elimina (× hard delete).         │
 // │ Persistenza: riusa il Worker dismiss esistente.                 │
 // │                                                                 │
-// │ Schema v3 (corrente) dentro DISMISSED:                          │
-// │   __TASK__|<ts>|<urlencoded-json>                               │
-// │   JSON payload: {t:title, c:cliente, a:attivita, g:tag, n:note} │
+// │ Schema v4 (corrente) dentro DISMISSED:                          │
+// │   __TASK__|<ts_creazione>|<urlencoded-json>                     │
+// │   JSON:                                                         │
+// │     t  title                                                    │
+// │     c  cliente                                                  │
+// │     a  attivita                                                 │
+// │     g  tag (auto-derivato da cliente)                           │
+// │     n  [{t:ts, x:"testo"}]  notes timestampate                  │
+// │     d  ts_deadline (0 = nessuna)                                │
+// │                                                                 │
+// │ Add nota a task esistente = re-encode con stessa ts_creazione,  │
+// │ remove(oldKey) + add(newKey).                                   │
 // │                                                                 │
 // │ Schema legacy (read-only, retrocompatibilità):                  │
-// │   __TODO__|<ts>|<tag>|<text>  (v2) → title=text                 │
-// │   __TODO__|<ts>|<text>        (v1) → title=text, tag=""         │
-// │   __TASKDONE__/__DONE__ presenti? → ignorati, vecchi archivi    │
+// │   v3 __TASK__|<ts>|<json {t,c,a,g,n:"string"}>                  │
+// │   v2 __TODO__|<ts>|<tag>|<text>                                 │
+// │   v1 __TODO__|<ts>|<text>                                       │
+// │   __TASKDONE__/__DONE__ → ignorati                              │
 // ╰─────────────────────────────────────────────────────────────────╯
 const TASK_PREFIX = "__TASK__|";
 const TASKDONE_PREFIX = "__TASKDONE__|";  // legacy archivio, ignorato
 const TODO_PREFIX = "__TODO__|";          // legacy v1/v2
 const DONE_PREFIX = "__DONE__|";          // legacy archivio, ignorato
-const TODOS_LOCAL_KEY = "fmm-todos-cache-v3";
+const TODOS_LOCAL_KEY = "fmm-todos-cache-v4";
 
 function isTodoSpecialKey(k){
   return k.startsWith(TASK_PREFIX) || k.startsWith(TASKDONE_PREFIX)
@@ -875,23 +901,35 @@ function encodeTask(ts, fields){
     c: fields.cliente || "",
     a: fields.attivita || "",
     g: fields.tag || "",
-    n: fields.note || ""
+    n: Array.isArray(fields.notes) ? fields.notes : [],
+    d: fields.deadline || 0
   };
   return TASK_PREFIX + ts + "|" + encodeURIComponent(JSON.stringify(payload));
 }
 function decodePayload(s){
   try { return JSON.parse(decodeURIComponent(s)); } catch(e) { return null; }
 }
-// Ritorna { ts, title, cliente, attivita, tag, note, key } per task attive
-// (gestisce v1, v2, v3)
+// Ritorna { ts, title, cliente, attivita, tag, notes:[{t,x}], deadline, key }
+// (gestisce v1, v2, v3, v4)
 function decodeTodo(key){
-  // v3
+  // v3/v4
   if(key.startsWith(TASK_PREFIX)){
     const rest = key.slice(TASK_PREFIX.length);
     const i = rest.indexOf("|"); if(i < 0) return null;
     const ts = parseInt(rest.slice(0, i), 10); if(isNaN(ts)) return null;
     const p = decodePayload(rest.slice(i + 1)); if(!p || !p.t) return null;
-    return { ts, title: p.t, cliente: p.c || "", attivita: p.a || "", tag: p.g || "", note: p.n || "", key };
+    // Notes: v3 era stringa unica; v4 è array
+    let notes = [];
+    if(Array.isArray(p.n)){
+      notes = p.n.filter(x => x && x.x).map(x => ({ t: x.t || 0, x: String(x.x) }));
+    } else if(typeof p.n === "string" && p.n){
+      // Migrazione v3 → array con timestamp 0 (sconosciuto)
+      notes = [{ t: 0, x: p.n }];
+    }
+    return {
+      ts, title: p.t, cliente: p.c || "", attivita: p.a || "",
+      tag: p.g || "", notes, deadline: p.d || 0, key
+    };
   }
   // v1/v2 legacy
   if(key.startsWith(TODO_PREFIX)){
@@ -900,11 +938,11 @@ function decodeTodo(key){
     const ts = parseInt(parts[0], 10); if(isNaN(ts)) return null;
     if(parts.length === 2){
       const text = parts[1]; if(!text) return null;
-      return { ts, title: text, cliente: "", attivita: "", tag: "", note: "", key };
+      return { ts, title: text, cliente: "", attivita: "", tag: "", notes: [], deadline: 0, key };
     }
     const tag = parts[1] || "";
     const text = parts.slice(2).join("|"); if(!text) return null;
-    return { ts, title: text, cliente: "", attivita: "", tag, note: "", key };
+    return { ts, title: text, cliente: "", attivita: "", tag, notes: [], deadline: 0, key };
   }
   return null;
 }
@@ -922,6 +960,59 @@ function sanitizeTag(s){
 }
 function sanitizeField(s, max){
   return (s || "").trim().replace(/\|/g, "/").slice(0, max || 100);
+}
+// "Hotel Castello" → "hotel-castello", "L&A Booty Srl" → "la-booty-srl"
+function clienteToTag(cliente){
+  return (cliente || "").toLowerCase()
+    .replace(/&/g, '')
+    .replace(/[^a-z0-9\s_-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+    .slice(0, 40);
+}
+function fmtDateTime(ts){
+  if(!ts) return "—";
+  const d = new Date(ts);
+  const dd = String(d.getDate()).padStart(2,"0");
+  const mm = String(d.getMonth()+1).padStart(2,"0");
+  const hh = String(d.getHours()).padStart(2,"0");
+  const mi = String(d.getMinutes()).padStart(2,"0");
+  return `${dd}/${mm} ${hh}:${mi}`;
+}
+function fmtDateOnly(ts){
+  if(!ts) return "—";
+  const d = new Date(ts);
+  const dd = String(d.getDate()).padStart(2,"0");
+  const mm = String(d.getMonth()+1).padStart(2,"0");
+  const yyyy = d.getFullYear();
+  return `${dd}/${mm}/${yyyy}`;
+}
+// "2026-06-03" → epoch ms (mezzogiorno locale per evitare drift TZ)
+function parseDeadlineInput(v){
+  if(!v) return 0;
+  const m = v.match(/^(\d{4})-(\d{2})-(\d{2})$/); if(!m) return 0;
+  return new Date(+m[1], +m[2]-1, +m[3], 12, 0, 0).getTime();
+}
+function deadlineYMD(ts){
+  if(!ts) return "";
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+// Countdown da oggi (00:00) alla deadline (00:00). Negativo = già scaduta.
+function daysUntilDeadline(ts){
+  if(!ts) return null;
+  const now = new Date(); now.setHours(0,0,0,0);
+  const d = new Date(ts); d.setHours(0,0,0,0);
+  return Math.round((d - now) / (24*60*60*1000));
+}
+function deadlineLabel(days){
+  if(days === null) return { txt: "", cls: "" };
+  if(days < 0) return { txt: `Scaduta da ${Math.abs(days)}g`, cls: "danger" };
+  if(days === 0) return { txt: "Oggi", cls: "danger" };
+  if(days === 1) return { txt: "Domani", cls: "warn" };
+  if(days <= 3) return { txt: `Mancano ${days} giorni`, cls: "warn" };
+  return { txt: `Mancano ${days} giorni`, cls: "ok" };
 }
 
 function getActiveTodos(){
@@ -1006,16 +1097,33 @@ function renderTodos(){
           const d = document.createElement("div");
           d.className = "todo-item";
           d.dataset.key = t.key;
-          // Build meta line (cliente · attività · #tag)
+          // Meta line (cliente · attività · #tag)
           const metaBits = [];
           if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
           if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
           if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
+          // Deadline + countdown
+          let deadlineHTML = "";
+          if(t.deadline){
+            const days = daysUntilDeadline(t.deadline);
+            const lbl = deadlineLabel(days);
+            deadlineHTML = `<div class="deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} <span class="cd">· ${lbl.txt}</span></div>`;
+          }
+          // Notes thread (timestampate)
+          let notesHTML = "";
+          if(t.notes && t.notes.length){
+            notesHTML = '<div class="notes">' + t.notes.map(n =>
+              `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`
+            ).join("") + '</div>';
+          }
           d.innerHTML =
-            '<button class="del" title="Chiudi e archivia">×</button>' +
+            '<button class="del" title="Elimina">×</button>' +
             '<span class="title">' + esc(t.title) + '</span>' +
             (metaBits.length ? '<div class="meta-line">' + metaBits.join("") + '</div>' : '') +
-            (t.note ? '<div class="note">' + esc(t.note) + '</div>' : '');
+            `<div class="created">Creata ${fmtDateTime(t.ts)}</div>` +
+            deadlineHTML +
+            notesHTML +
+            '<button class="add-note-btn" type="button">+ Aggiungi nota</button>';
           list.appendChild(d);
         });
       });
@@ -1041,29 +1149,54 @@ function fillDatalist(id, valSet){
 }
 
 function addTask(fields){
-  // fields: { title, cliente, attivita, tag, note }
+  // fields: { title, cliente, attivita, note, deadline (epoch ms) }
   const title = sanitizeField(fields.title, 120);
   if(!title) return;
-  // Estrai #tag inline dal titolo se nessun tag esplicito
-  let tag = sanitizeTag(fields.tag);
+  const cliente = sanitizeField(fields.cliente, 60);
+  // TAG auto-derivato dal cliente. Se cliente vuoto, prova #tag inline nel titolo.
+  let tag = clienteToTag(cliente);
   let finalTitle = title;
   if(!tag){
     const ex = extractInlineTag(title);
     if(ex.tag){ tag = sanitizeTag(ex.tag); finalTitle = ex.text.trim() || title; }
   }
+  const ts = Date.now();
+  // Nota iniziale (se presente) finisce nell'array notes con timestamp = ts
+  const initialNote = sanitizeField(fields.note, 500);
+  const notes = initialNote ? [{ t: ts, x: initialNote }] : [];
   const payload = {
     title: finalTitle,
-    cliente: sanitizeField(fields.cliente, 60),
+    cliente,
     attivita: sanitizeField(fields.attivita, 60),
     tag,
-    note: sanitizeField(fields.note, 500)
+    notes,
+    deadline: fields.deadline || 0
   };
-  const ts = Date.now();
   const key = encodeTask(ts, payload);
   DISMISSED.add(key);
   persistDismissed();
   renderTodos();
   syncRemote("add", key);
+}
+
+// Aggiunge una nota a una task esistente: re-encode + swap della key.
+function addNoteToTask(oldKey, noteText){
+  const text = sanitizeField(noteText, 500);
+  if(!text) return;
+  const t = decodeTodo(oldKey);
+  if(!t) return;
+  const newNotes = [...t.notes, { t: Date.now(), x: text }];
+  const newKey = encodeTask(t.ts, {
+    title: t.title, cliente: t.cliente, attivita: t.attivita, tag: t.tag,
+    notes: newNotes, deadline: t.deadline
+  });
+  // Swap nel set (e su Worker)
+  DISMISSED.delete(oldKey);
+  DISMISSED.add(newKey);
+  persistDismissed();
+  renderTodos();
+  syncRemote("remove", oldKey);
+  syncRemote("add", newKey);
 }
 
 function deleteTodo(key){
@@ -1087,7 +1220,7 @@ function closeTodoForm(reset){
     $("tf-title").value = "";
     $("tf-cliente").value = "";
     $("tf-attivita").value = "";
-    $("tf-tag").value = "";
+    $("tf-deadline").value = "";
     $("tf-note").value = "";
   }
 }
@@ -1096,7 +1229,7 @@ function submitForm(){
     title: $("tf-title").value,
     cliente: $("tf-cliente").value,
     attivita: $("tf-attivita").value,
-    tag: $("tf-tag").value,
+    deadline: parseDeadlineInput($("tf-deadline").value),
     note: $("tf-note").value
   };
   if(!sanitizeField(fields.title, 120)){
@@ -1105,7 +1238,6 @@ function submitForm(){
   }
   addTask(fields);
   closeTodoForm(true);
-  // Tieni il form aperto se l'utente clicca di nuovo + (reset campi)
 }
 
 function initTodos(){
@@ -1125,7 +1257,7 @@ function initTodos(){
     if(e.key === "Enter" && !e.shiftKey){ e.preventDefault(); submitForm(); }
     if(e.key === "Escape"){ closeTodoForm(true); }
   });
-  ["tf-cliente","tf-attivita","tf-tag"].forEach(id => {
+  ["tf-cliente","tf-attivita","tf-deadline"].forEach(id => {
     const el = $(id); if(!el) return;
     el.addEventListener("keydown", e => {
       if(e.key === "Enter"){ e.preventDefault(); submitForm(); }
@@ -1139,9 +1271,32 @@ function initTodos(){
   });
 
   $("todo-list").addEventListener("click", e => {
-    const del = e.target.closest(".del"); if(!del) return;
     const item = e.target.closest(".todo-item"); if(!item) return;
-    deleteTodo(item.dataset.key);
+    if(e.target.closest(".del")){ deleteTodo(item.dataset.key); return; }
+    // Click su "+ Aggiungi nota" → mostra input inline
+    const addBtn = e.target.closest(".add-note-btn");
+    if(addBtn){
+      // Sostituisci il bottone con riga input + bottoni save/cancel
+      const row = document.createElement("div");
+      row.className = "add-note-row";
+      row.innerHTML =
+        '<input type="text" placeholder="Nuova nota…" maxlength="500" />' +
+        '<button type="button" class="save" title="Salva">✓</button>' +
+        '<button type="button" class="cancel" title="Annulla">×</button>';
+      addBtn.replaceWith(row);
+      const inp = row.querySelector("input");
+      const save = () => {
+        addNoteToTask(item.dataset.key, inp.value);
+        // renderTodos verrà chiamato → row sparisce
+      };
+      row.querySelector(".save").addEventListener("click", save);
+      row.querySelector(".cancel").addEventListener("click", () => renderTodos());
+      inp.addEventListener("keydown", ev => {
+        if(ev.key === "Enter"){ ev.preventDefault(); save(); }
+        if(ev.key === "Escape"){ renderTodos(); }
+      });
+      setTimeout(() => inp.focus(), 30);
+    }
   });
   if(stats){
     stats.addEventListener("click", e => {
