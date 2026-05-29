@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T12:38:01+02:00",
+  "updated_at": "2026-05-29T14:31:36+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -413,6 +413,19 @@
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
       "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    }
+  ],
+  "asana_mentions": [
+    {
+      "name": "aumento budget meta + google Albatros",
+      "subtitle": "Albatros · ambra.sartini · 29/05",
+      "notes": "ambra.sartini: «questo è stato fatto! ciao»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1214926604233228",
+      "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     }
