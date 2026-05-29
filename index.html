@@ -361,6 +361,14 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 .todo-item .deadline.warn  { color: #9a3412; }
 .todo-item .deadline.danger{ color: #991b1b; }
 .todo-item .deadline .cd { font-weight: 500; opacity: 0.85; }
+/* Card scaduta: sfondo arancio chiaro + bordo arancione (override anche zebra) */
+.todo-item.overdue,
+.col .body .todo-item.overdue:nth-of-type(even),
+#todo-list .todo-item.overdue:nth-of-type(even) {
+  background: #fff4e6;
+  border-color: #fdba74;
+}
+.todo-item.overdue:hover { border-color: #fb923c; }
 .todo-item .notes { margin-top: 8px; border-top: 1px dashed var(--border); padding-top: 6px; display: flex; flex-direction: column; gap: 4px; }
 .todo-item .notes .note-entry { font-size: 11.5px; line-height: 1.4; color: #38383d; display: flex; gap: 6px; }
 .todo-item .notes .note-entry .nts { color: var(--text-dim); font-size: 10.5px; font-weight: 600; white-space: nowrap; padding-top: 1px; }
@@ -1121,7 +1129,7 @@ function daysUntilDeadline(ts){
 }
 function deadlineLabel(days){
   if(days === null) return { txt: "", cls: "" };
-  if(days < 0) return { txt: `Scaduta da ${Math.abs(days)}g`, cls: "danger" };
+  if(days < 0) return { txt: `Scaduta da ${Math.abs(days)}g`, cls: "warn" };
   if(days === 0) return { txt: "Oggi", cls: "danger" };
   if(days === 1) return { txt: "Domani", cls: "warn" };
   if(days <= 3) return { txt: `Mancano ${days} giorni`, cls: "warn" };
@@ -1210,7 +1218,9 @@ function renderTodos(){
   } else {
     visible.forEach(t => {
       const d = document.createElement("div");
-      d.className = "todo-item";
+      // Card .overdue (sfondo arancio) se la deadline è già passata
+      const days = t.deadline ? daysUntilDeadline(t.deadline) : null;
+      d.className = "todo-item" + (days !== null && days < 0 ? " overdue" : "");
       d.dataset.key = t.key;
       // Mostra SOLO attività + tag (il cliente è già rappresentato dal tag)
       const metaBits = [];
@@ -1218,7 +1228,6 @@ function renderTodos(){
       if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
       let deadlineHTML = "";
       if(t.deadline){
-        const days = daysUntilDeadline(t.deadline);
         const lbl = deadlineLabel(days);
         deadlineHTML = `<div class="deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} <span class="cd">· ${lbl.txt}</span></div>`;
       }
