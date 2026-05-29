@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T14:31:36+02:00",
+  "updated_at": "2026-05-29T15:08:03+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -428,6 +428,63 @@
       "is_today": true,
       "is_urgent": true,
       "is_aghc": false
+    }
+  ],
+  "monday_mentions": [
+    {
+      "name": "Fra puoi inserire le promo di Puntebianche Resort",
+      "subtitle": "Puntebianche Resort · AG Squad - PED 2026 AG · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/11865494769",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Hotel Livata",
+      "subtitle": "Hotel Livata · AG Squad - PED 2026 AG · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "Gestione /Adèsso/ Hotel · 29/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Magari Estates",
+      "subtitle": "Magari Estates · AG Squad - PED 2026 AG · 28/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Fra puoi inserire le promo di Hotel Castello",
+      "subtitle": "Hotel Castello · AG Squad - PED 2026 AG · 25/05",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": true
     }
   ]
 }
