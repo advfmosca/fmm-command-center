@@ -1331,46 +1331,61 @@ function submitForm(){
 let modalCurrentKey = null;
 
 function openTaskModal(key){
+  console.log("[openTaskModal] key=", key);
   const content = $("task-modal-content");
   if(!content){ console.warn("openTaskModal: #task-modal-content missing"); return; }
   if(!key){ console.warn("openTaskModal called without key"); return; }
-  const t = decodeTodo(key);
+  let t = null;
+  try { t = decodeTodo(key); }
+  catch(err){ console.error("decodeTodo threw:", err, "for key:", key); }
+  console.log("[openTaskModal] decoded:", t);
   if(!t){
-    // Apri comunque il modal con un messaggio di errore visibile,
-    // così l'utente capisce cosa è successo invece di vedere un pill vuoto.
     console.warn("openTaskModal: decodeTodo returned null for key", key);
     modalCurrentKey = null;
     content.innerHTML =
       '<div class="m-title">Task non leggibile</div>' +
-      '<div class="m-row">La task selezionata ha un formato non riconosciuto o è stata rimossa. Prova a chiudere e riaprire la dashboard.</div>';
+      '<div class="m-row">Formato non riconosciuto. Apri la console (F12) per i dettagli.</div>' +
+      '<div class="m-row" style="font-family:monospace;font-size:11px;color:#999;word-break:break-all;margin-top:8px">' + esc(key.slice(0,200)) + '</div>';
     $("task-modal").hidden = false;
     return;
   }
   modalCurrentKey = key;
-  const metaBits = [];
-  if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
-  if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
-  if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
-  let deadlineHTML = "";
-  if(t.deadline){
-    const days = daysUntilDeadline(t.deadline);
-    const lbl = deadlineLabel(days);
-    deadlineHTML = `<div class="m-deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} · ${lbl.txt}</div>`;
+
+  let html = "";
+  try {
+    const metaBits = [];
+    if(t.cliente) metaBits.push(`<span class="ml-pill cliente">${esc(t.cliente)}</span>`);
+    if(t.attivita) metaBits.push(`<span class="ml-pill attivita">${esc(t.attivita)}</span>`);
+    if(t.tag) metaBits.push(`<span class="ml-pill tag">#${esc(t.tag)}</span>`);
+    let deadlineHTML = "";
+    if(t.deadline){
+      const days = daysUntilDeadline(t.deadline);
+      const lbl = deadlineLabel(days);
+      deadlineHTML = `<div class="m-deadline ${lbl.cls}">📅 ${fmtDateOnly(t.deadline)} · ${lbl.txt}</div>`;
+    }
+    let notesHTML = '<div class="m-notes">';
+    (t.notes || []).forEach(n => {
+      notesHTML += `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`;
+    });
+    notesHTML += '</div>';
+    html =
+      `<div class="m-title">${esc(t.title || "(senza titolo)")}</div>` +
+      (metaBits.length ? `<div class="m-meta">${metaBits.join("")}</div>` : "") +
+      `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
+      deadlineHTML +
+      '<h4>Note</h4>' + notesHTML +
+      '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button">Aggiungi</button></div>' +
+      '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button">Elimina task</button></div>';
+  } catch(err){
+    console.error("openTaskModal render error:", err);
+    html =
+      '<div class="m-title">Errore di rendering</div>' +
+      '<div class="m-row">' + esc(String(err)) + '</div>';
   }
-  let notesHTML = '<div class="m-notes">';
-  (t.notes || []).forEach(n => {
-    notesHTML += `<div class="note-entry"><span class="nts">${n.t ? fmtDateTime(n.t) : "—"}</span><span class="ntx">${esc(n.x)}</span></div>`;
-  });
-  notesHTML += '</div>';
-  content.innerHTML =
-    `<div class="m-title">${esc(t.title)}</div>` +
-    (metaBits.length ? `<div class="m-meta">${metaBits.join("")}</div>` : "") +
-    `<div class="m-row">Creata ${fmtDateTime(t.ts)}</div>` +
-    deadlineHTML +
-    '<h4>Note</h4>' + notesHTML +
-    '<div class="m-addnote"><input id="m-note-input" type="text" placeholder="Aggiungi una nota…" maxlength="500" autocomplete="off" /><button id="m-note-add" type="button">Aggiungi</button></div>' +
-    '<div class="m-actions"><button class="delete-btn" id="m-delete" type="button">Elimina task</button></div>';
+  console.log("[openTaskModal] html length=", html.length);
+  content.innerHTML = html;
   $("task-modal").hidden = false;
+  console.log("[openTaskModal] modal hidden?", $("task-modal").hidden, "content children:", content.children.length);
   // Listeners interni
   const inp = $("m-note-input");
   const addBtn = $("m-note-add");
