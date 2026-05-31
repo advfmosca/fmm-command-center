@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T09:17:18+02:00",
+  "updated_at": "2026-05-31T19:37:48+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -157,7 +157,7 @@
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=ZTF1ZjJtbjA3NXFwcjI0b3I3bGdnOWYwNzAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": "anomaly",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "⚫ Hotel Helios Rodi Garganico · nuovo account fermo",
@@ -170,7 +170,7 @@
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=cmlnYmVtYzRqNDA0NWZnMXRtMGM2dGxxdXMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": "anomaly",
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "TEAM Digital Marketin / Weekly Check Task + Pending",
@@ -366,6 +366,84 @@
       "html_link": "https://www.google.com/calendar/event?eid=b2Fxc3JnMDQxZGtmazY3dm1pcmJmYmRkdmcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
+    },
+    {
+      "summary": "Napoletano Logistica: CRM KickOff",
+      "start_iso": "2026-06-05T11:30:00+02:00",
+      "end_iso": "2026-06-05T12:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/yjj-ccrq-yzt",
+      "html_link": "https://www.google.com/calendar/event?eid=Nm1iYjBwZDJkZHFlczRzMzduMDlidnRsazggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Francesco Maria Mosca (Italo Lopresto)",
+      "start_iso": "2026-06-05T11:30:00+02:00",
+      "end_iso": "2026-06-05T12:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/ctq-bvsv-vyj",
+      "html_link": "https://www.google.com/calendar/event?eid=N3UxYjZudHN1cjc1a2Q5azgybmo0dmdnY2sgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-06-05T13:00:00+02:00",
+      "end_iso": "2026-06-05T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MDVUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Progress Interno AG",
+      "start_iso": "2026-06-05T15:30:00+02:00",
+      "end_iso": "2026-06-05T16:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MDVUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-05T18:00:00+02:00",
+      "end_iso": "2026-06-05T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MDVUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-06-07T13:30:00+02:00",
+      "end_iso": "2026-06-07T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MDdUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     }
   ],
   "asana": [
@@ -407,10 +485,10 @@
     {
       "name": "aumento budget meta + google Albatros",
       "subtitle": "Albatros · ambra.sartini · 29/05",
-      "notes": "ambra.sartini: «Francesco Maria Mosca questo è stato fatto! ciao aumento budget meta + google Albatros»",
+      "notes": "ambra.sartini: «Francesco Maria Mosca questo è stato fatto! ciao»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/0/inbox",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1214926604233228",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -477,14 +555,14 @@
   "monday_mentions": [
     {
       "name": "@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?",
-      "subtitle": "Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
+      "subtitle": "Magari Estates · Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
       "notes": "Simone Pisa: «@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://senapedigital.monday.com/boards/8667918867/pulses/9441796229",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "Fra puoi inserire le promo di Puntebianche Resort",
@@ -510,7 +588,7 @@
     },
     {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · · 29/05",
+      "subtitle": "Gestione /Adèsso/ Hotel · 29/05",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -546,7 +624,7 @@
     {
       "name": "B179-T23 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Aurora Scaccia · 29/05",
-      "notes": "Aurora Scaccia: «Alfredo De Grandis la cliente deve accettarmi nel bm ma non risponde, se non riesco ad entrare non posso fare la campagna. Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis la cliente deve accettarmi nel bm ma non risponde, se non riesco a entrare non posso fare la campagna. Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
@@ -590,7 +668,7 @@
     {
       "name": "ARKT-T291 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Alfredo De Grandis · 28/05",
-      "notes": "Alfredo De Grandis: «[immagine] eccolo qui Edda De Mauri cc Francesco Maria Mosca»",
+      "notes": "Alfredo De Grandis: «eccolo qui Edda De Mauri cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
@@ -612,21 +690,10 @@
     {
       "name": "A374-T266 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
-      "notes": "Edda De Mauri: «La cliente non riesce a inserire una persona nel suo account pubblicitario per via del 2FA, potete sentirla voi? Alfredo De Grandis Giulia Michieletto Francesco Maria Mosca Aurora Scaccia cc Doc. Marco Facco»",
+      "notes": "Edda De Mauri: «la cliente mi scrive così: «Devo inserire una persona nel mio account pubblicitario. Forse ho trovato una persona che mi aiuti» Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
-      "notes": "Aurora Scaccia: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca. Aggiunte due creatività»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
