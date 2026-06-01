@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T09:02:41.493252+02:00",
+  "updated_at": "2026-06-01T09:50:13+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -12,7 +12,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA2MDFUMDcwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA2MDFUMDcwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -25,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA2MDFUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -38,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA2MDFUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -51,7 +51,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MDFUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -64,7 +64,98 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cTQ0MDJoaTJpNjRuOGhtajZ2YzBhcWd2djggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "🔴 BRORA ADV · spesa anomala alta",
+      "start_iso": "2026-06-01T13:00:00+02:00",
+      "end_iso": "2026-06-01T13:10:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=dXFzdWY3aTVoaThlYjUyMHI3Zm52dGlkOGsgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "🔴 HOY Village · spesa anomala alta",
+      "start_iso": "2026-06-01T13:10:00+02:00",
+      "end_iso": "2026-06-01T13:20:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=bHI5N3ZjaDV0OW1kMW40dGNkcG43ZnJ2ajQgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "🔴 ADV Esthetique · spesa anomala alta",
+      "start_iso": "2026-06-01T13:20:00+02:00",
+      "end_iso": "2026-06-01T13:30:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cXYwbjY3MGwzaTliZzZpcHV2YWNsYnJ0NjAgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "🔴 Hotel Albatros ADV · spesa anomala alta",
+      "start_iso": "2026-06-01T13:30:00+02:00",
+      "end_iso": "2026-06-01T13:40:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cWRsdXU0Zjc1NjYzYmRobGk3YmdxaGIwbzggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "🔴 ADV Helios - Rodi · spesa anomala alta",
+      "start_iso": "2026-06-01T13:40:00+02:00",
+      "end_iso": "2026-06-01T13:50:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=OG02cHNiZGl2NHR2N3JzaGVrNjFmbGNvcmcgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "⚫ Magari Estates Hotel · nuovo account fermo",
+      "start_iso": "2026-06-01T13:50:00+02:00",
+      "end_iso": "2026-06-01T14:00:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NjlrdHIxN2MyYXJ0bTRncW51bW04dmphajAgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
+      "summary": "⚫ Hotel Rivamare Jesolo · nuovo account fermo",
+      "start_iso": "2026-06-01T14:00:00+02:00",
+      "end_iso": "2026-06-01T14:10:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=bHBqdG52ZWxrY3BhZWFibjhkOGZvYW1jdjQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -77,7 +168,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MDFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +181,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MDFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -103,7 +194,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MDFUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -116,7 +207,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NHNsMjdqZm1iYXQ4bHIzaDNsMmNnYTR0bDQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -129,7 +220,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=ZTF1ZjJtbjA3NXFwcjI0b3I3bGdnOWYwNzAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -142,20 +233,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "TEAM Digital Marketin / Weekly Check Task + Pending",
-      "start_iso": "2026-06-02T09:30:00+02:00",
-      "end_iso": "2026-06-02T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": "https://meet.google.com/ssd-grky-qyx",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cmlnYmVtYzRqNDA0NWZnMXRtMGM2dGxxdXMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -168,7 +246,7 @@
       "is_urgent": true,
       "location": "TIA TIA",
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Y2dnbjNhMmxtbDdtbHJnZGNxOWZwcm10YmsgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -181,7 +259,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA2MDJUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -194,7 +272,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MDJUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -207,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA2MDNUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -220,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA2MDNUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -233,7 +311,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/wir-yacq-emn",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NDdidHJzbDY1NDhoYnBzZ2RjNDI2Njl2dWggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -246,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MDNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -259,7 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA2MDRUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -272,7 +350,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/scw-ybvt-tbq",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=YmU2NGR0cTVyN3F0c3ZyNGtxNnRjcTczcWcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -285,7 +363,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA2MDRUMTMwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -298,7 +376,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA2MDRUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -311,7 +389,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MDRUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -324,7 +402,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MDVUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -337,7 +415,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/kkr-mecd-dgq",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=b2Fxc3JnMDQxZGtmazY3dm1pcmJmYmRkdmcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -350,7 +428,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/yjj-ccrq-yzt",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Nm1iYjBwZDJkZHFlczRzMzduMDlidnRsazggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -363,7 +441,72 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/ctq-bvsv-vyj",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N3UxYjZudHN1cjc1a2Q5azgybmo0dmdnY2sgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-06-05T13:00:00+02:00",
+      "end_iso": "2026-06-05T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MDVUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Progress Interno AG",
+      "start_iso": "2026-06-05T15:30:00+02:00",
+      "end_iso": "2026-06-05T16:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MDVUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-05T18:00:00+02:00",
+      "end_iso": "2026-06-05T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MDVUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-06-07T13:30:00+02:00",
+      "end_iso": "2026-06-07T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MDdUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-07T18:00:00+02:00",
+      "end_iso": "2026-06-07T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MDdUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -396,7 +539,7 @@
     {
       "name": "aggiornamento Last minute_ 29 maggio",
       "subtitle": "Color Holiday · ambra.sartini · 29/05",
-      "notes": "ambra.sartini: «@Beatrice Santucci fai check prezzi? quando hai fatto avvisa @Francesco Maria Mosca grazie!»",
+      "notes": "ambra.sartini: «fai check prezzi? quando hai fatto avvisa @Francesco Maria Mosca grazie!»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215241954308745",
@@ -477,8 +620,8 @@
   "monday_mentions": [
     {
       "name": "@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?",
-      "subtitle": "Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
-      "notes": null,
+      "subtitle": "Magari Estates · Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
+      "notes": "Simone Pisa: «@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://senapedigital.monday.com/boards/8667918867/pulses/9441796229",
@@ -531,5 +674,105 @@
       "is_aghc": true
     }
   ],
-  "zoho_projects": []
+  "zoho_projects": [
+    {
+      "name": "A9Y6-T30 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - FARMACIA SANTORO · Aurora Scaccia · 29/05",
+      "notes": "Aurora Scaccia: «Greta Bellorini campagna ferma finché non pagano fattura (mandata giorni fa). Francesco Maria Mosca slitta a mercoledì 3 giugno»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004904552",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "B179-T23 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - NOVAME' · Aurora Scaccia · 29/05",
+      "notes": "Aurora Scaccia: «stesso problema di sempre - serve che l'amministratore (giuli o cliente) contatti assistenza e sblocchi la situazione. Alfredo De Grandis Giulia Michieletto Francesco Maria Mosca. Mandato a giuli gra…»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "L-FA-T411 Chiamata maggio 26 manager/beauty",
+      "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Aurora Scaccia · 28/05",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis video attivo o spengo? Linda Nicetto Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821059",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "AV02-T29 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 28/05",
+      "notes": "Aurora Scaccia: «inserito secondo video Francesco Maria Mosca Edda De Mauri»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408059",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ALB9-T355 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - BEAUTY POINT ARONA · Linda Nicetto · 28/05",
+      "notes": "Linda Nicetto: «Francesco Maria Mosca Alfredo De Grandis della sponsorizzata partita dall'app vedo 0 contatti. Risulta anche a voi?»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191363",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ARKT-T291 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ELYSIR · Alfredo De Grandis · 28/05",
+      "notes": "Alfredo De Grandis: «[immagine] eccolo qui Edda De Mauri cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336714",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A64L-T21 Chiamata di attivazione Business Manager",
+      "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Giulia Michieletto · 28/05",
+      "notes": "Giulia Michieletto: «Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006152084",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A374-T266 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - ESTHETIQUE · Edda De Mauri · 27/05",
+      "notes": "Edda De Mauri: «la cliente vuole inserire una persona nel suo account pubblicitario ma non riesce per via del 2FA. Potete sentirla voi? Alfredo De Grandis Giulia Michieletto Francesco Maria Mosca Aurora Scaccia»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005198322",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T69 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Aurora Scaccia · 27/05",
+      "notes": "Aurora Scaccia: «Edda De Mauri Alfredo De Grandis Francesco Maria Mosca. Aggiunte due creatività»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814050",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    }
+  ]
 }
