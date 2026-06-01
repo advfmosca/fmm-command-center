@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T13:31:27+02:00",
+  "updated_at": "2026-06-01T15:47:01+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -95,6 +95,19 @@
       "is_aghc": false
     },
     {
+      "summary": "2^ colloquio ALESSANDRO CATTANEO",
+      "start_iso": "2026-06-03T10:00:00+02:00",
+      "end_iso": "2026-06-03T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/ysw-zrxy-gkc",
+      "html_link": "https://www.google.com/calendar/event?eid=MmhvcWdpOHNqN2wzcWhoZDJxNTkzZXQ5NjggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "Allenamento Calenda",
       "start_iso": "2026-06-03T10:30:00+02:00",
       "end_iso": "2026-06-03T12:30:00+02:00",
@@ -130,6 +143,19 @@
       "location": null,
       "conference_url": "https://meet.google.com/wir-yacq-emn",
       "html_link": "https://www.google.com/calendar/event?eid=NDdidHJzbDY1NDhoYnBzZ2RjNDI2Njl2dWggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "BikiniMania - Fra + Simo",
+      "start_iso": "2026-06-03T15:30:00+02:00",
+      "end_iso": "2026-06-03T16:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/gtq-iwov-ybj",
+      "html_link": "https://www.google.com/calendar/event?eid=Mm0wZmllcWM4a21oczY0ZWQ2bTc1YWJpZ2MgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -273,6 +299,19 @@
       "location": null,
       "conference_url": "https://meet.google.com/ctq-bvsv-vyj",
       "html_link": "https://www.google.com/calendar/event?eid=N3UxYjZudHN1cjc1a2Q5azgybmo0dmdnY2sgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Alviggi + Mosca",
+      "start_iso": "2026-06-05T12:30:00+02:00",
+      "end_iso": "2026-06-05T13:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/zia-fcjv-yiu",
+      "html_link": "https://www.google.com/calendar/event?eid=MjF1ZHBscGZvOTJ1dTJuMmR2ZzZoYmRiaXIgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -541,17 +580,6 @@
   ],
   "monday_mentions": [
     {
-      "name": "Altafiumara",
-      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
-      "notes": null,
-      "status": "Assegnato",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033280015",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
       "name": "@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?",
       "subtitle": "Magari Estates · Simone Pisa · SENAPE > AG Squad - PED 2026 AG · 29/05",
       "notes": "Simone Pisa: «@Francesco M Mosca appena riesci puoi inserire le promo così mandiamo prima del ponte?»",
@@ -559,6 +587,149 @@
       "status_kind": "danger",
       "url": "https://senapedigital.monday.com/boards/8667918867/pulses/9441796229",
       "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Passpartout Boutique Palace",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033275383",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "Mare Hotel",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033247755",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hotel Livata",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033282256",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hotel Monastero Sant'Andrea",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033247790",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "Hannah Hotels Collection",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033265571",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Villa Giada",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033304272",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hotel Lunetta",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033292939",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hotel della Piana",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033242373",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hotel Castello",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033289555",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Hemanaire",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033294401",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Accentodì",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033279497",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Adèsso Hotel",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033221310",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Altafiumara",
+      "subtitle": "Simone Pisa · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033280015",
+      "is_today": true,
       "is_urgent": true,
       "is_aghc": true
     },
@@ -591,17 +762,6 @@
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "Fra puoi inserire le promo di Hotel Castello",
-      "subtitle": "Hotel Castello · AG Squad - PED 2026 AG · 25/05",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/18311323116",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
