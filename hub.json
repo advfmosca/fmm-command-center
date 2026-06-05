@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T09:49:39.175522+02:00",
+  "updated_at": "2026-06-05T11:54:38.348855+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -35,7 +35,7 @@
       "end_iso": "2026-06-05T10:30:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
       "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MDVUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -130,32 +130,6 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MzdicjQ4NDlzbW83bWIxZW84MGFndDc1ZWggbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "[Asana] offerta pochi giorni",
-      "start_iso": "2026-06-05T10:00:00+02:00",
-      "end_iso": "2026-06-05T10:15:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=YjQyY2xoNXF2bXR2MmRiNHBjNzB0OHA3MzAgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "[Asana] Report ADV BeeFamily",
-      "start_iso": "2026-06-05T10:15:00+02:00",
-      "end_iso": "2026-06-05T10:30:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDh0OGZhazZnbDlyMWs1YmowMGV2dThzdDggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -343,14 +317,40 @@
     },
     {
       "summary": "AS+Bea+Franci riunione referenti",
-      "start_iso": "2026-06-08T14:30:00+02:00",
-      "end_iso": "2026-06-08T15:30:00+02:00",
+      "start_iso": "2026-06-08T14:00:00+02:00",
+      "end_iso": "2026-06-08T15:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
       "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MDhUMTIzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "allineamento ADS @scintille",
+      "start_iso": "2026-06-08T15:00:00+02:00",
+      "end_iso": "2026-06-08T16:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/ngs-evra-zdh",
+      "html_link": "https://www.google.com/calendar/event?eid=NTBvNW1hbnEyaTg1YWo5aGdxOGplNWlhN3MgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Scintille",
+      "start_iso": "2026-06-08T15:00:00+02:00",
+      "end_iso": "2026-06-08T16:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Nmd1MzlpOTVybTI0bGhjdnNyMXRxdGRpMWggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -394,25 +394,14 @@
       "is_aghc": false
     },
     {
-      "name": "modifica budget da 30 a 25",
-      "project": "Cirillo",
+      "name": "Color Holiday",
+      "project": "Generale",
       "notes": "",
-      "due": "2026-06-04",
-      "days_to_due": -1,
-      "is_today": false,
+      "due": "2026-06-05",
+      "days_to_due": 0,
+      "is_today": true,
       "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209097657273400/task/1215427832941062",
-      "is_aghc": false
-    },
-    {
-      "name": "Cambio Modalità di Pagamento PAYPAL",
-      "project": "Bee Family",
-      "notes": "",
-      "due": "2026-06-04",
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1215395680622089",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215444195644882",
       "is_aghc": false
     },
     {
@@ -463,22 +452,11 @@
     },
     {
       "name": "aggiornamento Last minute_ 29 maggio",
-      "subtitle": "Color Holiday · ambra.sartini · 02/06",
+      "subtitle": "Color Holiday · ambra.sartini · 01/06",
       "notes": "ambra.sartini: «@Francesco Maria Mosca butta fuori ads su questi pacchetti»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215241954308745",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "aumento budget meta + google Albatros",
-      "subtitle": "Albatros · ambra.sartini · 29/05",
-      "notes": "ambra.sartini: «questo è stato fatto! ciao»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1214926604233228",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -488,7 +466,7 @@
     {
       "design_id": "DAHCanvoYBA",
       "design_title": "4. Monthly Report_Hotel Castello Aprile",
-      "design_url": "https://www.canva.com/d/8ithaaUGMuWmpTj",
+      "design_url": "https://www.canva.com/d/RySrKMYkVS41GaQ",
       "comment_id": "KAHJWXHgNJg",
       "author": "Annalisa_Digitalmarketing",
       "comment_text": "tristino tutto in rosso 🫠 @Francesco Maria Mosca",
@@ -498,7 +476,7 @@
     {
       "design_id": "DAHCanvoYBA",
       "design_title": "4. Monthly Report_Hotel Castello Aprile",
-      "design_url": "https://www.canva.com/d/8ithaaUGMuWmpTj",
+      "design_url": "https://www.canva.com/d/RySrKMYkVS41GaQ",
       "comment_id": "KAHJWVk1j-4",
       "author": "Annalisa_Digitalmarketing",
       "comment_text": "aggiorniamo per l'hotel? Non abbiamo dati dello scorso anno @Francesco Maria Mosca",
@@ -564,7 +542,7 @@
       "days_to_due": -427,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     },
     {
@@ -576,7 +554,7 @@
       "days_to_due": -401,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266414563",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     },
     {
@@ -588,7 +566,7 @@
       "days_to_due": -427,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8794786325",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": false
     },
     {
@@ -600,7 +578,7 @@
       "days_to_due": -489,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266377092",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": false
     },
     {
@@ -612,7 +590,7 @@
       "days_to_due": -461,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266377119",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     },
     {
@@ -624,7 +602,7 @@
       "days_to_due": -461,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266409779",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": false
     },
     {
@@ -636,11 +614,44 @@
       "days_to_due": -400,
       "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266423359",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
+    {
+      "name": "Ciao Fra,\n\n\n\nda Mare Hotel ci chiedono le fatture META di aprile e maggio. Nella cartella drive c'è solo TikTok. Riesci a inserirle?\n\n\n\nAPRILE:\n\nhttps://drive.google.com/drive/folders/1_DXDNyMIDI5YWyo",
+      "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 05/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/6857196518/pulses/12201082635",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Ciao Fra,\n\nho inviato le fatture a Villa Miliani e dall'amministrazione mi rispondono così: \n\nBuongiorno Simone,\n\nti ringrazio per la tempestività nell'invio delle fatture.\n\nTi comunico che mancano le",
+      "subtitle": "Simone Pisa · Villa Miliani > Gestione Villa Miliani · 05/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/9797200912/pulses/12200875329",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "Gestione /Adèsso/ Hotel · 05/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "@Francesco M Mosca Dobbiamo cercare di risolvere il prima possibile il problema degli account di Mare. È fondamentale recuperare al più presto le credenziali di accesso dei vari profili, perché al mom",
       "subtitle": "Arianna Petrini · SENAPE > AG Squad - PED 2026 AG · 05/06",
@@ -648,28 +659,6 @@
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://senapedigital.monday.com/boards/8667918867/pulses/8667919316",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "@Francesco M Moscate le scrivo in privato",
-      "subtitle": "Arianna Petrini · SENAPE > AG Squad - PED 2026 AG · 03/06",
-      "notes": null,
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/18310973821",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · Gestione /Adèsso/ Hotel · 05/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
       "is_today": true,
       "is_urgent": true,
       "is_aghc": true
@@ -708,6 +697,17 @@
       "is_aghc": false
     },
     {
+      "name": "@Francesco M Moscate le scrivo in privato",
+      "subtitle": "Arianna Petrini · SENAPE > AG Squad - PED 2026 AG · 03/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/18310973821",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "[Assegnato a te] PIANO ADS GIUGNO",
       "subtitle": "PIANO ADS GIUGNO · Gestione · 03/06",
       "notes": null,
@@ -720,7 +720,7 @@
     },
     {
       "name": "[Sei iscritto] AG - Panoramica PED",
-      "subtitle": "AG - Panoramica PED · AG - Panoramica PED · 03/06",
+      "subtitle": "AG - Panoramica PED · 03/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -752,17 +752,6 @@
       "is_aghc": true
     },
     {
-      "name": "[Assegnato a te] Hotel Livata",
-      "subtitle": "Hotel Livata · AG - Panoramica PED · 01/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033282256",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
       "name": "[Assegnato a te] Hotel Monastero Sant'Andrea",
       "subtitle": "Hotel Monastero Sant'Andrea · AG - Panoramica PED · 01/06",
       "notes": null,
@@ -772,6 +761,17 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
+    },
+    {
+      "name": "[Assegnato a te] Hotel Livata",
+      "subtitle": "Hotel Livata · AG - Panoramica PED · 01/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18413564398/pulses/12033282256",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
     },
     {
       "name": "[Assegnato a te] Hannah Hotels Collection",
@@ -831,6 +831,17 @@
   ],
   "zoho_projects": [
     {
+      "name": "A2FR-T35 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA ADVICE - SIMONA BERNASCONI ESTETICA · Alfredo De Grandis · 05/06",
+      "notes": "Alfredo De Grandis: «Linda Nicetto se la cliente ti conferma fate come al solito per le campagne dal nostro account che Aurora Scaccia ormai conosce bene il processo l'ha fatto tante volte Cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005855526",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 05/06",
       "notes": "Aurora Scaccia: «Greta Bellorini Francesco Maria Mosca Problema carta risolto Impostata campagna partenza 08.06 - no video»",
@@ -866,7 +877,7 @@
     {
       "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 04/06",
-      "notes": "Aurora Scaccia: «Greta Bellorini Francesco Maria Mosca provato ad inserire carta nuova e mi da problema di verifica le ho detto se domani ha 1m riproviamo, altrimenti deve farlo lei da sola da pc, nel caso vedo se r…»",
+      "notes": "Aurora Scaccia: «Greta Bellorini Francesco Maria Mosca provato ad inserire carta nuova e mi da problema di verifica le ho detto se domani ha 1m riproviamo, altrimenti deve farlo lei da sola da pc, nel caso vedo se rie»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005180826",
@@ -877,7 +888,7 @@
     {
       "name": "A2FR-T35 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA ADVICE - SIMONA BERNASCONI ESTETICA · Aurora Scaccia · 04/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto mandata mail all'amministrazione, mi servirebbe il numero dalla quale la cliente contatterà i lead e il loro logo, glielo chiedi per favore? Alfredo De Grandis automazione da fare, ti ho…»",
+      "notes": "Aurora Scaccia: «Linda Nicetto mandata mail all'amministrazione, mi servirebbe il numero dalla quale la cliente contatterà i lead e il loro logo, glielo chiedi per favore? Alfredo De Grandis automazione da fare cc Fra»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005855526",
@@ -888,7 +899,7 @@
     {
       "name": "A2FR-T35 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA ADVICE - SIMONA BERNASCONI ESTETICA · Linda Nicetto · 04/06",
-      "notes": "Linda Nicetto: «Impostazione LG trattamento localizzato con T Shape 2 a 87 franchi anzichè 150 dal 12/06 (NB 10 GIORNI budget 30€ al giorno) Alfredo De Grandis Aurora Scaccia Francesco Maria Mosca confermo che fac…»",
+      "notes": "Linda Nicetto: «Impostazione LG trattamento localizzato con T Shape 2 a 87 franchi anzichè 150 dal 12/06 (NB 10 GIORNI budget 30€ al giorno) confermo che facciamo sponsorizzata dal nostro account! Aurora puoi far man»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005855526",
@@ -976,21 +987,10 @@
     {
       "name": "A9Y6-T31 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA SANTORO · Aurora Scaccia · 03/06",
-      "notes": "Aurora Scaccia: «Greta Bellorini Sara Boscato Francesco Maria Mosca Il cliente ha pagato fattura (la campagna doveva partire il 26.05) - l'ho impostata ora subito dal nostro account, l'anteprima è stata mandata 10gg …»",
+      "notes": "Aurora Scaccia: «Greta Bellorini Sara Boscato Francesco Maria Mosca Il cliente ha pagato fattura (la campagna doveva partire il 26.05) - l'ho impostata ora subito dal nostro account, l'anteprima è stata mandata 10gg f»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004904553",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2FR-T35 Chiamata maggio 26 manager/beauty",
-      "subtitle": "CEA ADVICE - SIMONA BERNASCONI ESTETICA · Alfredo De Grandis · 03/06",
-      "notes": "Alfredo De Grandis: «Linda Nicetto ti rispondo io, abbiamo le risorse sul BM ma la cliente ha l'account disabilitato. Per cui se volete fare una campagna veloce con un mese di prova l'unica è farla dal nostro account pag…»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005855526",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
