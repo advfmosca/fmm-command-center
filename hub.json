@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T11:46:26.372718+02:00",
+  "updated_at": "2026-06-08T12:41:55.819464+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -338,6 +338,19 @@
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
       "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MTJUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Piedi",
+      "start_iso": "2026-06-12T10:00:00+02:00",
+      "end_iso": "2026-06-12T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NzVxbzdwdWxsNDNnb2tzOGM0OXRicW5lZDggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
