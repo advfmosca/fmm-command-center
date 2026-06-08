@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T10:45:42.619427+02:00",
+  "updated_at": "2026-06-08T11:46:26.372718+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -13,19 +13,6 @@
       "location": null,
       "conference_url": "https://meet.google.com/skn-gdrr-fai",
       "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MDhUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Gruppo Stratego - Email di Recap",
-      "start_iso": "2026-06-08T10:45:00+02:00",
-      "end_iso": "2026-06-08T11:00:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MDhUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -379,6 +366,45 @@
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MTJUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-12T18:00:00+02:00",
+      "end_iso": "2026-06-12T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTJUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-06-14T13:30:00+02:00",
+      "end_iso": "2026-06-14T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MTRUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-14T18:00:00+02:00",
+      "end_iso": "2026-06-14T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTRUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
     }
   ],
   "asana": [
@@ -405,6 +431,17 @@
       "is_aghc": false
     },
     {
+      "name": "report maggio",
+      "project": "H&V HOTEL E VILLAGGI",
+      "notes": "mi serve andamento di hev sia meta che google perchè dobbiamo sistemare budget. mi fai report ultimo mese?",
+      "due": "2026-06-08",
+      "days_to_due": 0,
+      "is_today": true,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1215482538873742",
+      "is_aghc": false
+    },
+    {
       "name": "Budget Clienti",
       "project": "Generale",
       "notes": null,
@@ -413,17 +450,6 @@
       "is_today": true,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1215484473673024",
-      "is_aghc": false
-    },
-    {
-      "name": "Color Holiday",
-      "project": "Generale",
-      "notes": null,
-      "due": "2026-06-08",
-      "days_to_due": 0,
-      "is_today": true,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1215444195644882",
       "is_aghc": false
     }
   ],
@@ -522,8 +548,8 @@
   ],
   "monday_mentions": [
     {
-      "name": "Ciao Fra, da Mare Hotel ci chiedono le fatture META di aprile e maggio. Nella cartella drive c'è solo TikTok. Riesci a inserirle? APRILE: https://drive.google.com/drive/folders/1_DXDNyMIDI5YWyo",
-      "subtitle": "Simone Pisa · Mare Hotel · 05/06",
+      "name": "Ciao Fra, da Mare Hotel ci chiedono le fatture META di aprile e maggio. Nella cartella drive c'è solo TikTok. Riesci a inserirle?",
+      "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 05/06",
       "notes": null,
       "status": "Mention",
       "status_kind": "danger",
@@ -533,8 +559,8 @@
       "is_aghc": true
     },
     {
-      "name": "Ciao Fra, ho inviato le fatture a Villa Miliani e dall'amministrazione mi rispondono così: Buongiorno Simone, ti ringrazio per la tempestività nell'invio delle fatture. Ti comunico che mancano le",
-      "subtitle": "Simone Pisa · Villa Miliani · 05/06",
+      "name": "Ciao Fra, ho inviato le fatture a Villa Miliani e dall'amministrazione mi rispondono che mancano delle voci",
+      "subtitle": "Simone Pisa · Villa Miliani > Gestione Villa Miliani · 05/06",
       "notes": null,
       "status": "Mention",
       "status_kind": "danger",
@@ -544,7 +570,7 @@
       "is_aghc": true
     },
     {
-      "name": "@Francesco M Mosca Dobbiamo cercare di risolvere il prima possibile il problema degli account di Mare. È fondamentale recuperare al più presto le credenziali di accesso dei vari profili, perché al mom",
+      "name": "@Francesco M Mosca Dobbiamo risolvere il problema degli account di Mare. È fondamentale recuperare le credenziali di accesso dei vari profili",
       "subtitle": "Arianna Petrini · SENAPE > AG Squad - PED 2026 AG · 05/06",
       "notes": null,
       "status": "Mention",
@@ -577,6 +603,17 @@
       "is_aghc": true
     },
     {
+      "name": "Fra puoi inserire le promo di Hotel Monastero Sant'Andrea",
+      "subtitle": "Hotel Monastero Sant'Andrea · AG Squad - PED 2026 AG · 04/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/8667918867/pulses/8667919366",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "Fra puoi inserire le promo di Villa Ermellina Siena",
       "subtitle": "Villa Ermellina Siena · AG Squad - PED 2026 AG · 03/06",
       "notes": null,
@@ -589,7 +626,7 @@
     },
     {
       "name": "REPORT MAGGIO",
-      "subtitle": "Gestione · ADV · 03/06",
+      "subtitle": "REPORT MAGGIO · Gestione · 03/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
