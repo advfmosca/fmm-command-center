@@ -1,10 +1,9 @@
 {
- "updated_at": "2026-06-09T10:51:22+02:00",
+ "updated_at": "2026-06-09T11:41:48+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [
-  "Asana threads Color Holiday/H&V/Delta blu exceeded token limit and saved-file path unreachable from bash; parsed from subject+snippet (MINIMAL), task URLs fall back to Asana home link.",
-  "Monday PIANO ADS GIUGNO thread overflowed; URL/board reconstructed from REPORT MAGGIO breadcrumb.",
-  "Zoho cap of 15 reached before checking final 5 threads."
+  "Asana mention threads (Color Holiday/H&V/Delta blu) e Zoho full-content superano il limite token via MCP; asana_mentions e zoho_projects riparsati dallo snapshot precedente di oggi (stessa finestra 7gg) + freschi da subject/snippet.",
+  "Asana task URL per 'check veloce ads hev' non estraibile (overflow): fallback Asana home link."
  ],
  "calendar": [
   {
@@ -467,12 +466,12 @@
   },
   {
    "name": "check veloce ads hev",
-   "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 05/06",
-   "notes": "ambra.sartini: «…iamo attivi su tutto? a quanto siamo al gg? mi confermate i metodi di pagamento allacciati? meta @Francesco Maria Mosca google @Marco - Google»",
+   "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 09/06",
+   "notes": "ambra.sartini: «ragazzi abbiamo deciso di mantenere i budget attuali fino al 20 luglio, poi rivalutiamo»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/home",
-   "is_today": false,
+   "is_today": true,
    "is_urgent": true,
    "is_aghc": false
   },
