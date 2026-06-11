@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-06-11T14:46:21+02:00",
+ "updated_at": "2026-06-11T15:47:54+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -396,7 +396,7 @@
   {
    "name": "Report ADV BeeFamily",
    "project": "Generale",
-   "notes": null,
+   "notes": "",
    "due": "2026-06-05",
    "days_to_due": -6,
    "is_today": false,
@@ -407,7 +407,7 @@
   {
    "name": "Budget Clienti",
    "project": "Generale",
-   "notes": null,
+   "notes": "",
    "due": "2026-06-08",
    "days_to_due": -3,
    "is_today": false,
@@ -430,8 +430,8 @@
   },
   {
    "name": "check veloce ads hev",
-   "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 09/06",
-   "notes": "ambra.sartini: «ragazzi abbiamo deciso di mantenere i budget attuali fino al 20 luglio, poi capiamo il da farsi. quindi 95€ al giorno»",
+   "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 10/06",
+   "notes": "ambra.sartini: «ragazzi abbiamo deciso di mantenere i budget attuali fino al 20 luglio, poi capiamo il da farsi. quindi 95€ meta + 80€ google. grazie»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1215443353902004",
@@ -440,23 +440,23 @@
    "is_aghc": false
   },
   {
-   "name": "aggiornamento Last minute_ 29 maggio",
-   "subtitle": "Color Holiday · ambra.sartini · 08/06",
-   "notes": "ambra.sartini: «Francesco Maria Mosca mi dai aggiornamenti su questo?»",
+   "name": "ADS Video per barche",
+   "subtitle": "Sardinia family villas · ambra.sartini · 08/06",
+   "notes": "ambra.sartini: «… https://www.instagram.com/p/DW6HLIoAPN8/?igsh=NGxrbTZ5YzZiM3pq — quando ne ha fatti almeno un paio @Francesco Maria Mosca puoi partire con ads geo sulla sardegna (porto rotondo - canniggione…»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215241954308745",
+   "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   },
   {
-   "name": "ADS Video per barche",
-   "subtitle": "Sardinia family villas · ambra.sartini · 08/06",
-   "notes": "ambra.sartini: «quando ne ha fatti almeno un paio @Francesco Maria Mosca puoi partire con ads geo sulla sardegna (porto rotondo - canniggione - costa smeralda)»",
+   "name": "aggiornamento Last minute_ 29 maggio",
+   "subtitle": "Color Holiday · ambra.sartini · 08/06",
+   "notes": "ambra.sartini: «mi dai aggiornamenti su questo?»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
+   "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215241954308745",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -466,7 +466,7 @@
   {
    "design_id": "DAHCgTnx_2k",
    "design_title": "5.Monthly Report_Villa Giada Maggio",
-   "design_url": "https://www.canva.com/d/LsjwbhH9vUFDuuR",
+   "design_url": "https://www.canva.com/d/-m-lchR89OZwD4e",
    "comment_id": "KAHMP6mGLA4",
    "author": "Alessia De Fabiani AG Hotel Consulting",
    "comment_text": "@FMM Consulting nei dati mancano le voci di riferimento",
@@ -476,7 +476,7 @@
   {
    "design_id": "DAHCatKKEDY",
    "design_title": "5. Monthly Report_Hotel Castello Maggio",
-   "design_url": "https://www.canva.com/d/1ZSZFwyri2YOEO3",
+   "design_url": "https://www.canva.com/d/tvrry2aSpp88wP7",
    "comment_id": "KAHMP6avV0w",
    "author": "Alessia De Fabiani AG Hotel Consulting",
    "comment_text": "@FMM Consulting Mancano le voci che indicano a cosa si riferiscono i dati",
@@ -492,9 +492,9 @@
    "status_kind": null,
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
    "is_aghc": false
   },
   {
@@ -504,9 +504,9 @@
    "status_kind": null,
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
    "is_aghc": false
   },
   {
@@ -516,9 +516,9 @@
    "status_kind": null,
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
    "is_aghc": false
   },
   {
@@ -528,9 +528,9 @@
    "status_kind": null,
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
    "is_aghc": false
   },
   {
@@ -539,82 +539,10 @@
    "status": null,
    "status_kind": null,
    "due": "2025-04-04",
-   "days_to_due": -433,
+   "days_to_due": -432,
+   "is_today": false,
+   "is_urgent": true,
    "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": true
-  },
-  {
-   "name": "Villa Ermellina (siena)",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-04-30",
-   "days_to_due": -407,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266414563",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "Hotel villa Sanfelice (Capri) - Strategy Light",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-04-04",
-   "days_to_due": -433,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8794786325",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "Casa Guargne (cortina)",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-02-01",
-   "days_to_due": -495,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266377092",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "Hotel Lunetta (roma)",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-03-01",
-   "days_to_due": -467,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266377119",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "Monastero (assisi)",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-03-01",
-   "days_to_due": -467,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266409779",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "Villa Ermellina (siena)",
-   "subtitle": "Timing nuovi progetti",
-   "status": null,
-   "status_kind": null,
-   "due": "2025-05-01",
-   "days_to_due": -406,
-   "url": "https://senapedigital.monday.com/boards/8266376878/pulses/8266423359",
-   "is_today": false,
-   "is_urgent": true,
    "is_aghc": false
   }
  ],
@@ -654,6 +582,17 @@
   }
  ],
  "zoho_projects": [
+  {
+   "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
+   "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 11/06",
+   "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente?»",
+   "status": "Pending reply",
+   "status_kind": "danger",
+   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
+   "is_today": true,
+   "is_urgent": true,
+   "is_aghc": false
+  },
   {
    "name": "L-DC-T317 Chiamata maggio 26 manager/beauty",
    "subtitle": "CEA ASSISTANCE - NUOVE SENSAZIONI · Linda Nicetto · 11/06",
@@ -745,7 +684,7 @@
   {
    "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
    "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Edda De Mauri · 09/06",
-   "notes": "Edda De Mauri: «CALL CON Francesco Maria Mosca deciso per cambiare fe e mettere trattamento singolo (pamela si lamenta perchè dice che cosi non riesce a convertire..) inviato modulo lg partenza lunedi 20ggx20€»",
+   "notes": "Edda De Mauri: «CALL CON Francesco Maria Mosca deciso per cambiare fe e mettere trattamento singolo (pamela si lamenta perchè dice che cosi non riesce a convertire..) inviato modulo lg partenza lunedi…»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
@@ -790,17 +729,6 @@
    "name": "L-FA-T412 Chiamata giugno 26 manager/beauty",
    "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Francesco Carnielli · 09/06",
    "notes": "Francesco Carnielli: «Aurora Scaccia Francesco Maria Mosca controllate bene che la campagna parta e che i kpi siano buoni, non possiamo sbagliare!»",
-   "status": "Pending reply",
-   "status_kind": "danger",
-   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821068",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "L-FA-T412 Chiamata giugno 26 manager/beauty",
-   "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Aurora Scaccia · 08/06",
-   "notes": "Aurora Scaccia: «Francesco Carnielli Linda Nicetto Francesco Maria Mosca Alfredo De Grandis L'inserzione è rifiutata - ho dunque aggiunto una nuova grafica (campagna con app) cc Doc. Marco Facco»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821068",
