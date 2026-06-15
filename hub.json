@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T09:48:26.351871+02:00",
+  "updated_at": "2026-06-15T10:46:16+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -13,7 +13,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=bmoxamgxZDh0NDRrcnFrOWFzOTRzcGgzM2MgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -26,7 +26,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=OGZ2aGljZWFkdjdyaW5nMGozaWVxdnI0Y2sgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -39,7 +39,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=ZWFzMzI3aGV1M2M1cGI4MGtjb2JxZXNhNm8gbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -52,7 +52,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=ZzJqdWM4aXB1MTNvbzRrajVjcWk0ZWxmYTAgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -339,7 +339,7 @@
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MTlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "summary": "Registrazione Ospiti",
@@ -442,7 +442,7 @@
     {
       "name": "ADS Video per barche",
       "subtitle": "Sardinia family villas · ambra.sartini · 08/06",
-      "notes": "ambra.sartini: «quando ne ha fatti almeno un paio @Francesco Maria Mosca puoi partire con ads geo sulla sardegna (porto rotondo - canniggione - costa smeralda)»",
+      "notes": "ambra.sartini: «… quando ne ha fatti almeno un paio @Francesco Maria Mosca puoi partire con ads geo sulla sardegna (porto rotondo - canniggione- costa smeralda) insomma quell…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
@@ -459,6 +459,7 @@
       "status": "Da fare",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -470,6 +471,7 @@
       "status": "Da fare",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -481,6 +483,7 @@
       "status": "Da fare",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -492,6 +495,7 @@
       "status": "Da fare",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
@@ -500,9 +504,10 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Scaduto",
-      "status_kind": "danger",
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": "2025-04-04",
+      "days_to_due": -437,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
       "is_urgent": true,
@@ -523,7 +528,7 @@
     },
     {
       "name": "Fra puoi inserire le promo di Mare Hotel",
-      "subtitle": "Mare Hotel · AG Squad - PED 2026 AG · 10/06",
+      "subtitle": "AG Squad - PED 2026 · Mare Hotel · 10/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -534,7 +539,7 @@
     },
     {
       "name": "Fra puoi inserire le promo di Villa Miliani",
-      "subtitle": "Villa Miliani · AG Squad - PED 2026 AG · 08/06",
+      "subtitle": "AG Squad - PED 2026 · Villa Miliani · 08/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -557,9 +562,20 @@
   ],
   "zoho_projects": [
     {
-      "name": "A093-T258 Inviare mail al cliente con link Lead Generation- 11/06/2026 - OPENDAY FISICO THIENE",
+      "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
       "subtitle": "CEA % - FISICO THIENE · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione... magari d'ora in poi non collego il project Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione... magari d'ora in poi non collego il project Alessandro Cattaneo Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
+      "subtitle": "CEA % - FISICO THIENE · Alfredo De Grandis · 12/06",
+      "notes": "Alfredo De Grandis: «Sono campagne di clienti CEA che fa Aurora... non ci sono neanche più i task di verifica perché c'è la dashboard presidiata da Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
@@ -570,7 +586,7 @@
     {
       "name": "A64L-T24 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Edda De Mauri · 12/06",
-      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6, si è ancora lamentata del fatto che lg non ancora partita... cliente molto particolare con esigenze specifiche»",
+      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6, si è ancora lamentata che lg non ancora partita... con altra agenzia ha budget 15€ ma si fida e mi fa mettere 25€»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
@@ -581,7 +597,18 @@
     {
       "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «prolungata fino al 20, Edda De Mauri cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «prolungata fino al 20 Edda De Mauri cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Edda De Mauri · 12/06",
+      "notes": "Edda De Mauri: «Alfredo De Grandis Francesco Maria Mosca sull'app vedo che la lg non è attiva ma in realtà è attiva fino a domani Aurora Scaccia»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
@@ -592,7 +619,7 @@
     {
       "name": "A5G5-T203 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA MARTELLETTO · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «campagna stoppata su richiesta manager cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Greta Bellorini campagna stoppata su richiesta manager cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199563",
@@ -625,7 +652,7 @@
     {
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 12/06",
-      "notes": "Linda Nicetto: «Francesco Maria Mosca non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente? Devo dare risposte alla cliente»",
+      "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente? Devo dare risposte alla cliente»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
@@ -647,7 +674,7 @@
     {
       "name": "AD78-T314 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FERDY'S HAIR E BEAUTY · Aurora Scaccia · 10/06",
-      "notes": "Aurora Scaccia: «campagna via app pagato insoluto e inserito video Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «campagna via app pagato insoluto e inserito video Greta Bellorini Francesco Maria Mosca Francesco Carnielli»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005973102",
@@ -669,32 +696,10 @@
     {
       "name": "B493-T286 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FISICO VICENZA · Aurora Scaccia · 10/06",
-      "notes": "Aurora Scaccia: «aggiunti video sia per fisico vicenza che thiene cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri aggiunti video sia per fisico vicenza che thiene cc Sara Boscato Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191576",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A294-T297 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - CHARME ESTETICA E BENESSERE · Aurora Scaccia · 10/06",
-      "notes": "Aurora Scaccia: «inserita nuova grafica e stoppata quella ferma Edda De Mauri cc Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189563",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "M-DD-T4 Inviare mail al cliente con link campagna OPEN DAY 27/06/2026 - Total Lift",
-      "subtitle": "Med&Tech - STUDIO DENTISTICO LISA MARIANI · Linda Nicetto · 10/06",
-      "notes": "Linda Nicetto: «URGENTE mandare questa mail con i dati dell'open a Chris! La campagna è partita da giorni e deve cominciare a gestire le chiamate! Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006167065",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
