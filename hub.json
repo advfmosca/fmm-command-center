@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T09:42:14.844959+02:00",
+  "updated_at": "2026-06-16T10:51:36.599312+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -43,32 +43,6 @@
       "is_aghc": true
     },
     {
-      "summary": "TEAM Digital Marketin / Weekly Check Task + Pending",
-      "start_iso": "2026-06-16T10:00:00+02:00",
-      "end_iso": "2026-06-16T11:30:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": "https://meet.google.com/ssd-grky-qyx",
-      "html_link": "https://www.google.com/calendar/event?eid=MWgwcW90ZGI3b2c3OGl0anRlYmVrcHUycGZfMjAyNjA2MTZUMDczMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Simona cavalieri",
-      "start_iso": "2026-06-16T10:00:00+02:00",
-      "end_iso": "2026-06-16T11:00:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": "https://meet.google.com/wrr-ayqj-rwy",
-      "html_link": "https://www.google.com/calendar/event?eid=NmRoajZwMzU2a3NqaWI5bjY5Z2plYjlrNjlqNjhiYjI2bGdqY2JiNjcxajM2ZTFwY2tzajRwMzFjYyBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
       "summary": "Canva mentions (2)",
       "start_iso": "2026-06-16T10:00:00+02:00",
       "end_iso": "2026-06-16T10:15:00+02:00",
@@ -104,7 +78,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=aHU5ZmFjbHMwMXJpZmVuMWk2MGxua3JrZm8gbW9zY2FkdkBt",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -117,7 +91,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Y2wyOXBlYmRvMHR2ZjYzN2Jjc2lzam5qdmMgbW9zY2FkdkBt",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -130,7 +104,20 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=YTNiM3ZkNHFkbzg0NzRxcmFtc2hobXRsZzAgbW9zY2FkdkBt",
-      "alert_kind": "anomaly",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Simona cavalieri",
+      "start_iso": "2026-06-16T15:00:00+02:00",
+      "end_iso": "2026-06-16T16:00:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/wrr-ayqj-rwy",
+      "html_link": "https://www.google.com/calendar/event?eid=NmRoajZwMzU2a3NqaWI5bjY5Z2plYjlrNjlqNjhiYjI2bGdqY2JiNjcxajM2ZTFwY2tzajRwMzFjYyBtb3NjYWR2QG0",
+      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -225,6 +212,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Francesco Maria Mosca (Gennaro Petretti)",
+      "start_iso": "2026-06-18T11:30:00+02:00",
+      "end_iso": "2026-06-18T12:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/svn-pkkq-sza",
+      "html_link": "https://www.google.com/calendar/event?eid=YWkyOXB2Zmk2c3Q2dXNraHZhajJvNDBxMm8gbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "CEA + M&T : Check, Balance e Resolution",
       "start_iso": "2026-06-18T15:00:00+02:00",
       "end_iso": "2026-06-18T16:00:00+02:00",
@@ -300,7 +300,7 @@
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MTlUMTMzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
@@ -379,6 +379,58 @@
       "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MjJUMTIzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
+    },
+    {
+      "summary": "THE LINEA - Kickoff",
+      "start_iso": "2026-06-22T15:30:00+02:00",
+      "end_iso": "2026-06-22T17:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/yvz-webg-xqt",
+      "html_link": "https://www.google.com/calendar/event?eid=NHNscmhmcGdqa2I5ZmRsdWFkYzl0ajdxMjMgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Progress @senape",
+      "start_iso": "2026-06-22T18:00:00+02:00",
+      "end_iso": "2026-06-22T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/kqp-peii-ten",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-22T18:00:00+02:00",
+      "end_iso": "2026-06-22T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Assocalcio",
+      "start_iso": "2026-06-22T18:30:00+02:00",
+      "end_iso": "2026-06-22T20:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjJUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
     }
   ],
   "asana": [
@@ -455,7 +507,7 @@
     {
       "design_id": "DAHCgTnx_2k",
       "design_title": "5.Monthly Report_Villa Giada Maggio",
-      "design_url": "https://www.canva.com/d/lSB5l7ILZfzLq3A",
+      "design_url": "https://www.canva.com/d/W5zgZJuCqkvpz88",
       "comment_id": "KAHMP6mGLA4",
       "author": "Alessia De Fabiani AG Hotel Consulting",
       "comment_text": "nei dati mancano le voci di riferimento",
@@ -516,7 +568,7 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
@@ -545,7 +597,7 @@
     },
     {
       "name": "Fra puoi inserire le promo di Mare Hotel",
-      "subtitle": "Mare Hotel · AG Squad - PED 2026 AG · 10/06",
+      "subtitle": "Fra puoi inserire le promo di Mare Hotel · Mare Hotel · 10/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -555,7 +607,7 @@
       "is_aghc": true
     },
     {
-      "name": "Ciao Fra! ti incollo il messaggio che Alberto ha mandato poco fa sul gruppo Whatsapp, per la promozione di un evento:\n\nCiao Ragazzi, ho bisogno di sponsorizzare la locandina dell'evento del 19. L'idea",
+      "name": "Ciao Fra! ti incollo il messaggio che Alberto ha mandato poco fa sul gruppo Whatsapp, per la promozione di un evento: Ciao Ragazzi, ho bisogno di sponsorizzare la locandina dell'evento del 19. L'idea",
       "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 12/06",
       "notes": null,
       "status": "Mention",
@@ -571,9 +623,20 @@
       "name": "A093-T258 Inviare mail al cliente con link Lead Generation- 11/06/2026 - OPENDAY FISICO THIENE 25/06 PROVA CRIOLIPOLISI COOL TOUCH+CONSULENZA A 47€ - FISICO THIENE",
       "subtitle": "CEA % - FISICO THIENE · Aurora Scaccia · 12/06",
       "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione, in quanto quel file è super disordinato, invece dal crm ho tutto in fila magari d'ora in poi non collego il proje»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
       "status": "Pending reply",
       "status_kind": "danger",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A093-T258 Inviare mail al cliente con link Lead Generation- 11/06/2026 - OPENDAY FISICO THIENE 25/06 PROVA CRIOLIPOLISI COOL TOUCH+CONSULENZA A 47€ - FISICO THIENE",
+      "subtitle": "CEA % - FISICO THIENE · Alfredo De Grandis · 12/06",
+      "notes": "Alfredo De Grandis: «Alessandro Cattaneo Sono campagne di clienti CEA che fa Aurora Scaccia AURI per le campagne di quei clienti che ti prenotano da modulo, dal momento che le fai tutte tu adesso e che non ci sono neanche più i»",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
+      "status": "Pending reply",
+      "status_kind": "danger",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -582,9 +645,20 @@
       "name": "A64L-T24 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Edda De Mauri · 12/06",
       "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6 si è ancora lamentata del fatto che lg non ancora partita e che ha dovuto scrivere a Facco mi ha detto che con algra agenzia ha budget 15€ ma che si fida e mi fa mettere 25€»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Aurora Scaccia · 12/06",
+      "notes": "Aurora Scaccia: «prolungata fino al 20 Edda De Mauri cc Francesco Maria Mosca»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
+      "status": "Pending reply",
+      "status_kind": "danger",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -593,9 +667,9 @@
       "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Edda De Mauri · 12/06",
       "notes": "Edda De Mauri: «Alfredo De Grandis Francesco Maria Mosca sull'app vedo che la lg non è attiva ma in realtà è attiva fino a domani Aurora Scaccia»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -604,9 +678,9 @@
       "name": "A5G5-T203 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA MARTELLETTO · Aurora Scaccia · 12/06",
       "notes": "Aurora Scaccia: «Greta Bellorini campagna stoppata su richiesta manager cc Francesco Maria Mosca»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199563",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199563",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -615,9 +689,9 @@
       "name": "B0IG-T386 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - LINEA PIU · Aurora Scaccia · 12/06",
       "notes": "Aurora Scaccia: «Edda De Mauri prolungata fino al 22 giugno cc Francesco Maria Mosca»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005182427",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005182427",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -626,9 +700,9 @@
       "name": "AV02-T29 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 12/06",
       "notes": "Aurora Scaccia: «Edda De Mauri apprendimento limitato, spenta creatività che non gira e ne sto aggiungendo una nuova cc Francesco Maria Mosca»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408059",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408059",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -637,9 +711,9 @@
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 12/06",
       "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente? Mi fate sapere per favore? Devo dare risposte alla cliente»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -648,9 +722,9 @@
       "name": "L-DC-T317 Chiamata maggio 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - NUOVE SENSAZIONI · Linda Nicetto · 11/06",
       "notes": "Linda Nicetto: «Francesco Maria Mosca Aurora Scaccia non vedo lead dal 4 giugno. Mi confermate che non ne sono arrivati altri dal 4 al 9?»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005207146",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005207146",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -659,9 +733,9 @@
       "name": "AD78-T314 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FERDY'S HAIR E BEAUTY · Aurora Scaccia · 10/06",
       "notes": "Aurora Scaccia: «campagna via app pagato insoluto e inserito video Greta Bellorini Francesco Maria Mosca Francesco Carnielli»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005973102",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005973102",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -670,9 +744,9 @@
       "name": "AMO2-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ESTETICA TIZIANA · Edda De Mauri · 10/06",
       "notes": "Edda De Mauri: «Aurora Scaccia Francesco Maria Mosca la campagna è attiva?»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814656",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814656",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -681,9 +755,9 @@
       "name": "B493-T286 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - FISICO VICENZA · Aurora Scaccia · 10/06",
       "notes": "Aurora Scaccia: «Edda De Mauri aggiunti video sia per fisico vicenza che thiene cc Sara Boscato Francesco Maria Mosca»",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191576",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191576",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
