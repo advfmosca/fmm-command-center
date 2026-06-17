@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T10:45:59.258345+02:00",
+  "updated_at": "2026-06-17T11:46:22.049377+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -854,6 +854,17 @@
   ],
   "zoho_projects": [
     {
+      "name": "A294-T297 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - CHARME ESTETICA E BENESSERE · Aurora Scaccia · 17/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri spenta grafica con 0 lead e aggiunto secondo video CAMPAGNA EPILAZIONE cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189563",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "AAH3-T310 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - LINEA PERFETTA · Aurora Scaccia · 17/06",
       "notes": "Aurora Scaccia: «Edda De Mauri prolungata - spenta creatività con 1 lead e aggiunto un secondo video cc Francesco Maria Mosca»",
@@ -867,7 +878,7 @@
     {
       "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 (tempo 24h dall'anteprima) fino al 30.06 con stesso budget. Modificato copy e una creatività, abbiamo 2 grafiche e 2 video btonic è stato cambia»",
+      "notes": "Aurora Scaccia: «campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 (tempo 24h dall'anteprima) fino al 30.06 con stesso budget. Modificato copy e una creatività, abbiam»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005180826",
@@ -887,42 +898,9 @@
       "is_aghc": false
     },
     {
-      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri ti ho fatto project stamattina cc Francesco Maria Mosca Alessandro Cattaneo»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri non mi permette di pagare insoluto, deve farlo l'amministratore (quindi lei), contattata anche assistenza. Sono riuscita a farla entrare nel meta business suite ma dobbiamo aspettare un'ora per il pagamento. le campagne sono attu»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
       "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
       "subtitle": "CEA % - FISICO THIENE · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione, in quanto quel file è super disordinato, invece dal crm ho tutto in fila magari d'ora in poi non collego il project Alessandro Cattaneo Francesc»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
-      "subtitle": "CEA % - FISICO THIENE · Alfredo De Grandis · 12/06",
-      "notes": "Alfredo De Grandis: «Alessandro Cattaneo Sono campagne di clienti CEA che fa Aurora Scaccia AURI per le campagne di quei clienti che ti prenotano da modulo, dal momento che le fai tutte tu adesso e che non ci sono neanche più i task di verifica perché c'è la dash»",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione, in quanto quel file è super disordinato, invece dal crm ho tutto in fila. Alessandro Cattaneo Frances»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
@@ -933,7 +911,7 @@
     {
       "name": "A64L-T24 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Edda De Mauri · 12/06",
-      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6 si è ancora lamentata del fatto che lg non ancora partita e che ha dovuto scrivere a Facco mi ha detto che con algra agenzia ha budget 15€ ma che si fida e mi fa mettere 25€... cliente molto particolare con e»",
+      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6, si è lamentata che lg non ancora partita; con altra agenzia ha budget 15€ ma si fida e mi fa mettere 25€. Vuole vedere anteprima e caricare suoi video, target »",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
@@ -945,17 +923,6 @@
       "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 12/06",
       "notes": "Aurora Scaccia: «prolungata fino al 20 Edda De Mauri cc Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - MALIA · Edda De Mauri · 12/06",
-      "notes": "Edda De Mauri: «Alfredo De Grandis Francesco Maria Mosca sull'app vedo che la lg non è attiva ma in realtà è attiva fino a domani Aurora Scaccia»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
@@ -999,7 +966,7 @@
     {
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 12/06",
-      "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente? Mi fate sapere per favore? Devo dare risposte alla cliente»",
+      "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente? Mi fate sapere per favore? Devo dare risposte alla cl»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
@@ -1008,12 +975,23 @@
       "is_aghc": false
     },
     {
-      "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 11/06",
-      "notes": "Linda Nicetto: «Aurora Scaccia Francesco Maria Mosca Alessandro Cattaneo non vedo contatti nel file dei lead. La campagna è partita il 6 e non ha prodotto niente?»",
+      "name": "L-DC-T317 Chiamata maggio 26 manager/beauty",
+      "subtitle": "CEA ASSISTANCE - NUOVE SENSAZIONI · Linda Nicetto · 11/06",
+      "notes": "Linda Nicetto: «Francesco Maria Mosca Aurora Scaccia non vedo lead dal 4 giugno. Mi confermate che non ne sono arrivati altri dal 4 al 9?»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005207146",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "AD78-T314 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - FERDY'S HAIR E BEAUTY · Aurora Scaccia · 10/06",
+      "notes": "Aurora Scaccia: «campagna via app, pagato insoluto e inserito video. Greta Bellorini Francesco Maria Mosca Francesco Carnielli»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005973102",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
