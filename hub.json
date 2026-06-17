@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T12:47:00.225584+02:00",
+  "updated_at": "2026-06-17T14:47:36.194239+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -52,7 +52,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=cXVobzFwMXFhcjA2YW10Zmkwb2xjbHZqMXMgbW9zY2FkdkBt",
-      "alert_kind": "alert",
+      "alert_kind": "none",
       "is_aghc": true
     },
     {
@@ -78,7 +78,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA2MTdUMDgzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -91,7 +91,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NGF1bWsza2Y1czd0OGE2Zm5hM2E1cDhoZWkgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -104,7 +104,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA2MTdUMTEzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -117,7 +117,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/iqc-hpex-kyn",
       "html_link": "https://www.google.com/calendar/event?eid=cDdkamFrYmEzcjU1ZDc1ZzM4YnNpMDQwMmcgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -130,7 +130,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTdUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -139,11 +139,11 @@
       "end_iso": "2026-06-18T10:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/gmy-eiqx-qgz",
       "html_link": "https://www.google.com/calendar/event?eid=NmM1aGRtdmtiYzNndGc4b3I0ODRicjEzdGsgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -152,11 +152,11 @@
       "end_iso": "2026-06-18T11:30:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/zix-sknj-wrg",
       "html_link": "https://www.google.com/calendar/event?eid=OW5qaWViZ2QwaDZ2aG9taGVub292dmM4M3MgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -165,11 +165,11 @@
       "end_iso": "2026-06-18T12:15:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/svn-pkkq-sza",
       "html_link": "https://www.google.com/calendar/event?eid=YWkyOXB2Zmk2c3Q2dXNraHZhajJvNDBxMm8gbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -178,11 +178,11 @@
       "end_iso": "2026-06-18T16:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA2MThUMTMwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -191,11 +191,11 @@
       "end_iso": "2026-06-18T17:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA2MThUMTQwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -204,11 +204,11 @@
       "end_iso": "2026-06-18T20:30:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MThUMTYzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -221,20 +221,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
       "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MTlUMDcxNTAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Francesco Maria Mosca (Gruppo Stratego)",
-      "start_iso": "2026-06-19T10:45:00+02:00",
-      "end_iso": "2026-06-19T11:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/dic-gfgt-fhg",
-      "html_link": "https://www.google.com/calendar/event?eid=dDQ4cTBhZjVhcnNwNzRicWlxbHJocjdhMmcgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -247,7 +234,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MTlUMTEwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -260,7 +247,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MTlUMTMzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -273,7 +260,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTlUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -285,8 +272,8 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=_892jie9h8osj0b9i88ojab9k74qjeba274rj6b9k6so46d9j74p44hi464_20260621T113000Z",
-      "alert_kind": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MjFUMTEzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -299,7 +286,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjFUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -312,7 +299,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/skn-gdrr-fai",
       "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MjJUMDgwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -325,7 +312,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MjJUMDg0NTAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -337,8 +324,8 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
-      "html_link": "https://www.google.com/calendar/event?eid=_74pk4ga26oojeba68cq32b9k8d2j4ba28h2jgb9p8cs34dpo692j8ghj6c_20260622T123000Z",
-      "alert_kind": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MjJUMTIzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -351,7 +338,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/yvz-webg-xqt",
       "html_link": "https://www.google.com/calendar/event?eid=NHNscmhmcGdqa2I5ZmRsdWFkYzl0ajdxMjMgbW9zY2FkdkBt",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -364,7 +351,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
       "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -377,7 +364,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -390,7 +377,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjJUMTYzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -403,7 +390,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA2MjNUMTQwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": true
     },
     {
@@ -416,7 +403,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjNUMTYzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -429,7 +416,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA2MjRUMDgzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -441,8 +428,8 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=_6h1kad1l8opj4ba28h2k2b9k88qkcb9p6gr30b9l74p4adhk70s4acq668_20260624T113000Z",
-      "alert_kind": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA2MjRUMTEzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -455,7 +442,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjRUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -468,7 +455,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA2MjVUMTMwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -481,7 +468,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA2MjVUMTQwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -494,7 +481,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjVUMTYzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -507,7 +494,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
       "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MjZUMDcxNTAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -520,7 +507,7 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MjZUMTEwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -533,7 +520,7 @@
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MjZUMTMzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
       "is_aghc": false
     },
     {
@@ -546,7 +533,137 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjZUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-06-28T13:30:00+02:00",
+      "end_iso": "2026-06-28T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MjhUMTEzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-28T18:00:00+02:00",
+      "end_iso": "2026-06-28T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjhUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "ALLINEAMENTO MANAGER-BEAUTY-MARKETING",
+      "start_iso": "2026-06-29T10:00:00+02:00",
+      "end_iso": "2026-06-29T12:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/skn-gdrr-fai",
+      "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MjlUMDgwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Gruppo Stratego - Email di Recap",
+      "start_iso": "2026-06-29T10:45:00+02:00",
+      "end_iso": "2026-06-29T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MjlUMDg0NTAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "AS+Bea+Franci riunione referenti",
+      "start_iso": "2026-06-29T14:30:00+02:00",
+      "end_iso": "2026-06-29T15:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/hsi-disc-pvb",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MjlUMTIzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Progress @senape",
+      "start_iso": "2026-06-29T18:00:00+02:00",
+      "end_iso": "2026-06-29T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/kqp-peii-ten",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjlUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-06-29T18:00:00+02:00",
+      "end_iso": "2026-06-29T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjlUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Assocalcio",
+      "start_iso": "2026-06-29T18:30:00+02:00",
+      "end_iso": "2026-06-29T20:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjlUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": false
+    },
+    {
+      "summary": "Recap AGHC",
+      "start_iso": "2026-06-30T16:00:00+02:00",
+      "end_iso": "2026-06-30T17:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA2MzBUMTQwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
+      "is_aghc": true
+    },
+    {
+      "summary": "Assocalcio",
+      "start_iso": "2026-06-30T18:30:00+02:00",
+      "end_iso": "2026-06-30T20:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MzBUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": "none",
       "is_aghc": false
     }
   ],
@@ -596,17 +713,6 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "Mention budget all-inclusive (promemoria)",
-      "subtitle": "BeeFamily · ambra.sartini · 10/06",
-      "notes": "ambra.sartini: «…no al 20 luglio, poi capiamo il da farsi, quindi 95€ … scusami era 70€ google ho sbagliato a scrivere»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1215443353902004",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
     }
   ],
   "canva": [],
@@ -617,9 +723,9 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_aghc": false
     },
     {
@@ -628,9 +734,9 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_aghc": false
     },
     {
@@ -639,9 +745,9 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_aghc": false
     },
     {
@@ -650,20 +756,20 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_aghc": false
     },
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "In ritardo",
-      "status_kind": "danger",
-      "due": "2025-04-04",
-      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+      "status": null,
+      "status_kind": null,
+      "due": null,
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_aghc": true
     }
   ],
@@ -692,7 +798,7 @@
     },
     {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 12/06",
+      "subtitle": "Gestione /Adèsso/ Hotel · 12/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -703,7 +809,7 @@
     },
     {
       "name": "Fra puoi inserire le promo di Mare Hotel",
-      "subtitle": "Mare Hotel · AG Squad - PED 2026 AG · 10/06",
+      "subtitle": "Mare Hotel · PED AG + Adèsso e Accentodì · 10/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -713,40 +819,29 @@
       "is_aghc": true
     },
     {
-      "name": "@Francesco M Mosca si ci ha approvato i ped con budget che abbiamo inviato",
-      "subtitle": "Simone Pisa · Puntebianche (Hannah) > Gestione Puntebianche · 17/06",
+      "name": "Ciao Fra! ti incollo il messaggio che Alberto ha mandato poco fa sul gruppo Whatsapp, per la promozione di un evento: Ciao Ragazzi, ho bisogno di sponsorizzare la locandina dell'evento del 19. L'idea",
+      "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 12/06",
       "notes": null,
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://senapedigital.monday.com/boards/18403801674/pulses/12291585092",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "@Francesco M Mosca ma secondo me non è andata a buon fine, perchè ho clicato più volte ma la pagina rimaneva sempre lì",
-      "subtitle": "Daniela Santini · Altafiumara Resort > Gestione Altafiumara · 16/06",
-      "notes": null,
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://senapedigital.monday.com/boards/18388893844/pulses/12291299497",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
-      "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
-      "notes": null,
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://senapedigital.monday.com/boards/4721127762/pulses/12280632236",
+      "url": "https://senapedigital.monday.com/boards/6857196518/pulses/12260212215",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
     }
   ],
   "zoho_projects": [
+    {
+      "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri Francesco Maria Mosca per me va stoppata, non è un fe che funziona, con lei ha sempre funzionato benissimo corpo con 40+ lead ma il laser molto poco ultimamente, soprattutto ora in questo periodo»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
     {
       "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - EXTHETYC · Edda De Mauri · 17/06",
@@ -783,7 +878,7 @@
     {
       "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 fino al 30.06 con stesso budget. Modificato copy e una creatività; cambiato anche il target cc Tea Raschillà Greta Bellorini»",
+      "notes": "Aurora Scaccia: «campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 fino al 30.06 con stesso budget. Modificato copy e una creatività»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005180826",
@@ -803,9 +898,42 @@
       "is_aghc": false
     },
     {
+      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 16/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri ti ho fatto project stamattina cc Francesco Maria Mosca Alessandro Cattaneo»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 16/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri non mi permette di pagare insoluto, deve farlo l'amministratore (quindi lei), contattata anche assistenza. le campagne sono attualmente ferme per insoluto»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
       "subtitle": "CEA % - FISICO THIENE · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione... magari d'ora in poi non collego il project. Alessandro Cattaneo Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione. Alessandro Cattaneo Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A093-T258 Inviare mail al cliente con link Lead Generation - OPENDAY FISICO THIENE 25/06",
+      "subtitle": "CEA % - FISICO THIENE · Alfredo De Grandis · 12/06",
+      "notes": "Alfredo De Grandis: «Alessandro Cattaneo Sono campagne di clienti CEA che fa Aurora Scaccia... non ci sono più i task di verifica perché c'è la dashboard presidiata da Francesco Maria»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
@@ -816,7 +944,7 @@
     {
       "name": "A64L-T24 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Edda De Mauri · 12/06",
-      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6; cliente vuole tassativamente vedere anteprima e caricare suoi video, target 17 km. Alfredo De Grandis Doc. Marco Facco Francesco Maria Mosca Aurora Scaccia»",
+      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6, si è ancora lamentata del fatto che lg non ancora partita. con altra agenzia ha budget 15€ ma si fida e mi fa mettere 25€... cliente molto particolare»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
@@ -831,6 +959,39 @@
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Edda De Mauri · 12/06",
+      "notes": "Edda De Mauri: «Alfredo De Grandis Francesco Maria Mosca sull'app vedo che la lg non è attiva ma in realtà è attiva fino a domani Aurora Scaccia»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A5G5-T203 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - FARMACIA MARTELLETTO · Aurora Scaccia · 12/06",
+      "notes": "Aurora Scaccia: «Greta Bellorini campagna stoppata su richiesta manager cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199563",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "B0IG-T386 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - LINEA PIU · Aurora Scaccia · 12/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri prolungata fino al 22 giugno cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005182427",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
