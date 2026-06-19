@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T08:47:23.874729+02:00",
+  "updated_at": "2026-06-19T09:47:41.581933+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -383,7 +383,7 @@
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti ",
+      "name": "Report ADV Clienti",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-05-29",
@@ -419,62 +419,42 @@
   "asana_mentions": [],
   "canva": [
     {
-      "design_id": "DAHLT2E4n20",
-      "design_title": "PED VILLA ERMELLINA GIUGNO - LUGLIO 2026",
-      "design_url": "https://www.canva.com/d/K6NTSxp38dcj6eC",
-      "comment_id": "KAHMEOxTzyU",
-      "author": "Elisa Nicolaci",
-      "comment_text": "qui siamo sicuri? dovrà essere rivisto sulla base di quello che ci diremo nella call? dobbiamo fare un ragionamento sull'F&B? target? @FMM Consulting @Simone",
-      "created_iso": "2026-06-09T10:07:25+02:00",
-      "is_aghc": true
-    },
-    {
       "design_id": "DAGzJJ_DQDc",
       "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-      "design_url": "https://www.canva.com/d/hp8kwXftKD5ABmJ",
-      "comment_id": "KAGzz1eHDDc",
-      "author": "Senape S.R.L.",
-      "comment_text": "@Simone @FMM siete sicuri che non abbiano mai fatto ads? perché su IG ci sono dei contenuti che si vede che sono stati sponsorizzati",
-      "created_iso": "2025-09-23T17:43:53+02:00",
-      "is_aghc": true
-    },
-    {
-      "design_id": "DAGzJJ_DQDc",
-      "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-      "design_url": "https://www.canva.com/d/hp8kwXftKD5ABmJ",
+      "design_url": "https://www.canva.com/d/SBNzpI-OECbc1EN",
       "comment_id": "KAGzbmtvjBw",
       "author": "Simone Pisa",
-      "comment_text": "@FMM i paesi inseriti sono corretti, implementiamo sulla base di questi: Germania, Austria, Paesi Bassi, Regno Unito, Svizzera (oltre all'Italia).",
+      "comment_text": "@FMM Consulting i paesi inseriti sono corretti, implementiamo sulla base di questi: Germania, Austria, Paesi Bassi, Regno Unito, Svizzera (oltre all'Italia).",
       "created_iso": "2025-09-19T16:22:52+02:00",
       "is_aghc": true
     },
     {
       "design_id": "DAGzJJ_DQDc",
       "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-      "design_url": "https://www.canva.com/d/hp8kwXftKD5ABmJ",
+      "design_url": "https://www.canva.com/d/SBNzpI-OECbc1EN",
       "comment_id": "KAGzbYrdEQ4",
       "author": "Simone Pisa",
-      "comment_text": "@FMM qui riassumiamo quanto inserito sulle attività adv dei benchmarker. Come schema puoi usare quello che vedi.",
+      "comment_text": "@FMM Consulting qui riassumiamo quanto inserito sulle attività adv dei benchmarker. Come schema puoi usare quello che vedi.",
       "created_iso": "2025-09-19T15:27:39+02:00",
       "is_aghc": true
     },
     {
       "design_id": "DAGzJJ_DQDc",
       "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-      "design_url": "https://www.canva.com/d/hp8kwXftKD5ABmJ",
+      "design_url": "https://www.canva.com/d/SBNzpI-OECbc1EN",
       "comment_id": "KAGzURi33aA",
       "author": "Simone Pisa",
-      "comment_text": "@FMM stessa cosa fatta per Villa Ermellina Siena fino all'ultima slide della sezione",
+      "comment_text": "@FMM Consulting stessa cosa fatta per Villa Ermellina Siena fino all'ultima slide della sezione",
       "created_iso": "2025-09-18T11:50:50+02:00",
       "is_aghc": true
     },
     {
       "design_id": "DAGzJJ_DQDc",
       "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-      "design_url": "https://www.canva.com/d/hp8kwXftKD5ABmJ",
+      "design_url": "https://www.canva.com/d/SBNzpI-OECbc1EN",
       "comment_id": "KAGzOUIzgpc",
       "author": "Simone Pisa",
-      "comment_text": "@FMM lavorerei anche su tiktok per il comparto esperienze/natura e wine tasting.",
+      "comment_text": "@FMM Consulting lavorerei anche su tiktok per il comparto esperienze/natura e wine tasting.",
       "created_iso": "2025-09-17T11:36:36+02:00",
       "is_aghc": true
     }
@@ -538,6 +518,17 @@
   ],
   "monday_mentions": [
     {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 19/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "Sei iscritto: Gestione Altafiumara",
       "subtitle": "Gestione Altafiumara · 16/06",
       "notes": null,
@@ -558,17 +549,6 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 12/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
     },
     {
       "name": "@Francesco M Mosca toppppp a domani!",
@@ -604,7 +584,7 @@
       "is_aghc": true
     },
     {
-      "name": "Ciao ragazzi, ho un problema con account tiktok altafiumara, appena creato neanche sono entrata e me lo ha bannato. Ho inviato una specie di ticket per segnalare che c'è stato un errore",
+      "name": "Ciao ragazzi, ho un problema con account tiktok altafiumara, appena creato neanche sono entrata e me lo ha bannato. Ho inviato una specie di ticket per segnalare che c'è stato un errore, ma niente. mi",
       "subtitle": "Daniela Santini · Altafiumara Resort > Gestione Altafiumara · 16/06",
       "notes": null,
       "status": "Mention",
@@ -615,7 +595,7 @@
       "is_aghc": true
     },
     {
-      "name": "@Francesco M Mosca Inseriamo queste: direzione@adessohotel.it / contabilita@adessohotel.it / comunicazione@adessohotel.it",
+      "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
       "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
       "notes": null,
       "status": "Mention",
@@ -626,7 +606,7 @@
       "is_aghc": true
     },
     {
-      "name": "sisi chiaro, quello che ci serve è proprio il link della dashboard da cui si accede. Le mail verranno inserite successivamente, quando Adèsso ce le segnalerà.",
+      "name": "sisi chiaro, quello che ci serve è proprio il link della dashboard da cui si accede.\n\n\n\nLe mail verranno inserite successivamente, quando Adèsso ce le segnalerà. Con tutta probabilità saranno comunica",
       "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
       "notes": null,
       "status": "Mention",
@@ -637,7 +617,7 @@
       "is_aghc": true
     },
     {
-      "name": "Ciao Fra! Francesca Polverini vorrebbe gli accessi di Google Ads per Adèsso Hotel. Potresti incollare qui il link della dashboard da cui si accede, così @Nicola DAnna può mandare mail?",
+      "name": "Ciao Fra!\n\nFrancesca Polverini vorrebbe gli accessi di Google Ads per Adèsso Hotel. Potresti incollare qui il link della dashboard da cui si accede, così @Nicola DAnna può mandare mail?\n\n\n\nGrazieee\n\n\n",
       "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
       "notes": null,
       "status": "Mention",
