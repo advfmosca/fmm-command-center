@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T12:46:17+02:00",
+  "updated_at": "2026-06-19T14:46:14+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -416,7 +416,19 @@
       "is_aghc": false
     }
   ],
-  "asana_mentions": [],
+  "asana_mentions": [
+    {
+      "name": "ADS Video per barche",
+      "subtitle": "Sardinia family villas · ambra.sartini · 19/06",
+      "notes": "ambra.sartini: «Francesco Maria Mosca partiamo con le ads per il gommone con cta su wa (oppure...)»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    }
+  ],
   "canva": [
     {
       "design_id": "DAGzJJ_DQDc",
@@ -463,10 +475,9 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": null,
-      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
@@ -475,10 +486,9 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": null,
-      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
@@ -487,10 +497,9 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": null,
-      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
@@ -499,10 +508,9 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": null,
-      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
@@ -511,10 +519,9 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": "2025-04-04",
-      "days_to_due": -441,
       "is_today": false,
       "is_urgent": true,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
@@ -522,39 +529,6 @@
     }
   ],
   "monday_mentions": [
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 19/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Sei iscritto] Gestione Altafiumara",
-      "subtitle": "Gestione Altafiumara · 16/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18388893844",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Assegnato a te] Digital Strategy",
-      "subtitle": "Digital Strategy · Gestione · 15/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12280563138",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
     {
       "name": "@Francesco M Mosca toppppp a domani!",
       "subtitle": "Simone Pisa · Hotel Livata > Gestione Hotel Livata · 17/06",
@@ -589,8 +563,41 @@
       "is_aghc": true
     },
     {
-      "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
+      "name": "Ciao ragazzi, ho un problema con account tiktok altafiumara, appena creato neanche sono entrata e me lo ha bannato. Ho inviato una specie di ticket per segnalare che c'è stato un errore, ma niente. mi",
+      "subtitle": "Daniela Santini · Altafiumara Resort > Gestione Altafiumara · 16/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/18388893844/pulses/12291299497",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "@Francesco M Mosca Inseriamo queste: direzione@adessohotel.it contabilita@adessohotel.it comunicazione@adessohotel.it",
       "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/4721127762/pulses/12280632236",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "sisi chiaro, quello che ci serve è proprio il link della dashboard da cui si accede. Le mail verranno inserite successivamente, quando Adèsso ce le segnalerà. Con tutta probabilità saranno comunica",
+      "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/4721127762/pulses/12280632236",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Ciao Fra! Francesca Polverini vorrebbe gli accessi di Google Ads per Adèsso Hotel. Potresti incollare qui il link della dashboard da cui si accede, così @Nicola DAnna può mandare mail?",
+      "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
       "notes": null,
       "status": "Mention",
       "status_kind": "danger",
@@ -602,9 +609,20 @@
   ],
   "zoho_projects": [
     {
+      "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Aurora Scaccia · 19/06",
+      "notes": "Aurora Scaccia: «Linda Nicetto campagna per 22.06. Appena Alessandro Cattaneo mi aggiorna sulla call, saprò se il suo bm è attivo o meno; in caso contrario, dovremo mandare fattura dall'amministrazione, la cliente è d»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "A44T-T229 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SUPERSUN / COMFORT ZONE ZONA MILANO FIERA · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
@@ -613,13 +631,13 @@
       "is_aghc": false
     },
     {
-      "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto campagna per 22.06 appena Alessandro Cattaneo mi aggiorna sulla call, saprò se il suo bm è attivo o meno in caso contrario, dovremo mandare fattura dall'amministrazione, la cliente è da »",
+      "name": "A44T-T229 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA PERFORMANCE - SUPERSUN / COMFORT ZONE ZONA MILANO FIERA · Aurora Scaccia · 18/06",
+      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25.06. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
-      "is_today": true,
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
+      "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     },
@@ -635,9 +653,20 @@
       "is_aghc": false
     },
     {
+      "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
+      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Edda De Mauri · 18/06",
+      "notes": "Edda De Mauri: «lg non ha lead ad oggi. La cliente ieri mi ha chiesto di stoppare, le ho detto di attendere ancora oggi che eravamo al terzo giorno. Cosa posso dirle? Francesco Maria Mosca Aurora Scaccia»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "ALB9-T356 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - BEAUTY POINT ARONA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191371",
@@ -648,7 +677,7 @@
     {
       "name": "AI42-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO AMBRA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004873400",
@@ -659,7 +688,7 @@
     {
       "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
@@ -670,7 +699,7 @@
     {
       "name": "AV02-T30 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «cliente ha campagna in corso con budget s 25€. c'è da prolungarla fino a fine mese e vuole aumentare budget a 40€, Francesco Maria Mosca pensi sia il caso? cc Edda De Mauri»",
+      "notes": "Aurora Scaccia: «Cliente ha campagna in corso con budget 25€. C'è da prolungarla fino a fine mese e vuole aumentare budget a 40€, Francesco Maria Mosca pensi sia il caso? cc Edda De Mauri»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408060",
@@ -681,7 +710,29 @@
     {
       "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata. cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri Francesco Maria Mosca per me va stoppata, non è un fe che funziona, con lei ha sempre funzionato benissimo corpo con 40+ lead ma il laser molto poco ultimamente»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - EXTHETYC · Edda De Mauri · 17/06",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca Aurora Scaccia la cliente mi scrive 'in merito alla sponsorizzata. Purtroppo è ferma e con parecchie criticità' cosa posso dirle? ci sono azioni fatte o da fare o stoppiamo?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
@@ -692,7 +743,7 @@
     {
       "name": "A294-T297 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CHARME ESTETICA E BENESSERE · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri spenta grafica con 0 lead e aggiunto secondo video CAMPAGNA EPILAZIONE cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri spenta grafica con 0 lead e aggiunto secondo video CAMPAGNA EPILAZIONE. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189563",
@@ -703,7 +754,7 @@
     {
       "name": "AAH3-T310 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - LINEA PERFETTA · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri prolungata - spenta creatività con 1 lead e aggiunto un secondo video cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri prolungata - spenta creatività con 1 lead e aggiunto un secondo video. cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004340292",
@@ -714,43 +765,10 @@
     {
       "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 (tempo 24h dall'anteprima) fino al 30.06 con stesso budget. Modificato copy e una creatività, abbiam»",
+      "notes": "Aurora Scaccia: «Campagna btonic, su indicazioni di Francesco Carnielli e Francesco Maria Mosca riparte domani 17.06 fino al 30.06 con stesso budget. Modificato copy e una creatività; cambiato anche il target»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005180826",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 16/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri dopo 1h di chiamata abbiamo pagato insoluto! cc Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A093-T258 Inviare mail al cliente con link Lead Generation- 11/06/2026 - OPENDAY FISICO THIENE 25/06 PROVA CRIOLIPOLISI COOL TOUCH+CONSULENZA A 47€ - FISICO THIENE",
-      "subtitle": "CEA % - FISICO THIENE · Aurora Scaccia · 12/06",
-      "notes": "Aurora Scaccia: «Alfredo De Grandis io guardo dal modulo ma le collego al crm per averle in ordine di prenotazione, in quanto quel file è super disordinato, invece dal crm ho tutto in fila magari d'ora in poi non coll»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006236059",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A64L-T24 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA PERFORMANCE - SNELLA E BELLA · Edda De Mauri · 12/06",
-      "notes": "Edda De Mauri: «lanciato campagna con app partenza 15/6 si è ancora lamentata del fatto che lg non ancora partita e che ha dovuto scrivere a Facco mi ha detto che con algra agenzia ha budget 15€ ma che si fida e mi f»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006154215",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
