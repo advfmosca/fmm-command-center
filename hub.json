@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T10:43:24+02:00",
+  "updated_at": "2026-06-19T11:42:54+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -12,7 +12,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MTlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -25,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MGRpZ201cWxxZHM4dGY3cWRqbnNmcjZuMWMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -38,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cmd0NWxodjlyMGFkcGk1cnM0YmJjb2J1ZTQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -51,7 +51,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cGFxcjZ1djhuN3VibmVmNTBrYWlxcXV0OWsgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -64,7 +64,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MTlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -77,7 +77,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MTlUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +90,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -103,7 +103,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MjFUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -129,7 +129,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/skn-gdrr-fai",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MjJUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -142,7 +142,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MjJUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -155,7 +155,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/qwv-pjuf-ytf",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjA1cHU3ZWVxdDhlaHVnMzFpdW9jamJiazUgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -181,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/yvz-webg-xqt",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NHNscmhmcGdqa2I5ZmRsdWFkYzl0ajdxMjMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -383,7 +383,7 @@
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti ",
+      "name": "Report ADV Clienti",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-05-29",
@@ -396,7 +396,7 @@
     {
       "name": "Report ADV BeeFamily",
       "project": "Generale",
-      "notes": "",
+      "notes": null,
       "due": "2026-06-05",
       "days_to_due": -14,
       "is_today": false,
@@ -407,7 +407,7 @@
     {
       "name": "Budget Clienti",
       "project": "Generale",
-      "notes": "",
+      "notes": null,
       "due": "2026-06-08",
       "days_to_due": -11,
       "is_today": false,
@@ -584,7 +584,7 @@
       "is_aghc": true
     },
     {
-      "name": "@Francesco M Mosca\n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
+      "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
       "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
       "notes": null,
       "status": "Mention",
