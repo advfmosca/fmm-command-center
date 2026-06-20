@@ -1,92 +1,14 @@
 {
- "updated_at": "2026-06-19T17:51:36.628216+02:00",
+ "updated_at": "2026-06-20T08:43:37.146749+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
-  {
-   "summary": "Adv Check Fra + Mark",
-   "start_iso": "2026-06-19T09:15:00+02:00",
-   "end_iso": "2026-06-19T10:30:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-   "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MTlUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "🔴 Hoy Hotels · spesa anomala alta",
-   "start_iso": "2026-06-19T10:30:00+02:00",
-   "end_iso": "2026-06-19T10:40:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=MGRpZ201cWxxZHM4dGY3cWRqbnNmcjZuMWMgbW9zY2FkdkBt&ctz=Europe/Rome",
-   "alert_kind": "anomaly",
-   "is_aghc": false
-  },
-  {
-   "summary": "⚫ Villa Giada Luxury Boutique Hotel · nuovo account fermo",
-   "start_iso": "2026-06-19T10:45:00+02:00",
-   "end_iso": "2026-06-19T10:55:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=cmd0NWxodjlyMGFkcGk1cnM0YmJjb2J1ZTQgbW9zY2FkdkBt&ctz=Europe/Rome",
-   "alert_kind": "anomaly",
-   "is_aghc": true
-  },
-  {
-   "summary": "⚫ ADV Esthetique · nuovo account fermo",
-   "start_iso": "2026-06-19T11:00:00+02:00",
-   "end_iso": "2026-06-19T11:10:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=cGFxcjZ1djhuN3VibmVmNTBrYWlxcXV0OWsgbW9zY2FkdkBt&ctz=Europe/Rome",
-   "alert_kind": "anomaly",
-   "is_aghc": false
-  },
-  {
-   "summary": "OFF",
-   "start_iso": "2026-06-19T13:00:00+02:00",
-   "end_iso": "2026-06-19T19:00:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MTlUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "Registrazione Ospiti",
-   "start_iso": "2026-06-19T18:00:00+02:00",
-   "end_iso": "2026-06-19T18:15:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MTlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
   {
    "summary": "Ordine Biancheria",
    "start_iso": "2026-06-21T13:30:00+02:00",
    "end_iso": "2026-06-21T14:30:00+02:00",
    "is_today": false,
-   "is_tomorrow": false,
+   "is_tomorrow": true,
    "is_urgent": false,
    "location": null,
    "conference_url": null,
@@ -99,7 +21,7 @@
    "start_iso": "2026-06-21T18:00:00+02:00",
    "end_iso": "2026-06-21T18:15:00+02:00",
    "is_today": false,
-   "is_tomorrow": false,
+   "is_tomorrow": true,
    "is_urgent": false,
    "location": null,
    "conference_url": null,
@@ -194,7 +116,7 @@
    "is_urgent": false,
    "location": null,
    "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjJUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
   },
@@ -365,7 +287,7 @@
    "conference_url": "https://meet.google.com/sfm-tcbz-ran",
    "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MjZUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
-   "is_aghc": false
+   "is_aghc": true
   },
   {
    "summary": "Registrazione Ospiti",
@@ -387,10 +309,10 @@
    "project": "Generale",
    "notes": "Da inviare ad Ambra",
    "due": "2026-05-29",
-   "days_to_due": -21,
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1215250251436356",
+   "days_to_due": -22,
    "is_today": false,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1215250251436356",
    "is_aghc": false
   },
   {
@@ -398,10 +320,10 @@
    "project": "Generale",
    "notes": "",
    "due": "2026-06-05",
-   "days_to_due": -14,
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1215250332967041",
+   "days_to_due": -15,
    "is_today": false,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1215250332967041",
    "is_aghc": false
   },
   {
@@ -409,10 +331,10 @@
    "project": "Generale",
    "notes": "",
    "due": "2026-06-08",
-   "days_to_due": -11,
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1215484473673024",
+   "days_to_due": -12,
    "is_today": false,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1215484473673024",
    "is_aghc": false
   }
  ],
@@ -424,16 +346,56 @@
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   }
  ],
  "canva": [
   {
+   "design_id": "DAHLT2E4n20",
+   "design_title": "PED VILLA ERMELLINA GIUGNO - LUGLIO 2026",
+   "design_url": "https://www.canva.com/d/SYQ6AQjp0ZbHvLh",
+   "comment_id": "KAHMEOxTzyU",
+   "author": "Elisa Nicolaci",
+   "comment_text": "qui siamo sicuri? dovrà essere rivisto sulla base di quello che ci diremo nella call? dobbiamo fare un ragionamento sull'F&B? target?",
+   "created_iso": "2026-06-09T13:27:25Z",
+   "is_aghc": true
+  },
+  {
+   "design_id": "DAHCgbE9woc",
+   "design_title": "4. Monthly Report_Lunetta Aprile",
+   "design_url": "https://www.canva.com/d/BhMXEXKmt39GRwa",
+   "comment_id": "KAHJXfyE5EI",
+   "author": "Annalisa_Digitalmarketing",
+   "comment_text": "qui dedicherei qualche parola in più. Perchè un report tutto in negativo?",
+   "created_iso": "2026-05-07T07:04:08Z",
+   "is_aghc": true
+  },
+  {
+   "design_id": "DAHCaq1kz48",
+   "design_title": "4.Monthly Report_Villa Ermellina Siena Aprile",
+   "design_url": "https://www.canva.com/d/y1bUMLFBQkd50Np",
+   "comment_id": "KAHJXZdtTc8",
+   "author": "Elisa Nicolaci",
+   "comment_text": "ricordiamoci che le slide di VES devono essere in eng. non riusciamo a fare un confronto con il mese precedente? se non si può fare mai, eviterei la tabella. è strano che le prime due metriche siano molto alte e i click siano a 0?",
+   "created_iso": "2026-05-07T07:08:21Z",
+   "is_aghc": true
+  },
+  {
+   "design_id": "DAHCaq1kz48",
+   "design_title": "4.Monthly Report_Villa Ermellina Siena Aprile",
+   "design_url": "https://www.canva.com/d/y1bUMLFBQkd50Np",
+   "comment_id": "KAHJXUSoN3Y",
+   "author": "Elisa Nicolaci",
+   "comment_text": "possiamo aggiungere una frase per dire che ad aprile abbiamo bloccato le ads su FB per i problemi che abbiamo avuto su PLUS?",
+   "created_iso": "2026-05-07T07:05:12Z",
+   "is_aghc": true
+  },
+  {
    "design_id": "DAGzJJ_DQDc",
    "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-   "design_url": "https://www.canva.com/d/DDHm_xewq7JywXP",
+   "design_url": "https://www.canva.com/d/e08O7P7tTX4mFs4",
    "comment_id": "KAGzbmtvjBw",
    "author": "Simone Pisa",
    "comment_text": "@FMM Consulting i paesi inseriti sono corretti, implementiamo sulla base di questi: Germania, Austria, Paesi Bassi, Regno Unito, Svizzera (oltre all'Italia).",
@@ -443,7 +405,7 @@
   {
    "design_id": "DAGzJJ_DQDc",
    "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-   "design_url": "https://www.canva.com/d/DDHm_xewq7JywXP",
+   "design_url": "https://www.canva.com/d/e08O7P7tTX4mFs4",
    "comment_id": "KAGzbYrdEQ4",
    "author": "Simone Pisa",
    "comment_text": "@FMM Consulting qui riassumiamo quanto inserito sulle attività adv dei benchmarker. Come schema puoi usare quello che vedi.",
@@ -453,7 +415,7 @@
   {
    "design_id": "DAGzJJ_DQDc",
    "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-   "design_url": "https://www.canva.com/d/DDHm_xewq7JywXP",
+   "design_url": "https://www.canva.com/d/e08O7P7tTX4mFs4",
    "comment_id": "KAGzURi33aA",
    "author": "Simone Pisa",
    "comment_text": "@FMM Consulting stessa cosa fatta per Villa Ermellina Siena fino all'ultima slide della sezione",
@@ -463,7 +425,7 @@
   {
    "design_id": "DAGzJJ_DQDc",
    "design_title": "ITA - STRATEGY MAGARI ESTATES HOTEL 2025/2026",
-   "design_url": "https://www.canva.com/d/DDHm_xewq7JywXP",
+   "design_url": "https://www.canva.com/d/e08O7P7tTX4mFs4",
    "comment_id": "KAGzOUIzgpc",
    "author": "Simone Pisa",
    "comment_text": "@FMM Consulting lavorerei anche su tiktok per il comparto esperienze/natura e wine tasting.",
@@ -526,10 +488,10 @@
    "status": "Da fare",
    "status_kind": "warn",
    "due": "2025-04-04",
-   "days_to_due": -441,
+   "days_to_due": -442,
    "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_today": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "is_aghc": true
   }
  ],
@@ -541,7 +503,7 @@
    "status": "Notifica",
    "status_kind": "warn",
    "url": "https://senapedigital.monday.com/boards/4721127762",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": true
   },
@@ -568,13 +530,13 @@
    "is_aghc": false
   },
   {
-   "name": "ciao Fra! Hai news su questo? @Francesco M Mosca",
+   "name": "ciao Fra!\n\nHai news su questo?\n\n\n\n@Francesco M Mosca",
    "subtitle": "Simone Pisa · Villa Ermellina > Gestione Villa Ermellina · 19/06",
    "notes": null,
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://senapedigital.monday.com/boards/7961312860/pulses/12300152153",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": true
   },
@@ -612,7 +574,7 @@
    "is_aghc": true
   },
   {
-   "name": "Problema account TikTok Altafiumara: appena creato è stato bannato; inviato ticket di segnalazione",
+   "name": "Ciao ragazzi, ho un problema con account tiktok altafiumara, appena creato neanche sono entrata e me lo ha bannato. Ho inviato una specie di ticket per segnalare che c'è stato un errore, ma niente. mi",
    "subtitle": "Daniela Santini · Altafiumara Resort > Gestione Altafiumara · 16/06",
    "notes": null,
    "status": "Mention",
@@ -623,7 +585,7 @@
    "is_aghc": true
   },
   {
-   "name": "@Francesco M Mosca Inseriamo queste: direzione@adessohotel.it, contabilita@adessohotel.it, comunicazione@adessohotel.it",
+   "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
    "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
    "notes": null,
    "status": "Mention",
@@ -634,7 +596,7 @@
    "is_aghc": true
   },
   {
-   "name": "Serve il link della dashboard Google Ads di Adèsso; le mail verranno inserite quando Adèsso le segnalerà",
+   "name": "sisi chiaro, quello che ci serve è proprio il link della dashboard da cui si accede.\n\n\n\nLe mail verranno inserite successivamente, quando Adèsso ce le segnalerà. Con tutta probabilità saranno comunica",
    "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
    "notes": null,
    "status": "Mention",
@@ -645,7 +607,7 @@
    "is_aghc": true
   },
   {
-   "name": "Ciao Fra! Francesca Polverini vorrebbe gli accessi di Google Ads per Adèsso Hotel: incolla il link della dashboard così @Nicola DAnna può mandare mail",
+   "name": "Ciao Fra!\n\nFrancesca Polverini vorrebbe gli accessi di Google Ads per Adèsso Hotel. Potresti incollare qui il link della dashboard da cui si accede, così @Nicola DAnna può mandare mail?\n\n\n\nGrazieee\n\n\n",
    "subtitle": "Simone Pisa · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 15/06",
    "notes": null,
    "status": "Mention",
@@ -660,22 +622,22 @@
   {
    "name": "A89A-T28 Chiamata giugno 26 manager/beauty",
    "subtitle": "CEA % - ESTETICA VIZIATA · Aurora Scaccia · 19/06",
-   "notes": "Aurora Scaccia: «per giorno 25.06 ho campagna per lei; mi serve sapere se BM e pagina suoi sono stati risolti o se devo mandare fattura all'amministrazione e farla partire dal nostro account — Alfredo De Grandis, Fran»",
+   "notes": "Aurora Scaccia: «per giorno 25.06 ho campagna per lei; mi serve sapere se BM e pagina suoi sono stati risolti o se devo mandare fattura all'amministrazione e farla partire dal nostro account — Alfredo De Grandis, Francesco Maria Mosca, Alessandro Cattaneo; cc Linda Nicetto»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005849241",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   },
   {
    "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
    "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Aurora Scaccia · 19/06",
-   "notes": "Aurora Scaccia: «Linda Nicetto, campagna per 22.06; appena Alessandro Cattaneo aggiorna sulla call saprò se il suo BM è attivo. In caso contrario fattura dall'amministrazione e cliente da avvisare — cc Francesco Maria»",
+   "notes": "Aurora Scaccia: «Linda Nicetto campagna per 22.06; appena Alessandro Cattaneo aggiorna sulla call saprò se il suo BM è attivo. In caso contrario fattura dall'amministrazione e cliente da avvisare — cc Francesco Maria Mosca»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   },
@@ -686,7 +648,7 @@
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   },
@@ -735,6 +697,17 @@
    "is_aghc": false
   },
   {
+   "name": "AV02-T30 Chiamata giugno 26 manager/beauty",
+   "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 17/06",
+   "notes": "Aurora Scaccia: «cliente ha campagna in corso con budget 25€; c'è da prolungarla fino a fine mese e vuole aumentare budget a 40€, Francesco Maria Mosca pensi sia il caso? cc Edda De Mauri»",
+   "status": "Pending reply",
+   "status_kind": "danger",
+   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408060",
+   "is_today": false,
+   "is_urgent": true,
+   "is_aghc": false
+  },
+  {
    "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
    "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
    "notes": "Aurora Scaccia: «Edda De Mauri stoppata — cc Francesco Maria Mosca»",
@@ -770,7 +743,7 @@
   {
    "name": "AB26-T250 Chiamata giugno 26 manager/beauty",
    "subtitle": "CEA % - CENTRO ESTETICO EDEN · Aurora Scaccia · 16/06",
-   "notes": "Aurora Scaccia: «campagna btonic su indicazioni di Francesco Carnielli e Francesco Maria Mosca: riparte 17.06 fino al 30.06 stesso budget. Modificato copy e una creatività; cambiato anche il target — cc Tea Raschillà,»",
+   "notes": "Aurora Scaccia: «campagna btonic su indicazioni di Francesco Carnielli e Francesco Maria Mosca: riparte 17.06 fino al 30.06 stesso budget. Modificato copy e una creatività; cambiato anche il target — cc Tea Raschillà»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005180826",
