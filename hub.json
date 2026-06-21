@@ -1,21 +1,8 @@
 {
- "updated_at": "2026-06-21T08:49:49.360306+02:00",
- "source": "fmm-command-center-refresh-weekend-am",
+ "updated_at": "2026-06-21T14:12:44.912607+02:00",
+ "source": "fmm-command-center-refresh-weekend-pm",
  "errors": [],
  "calendar": [
-  {
-   "summary": "⚫ Hotel Albatros ADV · nuovo account fermo",
-   "start_iso": "2026-06-21T09:00:00+02:00",
-   "end_iso": "2026-06-21T09:10:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=cTdyZzd0cXV1dmwxZXI3cWIxbDRhMW91ZjAgbW9zY2FkdkBt&ctz=Europe/Rome",
-   "alert_kind": "anomaly",
-   "is_aghc": false
-  },
   {
    "summary": "Ordine Biancheria",
    "start_iso": "2026-06-21T13:30:00+02:00",
@@ -340,58 +327,6 @@
    "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjhUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
-  },
-  {
-   "summary": "ALLINEAMENTO MANAGER-BEAUTY-MARKETING",
-   "start_iso": "2026-06-29T10:00:00+02:00",
-   "end_iso": "2026-06-29T12:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/skn-gdrr-fai",
-   "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MjlUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "Gruppo Stratego - Email di Recap",
-   "start_iso": "2026-06-29T10:45:00+02:00",
-   "end_iso": "2026-06-29T11:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MjlUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "AS+Bea+Franci riunione referenti",
-   "start_iso": "2026-06-29T14:30:00+02:00",
-   "end_iso": "2026-06-29T15:30:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/hsi-disc-pvb",
-   "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MjlUMTIzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "Progress @senape",
-   "start_iso": "2026-06-29T18:00:00+02:00",
-   "end_iso": "2026-06-29T19:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/kqp-peii-ten",
-   "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
   }
  ],
  "asana": [
@@ -542,7 +477,7 @@
    "days_to_due": -443,
    "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_today": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "is_aghc": true
   }
  ],
@@ -620,28 +555,6 @@
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://senapedigital.monday.com/boards/18388893844/pulses/12291299497",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": true
-  },
-  {
-   "name": "Ciao ragazzi, ho un problema con account tiktok altafiumara, appena creato neanche sono entrata e me lo ha bannato. Ho inviato una specie di ticket per segnalare che c'è stato un errore, ma niente. mi",
-   "subtitle": "Daniela Santini · Altafiumara Resort > Gestione Altafiumara · 16/06",
-   "notes": null,
-   "status": "Mention",
-   "status_kind": "danger",
-   "url": "https://senapedigital.monday.com/boards/18388893844/pulses/12291299497",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": true
-  },
-  {
-   "name": "@Francesco M Mosca \n\nInseriamo queste:\n\ndirezione@adessohotel.it\n\ncontabilita@adessohotel.it\n\ncomunicazione@adessohotel.it",
-   "subtitle": "Nicola DAnna · /Adèsso/ Hotel > Gestione /Adèsso/ Hotel · 16/06",
-   "notes": null,
-   "status": "Mention",
-   "status_kind": "danger",
-   "url": "https://senapedigital.monday.com/boards/4721127762/pulses/12280632236",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": true
