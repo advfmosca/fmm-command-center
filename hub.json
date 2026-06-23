@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T10:46:59.928974+02:00",
+  "updated_at": "2026-06-23T11:44:03.128922+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -461,6 +461,17 @@
     }
   ],
   "asana_mentions": [
+    {
+      "name": "abbassare budget -->",
+      "subtitle": "Trieste · ambra.sartini · 23/06",
+      "notes": "ambra.sartini: «10€ meta @Francesco Maria Mosca 10€ google @Marco - Google Ads»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1209191922415744/task/1215956129919053",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
     {
       "name": "ADS Video per barche",
       "subtitle": "Sardinia family villas · ambra.sartini · 19/06",
