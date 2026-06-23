@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T14:54:10.625350+02:00",
+  "updated_at": "2026-06-23T15:45:06.669215+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -436,6 +436,28 @@
   ],
   "asana_mentions": [
     {
+      "name": "offerte new cristallo",
+      "subtitle": "Cristallo · ambra.sartini · 23/06",
+      "notes": "ambra.sartini: «Marco - Google Ads potete partire con queste offerte.»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834199/task/1215841011400391",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "LAST MINUTE COLOR HOLIDAY",
+      "subtitle": "Color Holiday · ambra.sartini · 23/06",
+      "notes": "ambra.sartini: «offerte estate all-inclusive (link hotelperfamiglieromagna.it)»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215797152377555",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "abbassare budget -->",
       "subtitle": "Trieste · ambra.sartini · 23/06",
       "notes": "ambra.sartini: «10€ meta @Francesco Maria Mosca 10€ google @Marco - Google Ads»",
@@ -449,7 +471,7 @@
     {
       "name": "ADS Video per barche",
       "subtitle": "Sardinia family villas · ambra.sartini · 19/06",
-      "notes": "ambra.sartini: «@Francesco Maria Mosca partiamo con le ads per il gommone con cta su wa (oppure con alternativa che volevi valutare)»",
+      "notes": "ambra.sartini: «partiamo con le ads per il gommone con cta su wa»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
@@ -512,33 +534,11 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 19/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Sei iscritto] Gestione Altafiumara",
-      "subtitle": "Gestione Altafiumara · 16/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18388893844",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
     {
       "name": "ciao Fra! Hai news su questo? @Francesco M Mosca",
       "subtitle": "Simone Pisa · Villa Ermellina > Gestione Villa Ermellina · 19/06",
@@ -549,13 +549,46 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
+    },
+    {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 19/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "[Sei iscritto] Gestione Altafiumara",
+      "subtitle": "Gestione Altafiumara · Gestione Altafiumara · 16/06",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18388893844",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
     }
   ],
   "zoho_projects": [
     {
+      "name": "AAH3-T310 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA ASSISTANCE - LINEA PERFETTA · Aurora Scaccia · 23/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata — cc Francesco Maria Mosca»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004340292",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 23/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata estetica, metabolica era finita il 21, quindi prolungata da oggi al 30.06 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata estetica, metabolica era finita il 21, quindi prolungata da oggi al 30.06»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
@@ -566,7 +599,7 @@
     {
       "name": "L-FA-T412 Chiamata giugno 26 manager/beauty",
       "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Aurora Scaccia · 21/06",
-      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento Alfredo De Grandis Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821068",
@@ -577,7 +610,7 @@
     {
       "name": "CUKZ-T173 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ESTETICA ROSY · Aurora Scaccia · 21/06",
-      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento Alfredo De Grandis Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189054",
@@ -588,7 +621,7 @@
     {
       "name": "A89A-T28 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ESTETICA VIZIATA · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «per girono 25.06 ho campagna per lei mi servirebbe sapere se bm e pagina suoi sono stati risolti, o se devo mandare fattura all'amministrazione e farla partire dal nostro account Alfredo De Grandis Francesco Maria Mosca Alessandro Cattaneo cc Lin»",
+      "notes": "Aurora Scaccia: «per giorno 25.06 ho campagna per lei, mi servirebbe sapere se bm e pagina suoi sono stati risolti, o se devo mandare fattura»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005849241",
@@ -599,7 +632,7 @@
     {
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto campagna per 22.06 appena Alessandro Cattaneo mi aggiorna sulla call, saprò se il suo bm è attivo o meno in caso contrario, dovremo mandare fattura dall'amministrazione, la cliente è da avvisare cosi sa che deve pagarla subito, altrimen»",
+      "notes": "Aurora Scaccia: «campagna per 22.06, appena Alessandro Cattaneo mi aggiorna sulla call saprò se il suo bm è attivo»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
@@ -610,7 +643,7 @@
     {
       "name": "A44T-T229 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SUPERSUN / COMFORT ZONE ZONA MILANO FIERA · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
@@ -620,19 +653,8 @@
     },
     {
       "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
-      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
       "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Edda De Mauri · 18/06",
-      "notes": "Edda De Mauri: «lg non ha lead ad oggi la cliente ieri mi ha chiesto di stoppare le ho detto di attendere ancora oggi che eravamo al terzo giorno. mi ha detto che aspettava oggi e se non c'erano contatti voleva stoppare. cosa posso dirle? Francesco Maria Mosca Aurora S»",
+      "notes": "Edda De Mauri: «lg non ha lead ad oggi. La cliente vuole stoppare, cosa posso dirle?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
@@ -643,7 +665,7 @@
     {
       "name": "ALB9-T356 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - BEAUTY POINT ARONA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191371",
@@ -654,7 +676,7 @@
     {
       "name": "AI42-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO AMBRA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004873400",
@@ -665,7 +687,7 @@
     {
       "name": "A2U1-T70 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814051",
@@ -674,34 +696,12 @@
       "is_aghc": false
     },
     {
-      "name": "AV02-T30 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «cliente ha campagna in corso con budget s 25€. c'è da prolungarla fino a fine mese e vuole aumentare budget a 40€, Francesco Maria Mosca pensi sia il caso? cc Edda De Mauri»",
+      "name": "A294-T297 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - CHARME ESTETICA E BENESSERE · Aurora Scaccia · 17/06",
+      "notes": "Aurora Scaccia: «spenta grafica con 0 lead e aggiunto secondo video CAMPAGNA EPILAZIONE»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408060",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata cc Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2XU-T238 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - EXTHETYC · Aurora Scaccia · 17/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri Francesco Maria Mosca per me va stoppata, non è un fe che funziona, con lei ha sempre funzionato benissimo corpo con 40+ lead ma il laser molto poco ultimamente, soprattutto ora in questo periodo (lei ha voluto insistere su questione di tog»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005961365",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189563",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
