@@ -1,47 +1,8 @@
 {
-  "updated_at": "2026-06-25T15:10:55.764343+02:00",
+  "updated_at": "2026-06-25T15:45:22.181511+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
-    {
-      "summary": "OFF",
-      "start_iso": "2026-06-25T08:30:00+02:00",
-      "end_iso": "2026-06-25T14:30:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "[Asana] Script adv lead magnet luglio",
-      "start_iso": "2026-06-25T09:30:00+02:00",
-      "end_iso": "2026-06-25T09:45:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Francesco Maria Mosca (Simone Pisa)",
-      "start_iso": "2026-06-25T11:30:00+02:00",
-      "end_iso": "2026-06-25T12:15:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": "https://meet.google.com/waz-zpcy-wxq",
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
     {
       "summary": "🔴 Hotel Cristallo NEW · spesa anomala alta",
       "start_iso": "2026-06-25T14:30:00+02:00",
@@ -51,8 +12,8 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
+      "html_link": "https://www.google.com/calendar/event?eid=azQ4MmdwMmtmOGc1dmpzdTU4MmFqOG5wdmMgbW9zY2FkdkBt",
+      "alert_kind": "anomaly",
       "is_aghc": false
     },
     {
@@ -64,8 +25,8 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
+      "html_link": "https://www.google.com/calendar/event?eid=OGc5bmVxb2NsajAzMzVhNDNtM3I1ZHQzMWMgbW9zY2FkdkBt",
+      "alert_kind": "anomaly",
       "is_aghc": false
     },
     {
@@ -77,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA2MjVUMTMwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +51,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA2MjVUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -103,7 +64,7 @@
       "is_urgent": true,
       "location": "Tirana TIA",
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=dXBjYXJnZmwxcGdjbTdudG1tZWxtMzVja28gbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -116,7 +77,20 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA2MjVUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-06-26T08:45:00+02:00",
+      "end_iso": "2026-06-26T19:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": true,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA2MjZUMTEwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -129,20 +103,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "OFF",
-      "start_iso": "2026-06-26T13:00:00+02:00",
-      "end_iso": "2026-06-26T19:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA2MjZUMDcxNTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -155,9 +116,9 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA2MjZUMTMzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
@@ -168,7 +129,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjZUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -181,7 +142,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA2MjhUMTEzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -194,7 +155,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA2MjhUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -207,7 +168,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/skn-gdrr-fai",
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MjY3dWhtMXJ0bjlvYzV2ZTc1aWM2cnE2dmNfMjAyNjA2MjlUMDgwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -220,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA2MjlUMDg0NTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -233,7 +194,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MzJlcmY5ams0OWduYWV2M2ZsMDJuYXAyMzQgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -246,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA2MjlUMTIzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -259,59 +220,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Registrazione Ospiti",
-      "start_iso": "2026-06-29T18:00:00+02:00",
-      "end_iso": "2026-06-29T18:15:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Assocalcio",
-      "start_iso": "2026-06-29T18:30:00+02:00",
-      "end_iso": "2026-06-29T20:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "ALLIN MKTG",
-      "start_iso": "2026-06-30T09:00:00+02:00",
-      "end_iso": "2026-06-30T10:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/gvz-cdhb-pty",
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "BootyFarm - Riunione",
-      "start_iso": "2026-06-30T10:30:00+02:00",
-      "end_iso": "2026-06-30T12:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA2MjlUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -324,46 +233,33 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA2MzBUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": true
     },
     {
-      "summary": "Assocalcio",
-      "start_iso": "2026-06-30T18:30:00+02:00",
-      "end_iso": "2026-06-30T20:30:00+02:00",
+      "summary": "ALLIN MKTG",
+      "start_iso": "2026-06-30T09:00:00+02:00",
+      "end_iso": "2026-06-30T10:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
       "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "conference_url": "https://meet.google.com/gvz-cdhb-pty",
+      "html_link": "https://www.google.com/calendar/event?eid=MHBrNXZjZ2NuYXB0MzNlZ2RmcmdwZnMydjAgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
     {
-      "summary": "OUT",
-      "start_iso": "2026-07-01T08:30:00+02:00",
-      "end_iso": "2026-07-01T20:30:00+02:00",
+      "summary": "BootyFarm - Riunione",
+      "start_iso": "2026-06-30T10:30:00+02:00",
+      "end_iso": "2026-06-30T12:30:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
       "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Never Enough - Documentazione",
-      "start_iso": "2026-07-01T10:00:00+02:00",
-      "end_iso": "2026-07-01T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA2MzBUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -376,20 +272,33 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA3MDFUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": true
     },
     {
-      "summary": "Allenamento Calenda",
-      "start_iso": "2026-07-01T10:30:00+02:00",
-      "end_iso": "2026-07-01T12:30:00+02:00",
+      "summary": "Never Enough - Documentazione",
+      "start_iso": "2026-07-01T10:00:00+02:00",
+      "end_iso": "2026-07-01T11:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://calendar.google.com/",
+      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA3MDFUMDgwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OUT",
+      "start_iso": "2026-07-01T08:30:00+02:00",
+      "end_iso": "2026-07-01T20:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NnFlYnFna3YzODhkZjJqOGJwZDYyZjcwMmMgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -440,9 +349,9 @@
       "is_aghc": false
     },
     {
-      "name": "Landing Libro - Stile Giacomo",
+      "name": "Landing Libro - Stile Giacomo ---->",
       "project": "BeeFamily - Tech",
-      "notes": "trova materiale nel messaggio",
+      "notes": "trovi il materiale nel messaggio; landing originale: formulafamily.it/Libro",
       "due": "2026-06-30",
       "days_to_due": 5,
       "is_today": false,
@@ -451,9 +360,9 @@
       "is_aghc": false
     },
     {
-      "name": "Landing 3 Libri",
+      "name": "Landing 3 Libri ---->",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "landing originale: formulafamily.it/kscfrndj",
       "due": "2026-06-30",
       "days_to_due": 5,
       "is_today": false,
@@ -462,9 +371,9 @@
       "is_aghc": false
     },
     {
-      "name": "Landing Libro - Versione nuova",
+      "name": "Landing Libro - Versione nuova ---->",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "landing originale: formulafamily.it/udzeqjls",
       "due": "2026-06-30",
       "days_to_due": 5,
       "is_today": false,
@@ -508,12 +417,12 @@
       "is_aghc": false
     },
     {
-      "name": "nuova landing offerte",
+      "name": "nuova landing offerte -->",
       "subtitle": "Brora · ambra.sartini · 25/06",
       "notes": "ambra.sartini: «quando pronta, gira solito link a @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034522215",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034743930",
       "is_today": true,
       "is_urgent": true,
       "is_aghc": false
@@ -521,7 +430,7 @@
     {
       "name": "nascondere offerta special weeks",
       "subtitle": "Brora · ambra.sartini · 25/06",
-      "notes": "ambra.sartini: «@Beatrice Santucci stop campagne @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «stop campagne @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034522215",
@@ -530,12 +439,23 @@
       "is_aghc": false
     },
     {
-      "name": "offerte new cristallo",
-      "subtitle": "Cristallo · ambra.sartini · 23/06",
-      "notes": "ambra.sartini: «Marco - Google Ads potete partire con queste offerte»",
+      "name": "Script adv lead magnet luglio",
+      "subtitle": "BeeFamily - Tech · Andrea · 24/06",
+      "notes": "Andrea: «@Francesco Maria Mosca trovi allegato il file con la guida in pdf da usare come lead magnet»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/task/1215841011400391",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630509",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "offerte new cristallo",
+      "subtitle": "Cristallo · ambra.sartini · 23/06",
+      "notes": "ambra.sartini: «potete partire con queste offerte. spostiamo tutto il budget su soggiorni brevi e appartamenti. per il momento settembre lo lasciamo indietro»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834199/task/1215841011400391",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -543,16 +463,16 @@
     {
       "name": "LAST MINUTE COLOR HOLIDAY",
       "subtitle": "Color Holiday · ambra.sartini · 23/06",
-      "notes": "ambra.sartini: «link offerte estate-king-marte ...»",
+      "notes": "ambra.sartini: «Elenco link offerte estive all-inclusive hotel Romagna (King Marte, Metropolitan, Mokambo, Alexandra Plaza, Bay Village, Ermitage, Green Village, Miami Beach...)»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/task/1215797152377555",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1215797152377555",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     },
     {
-      "name": "abbassare budget",
+      "name": "abbassare budget -->",
       "subtitle": "Trieste · ambra.sartini · 23/06",
       "notes": "ambra.sartini: «10€ meta @Francesco Maria Mosca / 10€ google @Marco - Google Ads»",
       "status": "Mention",
@@ -563,23 +483,12 @@
       "is_aghc": false
     },
     {
-      "name": "Script adv lead magnet luglio",
-      "subtitle": "BeeFamily - Tech · Andrea · 23/06",
-      "notes": "Andrea: «@Francesco Maria Mosca trovi allegato il file con la guida in pdf da usare come lead magnet»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630509",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
       "name": "ADS Video per barche",
-      "subtitle": "Sardinia family villas · ambra.sartini · 19/06",
-      "notes": "ambra.sartini: «partiamo con le ads per il gommone con cta su wa»",
+      "subtitle": "Sardinia family villas · ambra.sartini · 22/06",
+      "notes": "ambra.sartini: «partiamo con le ads per il gommone con cta su wa (oppure con alternativa che volevi valutare)»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/task/1203190488684866",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1203190488684866",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -590,8 +499,8 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Da fare",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
@@ -601,8 +510,8 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Da fare",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
@@ -612,8 +521,8 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Da fare",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
@@ -623,8 +532,8 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Da fare",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
@@ -634,8 +543,8 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Da fare",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
@@ -646,7 +555,7 @@
   "monday_mentions": [
     {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 19/06",
+      "subtitle": "Adèsso Hotel · Gestione /Adèsso/ Hotel · 19/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -660,7 +569,7 @@
     {
       "name": "C4RV-T131 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - DERMAL CENTER · Greta Bellorini · 25/06",
-      "notes": "Greta Bellorini: «Francesco Maria Mosca Aurora Scaccia la cliente dal 20 ha fatto 22 lead, con 30€ budget, ha open day riusciamo a fare qualcosa altrienti devo disdire tutto»",
+      "notes": "Greta Bellorini: «la cliente dal 20 ha fatto 22 lead, con 30€ budget, ha open day riusciamo a fare qualcosa altrimenti devo disdire tutto»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004340949",
@@ -671,7 +580,7 @@
     {
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Linda Nicetto · 25/06",
-      "notes": "Linda Nicetto: «Francesco Maria Mosca Alessandro Cattaneo non vedo lead per la sponsorizzata viso partita lunedì. Verificate per cortesia? Grazie»",
+      "notes": "Linda Nicetto: «non vedo lead per la sponsorizzata viso partita lunedì. Verificate per cortesia? Grazie»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
@@ -681,8 +590,8 @@
     },
     {
       "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
-      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Aurora Scaccia · 24/06",
-      "notes": "Aurora Scaccia: «spenta Edda De Mauri Francesco Maria Mosca»",
+      "subtitle": "ESTETICA PAMELA · Aurora Scaccia · 24/06",
+      "notes": "Aurora Scaccia: «spenta»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
@@ -692,8 +601,8 @@
     },
     {
       "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
-      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Edda De Mauri · 24/06",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca stoppiamo la lg in corso anche con le modifiche è arrivato un solo lead, devo sentirla telefonicamente fra poco, le propongo di fare con nostro account? Aurora Scaccia»",
+      "subtitle": "ESTETICA PAMELA · Edda De Mauri · 24/06",
+      "notes": "Edda De Mauri: «stoppiamo la lg in corso anche con le modifiche è arrivato un solo lead, devo sentirla telefonicamente fra poco, le propongo come abbiamo detto in allineamento di fare con nostro account?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
@@ -704,7 +613,7 @@
     {
       "name": "AAH3-T310 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - LINEA PERFETTA · Aurora Scaccia · 23/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Edda De Mauri stoppata · cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004340292",
@@ -715,7 +624,7 @@
     {
       "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 23/06",
-      "notes": "Aurora Scaccia: «Edda De Mauri stoppata estetica, metabolica prolungata da oggi al 30.06 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «stoppata estetica, metabolica era finita il 21, quindi prolungata da oggi al 30.06»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
@@ -725,8 +634,8 @@
     },
     {
       "name": "L-FA-T412 Chiamata giugno 26 manager/beauty",
-      "subtitle": "RIEMPI AGENDA Premium + MCIS - CENTRO BENESSERE COCCOLE · Aurora Scaccia · 21/06",
-      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento Alfredo De Grandis Francesco Maria Mosca»",
+      "subtitle": "CENTRO BENESSERE COCCOLE · Aurora Scaccia · 21/06",
+      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004821068",
@@ -737,7 +646,7 @@
     {
       "name": "CUKZ-T173 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ESTETICA ROSY · Aurora Scaccia · 21/06",
-      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento Alfredo De Grandis Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Per domani: campagna partita con app il 19.06, ancora in apprendimento»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189054",
@@ -748,7 +657,7 @@
     {
       "name": "A89A-T28 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ESTETICA VIZIATA · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «per giorno 25.06 ho campagna per lei, mi serve sapere se bm e pagina sono stati risolti, o se devo far partire dal nostro account Alfredo De Grandis Francesco Maria»",
+      "notes": "Aurora Scaccia: «per giorno 25.06 ho campagna per lei; mi servirebbe sapere se bm e pagina suoi sono stati risolti, o se devo mandare fattura all'amministrazione e farla partire dal nostro account»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005849241",
@@ -759,7 +668,7 @@
     {
       "name": "AHL7-T29 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - BEAUTY TIME · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto campagna per 22.06, appena Alessandro Cattaneo mi aggiorna sulla call saprò se il suo bm è attivo o meno»",
+      "notes": "Aurora Scaccia: «campagna per 22.06; appena Alessandro Cattaneo mi aggiorna sulla call saprò se il suo bm è attivo, altrimenti fattura dall'amministrazione»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005606220",
@@ -770,43 +679,10 @@
     {
       "name": "A44T-T229 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SUPERSUN / COMFORT ZONE MILANO FIERA · Aurora Scaccia · 19/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "CUKZ-T173 (storico) Chiamata giugno 26 manager/beauty",
-      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
-      "subtitle": "LD25 Premium + MCIS - ESTETICA PAMELA · Edda De Mauri · 18/06",
-      "notes": "Edda De Mauri: «lg non ha lead ad oggi, la cliente ieri mi ha chiesto di stoppare, le ho detto di attendere oggi che eravamo al terzo giorno»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ALB9-T356 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - BEAUTY POINT ARONA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto aggiunto video cc Francesco Maria Mosca»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005191371",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -814,10 +690,21 @@
     {
       "name": "A44T-T229 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA PERFORMANCE - SUPERSUN / COMFORT ZONE MILANO FIERA · Aurora Scaccia · 18/06",
-      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25.06 cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Linda Nicetto prolungata fino al 25.06»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004338332",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "LP9-T384 Chiamata giugno 26 manager/beauty",
+      "subtitle": "ESTETICA PAMELA · Aurora Scaccia · 18/06",
+      "notes": "Aurora Scaccia: «(mention senza testo)»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004803094",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
