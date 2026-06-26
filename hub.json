@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-06-26T14:51:00.506301+02:00",
+ "updated_at": "2026-06-26T15:42:20.076135+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -181,6 +181,19 @@
    "is_urgent": false,
    "location": null,
    "conference_url": "https://meet.google.com/hsi-disc-pvb",
+   "html_link": null,
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Francesco Maria Mosca (Mario Zito)",
+   "start_iso": "2026-06-29T15:45:00+02:00",
+   "end_iso": "2026-06-29T16:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/ggu-cqvh-yft",
    "html_link": null,
    "alert_kind": null,
    "is_aghc": false
