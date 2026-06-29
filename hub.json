@@ -1,7 +1,9 @@
 {
- "updated_at": "2026-06-29T10:51:28.428715+02:00",
+ "updated_at": "2026-06-29T11:45:31.763755+02:00",
  "source": "fmm-command-center-refresh",
- "errors": [],
+ "errors": [
+  "get_thread Gmail non disponibile in questo run: asana_mentions/monday_mentions/zoho_projects riusano lo snapshot delle 10:51 di oggi (nessuna nuova email sui mittenti Zoho/Asana/Monday dopo le 10:51; ultima 09:10). monday_updates(1g)=ok vuoto."
+ ],
  "calendar": [
   {
    "summary": "🔴 Sardinia Family Villas · spesa anomala alta",
