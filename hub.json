@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T10:47:21+02:00",
+  "updated_at": "2026-07-01T11:44:05.257015+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -110,7 +110,7 @@
     {
       "summary": "📊 Report AGHC — Mese precedente",
       "start_iso": "2026-07-01T10:30:00+02:00",
-      "end_iso": "2026-07-01T11:00:00+02:00",
+      "end_iso": "2026-07-01T11:30:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": false,
@@ -152,7 +152,7 @@
       "end_iso": "2026-07-01T11:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NDQ5NXFvbGNjcGVjMmJiZGxhM21uazdqMmcgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -207,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=_6h1kad1l8opj4ba28h2k2b9k88qkcb9p6gr30b9l74p4adhk70s4acq668_20260701T113000Z&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA3MDFUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -226,8 +226,8 @@
     },
     {
       "summary": "Allin STRATEGIST",
-      "start_iso": "2026-07-02T08:00:00+02:00",
-      "end_iso": "2026-07-02T09:00:00+02:00",
+      "start_iso": "2026-07-02T08:00:00+08:00",
+      "end_iso": "2026-07-02T09:00:00+08:00",
       "is_today": false,
       "is_tomorrow": true,
       "is_urgent": false,
@@ -416,20 +416,9 @@
       "is_aghc": false
     },
     {
-      "name": "meta ads",
-      "project": "Mexico",
-      "notes": "Missione SOS - nuovo cliente da hev vuoto su luglio/agosto. Hotel Mexico Bellaria. Creare budget luglio-15 set, chiedere metodo pagamento gruppo WA.",
-      "due": "2026-06-30",
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216105236389082",
-      "is_aghc": false
-    },
-    {
       "name": "Landing Libro - Versione nuova ---->",
       "project": "BeeFamily - Tech",
-      "notes": "link landing originale per media",
+      "notes": "",
       "due": "2026-06-30",
       "days_to_due": -1,
       "is_today": false,
@@ -438,9 +427,20 @@
       "is_aghc": false
     },
     {
-      "name": "Landing 3 Libri ----> ",
+      "name": "meta ads",
+      "project": "Mexico",
+      "notes": "Missione SOS - nuovo cliente da hev vuoto su luglio/agosto",
+      "due": "2026-06-30",
+      "days_to_due": -1,
+      "is_today": false,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216105236389082",
+      "is_aghc": false
+    },
+    {
+      "name": "Landing 3 Libri ---->",
       "project": "BeeFamily - Tech",
-      "notes": "Link Landing originale per media",
+      "notes": "",
       "due": "2026-06-30",
       "days_to_due": -1,
       "is_today": false,
@@ -451,7 +451,7 @@
     {
       "name": "Landing Libro - Stile Giacomo ---->",
       "project": "BeeFamily - Tech",
-      "notes": "trovi il materiale nel messaggio",
+      "notes": "",
       "due": "2026-06-30",
       "days_to_due": -1,
       "is_today": false,
@@ -462,7 +462,7 @@
     {
       "name": "start ads meta soggiorni brevi",
       "project": "Brora",
-      "notes": "https://offertefamily.com/offerta/estate-soggiorni-brevi-all-inclusive-a-lido-di-savio-brora-family-village/",
+      "notes": "",
       "due": "2026-07-01",
       "days_to_due": 0,
       "is_today": true,
@@ -486,10 +486,10 @@
     {
       "name": "nascondere offerta special weeks",
       "subtitle": "Brora · ambra.sartini · 30/06",
-      "notes": "ambra.sartini: «questa è conclusa @Francesco Maria Mosca?»",
+      "notes": "ambra.sartini: «questa è conclusa Francesco Maria Mosca?»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034522215",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -497,10 +497,10 @@
     {
       "name": "Script adv lead magnet luglio",
       "subtitle": "BeeFamily - Tech · Andrea · 29/06",
-      "notes": "Andrea: «@Francesco Maria Mosca remind»",
+      "notes": "Andrea: «Francesco Maria Mosca remind (trovi allegato il file con la guida in pdf da usare come lead magnet)»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630509",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -508,21 +508,21 @@
     {
       "name": "modifica special week el cid",
       "subtitle": "El cid campeador · ambra.sartini · 26/06",
-      "notes": "ambra.sartini: «@Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «Francesco Maria Mosca modifica special week el cid»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834121/task/1216027034743935",
+      "url": "https://app.asana.com/0/inbox",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     },
     {
-      "name": "nuova landing offerte -->",
+      "name": "nuova landing offerte",
       "subtitle": "Brora · ambra.sartini · 25/06",
-      "notes": "ambra.sartini: «…4 notti € 1.069,00 quando pronta, gira solito link a @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «quando pronta, gira solito link a @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034743930",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -533,8 +533,8 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Aperto",
-      "status_kind": "info",
+      "status": "Assegnato",
+      "status_kind": "warn",
       "due": null,
       "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
@@ -545,8 +545,8 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Aperto",
-      "status_kind": "info",
+      "status": "Assegnato",
+      "status_kind": "warn",
       "due": null,
       "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
@@ -557,8 +557,8 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Aperto",
-      "status_kind": "info",
+      "status": "Assegnato",
+      "status_kind": "warn",
       "due": null,
       "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
@@ -569,8 +569,8 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Aperto",
-      "status_kind": "info",
+      "status": "Assegnato",
+      "status_kind": "warn",
       "due": null,
       "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
@@ -581,13 +581,13 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Aperto",
-      "status_kind": "info",
+      "status": "Assegnato",
+      "status_kind": "warn",
       "due": "2025-04-04",
       "days_to_due": -453,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
@@ -638,7 +638,7 @@
     },
     {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 26/06",
+      "subtitle": "Gestione /Adèsso/ Hotel · Report automation · 26/06",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -663,7 +663,7 @@
     {
       "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Edda De Mauri · 30/06",
-      "notes": "Edda De Mauri: «la cliente mi chiede di essere contattata da qualcuno che si occupa del problema»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca la cliente mi chiede di essere contattata da qualcuno che si occupa del problema le ho detto che ve ne state occupando»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
@@ -694,20 +694,9 @@
       "is_aghc": false
     },
     {
-      "name": "B179-T23 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - NOVAME' · Sara Boscato · 30/06",
-      "notes": "Sara Boscato: «la cliente dice che probabilmente non c'è il raggio a Lugano (20 km), le figlie non hanno visto la pubblicità»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
       "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «aggiunte due grafiche»",
+      "notes": "Aurora Scaccia: «Edda De Mauri aggiunte due grafiche»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
@@ -729,32 +718,10 @@
     {
       "name": "A1S4-T31 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - 3D FARMA · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «la sua situazione com'è? può partire campagna dal suo account o devo fare dal nostro?»",
+      "notes": "Aurora Scaccia: «può partire campagna dal suo account o devo fare dal nostro e mandare ricevuta?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004984037",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ARKT-T293 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «girato numero, sentila perché ha campagna attiva e una impostata via app»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336732",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 29/06",
-      "notes": "Aurora Scaccia: «la carta da usare è quella nuova, inserita e verificata, le altre non possiamo usarle»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -766,6 +733,28 @@
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189054",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A23S-T249 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - TACHI · Aurora Scaccia · 29/06",
+      "notes": "Aurora Scaccia: «problemi con campagna 29.06 - c'è un blocco all'account, contattata assistenza, la cliente deve togliere delle cose dalle impostazioni»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199143",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A294-T297 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - CHARME ESTETICA E BENESSERE · Aurora Scaccia · 29/06",
+      "notes": "Aurora Scaccia: «è già solo donne da sempre, non capisco!!»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189563",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
