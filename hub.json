@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-02T08:54:23.715324+02:00",
+ "updated_at": "2026-07-02T09:42:28.410106+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -235,7 +235,7 @@
    "conference_url": "https://meet.google.com/sfm-tcbz-ran",
    "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MDNUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "summary": "Registrazione Ospiti",
