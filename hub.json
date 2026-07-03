@@ -1,10 +1,7 @@
 {
-  "updated_at": "2026-07-03T15:38:00+02:00",
+  "updated_at": "2026-07-03T16:50:36+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [
-    "monday_updates_mentions (1g): 0 risultati",
-    "calendar: finestra 3-10 lug (prima pagina 30 eventi)"
-  ],
+  "errors": [],
   "calendar": [
     {
       "summary": "⚫ Hoy Hotels · nuovo account fermo",
@@ -207,7 +204,7 @@
       "end_iso": "2026-07-04T14:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Z2JrN2o5ZnRmdTVnNGM4OWlyOGdlYzU1ZnMgbW9zY2FkdkBt",
@@ -358,6 +355,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Campagna Gruppo Stratego",
+      "start_iso": "2026-07-07T09:30:00+02:00",
+      "end_iso": "2026-07-07T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NmNnODJ0aHBzMXJ1M3A4c2JsaWczaTJwcTggbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "BootyFarm - Riunione",
       "start_iso": "2026-07-07T10:30:00+02:00",
       "end_iso": "2026-07-07T12:00:00+02:00",
@@ -367,19 +377,6 @@
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
       "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MDdUMDgzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "ALLIN PERFORMANCE",
-      "start_iso": "2026-07-07T14:00:00+02:00",
-      "end_iso": "2026-07-07T15:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/mha-danu-dzz",
-      "html_link": "https://www.google.com/calendar/event?eid=MDY2M2s3YzFoZjNocG92djAyMjZlMzVncnYgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -419,17 +416,6 @@
       "is_aghc": false
     },
     {
-      "name": "ads meta raccolta lead -->",
-      "project": "ROSABIANCA",
-      "notes": "50€ daily · milano - costa smeralda · raccolta lead file excel per Simona",
-      "due": "2026-07-02",
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
-      "is_aghc": false
-    },
-    {
       "name": "(senza titolo)",
       "project": "Generale",
       "notes": "",
@@ -438,17 +424,6 @@
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896221",
-      "is_aghc": false
-    },
-    {
-      "name": "partire con ads early booking settembre",
-      "project": "Cristallo",
-      "notes": "",
-      "due": "2026-07-02",
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834199/task/1215903031387522",
       "is_aghc": false
     },
     {
@@ -467,57 +442,57 @@
     {
       "name": "video e materiale nuovo per dolmen",
       "subtitle": "Color Holiday · ambra.sartini · 03/07",
-      "notes": "ambra.sartini: «…nella drive (Google Drive) @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «...ella drive https://drive.google.com/drive/folders/1aY7DpnlhFl7SoZR40tqRznx-BWEJjZ6m?usp=drive_link @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1214184097701903",
       "is_today": true,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "ads meta raccolta lead -->",
       "subtitle": "ROSABIANCA · ambra.sartini · 02/07",
-      "notes": "ambra.sartini: «…con Simona (Drive) ecco i video @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «...con Simona https://drive.google.com/drive/folders/1nSR0UucHIP-hdwsB6UGvRQYErO-2CWvh ecco i video @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "Rosabianca — montaggio video Giada Collection",
       "subtitle": "ROSABIANCA · Beatrice · 02/07",
-      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2,3 etc)»",
+      "notes": "Beatrice: «Francesco Maria Mosca nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc) https://drive.google.com/drive/folders/1nSR0UucHIP-hdwsB6UGvRQYErO-2CWvh»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216024487824593",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "nascondere offerta special weeks",
       "subtitle": "Brora · ambra.sartini · 30/06",
-      "notes": "ambra.sartini: «questa è conclusa Francesco Maria Mosca?»",
+      "notes": "ambra.sartini: «questa è conclusa»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034522215",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "Script adv lead magnet luglio",
       "subtitle": "BeeFamily - Tech · Andrea · 29/06",
-      "notes": "Andrea: «Francesco Maria Mosca remind»",
+      "notes": "Andrea: «trovi allegato il file con la guida in pdf da usare come lead magnet, dammi update quando riesci, remind»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630509",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     }
   ],
   "canva": [],
@@ -580,19 +555,52 @@
   ],
   "monday_mentions": [
     {
-      "name": "[Assegnato a te] Hannah Hotels Collection",
-      "subtitle": "Hannah Hotels Collection · Panoramica PED AG 2026 (BOZZA) · 03/07",
+      "name": "[Sei iscritto] Panoramica PED AG 2026",
+      "subtitle": "Panoramica PED AG 2026 · Panoramica PED AG 2026 · 03/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18419928875",
       "is_today": true,
       "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "[Assegnato a te] Mare Hotel",
+      "subtitle": "Mare Hotel · Panoramica PED AG 2026 · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407447495",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "[Assegnato a te] Villa Ermellina Siena",
+      "subtitle": "Villa Ermellina Siena · Panoramica PED AG 2026 · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407448568",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "[Assegnato a te] Hannah Hotels Collection",
+      "subtitle": "Hannah Hotels Collection · NON OPERATIVA! - Panoramica PED AG 2026 (BOZZA) · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407447455",
+      "is_today": true,
+      "is_urgent": true,
       "is_aghc": true
     },
     {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 03/07",
+      "subtitle": "Gestione /Adèsso/ Hotel · Gestione /Adèsso/ Hotel · 03/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -603,7 +611,7 @@
     },
     {
       "name": "Reminder inserimento fatture nella scheda Monday.",
-      "subtitle": "Reminder inserimento fatture · Fatture AG · 02/07",
+      "subtitle": "FATTURE AG · Fatture AG · 02/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -683,43 +691,21 @@
     {
       "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca ok quindi meglio stopparla?»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca stoppiamo lg in corso»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000004814052",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-      "notes": "Edda De Mauri: «è un bug che non arrivano lead o che non la vedo su report?»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000004814052",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
       "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     },
     {
       "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - VENUS · Alfredo De Grandis · 02/07",
-      "notes": "Alfredo De Grandis: «campagna creata correttamente, credo sia partita oggi... comunque è attiva»",
+      "subtitle": "CEA % - CENTRO BENESSERE VENUS · Alfredo De Grandis · 02/07",
+      "notes": "Alfredo De Grandis: «Edda De Mauri campagna creata correttamente ieri, credo sia partita oggi a vedere da meta però ieri avevo taggato aurora e franci perché c'era un errore strano, comunque ho visto io ed è attiva Francesco Maria Mosca controllala per vedere che iniz»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005634028",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - VENUS · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «sono in call con la cliente, la sponsorizzata è attiva? c'è un video agganciato?»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005634028",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005634028",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -727,32 +713,10 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «quando terminerebbe la lg? quanto credito ha ancora?»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca quando terminerebbe la lg? quanto credito ha ancora?»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000006156235",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "B179-T24 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - NOVAME' · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «come sono le performance della lg? conviene mantenere o optare per altro frontend?»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000006156235",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - VENUS · Alfredo De Grandis · 01/07",
-      "notes": "Alfredo De Grandis: «l'app ha creato la campagna ma non si attiva, provate voi a mano / vedete se c'è un insoluto»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005634028",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -760,32 +724,21 @@
     {
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 01/07",
-      "notes": "Aurora Scaccia: «stesso problema, non posso fare campagna, l'unica è farla dal nostro account»",
+      "notes": "Aurora Scaccia: «Alessandro Cattaneo Francesco Maria Mosca Alfredo De Grandis mi presenta lo stesso problema e non posso fare campagna cc Greta Bellorini l unica cosa è farla dal nostro account»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005199152",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - TACHI · Aurora Scaccia · 01/07",
-      "notes": "Aurora Scaccia: «la cliente lamenta che alla call delle 15 non c'eri; disponibile fino alle 18:00»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005199152",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     },
     {
       "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - ERRESSE LUGANO · Aurora Scaccia · 01/07",
-      "notes": "Aurora Scaccia: «è una campagna via app»",
+      "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 01/07",
+      "notes": "Aurora Scaccia: «Francesco Maria Mosca è una campagna via app»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000005408061",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -793,10 +746,10 @@
     {
       "name": "ARKT-T292 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Edda De Mauri · 30/06",
-      "notes": "Edda De Mauri: «la cliente chiede di essere contattata da chi si occupa del problema»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca la cliente mi chiede di essere contattata da qualcuno che si occupa del problema le ho detto che ve ne state occupando»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000004336723",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336723",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -804,21 +757,10 @@
     {
       "name": "ARKT-T293 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «la cliente vuole le grafiche della campagna via app per postarle»",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis Francesco Carnielli Francesco Maria Mosca la cliente vuole le grafiche della campagna via app per postarle cc Doc. Marco Facco»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000004336732",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "ARKT-T293 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - ELYSIR · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «la cliente lamenta di non essere stata ancora contattata sui project»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000004336732",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004336732",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -826,10 +768,43 @@
     {
       "name": "B179-T23 Chiamata giugno 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Aurora Scaccia · 30/06",
-      "notes": "Aurora Scaccia: «aggiornato target con i paesi mandati dalla cliente e pagato insoluto»",
+      "notes": "Aurora Scaccia: «Francesco Maria Mosca Sara Boscato Edda De Mauri aggiornato target con i paesi mandati dalla cliente e pagato insoluto»",
       "status": "Pending reply",
       "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/205729000006156234",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156234",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "AMO2-T70 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - ESTETICA TIZIANA · Edda De Mauri · 30/06",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca Aurora Scaccia la lg con app è attiva? doveva partire ieri»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814656",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "A1S4-T31 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - 3D FARMA · Aurora Scaccia · 30/06",
+      "notes": "Aurora Scaccia: «Alessandro Cattaneo Francesco Maria Mosca la sua situazione com'è? può partire campagna dal suo account o devo fare dal nostro e mandare ricevuta?»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004984037",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "CUKZ-T173 Chiamata giugno 26 manager/beauty",
+      "subtitle": "CEA % - ESTETICA ROSY · Aurora Scaccia · 29/06",
+      "notes": "Aurora Scaccia: «Edda De Mauri Francesco Maria Mosca Alfredo De Grandis stoppata campagna da project di edda - via app»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005189054",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
