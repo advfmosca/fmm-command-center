@@ -1,21 +1,8 @@
 {
-  "updated_at": "2026-07-03T08:53:12.217140+02:00",
+  "updated_at": "2026-07-03T09:47:05.204085+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
-    {
-      "summary": "⚫ Hoy Hotels · nuovo account fermo",
-      "start_iso": "2026-07-03T09:00:00+02:00",
-      "end_iso": "2026-07-03T09:10:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=cWFudWMzam52Y3Q1aXR2dTl2Yzk5M2I4bWsgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
     {
       "summary": "Adv Check Fra + Mark",
       "start_iso": "2026-07-03T09:15:00+02:00",
@@ -147,6 +134,32 @@
       "is_aghc": false
     },
     {
+      "summary": "Colloquio Coppola",
+      "start_iso": "2026-07-03T15:00:00+02:00",
+      "end_iso": "2026-07-03T15:15:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/tib-qqmq-mws",
+      "html_link": "https://www.google.com/calendar/event?eid=NmNqMW84dGkxcm04NjJwM2UxZG43cnJpdDYgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Colloquio Giuseppe",
+      "start_iso": "2026-07-03T15:15:00+02:00",
+      "end_iso": "2026-07-03T15:30:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": "https://meet.google.com/wwr-vhwt-nqk",
+      "html_link": "https://www.google.com/calendar/event?eid=MW02azJ0cmZmOXExMWJ0NjJjcjI5bHN2cDEgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "Progress Interno AG",
       "start_iso": "2026-07-03T15:30:00+02:00",
       "end_iso": "2026-07-03T16:00:00+02:00",
@@ -157,7 +170,7 @@
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MDNUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "summary": "Registrazione Ospiti",
@@ -194,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA3MDVUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=_892jie9h8osj0b9i88ojab9k74qjeba274rj6b9k6so46d9j74p44hi464_20260705T113000Z&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -225,15 +238,28 @@
       "is_aghc": false
     },
     {
-      "summary": "Gruppo Stratego - Email di Recap",
-      "start_iso": "2026-07-06T10:45:00+02:00",
+      "summary": "The Linea",
+      "start_iso": "2026-07-06T10:00:00+02:00",
+      "end_iso": "2026-07-06T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2N2Z3Rvc2lqbzBkbzUydm5nb2Jicjg1dWYgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Tracciamenti Ciccio",
+      "start_iso": "2026-07-06T10:30:00+02:00",
       "end_iso": "2026-07-06T11:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA3MDZUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MWM1azhkdG5vNWc3Zm5tbjBjajZlMW01Z3EgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -251,6 +277,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Chiamare Antonio Vitolo",
+      "start_iso": "2026-07-06T12:00:00+02:00",
+      "end_iso": "2026-07-06T12:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA3MDZUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "AS+Bea+Franci riunione referenti",
       "start_iso": "2026-07-06T14:30:00+02:00",
       "end_iso": "2026-07-06T15:30:00+02:00",
@@ -259,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
-      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA3MDZUMTIzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=_74pk4ga26oojeba68cq32b9k8d2j4ba28h2jgb9p8cs34dpo692j8ghj6c_20260706T123000Z&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -274,7 +313,7 @@
       "conference_url": "https://meet.google.com/kqp-peii-ten",
       "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA3MDZUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "summary": "Registrazione Ospiti",
@@ -340,45 +379,6 @@
       "html_link": "https://www.google.com/calendar/event?eid=NTJldWxwdGQ0NWMydGhoNzVlcDNibWg1bjQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
-    },
-    {
-      "summary": "Recap AGHC",
-      "start_iso": "2026-07-07T16:00:00+02:00",
-      "end_iso": "2026-07-07T17:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MDdUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": true
-    },
-    {
-      "summary": "Assocalcio",
-      "start_iso": "2026-07-07T18:30:00+02:00",
-      "end_iso": "2026-07-07T20:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MDdUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Rata Tudor",
-      "start_iso": "2026-07-08T10:30:00+02:00",
-      "end_iso": "2026-07-08T11:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MHBsZ2poMmh1dGg2dXRpZjQ1anRtZ3JzMjNfMjAyNjA3MDhUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
     }
   ],
   "asana": [
@@ -387,106 +387,106 @@
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-05-29",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250251436356",
+      "is_aghc": true,
       "days_to_due": -35,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250251436356",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "Report ADV BeeFamily",
       "project": "Generale",
       "notes": "",
       "due": "2026-06-05",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250332967041",
+      "is_aghc": false,
       "days_to_due": -28,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1215250332967041",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "Budget Clienti",
       "project": "Generale",
       "notes": "",
       "due": "2026-06-08",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1215484473673024",
+      "is_aghc": false,
       "days_to_due": -25,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1215484473673024",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "(senza titolo)",
       "project": "Generale",
       "notes": "",
       "due": "2026-07-02",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896221",
+      "is_aghc": false,
       "days_to_due": -1,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896221",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "foglio budget annuale",
       "project": "B612",
       "notes": "",
       "due": "2026-07-02",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
+      "is_aghc": false,
       "days_to_due": -1,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "ads meta raccolta lead -->",
       "project": "ROSABIANCA",
-      "notes": "50€ daily - milano/costa smeralda, raccolta lead con file excel da condividere con Simona",
+      "notes": "50€ daily · Milano-Costa Smeralda · raccolta lead file Excel per Simona",
       "due": "2026-07-02",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
+      "is_aghc": false,
       "days_to_due": -1,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "meta ads",
       "project": "Mexico",
-      "notes": "Missione SOS - nuovo cliente da HEV vuoto luglio/agosto. Hotel Mexico Bellaria. Budget da luglio a 15 settembre",
+      "notes": "Missione SOS · nuovo cliente da HEV vuoto luglio/agosto · budget luglio→15 set",
       "due": "2026-07-02",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216105236389082",
+      "is_aghc": false,
       "days_to_due": -1,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216105236389082",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "partire con ads early booking settembre",
       "project": "Cristallo",
       "notes": "",
       "due": "2026-07-02",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834199/task/1215903031387522",
+      "is_aghc": false,
       "days_to_due": -1,
       "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834199/task/1215903031387522",
-      "is_aghc": false
+      "is_urgent": true
     },
     {
       "name": "ads google e meta",
       "project": "B612",
       "notes": "",
       "due": "2026-07-06",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1215903031387482",
+      "is_aghc": false,
       "days_to_due": 3,
       "is_today": false,
-      "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1215903031387482",
-      "is_aghc": false
+      "is_urgent": true
     }
   ],
   "asana_mentions": [
     {
       "name": "ads meta raccolta lead -->",
       "subtitle": "ROSABIANCA · ambra.sartini · 02/07",
-      "notes": "ambra.sartini: «ecco i video @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «…con Simona (drive) ecco i video @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
@@ -497,7 +497,7 @@
     {
       "name": "Rosabianca — montaggio video Giada Collection",
       "subtitle": "ROSABIANCA · Beatrice · 02/07",
-      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc) https://drive.google.com/drive/folders/1nSR0UucHIP-hdwsB6UGvRQYErO-2CWvh»",
+      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2,3 etc)»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216024487824593",
@@ -508,7 +508,7 @@
     {
       "name": "nascondere offerta special weeks",
       "subtitle": "Brora · ambra.sartini · 30/06",
-      "notes": "ambra.sartini: «questa è conclusa»",
+      "notes": "ambra.sartini: «questa è conclusa Francesco Maria Mosca?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216027034522215",
@@ -519,21 +519,10 @@
     {
       "name": "Script adv lead magnet luglio",
       "subtitle": "BeeFamily - Tech · Andrea · 29/06",
-      "notes": "Andrea: «dammi update quando riesci, remind»",
+      "notes": "Andrea: «Francesco Maria Mosca remind»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630509",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "modifica special week el cid",
-      "subtitle": "El cid campeador · ambra.sartini · 26/06",
-      "notes": "ambra.sartini: «offerta aggiornata»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834121/task/1216027034743935",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -593,11 +582,22 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
+    {
+      "name": "FAI REPORT ADESSO HOTEL",
+      "subtitle": "Gestione /Adèsso/ Hotel · Gestione /Adèsso/ Hotel · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/4721127762",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "Reminder inserimento fatture nella scheda Monday.",
       "subtitle": "Fatture AG · Fatture AG · 02/07",
@@ -663,20 +663,20 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
-    },
-    {
-      "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · Gestione /Adèsso/ Hotel · 26/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/4721127762",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
     }
   ],
   "zoho_projects": [
+    {
+      "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
+      "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca è un bug che non arrivano lead o che non la vedo su report? Aurora Scaccia»",
+      "status": "Pending reply",
+      "status_kind": "danger",
+      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
     {
       "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - CENTRO BENESSERE VENUS · Alfredo De Grandis · 02/07",
