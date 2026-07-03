@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T16:50:36+02:00",
+  "updated_at": "2026-07-03T17:44:58+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -251,6 +251,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Villa Ermellina Siena - POST x CAMPAGNE RICHIESTI",
+      "start_iso": "2026-07-06T09:00:00+02:00",
+      "end_iso": "2026-07-06T09:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjQyODBnbDc2a3JtcWhjaXUwcWFvNjJudXMgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
       "summary": "The Linea",
       "start_iso": "2026-07-06T10:00:00+02:00",
       "end_iso": "2026-07-06T10:30:00+02:00",
@@ -366,19 +379,6 @@
       "html_link": "https://www.google.com/calendar/event?eid=NmNnODJ0aHBzMXJ1M3A4c2JsaWczaTJwcTggbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
-    },
-    {
-      "summary": "BootyFarm - Riunione",
-      "start_iso": "2026-07-07T10:30:00+02:00",
-      "end_iso": "2026-07-07T12:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MDdUMDgzMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
     }
   ],
   "asana": [
@@ -424,6 +424,17 @@
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896221",
+      "is_aghc": false
+    },
+    {
+      "name": "Video DOLMEN",
+      "project": "Generale",
+      "notes": "https://drive.google.com/drive/folders/1aY7DpnlhFl7SoZR40tqRznx-BWEJjZ6m",
+      "due": "2026-07-06",
+      "days_to_due": 3,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1216267124523731",
       "is_aghc": false
     },
     {
