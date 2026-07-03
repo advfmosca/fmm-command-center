@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T14:42:34.679420+02:00",
+  "updated_at": "2026-07-03T15:38:00+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "monday_updates_mentions (1g): 0 risultati",
-    "calendar: finestra 3-8 lug (prima pagina 30 eventi)"
+    "calendar: finestra 3-10 lug (prima pagina 30 eventi)"
   ],
   "calendar": [
     {
@@ -579,6 +579,17 @@
     }
   ],
   "monday_mentions": [
+    {
+      "name": "[Assegnato a te] Hannah Hotels Collection",
+      "subtitle": "Hannah Hotels Collection · Panoramica PED AG 2026 (BOZZA) · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "FAI REPORT ADESSO HOTEL",
       "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · 03/07",
