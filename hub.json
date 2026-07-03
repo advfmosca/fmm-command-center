@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T09:47:05.204085+02:00",
+  "updated_at": "2026-07-03T10:45:25.194957+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -449,17 +449,6 @@
       "is_urgent": true
     },
     {
-      "name": "meta ads",
-      "project": "Mexico",
-      "notes": "Missione SOS · nuovo cliente da HEV vuoto luglio/agosto · budget luglio→15 set",
-      "due": "2026-07-02",
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216105236389082",
-      "is_aghc": false,
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true
-    },
-    {
       "name": "partire con ads early booking settembre",
       "project": "Cristallo",
       "notes": "",
@@ -669,7 +658,7 @@
     {
       "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca è un bug che non arrivano lead o che non la vedo su report? Aurora Scaccia»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca ok quindi meglio stopparla?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
