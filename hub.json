@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-06T10:45:05.616244+02:00",
+ "updated_at": "2026-07-06T11:43:20.604335+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -13,19 +13,6 @@
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA3MDZUMDcwMDAwWiBtb3NjYWR2QG0",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "Tracciamenti Ciccio",
-   "start_iso": "2026-07-06T10:30:00+02:00",
-   "end_iso": "2026-07-06T11:00:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=MWM1azhkdG5vNWc3Zm5tbjBjajZlMW01Z3EgbW9zY2FkdkBt",
    "alert_kind": null,
    "is_aghc": false
   },
@@ -139,7 +126,7 @@
    "end_iso": "2026-07-07T09:30:00+02:00",
    "is_today": false,
    "is_tomorrow": true,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=cGQ3NmkxYXQ3cmRrZ2JzMnJmY3ZtZGJsY2sgbW9zY2FkdkBt",
@@ -178,7 +165,7 @@
    "end_iso": "2026-07-07T12:10:00+02:00",
    "is_today": false,
    "is_tomorrow": true,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=YXVvdG9vZmlqNGUzdjh2NmJoaTUzOHRocWsgbW9zY2FkdkBt",
@@ -199,17 +186,17 @@
    "is_aghc": false
   },
   {
-   "summary": "Recap AGHC",
-   "start_iso": "2026-07-07T16:00:00+02:00",
-   "end_iso": "2026-07-07T17:00:00+02:00",
+   "summary": "Appuntamento EpyCut: TAGLIO + BARBA",
+   "start_iso": "2026-07-07T17:45:00+02:00",
+   "end_iso": "2026-07-07T18:30:00+02:00",
    "is_today": false,
    "is_tomorrow": true,
    "is_urgent": false,
-   "location": null,
+   "location": "EpyCut",
    "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MDdUMTQwMDAwWiBtb3NjYWR2QG0",
+   "html_link": "https://www.google.com/calendar/event?eid=XzcwcTYyY3I0YzhxbTJiOW02a3AzaWI5azZzczZhYmIyNnNwNjJiYjU2Y3M2Y2MzNGNoaDM2Y3I1Nm8gbW9zY2FkdkBt",
    "alert_kind": null,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "summary": "Assocalcio",
@@ -325,6 +312,58 @@
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MDlUMDYzMDAwWiBtb3NjYWR2QG0",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "AS+Bea+Franci riunione referenti",
+   "start_iso": "2026-07-09T10:00:00+02:00",
+   "end_iso": "2026-07-09T11:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
+   "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA3MDlUMDgwMDAwWiBtb3NjYWR2QG0",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "CEA + M&T : Check, Balance e Resolution",
+   "start_iso": "2026-07-09T15:00:00+02:00",
+   "end_iso": "2026-07-09T16:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA3MDlUMTMwMDAwWiBtb3NjYWR2QG0",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
+   "start_iso": "2026-07-09T16:00:00+02:00",
+   "end_iso": "2026-07-09T17:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MDlUMTQwMDAwWiBtb3NjYWR2QG0",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Assocalcio",
+   "start_iso": "2026-07-09T18:30:00+02:00",
+   "end_iso": "2026-07-09T20:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MDlUMTYzMDAwWiBtb3NjYWR2QG0",
    "alert_kind": null,
    "is_aghc": false
   }
