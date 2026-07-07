@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T15:44:09+02:00",
+  "updated_at": "2026-07-07T16:50:08+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -495,6 +495,17 @@
   ],
   "asana_mentions": [
     {
+      "name": "Risoluzione PROBLEMA Carrello WooCommerce",
+      "subtitle": "BeeFamily - Tech · Andrea · 07/07",
+      "notes": "Andrea: «mi dai update per questa cosa?»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "University - Landing Page",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
       "notes": "Andrea: «nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup»",
@@ -508,7 +519,7 @@
     {
       "name": "Video Editati per Lead Magnet Definitivo",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead»",
+      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead e se ci sono delle mailc…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738842",
@@ -530,7 +541,7 @@
     {
       "name": "NUOVO LAST MINUTE BAY dal 11.07 al 01.08 -2490€",
       "subtitle": "Color Holiday · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «Francesco Maria Mosca fai check ads color bay per allinearti con utlimo aggiornamento last minute»",
+      "notes": "ambra.sartini: «fai check ads color bay per allinearti con utlimo aggiornamento last minute»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216278367929202",
@@ -541,7 +552,7 @@
     {
       "name": "video e materiale nuovo per dolmen",
       "subtitle": "Color Holiday · ambra.sartini · 03/07",
-      "notes": "ambra.sartini: «…ella drive https://drive.google.com/drive/folders/1aY7DpnlhFl7SoZR40tqRznx-BWEJjZ6m @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «…ella drive https://drive.google.com/drive/folders/1aY7DpnlhFl7SoZR40tqRznx-BWEJjZ6m?usp=drive_link @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1214184097701903",
@@ -653,12 +664,12 @@
   ],
   "monday_mentions": [
     {
-      "name": "[Assegnato a te] Villa Miliani",
+      "name": "\"Villa Miliani\" è in fase \"3. Copy inseriti\". Tocca a te: finito il tuo passaggio, sposta la Fase per far proseguire il PED.",
       "subtitle": "Villa Miliani · Panoramica PED AG SQUAD 2026 · 07/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12464350943",
       "is_today": true,
       "is_urgent": true,
       "is_aghc": true
@@ -697,6 +708,17 @@
       "is_aghc": true
     },
     {
+      "name": "[Sei iscritto] Panoramica PED AG 2026",
+      "subtitle": "Panoramica PED AG 2026 · 03/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "[Assegnato a te] Villa Ermellina Siena",
       "subtitle": "Villa Ermellina Siena · Panoramica PED AG 2026 · 03/07",
       "notes": null,
@@ -709,7 +731,7 @@
     },
     {
       "name": "[Assegnato a te] Hannah Hotels Collection",
-      "subtitle": "Hannah Hotels Collection · Panoramica PED AG 2026 (BOZZA) · 03/07",
+      "subtitle": "Hannah Hotels Collection · NON OPERATIVA! - Panoramica PED AG 2026 (BOZZA) · 03/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -741,6 +763,17 @@
       "is_aghc": true
     },
     {
+      "name": "[Sei iscritto] Fatture AG",
+      "subtitle": "Fatture AG · 01/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18420152870",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "[Assegnato a te] Hemanaire",
       "subtitle": "Hemanaire · Panoramica PED AG 2026 (BOZZA) · 01/07",
       "notes": null,
@@ -752,40 +785,7 @@
       "is_aghc": true
     },
     {
-      "name": "[Assegnato a te] Terrazza Flavia",
-      "subtitle": "Terrazza Flavia · Panoramica PED AG 2026 (BOZZA) · 30/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407453964",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Assegnato a te] Marcella Royal",
-      "subtitle": "Marcella Royal · Panoramica PED AG 2026 (BOZZA) · 30/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407460490",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Assegnato a te] Magari Estates",
-      "subtitle": "Magari Estates · Panoramica PED AG 2026 (BOZZA) · 30/06",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407454188",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Assegnato a te] Hotel della Piana",
+      "name": "PED — tocca a te",
       "subtitle": "Hotel della Piana · Panoramica PED AG 2026 (BOZZA) · 30/06",
       "notes": null,
       "status": "Notifica",
