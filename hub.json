@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-08T14:42:25.581509+02:00",
+ "updated_at": "2026-07-08T15:42:46.755795+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -79,7 +79,7 @@
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=OTRwYnVqM2ZrZG0zbDhvaXN1ZXR2NnFwcWsgbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": null,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "summary": "Rata Tudor",
@@ -105,7 +105,7 @@
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=ZmhzM3JndTRrbnBuaTVxZjVpanFvNnJmM28gbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": null,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "summary": "Allenamento Calenda",
@@ -131,7 +131,7 @@
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=Z2FjYzYwbDV2a25tY3VrcnFoMjFjbGU0NTggbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": null,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "summary": "Ordine Biancheria",
@@ -169,19 +169,6 @@
    "location": null,
    "conference_url": "https://meet.google.com/eio-kcii-ssx",
    "html_link": "https://www.google.com/calendar/event?eid=Mmh2ZGtrMXRtNzg2c21tMmNsc21lazgyMWIgbW9zY2FkdkBt&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": true
-  },
-  {
-   "summary": "Francesco Maria Mosca (Annalisa Consulting)",
-   "start_iso": "2026-07-08T15:45:00+02:00",
-   "end_iso": "2026-07-08T16:30:00+02:00",
-   "is_today": true,
-   "is_tomorrow": false,
-   "is_urgent": true,
-   "location": null,
-   "conference_url": "https://meet.google.com/uwh-gjfn-qqf",
-   "html_link": "https://www.google.com/calendar/event?eid=ZWIzazEybTh1MXJicmFuaWx1Z3A4NDVyb3MgbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": true
   },
@@ -379,6 +366,19 @@
    "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTJUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
+  },
+  {
+   "summary": "Gruppo Stratego - Email di Recap",
+   "start_iso": "2026-07-13T10:45:00+02:00",
+   "end_iso": "2026-07-13T11:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": null,
+   "alert_kind": null,
+   "is_aghc": false
   }
  ],
  "asana": [
@@ -446,6 +446,17 @@
    "is_today": false,
    "is_urgent": true,
    "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1215903031387482",
+   "is_aghc": false
+  },
+  {
+   "name": "Budget a 30€ - sono quasi pieni",
+   "project": "Brora",
+   "notes": "",
+   "due": "2026-07-08",
+   "days_to_due": 0,
+   "is_today": true,
+   "is_urgent": true,
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1211649631865812",
    "is_aghc": false
   },
   {
@@ -627,7 +638,8 @@
    "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_today": false,
    "is_urgent": false,
-   "is_aghc": true
+   "is_aghc": true,
+   "days_to_due": -460
   }
  ],
  "monday_mentions": [
