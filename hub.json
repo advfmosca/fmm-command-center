@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T08:46:24.410945+02:00",
+  "updated_at": "2026-07-08T09:42:55.849835+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -12,7 +12,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=bhdqi9dtbuakibua1sc69jhsmo",
+      "html_link": null,
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -25,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/xxn-srjp-qeq",
-      "html_link": "https://www.google.com/calendar/event?eid=3ujon85oeum1oann41e7nugarq",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -38,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=8mgu39hlqv24nktf6h40qh21es",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -51,7 +51,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=3oh9jopd08cqsh3lnmeo6l46ik",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -64,7 +64,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=7amoe1iuksjju2cns9u0t7hogk",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -77,7 +77,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=94pbuj3fkdm3l8oisuetv6qpqk",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +90,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=0plgjh2huth6utif45jtmgrs23_20260708T083000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -103,7 +103,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=fhs3rgu4knpni5qf5ijqo6rf3o",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -116,7 +116,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=jq9p3htkrvb2a37obd0ceklnh3_20260708T083000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -129,7 +129,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=gacc60l5vknmcukrqh21cle458",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -142,7 +142,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=_6h1kad1l8opj4ba28h2k2b9k88qkcb9p6gr30b9l74p4adhk70s4acq668_20260708T113000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -155,7 +155,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/aat-cyrq-ihc",
-      "html_link": "https://www.google.com/calendar/event?eid=0hihmoq23enjdd051suupoq3b4",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -168,8 +168,8 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/eio-kcii-ssx",
-      "html_link": "https://www.google.com/calendar/event?eid=2hvdkk1tm786smm2clsmek821b",
-      "alert_kind": null,
+      "html_link": null,
+      "alert_kind": "anomaly",
       "is_aghc": true
     },
     {
@@ -181,9 +181,9 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/uwh-gjfn-qqf",
-      "html_link": "https://www.google.com/calendar/event?eid=eb3k12m8u1rbranilugp845ros",
+      "html_link": null,
       "alert_kind": null,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
@@ -194,7 +194,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=7brhtddbeursjgfdd4ku8t0l3t_20260708T160000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -207,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=579q3a0ppbpbdtuacr0l3edgas_20260709T063000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -220,7 +220,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": "https://www.google.com/calendar/event?eid=_69230c9o64pkab9p70s42b9k851j2ba26csj2ba388p32cpi6cpk8dph68_20260709T080000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -233,20 +233,20 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=03lbfplu0s99g1i134orerrqvg",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
     {
       "summary": "MODIFICHE ADS AI",
-      "start_iso": "2026-07-09T11:00:00+02:00",
-      "end_iso": "2026-07-09T12:30:00+02:00",
+      "start_iso": "2026-07-09T11:30:00+02:00",
+      "end_iso": "2026-07-09T13:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/dmb-rjsw-cjs",
-      "html_link": "https://www.google.com/calendar/event?eid=4mkp48nj139dkkcf0v6gi7072o",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -259,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=6b258gekluogkl0nn0i4s6htib_20260709T130000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -272,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=g94j0q4ch8m1cctti0ucu496he_20260709T140000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -285,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=bncleffehsl4b6u1okhgvq4l4b_20260709T163000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -298,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://www.google.com/calendar/event?eid=h9pu0lknf8f0qssm0kcupuk8s1_20260710T071500Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -311,7 +311,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=57ahlvo5k4nkpbqb4h2m3ie773_20260710T110000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -324,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": "https://www.google.com/calendar/event?eid=041sfdsmbtkhtfmb3jklh9593i_20260710T133000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -337,7 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=7brhtddbeursjgfdd4ku8t0l3t_20260710T160000Z",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     }
@@ -412,33 +412,33 @@
     {
       "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
       "project": "Tasto 9",
-      "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono effettivamente partite.",
+      "notes": "Entro venerdì 10/7: inviare mail confermando presa in carico e ads partite.",
       "due": "2026-07-10",
       "days_to_due": 2,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290489104180",
       "is_aghc": false
     },
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno.",
+      "notes": "Awareness dal profilo Tasto 9, €10/giorno. Attendere link candidature da Ambra. Conferma partenza entro 10/7.",
       "due": "2026-07-10",
       "days_to_due": 2,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290488625946",
       "is_aghc": false
     },
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
+      "notes": "Selezionare i tagli con più visualizzazioni in organico.",
       "due": "2026-07-10",
       "days_to_due": 2,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290366623292",
       "is_aghc": false
     }
@@ -582,12 +582,12 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Scaduto",
-      "status_kind": "danger",
+      "status": "Da fare",
+      "status_kind": "warn",
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
