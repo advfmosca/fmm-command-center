@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T09:42:55.849835+02:00",
+  "updated_at": "2026-07-08T10:49:51.454115+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -480,7 +480,7 @@
     {
       "name": "foglio budget annuale",
       "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo»",
+      "notes": "ambra.sartini: «ho creato il foglio budget sulla base di un BOOST da dare alla struttura. Sono TANTI, sentiti libera di rettificarli»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
@@ -513,7 +513,7 @@
     {
       "name": "ads meta raccolta lead -->",
       "subtitle": "ROSABIANCA · ambra.sartini · 02/07",
-      "notes": "ambra.sartini: «con Simona ecco i video @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «ecco i video con Simona @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
@@ -524,7 +524,7 @@
     {
       "name": "Rosabianca — montaggio video Giada Collection",
       "subtitle": "ROSABIANCA · Beatrice · 02/07",
-      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2,3 etc)»",
+      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc)»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216024487824593",
@@ -645,7 +645,7 @@
       "url": "https://senapedigital.monday.com/boards/18419928875",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "name": "[Assegnato a te] Villa Ermellina Siena",
@@ -660,7 +660,7 @@
     },
     {
       "name": "[Assegnato a te] Hannah Hotels Collection",
-      "subtitle": "Hannah Hotels Collection · Panoramica PED AG 2026 (BOZZA) · 03/07",
+      "subtitle": "Hannah Hotels Collection · NON OPERATIVA! - Panoramica PED AG 2026 (BOZZA) · 03/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -682,22 +682,11 @@
     },
     {
       "name": "Reminder inserimento fatture nella scheda Monday.",
-      "subtitle": "FATTURE AG · Generale · 02/07",
+      "subtitle": "FATTURE AG · Fatture AG · 02/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18420152870/pulses/12421250593",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "[Sei iscritto] Fatture AG",
-      "subtitle": "Fatture AG · 01/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18420152870",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -740,7 +729,7 @@
     {
       "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - CENTRO BENESSERE VENUS · Alfredo De Grandis · 02/07",
-      "notes": "Alfredo De Grandis: «campagna creata correttamente ieri, credo sia partita oggi a vedere da meta; avevo taggato aurora e franci perché c'era un errore strano, comunque ho visto io»",
+      "notes": "Alfredo De Grandis: «campagna creata correttamente ieri, credo sia partita oggi a vedere da meta; avevo taggato aurora e franci perché c'era un errore strano, comunque ho visto io ed è attiva»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005634028",
@@ -755,17 +744,6 @@
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Aurora Scaccia · 01/07",
-      "notes": "Aurora Scaccia: «Francesco Maria Mosca è una campagna via app»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
