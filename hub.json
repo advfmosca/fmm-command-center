@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T08:50:16.246285+02:00",
+  "updated_at": "2026-07-09T09:50:42.242438+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -519,7 +519,7 @@
     {
       "name": "University - Landing Page",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup»",
+      "notes": "Andrea: «nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup. Nella Landing di iscrizione…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738852",
@@ -530,7 +530,7 @@
     {
       "name": "Video Editati per Lead Magnet Definitivo",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead»",
+      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead e se ci sono delle mailc…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738842",
@@ -541,7 +541,7 @@
     {
       "name": "foglio budget annuale",
       "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere»",
+      "notes": "ambra.sartini: «ho creato il foglio budget sulla base di un BOOST da dare alla struttura. Sono TANTI, naturalmente vengono fuori da una mia analisi ma sentiti libera di rettificarli, ho abbassato di 10k l'uno..poi vediamo»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
@@ -563,7 +563,7 @@
     {
       "name": "video e materiale nuovo per dolmen",
       "subtitle": "Color Holiday · ambra.sartini · 03/07",
-      "notes": "ambra.sartini: «…ella drive [link] @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «video e materiale nuovo per dolmen pronti nella cartella drive @Francesco Maria Mosca — questa è da chiudere?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1214184097701903",
@@ -574,7 +574,7 @@
     {
       "name": "ads meta raccolta lead -->",
       "subtitle": "ROSABIANCA · ambra.sartini · 02/07",
-      "notes": "ambra.sartini: «…con Simona [link] ecco i video @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «raccolta lead con file excel da condividere con Simona — ecco i video, avvisa la Simo quando parti e condividile il file simona@beefamily.it»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
@@ -585,7 +585,7 @@
     {
       "name": "Rosabianca — montaggio video Giada Collection",
       "subtitle": "ROSABIANCA · Beatrice · 02/07",
-      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc)»",
+      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc) https://drive.google.com/drive/folders/1nSR0UucHIP-hdwsB6UGvRQYErO-2CWvh»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216024487824593",
@@ -762,7 +762,7 @@
     {
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-      "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/ (tag: Alfredo De Grandis, Francesco Maria Mosca, Alessandro Cattaneo)»",
+      "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/ la nuova pagina non mi permette di pubblicare inserzioni cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
@@ -773,7 +773,7 @@
     {
       "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca stoppiamo lg in corso»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca è un bug che non arrivano lead o che non la vedo su report? / stoppiamo lg in corso»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
@@ -783,8 +783,8 @@
     },
     {
       "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - CENTRO BENESSERE VENUS · Alfredo De Grandis · 02/07",
-      "notes": "Alfredo De Grandis: «Francesco Maria Mosca controllala per vedere che inizia a spendere, secondo me è partita oggi anziché ieri»",
+      "subtitle": "CEA % - CENTRO BENESSERE VENUS · Edda De Mauri · 02/07",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca sono in call con la cliente, la sponsorizzata è attiva? c'è un video agganciato?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005634028",
@@ -795,7 +795,7 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca quando terminerebbe la lg? quanto credito ha ancora?»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca per la lg in corso come sono le performance? quando terminerebbe? quanto credito ha ancora?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
