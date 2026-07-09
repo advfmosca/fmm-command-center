@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T09:50:42.242438+02:00",
+  "updated_at": "2026-07-09T10:44:33.247263+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -35,7 +35,7 @@
       "end_iso": "2026-07-09T10:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=c2RxZTFlbmRsdTZzdmgwcTIwaXN1cThqbW8gbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -301,84 +301,6 @@
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTNUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
-    },
-    {
-      "summary": "BootyFarm - Riunione",
-      "start_iso": "2026-07-14T10:30:00+02:00",
-      "end_iso": "2026-07-14T12:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MTRUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Recap AGHC",
-      "start_iso": "2026-07-14T16:00:00+02:00",
-      "end_iso": "2026-07-14T17:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MTRUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": true
-    },
-    {
-      "summary": "Assocalcio",
-      "start_iso": "2026-07-14T18:30:00+02:00",
-      "end_iso": "2026-07-14T20:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTRUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "GO TEAM STRATEGIST",
-      "start_iso": "2026-07-15T10:00:00+02:00",
-      "end_iso": "2026-07-15T12:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/nbc-prms-jyo",
-      "html_link": "https://www.google.com/calendar/event?eid=NDJ0amtlOXVqcnNqdHRjNHBlMTZuazM2ODUgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Allenamento Calenda",
-      "start_iso": "2026-07-15T10:30:00+02:00",
-      "end_iso": "2026-07-15T12:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA3MTVUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Ordine Biancheria",
-      "start_iso": "2026-07-15T13:30:00+02:00",
-      "end_iso": "2026-07-15T14:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA3MTVUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
     }
   ],
   "asana": [
@@ -466,7 +388,7 @@
       "due": "2026-07-09",
       "days_to_due": 0,
       "is_today": true,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1211649631865813",
       "is_aghc": false
     },
@@ -507,8 +429,8 @@
   "asana_mentions": [
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
-      "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «mi dai update per questa cosa?»",
+      "subtitle": "BeeFamily - Tech · Andrea · 06/07",
+      "notes": "Andrea: «Francesco Maria Mosca mi dai update per questa cosa?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -519,7 +441,7 @@
     {
       "name": "University - Landing Page",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup. Nella Landing di iscrizione…»",
+      "notes": "Andrea: «Francesco Maria Mosca nelle sequenze email no, tanto non citano direttamente le date»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738852",
@@ -530,7 +452,7 @@
     {
       "name": "Video Editati per Lead Magnet Definitivo",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead e se ci sono delle mailc…»",
+      "notes": "Andrea: «Francesco Maria Mosca quando siamo on con le adv mi mandi una mail mettendo in copia…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738842",
@@ -541,7 +463,7 @@
     {
       "name": "foglio budget annuale",
       "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ho creato il foglio budget sulla base di un BOOST da dare alla struttura. Sono TANTI, naturalmente vengono fuori da una mia analisi ma sentiti libera di rettificarli, ho abbassato di 10k l'uno..poi vediamo»",
+      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere il budget»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
@@ -552,7 +474,7 @@
     {
       "name": "NUOVO LAST MINUTE BAY dal 11.07 al 01.08 -2490€",
       "subtitle": "Color Holiday · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «fai check ads color bay per allinearti con utlimo aggiornamento last minute»",
+      "notes": "ambra.sartini: «Francesco Maria Mosca fai check ads color bay per allinearti con ultimo last minute»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216278367929202",
@@ -563,7 +485,7 @@
     {
       "name": "video e materiale nuovo per dolmen",
       "subtitle": "Color Holiday · ambra.sartini · 03/07",
-      "notes": "ambra.sartini: «video e materiale nuovo per dolmen pronti nella cartella drive @Francesco Maria Mosca — questa è da chiudere?»",
+      "notes": "ambra.sartini: «@Francesco Maria Mosca materiale nuovo nella drive»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1214184097701903",
@@ -574,7 +496,7 @@
     {
       "name": "ads meta raccolta lead -->",
       "subtitle": "ROSABIANCA · ambra.sartini · 02/07",
-      "notes": "ambra.sartini: «raccolta lead con file excel da condividere con Simona — ecco i video, avvisa la Simo quando parti e condividile il file simona@beefamily.it»",
+      "notes": "ambra.sartini: «@Francesco Maria Mosca ecco i video con Simona»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216201434773479",
@@ -585,7 +507,7 @@
     {
       "name": "Rosabianca — montaggio video Giada Collection",
       "subtitle": "ROSABIANCA · Beatrice · 02/07",
-      "notes": "Beatrice: «nella cartella trovi i primi 5 reel (nominati reel 1,2, 3 etc) https://drive.google.com/drive/folders/1nSR0UucHIP-hdwsB6UGvRQYErO-2CWvh»",
+      "notes": "Beatrice: «Francesco Maria Mosca nella cartella trovi i primi 5 reel (nominati reel 1,2,3 etc)»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1216024487824593",
@@ -599,10 +521,9 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Task",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -611,10 +532,9 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -623,10 +543,9 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -635,32 +554,19 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
       "is_aghc": false
-    },
-    {
-      "name": "User e Pass / Gmail per Tik Tok",
-      "subtitle": "Account TIK TOK AGHC",
-      "status": "Task",
-      "status_kind": "warn",
-      "due": "2025-04-04",
-      "days_to_due": -461,
-      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
     }
   ],
   "monday_mentions": [
     {
       "name": "[Assegnato a te] nuova richiesta inutile",
-      "subtitle": "nuova richiesta inutile · Gestione Villa Ermellina · 08/07",
+      "subtitle": "nuova richiesta inutile · Gestione Villa Ermellina · Simone Pisa · 08/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -671,7 +577,7 @@
     },
     {
       "name": "[Assegnato a te] Villa Miliani",
-      "subtitle": "Villa Miliani · Panoramica PED AG SQUAD 2026 · 07/07",
+      "subtitle": "Villa Miliani · Panoramica PED AG SQUAD 2026 · Automations · 07/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -682,7 +588,7 @@
     },
     {
       "name": "[Assegnato a te] PIANO ADS ASAP",
-      "subtitle": "PIANO ADS ASAP · Gestione · 07/07",
+      "subtitle": "PIANO ADS ASAP · Gestione · Time line · Maria Vittoria Rossi · 07/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -693,7 +599,7 @@
     },
     {
       "name": "[Assegnato a te] REPORT ADS June",
-      "subtitle": "REPORT ADS June · Gestione · 07/07",
+      "subtitle": "REPORT ADS June · Gestione · Info · Maria Vittoria Rossi · 07/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -704,7 +610,7 @@
     },
     {
       "name": "[Assegnato a te] Mare Hotel",
-      "subtitle": "Mare Hotel · Panoramica PED AG SQUAD 2026 · 06/07",
+      "subtitle": "Mare Hotel · Panoramica PED AG SQUAD 2026 · Automations · 06/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -714,41 +620,8 @@
       "is_aghc": true
     },
     {
-      "name": "[Sei iscritto] Panoramica PED AG 2026",
-      "subtitle": "Panoramica PED AG 2026 · 03/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "[Assegnato a te] Villa Ermellina Siena",
-      "subtitle": "Villa Ermellina Siena · Panoramica PED AG 2026 · 03/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407448568",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "[Assegnato a te] Hannah Hotels Collection",
-      "subtitle": "Hannah Hotels Collection · NON OPERATIVA! - Panoramica PED AG 2026 (BOZZA) · 03/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12407447455",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
       "name": "FAI REPORT ADESSO HOTEL",
-      "subtitle": "Gestione /Adèsso/ Hotel · 03/07",
+      "subtitle": "FAI REPORT ADESSO HOTEL · Gestione /Adèsso/ Hotel · Automations · 03/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -762,7 +635,7 @@
     {
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-      "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/ la nuova pagina non mi permette di pubblicare inserzioni cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «Alfredo De Grandis Alessandro Cattaneo provato a correggere, la nuova pagina non mi permette di pubblicare inserzioni cc Francesco Maria Mosca»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
@@ -773,7 +646,7 @@
     {
       "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca è un bug che non arrivano lead o che non la vedo su report? / stoppiamo lg in corso»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca stoppiamo lg in corso Aurora Scaccia»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
@@ -783,8 +656,8 @@
     },
     {
       "name": "A1IK-T178 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - CENTRO BENESSERE VENUS · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca sono in call con la cliente, la sponsorizzata è attiva? c'è un video agganciato?»",
+      "subtitle": "CEA % - CENTRO BENESSERE VENUS · Alfredo De Grandis · 02/07",
+      "notes": "Alfredo De Grandis: «campagna creata correttamente ieri, credo sia partita oggi. Francesco Maria Mosca controllala per vedere che inizia a spendere»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005634028",
@@ -795,7 +668,7 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Edda De Mauri · 02/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca per la lg in corso come sono le performance? quando terminerebbe? quanto credito ha ancora?»",
+      "notes": "Edda De Mauri: «Francesco Maria Mosca quando terminerebbe la lg? quanto credito ha ancora?»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
