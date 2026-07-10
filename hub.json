@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-10T15:44:46.224640+02:00",
+ "updated_at": "2026-07-10T16:44:26.743755+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -440,45 +440,45 @@
   {
    "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
    "project": "Tasto 9",
-   "notes": "Entro ven 10/7: mail di risposta con presa in carico e ads partite.",
+   "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono effettivamente partite.",
    "due": "2026-07-10",
    "days_to_due": 0,
    "is_today": true,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290489104180",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1216290489104180",
    "is_aghc": false
   },
   {
    "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
    "project": "Tasto 9",
-   "notes": "Awareness dal profilo Tasto 9, budget €10/giorno.",
+   "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Attendere da Ambra il link candidature corretto.",
    "due": "2026-07-10",
    "days_to_due": 0,
    "is_today": true,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290488625946",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1216290488625946",
    "is_aghc": false
   },
   {
    "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
    "project": "Tasto 9",
-   "notes": "Selezionare i migliori tagli (più views in organico).",
+   "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
    "due": "2026-07-10",
    "days_to_due": 0,
    "is_today": true,
    "is_urgent": true,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290366623292",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1216290366623292",
    "is_aghc": false
   },
   {
    "name": "ads meta",
    "project": "B612",
-   "notes": "puoi partire! budget confermato. Mandami tutto prima di attivare.",
+   "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare cosi ci guardiamo insieme",
    "due": "2026-07-13",
    "days_to_due": 3,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1215903031387482",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1215903031387482",
    "is_aghc": false
   },
   {
@@ -500,18 +500,18 @@
    "days_to_due": 6,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630515",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1214190446630515",
    "is_aghc": false
   },
   {
-   "name": "Apify Facebook Ad Library Scraper — tool competitor ads",
+   "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
    "project": "BeeFamily - Tech",
-   "notes": "Actor Apify che estrae le ads dalla Facebook Ad Library. Test su 2-3 competitor.",
+   "notes": "Andrea presenta un actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library ed esporta in CSV/Excel/JSON. Utile per analisi ads competitor BeeFamily + clienti. Test con account gratuito",
    "due": null,
    "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216448635253954",
+   "permalink": "https://app.asana.com/1/1199398735335909/task/1216448635253954",
    "is_aghc": false
   }
  ],
@@ -696,28 +696,6 @@
    "is_today": false,
    "is_urgent": true,
    "is_aghc": true
-  },
-  {
-   "name": "Villa Ermellina Siena — tocca a te (PED)",
-   "subtitle": "Villa Ermellina Siena · Panoramica PED AG 2026 · 03/07",
-   "notes": null,
-   "status": "Notifica",
-   "status_kind": "warn",
-   "url": "https://senapedigital.monday.com/",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": true
-  },
-  {
-   "name": "Hannah Hotels Collection — tocca a te (PED)",
-   "subtitle": "Hannah Hotels Collection · Panoramica PED AG 2026 · 03/07",
-   "notes": null,
-   "status": "Notifica",
-   "status_kind": "warn",
-   "url": "https://senapedigital.monday.com/",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": true
   }
  ],
  "zoho_projects": [
@@ -746,21 +724,10 @@
   {
    "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
    "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-   "notes": "Aurora Scaccia: «provato a correggere, la nuova pagina non mi permette di pubblicare inserzioni. cc Francesco Maria Mosca»",
+   "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
-   "is_today": false,
-   "is_urgent": true,
-   "is_aghc": false
-  },
-  {
-   "name": "A2U1-T71 Chiamata luglio 26 manager/beauty",
-   "subtitle": "CEA % - MALIA · Edda De Mauri · 03/07",
-   "notes": "Edda De Mauri: «Francesco Maria Mosca stoppiamo lg in corso»",
-   "status": "Pending reply",
-   "status_kind": "danger",
-   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004814052",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
