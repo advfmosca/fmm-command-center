@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T09:46:31.376118+02:00",
+  "updated_at": "2026-07-10T10:37:46+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -225,6 +225,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Ilaria",
+      "start_iso": "2026-07-13T10:00:00+02:00",
+      "end_iso": "2026-07-13T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MnVnNGh1OGVxMDRlajEyaW1ycG5icGkwMHAgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "Gruppo Stratego - Email di Recap",
       "start_iso": "2026-07-13T10:45:00+02:00",
       "end_iso": "2026-07-13T11:00:00+02:00",
@@ -299,6 +312,71 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTNUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "BootyFarm - Riunione",
+      "start_iso": "2026-07-14T10:30:00+02:00",
+      "end_iso": "2026-07-14T12:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MTRUMDgzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "ALLIN NUOVO MODELLO DI BUSINESS",
+      "start_iso": "2026-07-14T12:00:00+02:00",
+      "end_iso": "2026-07-14T13:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/rhz-sddg-bhz",
+      "html_link": "https://www.google.com/calendar/event?eid=NmZiZW1uOWRnZWM3MWpwbWE1aDN2cDFoamMgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Recap AGHC",
+      "start_iso": "2026-07-14T16:00:00+02:00",
+      "end_iso": "2026-07-14T17:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MTRUMTQwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
+      "summary": "Assocalcio",
+      "start_iso": "2026-07-14T18:30:00+02:00",
+      "end_iso": "2026-07-14T20:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTRUMTYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "GO TEAM STRATEGIST",
+      "start_iso": "2026-07-15T10:00:00+02:00",
+      "end_iso": "2026-07-15T12:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/nbc-prms-jyo",
+      "html_link": "https://www.google.com/calendar/event?eid=NDJ0amtlOXVqcnNqdHRjNHBlMTZuazM2ODUgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     }
