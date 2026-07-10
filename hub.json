@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T10:37:46+02:00",
+  "updated_at": "2026-07-10T11:41:19+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -438,28 +438,6 @@
       "is_aghc": false
     },
     {
-      "name": "Budget a 30€ - sono quasi pieni",
-      "project": "Brora",
-      "notes": "",
-      "due": "2026-07-08",
-      "days_to_due": -2,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1211649631865812",
-      "is_aghc": false
-    },
-    {
-      "name": "Staccare carta di Emilio e mettere PayPal amministrazione@stigmahoapitality.com",
-      "project": "ROSABIANCA",
-      "notes": "",
-      "due": "2026-07-09",
-      "days_to_due": -1,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209302716972416/task/1211649631865813",
-      "is_aghc": false
-    },
-    {
       "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
       "project": "Tasto 9",
       "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono partite.",
@@ -490,17 +468,6 @@
       "is_today": true,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211356949478286/task/1216290366623292",
-      "is_aghc": false
-    },
-    {
-      "name": "Staccare metà ads",
-      "project": "Teti",
-      "notes": "",
-      "due": "2026-07-10",
-      "days_to_due": 0,
-      "is_today": true,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208913926319129/task/1203190488684872",
       "is_aghc": false
     },
     {
@@ -589,17 +556,6 @@
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216278367929202",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "video e materiale nuovo per dolmen",
-      "subtitle": "Color Holiday · ambra.sartini · 03/07",
-      "notes": "ambra.sartini: «...ella drive https://drive.google.com/drive/folders/... @Francesco Maria Mosca»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1214184097701903",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
