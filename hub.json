@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-07-11T08:41:44+02:00",
- "source": "cowork-scheduled-task (weekend AM)",
- "errors": [],
+ "updated_at": "2026-07-11T14:09:04+02:00",
+ "source": "cowork-scheduled-task (weekend PM)",
+ "errors": 0,
  "calendar": [
   {
    "summary": "Ordine Biancheria",
@@ -82,19 +82,6 @@
    "is_aghc": false
   },
   {
-   "summary": "Registrazione Ospiti",
-   "start_iso": "2026-07-13T18:00:00+02:00",
-   "end_iso": "2026-07-13T18:15:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
    "summary": "Progress @senape",
    "start_iso": "2026-07-13T18:00:00+02:00",
    "end_iso": "2026-07-13T19:00:00+02:00",
@@ -106,6 +93,19 @@
    "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": true
+  },
+  {
+   "summary": "Registrazione Ospiti",
+   "start_iso": "2026-07-13T18:00:00+02:00",
+   "end_iso": "2026-07-13T18:15:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
   },
   {
    "summary": "Assocalcio",
@@ -171,6 +171,201 @@
    "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTRUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
+  },
+  {
+   "summary": "GO TEAM STRATEGIST",
+   "start_iso": "2026-07-15T10:00:00+02:00",
+   "end_iso": "2026-07-15T12:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/nbc-prms-jyo",
+   "html_link": "https://www.google.com/calendar/event?eid=NDJ0amtlOXVqcnNqdHRjNHBlMTZuazM2ODUgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Allenamento Calenda",
+   "start_iso": "2026-07-15T10:30:00+02:00",
+   "end_iso": "2026-07-15T12:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA3MTVUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Ordine Biancheria",
+   "start_iso": "2026-07-15T13:30:00+02:00",
+   "end_iso": "2026-07-15T14:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA3MTVUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Call Tag Manager",
+   "start_iso": "2026-07-15T14:30:00+02:00",
+   "end_iso": "2026-07-15T15:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=MnZsZ2RpNXZzZ2RjdW9zOXRnMG5hNDY1cDEgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Francesco Maria Mosca (Alessandro Cattaneo)",
+   "start_iso": "2026-07-15T16:30:00+02:00",
+   "end_iso": "2026-07-15T17:15:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/ubm-qwrh-svk",
+   "html_link": "https://www.google.com/calendar/event?eid=OWtoZG4yMzAwcTUxNDQ2Z2g0djdsOWxvYWMgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Registrazione Ospiti",
+   "start_iso": "2026-07-15T18:00:00+02:00",
+   "end_iso": "2026-07-15T18:15:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTVUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "OFF",
+   "start_iso": "2026-07-16T08:30:00+02:00",
+   "end_iso": "2026-07-16T14:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MTZUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "AS+Bea+Franci riunione referenti",
+   "start_iso": "2026-07-16T10:00:00+02:00",
+   "end_iso": "2026-07-16T11:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
+   "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA3MTZUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "CEA + M&T : Check, Balance e Resolution",
+   "start_iso": "2026-07-16T15:00:00+02:00",
+   "end_iso": "2026-07-16T16:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA3MTZUMTMwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
+   "start_iso": "2026-07-16T16:00:00+02:00",
+   "end_iso": "2026-07-16T17:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MTZUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Assocalcio",
+   "start_iso": "2026-07-16T18:30:00+02:00",
+   "end_iso": "2026-07-16T20:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTZUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Adv Check Fra + Mark",
+   "start_iso": "2026-07-17T09:15:00+02:00",
+   "end_iso": "2026-07-17T10:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+   "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA3MTdUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "OFF",
+   "start_iso": "2026-07-17T13:00:00+02:00",
+   "end_iso": "2026-07-17T19:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA3MTdUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Progress Interno AG",
+   "start_iso": "2026-07-17T15:30:00+02:00",
+   "end_iso": "2026-07-17T16:00:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+   "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MTdUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Registrazione Ospiti",
+   "start_iso": "2026-07-17T18:00:00+02:00",
+   "end_iso": "2026-07-17T18:15:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": null,
+   "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTdUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
   }
  ],
  "asana": [
@@ -188,7 +383,7 @@
   {
    "name": "Report ADV BeeFamily",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-06-05",
    "days_to_due": -36,
    "is_today": false,
@@ -199,7 +394,7 @@
   {
    "name": "Budget Clienti",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-06-08",
    "days_to_due": -33,
    "is_today": false,
@@ -210,7 +405,7 @@
   {
    "name": "AMBRA per info su TASTO9",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-07-07",
    "days_to_due": -4,
    "is_today": false,
@@ -221,7 +416,7 @@
   {
    "name": "ANDREA news per Sito",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-07-07",
    "days_to_due": -4,
    "is_today": false,
@@ -243,7 +438,7 @@
   {
    "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
    "project": "Tasto 9",
-   "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Attendere da Ambra il link candidature corretto.",
+   "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature. Attendere da Ambra il link candidature corretto.",
    "due": "2026-07-10",
    "days_to_due": -1,
    "is_today": false,
@@ -254,7 +449,7 @@
   {
    "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
    "project": "Tasto 9",
-   "notes": "Selezionare i migliori tagli, puntando su quelli che in organico hanno performato meglio.",
+   "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
    "due": "2026-07-10",
    "days_to_due": -1,
    "is_today": false,
@@ -265,18 +460,18 @@
   {
    "name": "ads meta",
    "project": "B612",
-   "notes": "puoi partire! budget confermato. Magari mandami tutto prima di attivare così ci guardiamo insieme",
+   "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare cosi ci guardiamo insieme",
    "due": "2026-07-13",
    "days_to_due": 2,
    "is_today": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "permalink": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1215903031387482",
    "is_aghc": false
   },
   {
    "name": "start ads meta - appena offerta è pronta",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-07-14",
    "days_to_due": 3,
    "is_today": false,
@@ -287,7 +482,7 @@
   {
    "name": "Landing Webinar 3 Settembre",
    "project": "BeeFamily - Tech",
-   "notes": "",
+   "notes": null,
    "due": "2026-07-16",
    "days_to_due": 5,
    "is_today": false,
@@ -298,7 +493,7 @@
   {
    "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
    "project": "BeeFamily - Tech",
-   "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library. Utile per analisi ads competitor (durata = segnale di performance).",
+   "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library e le esporta in CSV/Excel/JSON. Utile per analizzare durata e angoli delle ads dei competitor.",
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -485,6 +680,28 @@
   }
  ],
  "zoho_projects": [
+  {
+   "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
+   "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Alfredo De Grandis · 11/07",
+   "notes": "Alfredo De Grandis: «cc Francesco Maria Mosca, Alessandro Cattaneo — campagna già stoppata tramite il pulsante stop campagna»",
+   "status": "Pending reply",
+   "status_kind": "danger",
+   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
+   "is_today": true,
+   "is_urgent": true,
+   "is_aghc": false
+  },
+  {
+   "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
+   "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Edda De Mauri · 11/07",
+   "notes": "Edda De Mauri: «Francesco Maria Mosca Alessandro Cattaneo bisogna stoppare lg in corso»",
+   "status": "Pending reply",
+   "status_kind": "danger",
+   "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
+   "is_today": true,
+   "is_urgent": true,
+   "is_aghc": false
+  },
   {
    "name": "B179-T24 Chiamata luglio 26 manager/beauty",
    "subtitle": "CEA % - NOVAME' · Alfredo De Grandis · 10/07",
