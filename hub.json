@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-07-13T15:45:31.583059+02:00",
+  "updated_at": "2026-07-13T16:46:08.688103+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [],
+  "errors": [
+    "calendar: prima chiamata list_events fallita (service unavailable), riuscita al retry"
+  ],
   "calendar": [
     {
       "summary": "🔴 Sardinia Family Villas · spesa anomala alta",
@@ -238,7 +240,7 @@
       "is_aghc": false
     },
     {
-      "summary": "Casa Iuorio/Mad Idea: Acquisizione Informazioni & Presentazione Team",
+      "summary": "Casa Iuorio/Mad Idea: Acqusizione Informazioni & Presentazione Team",
       "start_iso": "2026-07-15T16:30:00+02:00",
       "end_iso": "2026-07-15T17:30:00+02:00",
       "is_today": false,
@@ -436,17 +438,6 @@
       "is_aghc": false
     },
     {
-      "name": "abbassare budget a 15€ meta -->",
-      "project": "Mauritius",
-      "notes": "spingere solo su settembre",
-      "due": "2026-07-13",
-      "days_to_due": 0,
-      "is_today": true,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1216521909371774",
-      "is_aghc": false
-    },
-    {
       "name": "TESTIMONIANZE EMBED",
       "project": "BeeFamily - Tech",
       "notes": "trovi tutti i link nei messaggi",
@@ -471,7 +462,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature.",
+      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature. Attendere da Ambra il link candidature corretto.",
       "due": "2026-07-13",
       "days_to_due": 0,
       "is_today": true,
@@ -504,7 +495,7 @@
     {
       "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
       "project": "BeeFamily - Tech",
-      "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library e le trasforma in dati strutturati esportabili in CSV/Excel/JSON.",
+      "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library. Valutare per analisi ads competitor (BeeFamily + clienti).",
       "due": "2026-07-14",
       "days_to_due": 1,
       "is_today": false,
@@ -521,17 +512,6 @@
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1216419738368859",
-      "is_aghc": false
-    },
-    {
-      "name": "University - Landing Page",
-      "project": "BeeFamily - Tech",
-      "notes": null,
-      "due": "2026-07-15",
-      "days_to_due": 2,
-      "is_today": false,
-      "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738852",
       "is_aghc": false
     },
     {
@@ -561,7 +541,7 @@
     {
       "name": "aggiornamento last minute",
       "subtitle": "Color Holiday · ambra.sartini · 13/07",
-      "notes": null,
+      "notes": "ambra.sartini: «(menzione senza testo)»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
@@ -579,17 +559,6 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "foglio budget annuale",
-      "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere d…»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
     }
   ],
   "canva": [],
@@ -597,10 +566,9 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Assegnato",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -609,10 +577,9 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -621,10 +588,9 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -633,10 +599,9 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": null,
-      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
@@ -645,10 +610,9 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Assegnato",
-      "status_kind": "warn",
+      "status": null,
+      "status_kind": null,
       "due": "2025-04-04",
-      "days_to_due": -465,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
       "is_urgent": true,
@@ -657,7 +621,7 @@
   ],
   "monday_mentions": [
     {
-      "name": "\"PED TERRAZZA FLAVIA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
+      "name": "\"PED TERRAZZA FLAVIA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
       "subtitle": "PED TERRAZZA FLAVIA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -668,7 +632,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED MARCELLA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
+      "name": "\"PED MARCELLA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
       "subtitle": "PED MARCELLA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -679,7 +643,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED VILLA GIADA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
+      "name": "\"PED VILLA GIADA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
       "subtitle": "PED VILLA GIADA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -690,7 +654,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED MONASTERO - agosto settembre\" è in fase \"3. Copy inseriti\"",
+      "name": "\"PED MONASTERO - agosto settembre\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
       "subtitle": "PED MONASTERO - agosto settembre · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -712,7 +676,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"Villa Miliani\" è in fase \"3. Copy inseriti\"",
+      "name": "\"Villa Miliani\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
       "subtitle": "Villa Miliani · Panoramica PED AG SQUAD 2026 · 07/07",
       "notes": null,
       "status": "Notifica",
@@ -756,23 +720,23 @@
       "is_aghc": true
     },
     {
-      "name": "Ciao Fra!\n\nHai news su questo?\n\n@Francesco M Mosca Fyi: @Arianna Petrini",
-      "subtitle": "Simone Pisa · Villa Ermellina > Gestione Villa Ermellina · 13/07",
-      "notes": null,
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://senapedigital.monday.com/boards/7961312860/pulses/12300152153",
-      "is_today": true,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "Ciao Fra!\n\nEli mi chiede news sulla questione Mare Hotel, tracking/simple booking. Ultima mail un po' datata. Tu hai ulteriori aggiornamenti? In caso vuoi far ripartire il thread per chiudere il disco",
+      "name": "@Francesco M Mosca Daje! Vogliamo aggiungere una voce apposita sui report che indichi il numero di conversioni che ci risultano?",
       "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 13/07",
       "notes": null,
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://senapedigital.monday.com/boards/6857196518/pulses/12010150877",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "@Francesco M Mosca si certo",
+      "subtitle": "Simone Pisa · Villa Ermellina > Gestione Villa Ermellina · 13/07",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/7961312860/pulses/12300152153",
       "is_today": true,
       "is_urgent": true,
       "is_aghc": true
@@ -804,7 +768,7 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Alfredo De Grandis · 10/07",
-      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing…»",
+      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
@@ -827,17 +791,6 @@
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
       "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-      "notes": "Aurora Scaccia: «provato a correggere, la nuova pagina non mi permette di pubblicare inserzioni»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
