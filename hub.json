@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T14:46:29+02:00",
+  "updated_at": "2026-07-13T15:45:31.583059+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -82,19 +82,6 @@
       "is_aghc": false
     },
     {
-      "summary": "Registrazione Ospiti",
-      "start_iso": "2026-07-13T18:00:00+02:00",
-      "end_iso": "2026-07-13T18:15:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
       "summary": "Progress @senape",
       "start_iso": "2026-07-13T18:00:00+02:00",
       "end_iso": "2026-07-13T19:00:00+02:00",
@@ -104,6 +91,19 @@
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
       "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-07-13T18:00:00+02:00",
+      "end_iso": "2026-07-13T18:15:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
+      "is_urgent": true,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MTNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -126,7 +126,7 @@
       "end_iso": "2026-07-14T10:30:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/pju-yved-ppn",
       "html_link": "https://www.google.com/calendar/event?eid=MjIyaW0xazZvNTc4NTQ3ZXVhNHExM2FnNjAgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -139,7 +139,7 @@
       "end_iso": "2026-07-14T12:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
       "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MTRUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -152,7 +152,7 @@
       "end_iso": "2026-07-14T13:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/rhz-sddg-bhz",
       "html_link": "https://www.google.com/calendar/event?eid=NmZiZW1uOWRnZWM3MWpwbWE1aDN2cDFoamMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -165,7 +165,7 @@
       "end_iso": "2026-07-14T17:00:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MTRUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -178,7 +178,7 @@
       "end_iso": "2026-07-14T20:30:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Ym5jbGVmZmVoc2w0YjZ1MW9raGd2cTRsNGJfMjAyNjA3MTRUMTYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -403,7 +403,7 @@
       "is_aghc": false
     },
     {
-      "name": "(task senza titolo)",
+      "name": "(senza titolo)",
       "project": "Generale",
       "notes": null,
       "due": "2026-07-02",
@@ -436,6 +436,17 @@
       "is_aghc": false
     },
     {
+      "name": "abbassare budget a 15€ meta -->",
+      "project": "Mauritius",
+      "notes": "spingere solo su settembre",
+      "due": "2026-07-13",
+      "days_to_due": 0,
+      "is_today": true,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1216521909371774",
+      "is_aghc": false
+    },
+    {
       "name": "TESTIMONIANZE EMBED",
       "project": "BeeFamily - Tech",
       "notes": "trovi tutti i link nei messaggi",
@@ -460,7 +471,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Attendere da Ambra il link candidature corretto.",
+      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature.",
       "due": "2026-07-13",
       "days_to_due": 0,
       "is_today": true,
@@ -471,7 +482,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i migliori tagli, puntando su quelli che in organico hanno performato meglio.",
+      "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
       "due": "2026-07-13",
       "days_to_due": 0,
       "is_today": true,
@@ -482,7 +493,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare così ci guardiamo insieme",
+      "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare cosi ci guardiamo insieme",
       "due": "2026-07-13",
       "days_to_due": 0,
       "is_today": true,
@@ -493,11 +504,11 @@
     {
       "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
       "project": "BeeFamily - Tech",
-      "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library. Test consigliato su 2-3 competitor.",
+      "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library e le trasforma in dati strutturati esportabili in CSV/Excel/JSON.",
       "due": "2026-07-14",
       "days_to_due": 1,
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216448635253954",
       "is_aghc": false
     },
@@ -508,7 +519,7 @@
       "due": "2026-07-14",
       "days_to_due": 1,
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1216419738368859",
       "is_aghc": false
     },
@@ -572,7 +583,7 @@
     {
       "name": "foglio budget annuale",
       "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere»",
+      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere d…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
@@ -589,6 +600,7 @@
       "status": "Assegnato",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -600,6 +612,7 @@
       "status": "Assegnato",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -611,6 +624,7 @@
       "status": "Assegnato",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -622,6 +636,7 @@
       "status": "Assegnato",
       "status_kind": "warn",
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
@@ -631,8 +646,9 @@
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
       "status": "Assegnato",
-      "status_kind": "danger",
+      "status_kind": "warn",
       "due": "2025-04-04",
+      "days_to_due": -465,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
       "is_urgent": true,
@@ -641,7 +657,7 @@
   ],
   "monday_mentions": [
     {
-      "name": "\"PED TERRAZZA FLAVIA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
+      "name": "\"PED TERRAZZA FLAVIA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
       "subtitle": "PED TERRAZZA FLAVIA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -652,7 +668,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED MARCELLA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
+      "name": "\"PED MARCELLA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
       "subtitle": "PED MARCELLA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -663,7 +679,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED VILLA GIADA AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
+      "name": "\"PED VILLA GIADA AGOSTO 2026\" è in fase \"3. Copy inseriti\"",
       "subtitle": "PED VILLA GIADA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -674,7 +690,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED MONASTERO - agosto settembre\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
+      "name": "\"PED MONASTERO - agosto settembre\" è in fase \"3. Copy inseriti\"",
       "subtitle": "PED MONASTERO - agosto settembre · Panoramica PED AG SQUAD 2026 · 13/07",
       "notes": null,
       "status": "Notifica",
@@ -696,7 +712,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"Villa Miliani\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase per far proseguire il PED.",
+      "name": "\"Villa Miliani\" è in fase \"3. Copy inseriti\"",
       "subtitle": "Villa Miliani · Panoramica PED AG SQUAD 2026 · 07/07",
       "notes": null,
       "status": "Notifica",
@@ -738,13 +754,35 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
+    },
+    {
+      "name": "Ciao Fra!\n\nHai news su questo?\n\n@Francesco M Mosca Fyi: @Arianna Petrini",
+      "subtitle": "Simone Pisa · Villa Ermellina > Gestione Villa Ermellina · 13/07",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/7961312860/pulses/12300152153",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "Ciao Fra!\n\nEli mi chiede news sulla questione Mare Hotel, tracking/simple booking. Ultima mail un po' datata. Tu hai ulteriori aggiornamenti? In caso vuoi far ripartire il thread per chiudere il disco",
+      "subtitle": "Simone Pisa · Mare Hotel > Gestione Mare Hotel · 13/07",
+      "notes": null,
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://senapedigital.monday.com/boards/6857196518/pulses/12010150877",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
     }
   ],
   "zoho_projects": [
     {
       "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Alfredo De Grandis · 11/07",
-      "notes": "Alfredo De Grandis: «Edda De Mauri cc Francesco Maria Mosca Alessandro Cattaneo — campagna già stoppata tramite il pulsante stop campagna»",
+      "notes": "Alfredo De Grandis: «campagna già stoppata tramite il pulsante stop campagna»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
@@ -755,7 +793,7 @@
     {
       "name": "AV02-T31 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - ERRESSE BEAUTY AND SPA LUGANO · Edda De Mauri · 11/07",
-      "notes": "Edda De Mauri: «Francesco Maria Mosca Alessandro Cattaneo bisogna stoppare lg in corso»",
+      "notes": "Edda De Mauri: «bisogna stoppare lg in corso»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005408061",
@@ -766,7 +804,7 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Alfredo De Grandis · 10/07",
-      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing»",
+      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing…»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
@@ -777,7 +815,7 @@
     {
       "name": "AAH3-T311 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA ASSISTANCE - LINEA PERFETTA · Edda De Mauri · 10/07",
-      "notes": "Edda De Mauri: «Aurora Scaccia Francesco Maria Mosca stoppiamo lg in corso»",
+      "notes": "Edda De Mauri: «stoppiamo lg in corso»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004340301",
@@ -788,7 +826,7 @@
     {
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-      "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/ Alfredo De Grandis Francesco Maria Mosca Alessandro Cattaneo»",
+      "notes": "Aurora Scaccia: «nulla da fare.. andava bene la pagina precedente e non questa :/»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
@@ -799,7 +837,7 @@
     {
       "name": "A23S-T250 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - TACHI · Aurora Scaccia · 06/07",
-      "notes": "Aurora Scaccia: «Alfredo De Grandis Alessandro Cattaneo provato a correggere, la nuova pagina non mi permette di pubblicare inserzioni cc Francesco Maria Mosca»",
+      "notes": "Aurora Scaccia: «provato a correggere, la nuova pagina non mi permette di pubblicare inserzioni»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199152",
