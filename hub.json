@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T08:43:48.231338+02:00",
+  "updated_at": "2026-07-13T09:46:45.947470+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -416,7 +416,7 @@
       "is_aghc": false
     },
     {
-      "name": "(senza titolo)",
+      "name": "(task senza titolo)",
       "project": "Generale",
       "notes": null,
       "due": "2026-07-02",
@@ -462,7 +462,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Budget €10/giorno, include video CTA candidature. Attendere link candidature da Ambra.",
+      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Attendere da Ambra il link candidature corretto.",
       "due": "2026-07-10",
       "days_to_due": -3,
       "is_today": false,
@@ -473,7 +473,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i tagli che in organico hanno performato meglio.",
+      "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
       "due": "2026-07-10",
       "days_to_due": -3,
       "is_today": false,
@@ -484,7 +484,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "puoi partire! budget confermato. Mandare tutto prima di attivare.",
+      "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare cosi ci guardiamo insieme",
       "due": "2026-07-13",
       "days_to_due": 0,
       "is_today": true,
@@ -499,7 +499,7 @@
       "due": "2026-07-14",
       "days_to_due": 1,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1216419738368859",
       "is_aghc": false
     },
@@ -517,7 +517,7 @@
     {
       "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
       "project": "BeeFamily - Tech",
-      "notes": "Actor Apify per estrarre in massa le inserzioni dalla Facebook Ad Library. Utile per analisi ads competitor (BeeFamily + clienti).",
+      "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library. Utile per analisi ads competitor BeeFamily + clienti.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -530,7 +530,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «@Francesco Maria Mosca mi dai update per questa cosa?»",
+      "notes": "Andrea: «mi dai update per questa cosa?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -541,7 +541,7 @@
     {
       "name": "University - Landing Page",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «@Francesco Maria Mosca nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup. Nella Landing di iscrizione al momento è super»",
+      "notes": "Andrea: «nelle sequenze email no, tanto non citano direttamente le date - quelle le dovremo fare come percorso post iscrizione di followup»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738852",
@@ -552,7 +552,7 @@
     {
       "name": "Video Editati per Lead Magnet Definitivo",
       "subtitle": "BeeFamily - Tech · Andrea · 07/07",
-      "notes": "Andrea: «@Francesco Maria Mosca quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead e se ci sono delle mail che arrivano a comme»",
+      "notes": "Andrea: «quando siamo on con le adv mi mandi una mail mettendo in copia Emilio, Simona e predisponendo già il file dove vanno a finire i lead?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237887738842",
@@ -563,7 +563,7 @@
     {
       "name": "foglio budget annuale",
       "subtitle": "B612 · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «ragazzi @Francesco Maria Mosca @Marco - Google Ads vi chiedo di leggere il documento della riunione di oggi con Carlo e rivedere d… (menzione nella descrizione)»",
+      "notes": "ambra.sartini: «ho creato il foglio budget sulla base di un BOOST da dare alla struttura. Sono TANTI, naturalmente vengono fuori da una mia analisi ma sentiti libera di rettificarli.»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216229501462240",
@@ -574,7 +574,7 @@
     {
       "name": "NUOVO LAST MINUTE BAY dal 11.07 al 01.08 -2490€",
       "subtitle": "Color Holiday · ambra.sartini · 06/07",
-      "notes": "ambra.sartini: «@Francesco Maria Mosca fai check ads color bay per allinearti con utlimo aggiornamento last minute»",
+      "notes": "ambra.sartini: «fai check ads color bay per allinearti con utlimo aggiornamento last minute»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216278367929202",
@@ -729,7 +729,7 @@
     {
       "name": "B179-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - NOVAME' · Alfredo De Grandis · 10/07",
-      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing…»",
+      "notes": "Alfredo De Grandis: «Non so cosa possa combinare sinceramente con 200€ di budget, è pochissimo, non è il mio mestiere ma da quello che sento dire nelle riunioni mi sembrano soldi buttati, lascio esprimere il marketing mag...»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006156235",
