@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-15T11:41:01.205355+02:00",
+ "updated_at": "2026-07-15T12:41:00.000000+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -452,7 +452,7 @@
   {
    "name": "stop campagne su offerta luglio - tutto su agosto",
    "subtitle": "Mexico · ambra.sartini · 15/07",
-   "notes": "ambra.sartini: «@Marco - Google Ads @Francesco Maria Mosca»",
+   "notes": "ambra.sartini: «@Marco - Google Ads @Francesco Maria Mosca» — menzione in descrizione, task URGENTE con scadenza oggi",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216584840635051",
@@ -484,8 +484,8 @@
   },
   {
    "name": "aggiornamento last minute",
-   "subtitle": "Color Holiday · ambra.sartini · 13/07",
-   "notes": "ambra.sartini: «le offerte sulla landing sono state aggiornate»",
+   "subtitle": "Color Holiday · ambra.sartini · 15/07",
+   "notes": "ambra.sartini: «mi dai feedback? — le offerte sulla landing sono state aggiornate»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
