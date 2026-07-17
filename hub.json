@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T09:42:22.952348+02:00",
+  "updated_at": "2026-07-17T10:44:38.686261+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -668,6 +668,46 @@
       "author": "Alessia De Fabiani AG Hotel Consulting",
       "comment_text": "@FMM Consulting commento copertura facebook si riferisce a ig+fb",
       "created_iso": "2026-07-16T12:15:29+02:00",
+      "is_aghc": true
+    },
+    {
+      "design_id": "DAHOOLLwvFU",
+      "design_title": "6.Monthly Report_Villa Giada Giugno",
+      "design_url": "https://www.canva.com/design/DAHOOLLwvFU/view",
+      "comment_id": "KAHPXE__fVU",
+      "author": "Alessia De Fabiani AG Hotel Consulting",
+      "comment_text": "@FMM Consulting copertura riferita a ig+fb",
+      "created_iso": "2026-07-14T14:42:54+02:00",
+      "is_aghc": true
+    },
+    {
+      "design_id": "DAHOCe6FL2Y",
+      "design_title": "6. Monthly Report_Montemagno Giugno",
+      "design_url": "https://www.canva.com/design/DAHOCe6FL2Y/view",
+      "comment_id": "KAHPXCOCE08",
+      "author": "Alessia De Fabiani AG Hotel Consulting",
+      "comment_text": "@FMM Consulting budget giugno non corrisponde a quello della slide precedente",
+      "created_iso": "2026-07-14T14:15:38+02:00",
+      "is_aghc": true
+    },
+    {
+      "design_id": "DAHOCe6FL2Y",
+      "design_title": "6. Monthly Report_Montemagno Giugno",
+      "design_url": "https://www.canva.com/design/DAHOCe6FL2Y/view",
+      "comment_id": "KAHPXNe5rfE",
+      "author": "Alessia De Fabiani AG Hotel Consulting",
+      "comment_text": "@FMM Consulting copertura facebook è quella di meta, come per della piana",
+      "created_iso": "2026-07-14T14:14:39+02:00",
+      "is_aghc": true
+    },
+    {
+      "design_id": "DAHOOfZRno4",
+      "design_title": "6.Monthly Report_Hotel della Piana Giugno",
+      "design_url": "https://www.canva.com/design/DAHOOfZRno4/view",
+      "comment_id": "KAHPWQP_QXk",
+      "author": "Alessia De Fabiani AG Hotel Consulting",
+      "comment_text": "@FMM Consulting il numero di utenti unici di Facebook è la somma di facebook + instagram quindi va cambiato",
+      "created_iso": "2026-07-14T11:13:03+02:00",
       "is_aghc": true
     }
   ],
