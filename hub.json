@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-19T08:47:04.802567+02:00",
+ "updated_at": "2026-07-19T14:20:29.702657+02:00",
  "source": "fmm-command-center-refresh",
  "errors": 0,
  "calendar": [
@@ -286,7 +286,7 @@
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MjNUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": "report",
+   "alert_kind": null,
    "is_aghc": false
   },
   {
@@ -409,7 +409,7 @@
   {
    "name": "Report ADV BeeFamily",
    "project": "Generale",
-   "notes": null,
+   "notes": "",
    "due": "2026-06-12",
    "days_to_due": -37,
    "is_today": false,
@@ -420,7 +420,7 @@
   {
    "name": "Controllo University",
    "project": "BeeFamily - Tech",
-   "notes": "Landing https://consulenzaperhotel.it/university — Retargeting + Thank you",
+   "notes": "Landing/Retargeting/Thank you University da controllare",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -431,7 +431,7 @@
   {
    "name": "Controllo Webinar 3 settembre",
    "project": "BeeFamily - Tech",
-   "notes": "COSA MANCA: 1) ORARIO DEL WEBINAR (segnaposto 'ore [ORA]' visibile in 3 punti, blocca countdown/SEO/evento calendario). 2) LINK DELLA DIRETTA (Zoom o Meet) per le email di follow-up.",
+   "notes": "Manca orario webinar (blocca tutto) + link diretta Zoom/Meet",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -442,7 +442,7 @@
   {
    "name": "Offerta Special Week (29/8-5/9)",
    "project": "Brora",
-   "notes": "Ultime 2 offerte prima della fine stagione (confermato con Eric). 29 agosto - 5 settembre. 7 notti Village vista mare €1.590 · doppia €1.140",
+   "notes": "Ultime 2 offerte fine stagione (confermato con Eric)",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -453,7 +453,7 @@
   {
    "name": "Offerta Flash Days (fino a fine stagione)",
    "project": "Brora",
-   "notes": "Easy Village All Inclusive Dream. Periodi 4/7-31/7 | 1/8-7/8 | 8/8-22/8 — 2 notti €529/€549/€659, 3 notti €779/€819/€979, 4 notti €999/€1.089/€1.309",
+   "notes": "Ultime 2 offerte fine stagione, camera Easy Village AI Dream",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -464,7 +464,7 @@
   {
    "name": "ads meta",
    "project": "B612",
-   "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare cosi ci guardiamo insieme",
+   "notes": "Puoi partire! budget confermato. Mandami tutto prima di attivare",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -473,9 +473,9 @@
    "is_aghc": false
   },
   {
-   "name": "Apify Facebook Ad Library Scraper — tool da valutare per analisi ads competitor",
+   "name": "Apify Facebook Ad Library Scraper — tool da valutare",
    "project": "BeeFamily - Tech",
-   "notes": "Actor Apify che estrae in massa le inserzioni dalla Facebook Ad Library. Utile per analisi durata ads competitor. Prossimo passo: test con account gratuito su 2-3 competitor.",
+   "notes": "Tool Apify per estrarre ads competitor dalla FB Ad Library. Nessuna urgenza",
    "due": "2026-07-16",
    "days_to_due": -3,
    "is_today": false,
@@ -486,7 +486,7 @@
   {
    "name": "Controllo Home BeeFamily + Squeeze Le 10 Azioni",
    "project": "BeeFamily - Tech",
-   "notes": "MANCA: URL del video 'Chi è BeeFamily' nella sezione Chi siamo (segnaposto). Se non esiste, togliere il blocco.",
+   "notes": "Manca URL video 'Chi è BeeFamily' nella sezione Chi siamo",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -497,7 +497,7 @@
   {
    "name": "Revisione sequenza Nurture Core (9 email + 2 WhatsApp)",
    "project": "BeeFamily - Tech",
-   "notes": "Nuova sequenza di nurturing per tutti i contatti da form. 9 settimane, email + WhatsApp, endpoint = la call (/30min).",
+   "notes": "Nuova sequenza nurturing, 9 settimane, endpoint = call /30min",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -506,9 +506,9 @@
    "is_aghc": false
   },
   {
-   "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
+   "name": "Rispondere alla mail con presa in carico + conferma ads partite",
    "project": "Tasto 9",
-   "notes": "Inviare mail di risposta confermando la presa in carico e che le ads sono effettivamente partite.",
+   "notes": "Inviare mail conferma presa in carico e ads partite",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -519,7 +519,7 @@
   {
    "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
    "project": "Tasto 9",
-   "notes": "Awareness dal profilo Tasto 9, budget €10/giorno. Includere video CTA candidature. Attendere da Ambra il link candidature corretto.",
+   "notes": "Tagli selezionati + video CTA candidature, attendere link da Ambra",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -530,7 +530,7 @@
   {
    "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
    "project": "Tasto 9",
-   "notes": "Selezionare i tagli che in organico hanno performato meglio. Base per la campagna awareness.",
+   "notes": "Puntare sui tagli che in organico hanno performato meglio",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -541,7 +541,7 @@
   {
    "name": "Nuovo Sito BEEFAMILY.IT",
    "project": "BeeFamily - Tech",
-   "notes": "2 versioni: V1 su base vecchio sito con TOV aggiornato, V2 stravolta in struttura e TOV.",
+   "notes": "2 versioni: V1 su base vecchio sito TOV aggiornato, V2 stravolto",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -552,7 +552,7 @@
   {
    "name": "Risoluzione PROBLEMA Carrello WooCommerce",
    "project": "BeeFamily - Tech",
-   "notes": "1) 'Visualizza Carrello' non funziona dopo Aggiungi al Carrello — blocca il collegamento dei link alle landing. 2) Plugin WooCommerce Direct Checkout dà errore 'Sito non Pubblicato'.",
+   "notes": "Carrello non finalizza + errore Direct Checkout 'Sito non Pubblicato'",
    "due": "2026-07-17",
    "days_to_due": -2,
    "is_today": false,
@@ -563,22 +563,22 @@
   {
    "name": "Workflow lead adv",
    "project": "BeeFamily - Tech",
-   "notes": "Collegare il file Drive dove cadono i lead delle campagne (o GHL) e farli arrivare in Close. Per Close ci sono le API, il mio è già allacciato a GHL.",
+   "notes": "Collegare file Drive lead / GHL verso Close (API già allacciate)",
    "due": "2026-07-20",
    "days_to_due": 1,
    "is_today": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630518",
    "is_aghc": false
   },
   {
    "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
    "project": "Generale",
-   "notes": "Da chiudere: WEBINAR (link diretta + ripubblicare), UNIVERSITY (video retargeting), HOME (video sfondo, CTA analisi adv, /who), FUNNEL CHECKUP (workflow GHL), BANDA BIANCA, NURTURE CORE (personalizzazione, A/B, workflow).",
+   "notes": "Ripartire dal rework BeeFamily: webinar, university, home, funnel checkup, nurture core",
    "due": "2026-07-20",
    "days_to_due": 1,
    "is_today": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "permalink": "https://app.asana.com/1/1199398735335909/task/1216653753109537",
    "is_aghc": false
   }
@@ -587,11 +587,11 @@
   {
    "name": "Controllo Webinar 3 settembre",
    "subtitle": "BeeFamily - Tech · Andrea · 18/07",
-   "notes": "Andrea: «Ottimo, per la diretta che sarà su Meet, cosa mi consigli? Lo creiamo adesso e ce lo teniamo lì da utilizzare a settembre? Durano così tanto i link generati?»",
+   "notes": "Andrea: «Ottimo, per la diretta che sarà su Meet, cosa mi consigli? Lo...»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216571785334184",
-   "is_today": true,
+   "is_today": false,
    "is_urgent": true,
    "is_aghc": false
   },
@@ -609,7 +609,7 @@
   {
    "name": "nuova offerta settembre",
    "subtitle": "Mexico · ambra.sartini · 16/07",
-   "notes": "ambra.sartini: «…offerte/settembre-hotel-mexico-torre-pedrera-sconto-fino-a-100e/ @Francesco Maria Mosca @Marco - Google Ads»",
+   "notes": "ambra.sartini: «settembre-hotel-mexico-torre-pedrera-sconto-fino-a-100e @Francesco Maria Mosca @Marco - Google Ads»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216617762871138",
@@ -620,7 +620,7 @@
   {
    "name": "Controllo funnel Audit Ads + nurturing",
    "subtitle": "BeeFamily - Tech · Andrea · 16/07",
-   "notes": "Andrea: «@Francesco Maria Mosca qui entrambe le landing mi danno errore 404, fai un check»",
+   "notes": "Andrea: «qui entrambe le landing mi danno erroe 404, fai un check»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216590214415280",
@@ -631,7 +631,7 @@
   {
    "name": "consulto strategico ads b612",
    "subtitle": "B612 · ambra.sartini · 16/07",
-   "notes": "ambra.sartini: «…non bruciare troppi soldi ma far girare un pò. ma con che budget? @Marco - Google Ads per Meta? @Francesco Maria Mosca non ci sarà una pagina offerte quindi dovremo mandare tutto su HP o pagine specifiche»",
+   "notes": "ambra.sartini: «non bruciare troppi soldi ma far girare un pò. ma con che budget? @Marco - Google Ads per Meta? @Francesco Maria Mosca»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216617762871125",
@@ -642,7 +642,7 @@
   {
    "name": "Abbassare a 100€ fino a 10 agosto",
    "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 15/07",
-   "notes": "ambra.sartini: «budget meta 50€/gg @Francesco Maria Mosca — budget google 50€/gg @Marco - Google Ads»",
+   "notes": "ambra.sartini: «budget meta 50€/gg @Francesco Maria Mosca budget google 50€/gg @Marco - Google Ads»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1203190488684882",
@@ -664,7 +664,7 @@
   {
    "name": "rivedere link campagne con url titanka",
    "subtitle": "Mexico · ambra.sartini · 15/07",
-   "notes": "ambra.sartini: «@Francesco Maria Mosca feedback? ...son 5 campagne, Google dovrebbe essere ok, dacci un'occhiata»",
+   "notes": "ambra.sartini: «@Francesco Maria Mosca feedback?»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216521769860951",
@@ -675,7 +675,7 @@
   {
    "name": "Promo Ferragosto Olimpic — Offerta + campagne, partire da subito",
    "subtitle": "Olimpic · Beatrice · 13/07",
-   "notes": "Beatrice: «@Francesco Maria Mosca https://www.hotelolimpicrimini.com/offerta/offerta-agosto-vacanza-all-inclusive-rimini/»",
+   "notes": "Beatrice: «@Francesco Maria Mosca offerta-agosto-vacanza-all-inclusive-rimini»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1209201199675175/task/1216385256596184",
@@ -686,7 +686,7 @@
   {
    "name": "aggiornamento last minute",
    "subtitle": "Color Holiday · ambra.sartini · 13/07",
-   "notes": "ambra.sartini: «@Francesco Maria Mosca mi dai feedback?»",
+   "notes": "ambra.sartini: «@Francesco Maria Mosca aggiornamento last minute»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
@@ -703,7 +703,7 @@
    "comment_id": "KAHPpHh2qy8",
    "author": "Alessia De Fabiani AG Hotel Consulting",
    "comment_text": "@FMM Consulting copertura si riferisce a meta",
-   "created_iso": "2026-07-17T14:10:00+02:00",
+   "created_iso": "2026-07-15T05:30:00Z",
    "is_aghc": true
   }
  ],
@@ -778,28 +778,28 @@
   },
   {
    "name": "[Assegnato a te] Start Up",
-   "subtitle": "Start Up · Gestione Scintille Editore · 17/07",
+   "subtitle": "Start Up · Gestione (Scintille Editore) · 17/07",
    "notes": null,
    "status": "Notifica",
    "status_kind": "warn",
    "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559397253",
    "is_today": false,
    "is_urgent": true,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
    "name": "[Assegnato a te] Premessa",
-   "subtitle": "Premessa · Gestione Scintille Editore · 17/07",
+   "subtitle": "Premessa · Gestione (Scintille Editore) · 17/07",
    "notes": null,
    "status": "Notifica",
    "status_kind": "warn",
    "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559422302",
    "is_today": false,
    "is_urgent": true,
-   "is_aghc": true
+   "is_aghc": false
   },
   {
-   "name": "PED DELLA PIANA AGOSTO-SETTEMBRE 2026 — fase 3. Copy inseriti",
+   "name": "[Assegnato a te] PED DELLA PIANA AGOSTO-SETTEMBRE 2026",
    "subtitle": "PED DELLA PIANA AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 15/07",
    "notes": null,
    "status": "Notifica",
@@ -811,7 +811,7 @@
   },
   {
    "name": "[Assegnato a te] PIANO ADS AGOSTO",
-   "subtitle": "PIANO ADS AGOSTO · Gestione ADV · 14/07",
+   "subtitle": "PIANO ADS AGOSTO · Gestione (ADV) · 14/07",
    "notes": null,
    "status": "Notifica",
    "status_kind": "warn",
@@ -822,7 +822,7 @@
   },
   {
    "name": "[Assegnato a te] PIANO ADS LUGLIO",
-   "subtitle": "PIANO ADS LUGLIO · Gestione ADV · 14/07",
+   "subtitle": "PIANO ADS LUGLIO · Gestione (ADV) · 14/07",
    "notes": null,
    "status": "Notifica",
    "status_kind": "warn",
@@ -832,7 +832,7 @@
    "is_aghc": false
   },
   {
-   "name": "PED TERRAZZA FLAVIA AGOSTO 2026 — fase 3. Copy inseriti",
+   "name": "PED TERRAZZA FLAVIA AGOSTO 2026 — fase 3. Copy inseriti, tocca a te",
    "subtitle": "PED TERRAZZA FLAVIA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
    "notes": null,
    "status": "Notifica",
@@ -843,7 +843,7 @@
    "is_aghc": true
   },
   {
-   "name": "PED MARCELLA AGOSTO 2026 — fase 3. Copy inseriti",
+   "name": "PED MARCELLA AGOSTO 2026 — fase 3. Copy inseriti, tocca a te",
    "subtitle": "PED MARCELLA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
    "notes": null,
    "status": "Notifica",
@@ -854,7 +854,7 @@
    "is_aghc": true
   },
   {
-   "name": "PED VILLA GIADA AGOSTO 2026 — fase 3. Copy inseriti",
+   "name": "PED VILLA GIADA AGOSTO 2026 — fase 3. Copy inseriti, tocca a te",
    "subtitle": "PED VILLA GIADA AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 13/07",
    "notes": null,
    "status": "Notifica",
@@ -865,7 +865,7 @@
    "is_aghc": true
   },
   {
-   "name": "PED MONASTERO - agosto settembre — fase 3. Copy inseriti",
+   "name": "PED MONASTERO - agosto settembre — fase 3. Copy inseriti, tocca a te",
    "subtitle": "PED MONASTERO - agosto settembre · Panoramica PED AG SQUAD 2026 · 13/07",
    "notes": null,
    "status": "Notifica",
