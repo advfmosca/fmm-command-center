@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T12:54:15.874689+02:00",
+  "updated_at": "2026-07-20T14:40:00+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -12,7 +12,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=ODZnNWtjcmN2a3J2YW0yMmpldWwzZDd1OTQgbW9zY2FkdkBt",
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -25,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cWFoYnRwMDAzZ2hwNWlxN2E3ZzZ2Z2VoYzQgbW9zY2FkdkBt",
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -38,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=amM0cjNoa2dkZGk2aXUwZjViNmIxdjQyM28gbW9zY2FkdkBt",
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -51,7 +51,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aXI3aG1uc3F2a2M3NjdtM2Q4bjY3OTdkM28gbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -64,7 +64,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=a2loMmt2MHE2bGRvdHUwbGJ2Z3Q5aXBkOWsgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -77,7 +77,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cjQ0ZzU5dnEzcXJwNTgwbzg0ZW5ydjh0b2MgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +90,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA3MjBUMDg0NTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -116,7 +116,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=dmlxOWc4NGJkcGZtMnQ1NDQ0dm43MmptODAgbW9zY2FkdkBt",
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -129,7 +129,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cTh0b3ZqNnN2czVucWExOHNwNXE3cGxsMXMgbW9zY2FkdkBt",
       "alert_kind": "anomaly",
       "is_aghc": false
     },
@@ -142,7 +142,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA3MjBUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -155,7 +155,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/vzq-oocu-fdv",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=anFlYXJhMGgzZXZyODZyc2kwOG1zamhlbGsgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -168,7 +168,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MjBUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -181,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NjZpcGRqYzUyODR0bjJ2anJobW80YXJoZGUgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -192,9 +192,9 @@
       "is_today": false,
       "is_tomorrow": true,
       "is_urgent": false,
-      "location": null,
+      "location": "",
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MjFUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -207,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MjFUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -220,7 +220,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Nmhsb3N1cWpqdXBqY3Fpcmthb2llODAwdGwgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -233,7 +233,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA3MjJUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -246,7 +246,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA3MjJUMTEzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -259,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MjJUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -272,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NzEyaHBoNTlqOHA1MDFmcG8zNTN2MW1ucGMgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -285,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MjNUMDYzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -298,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA3MjNUMTMwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -311,7 +311,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MjNUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -324,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NXNrZHBxbnFhYWNsYW5ubGIybGRla3Z2Y2cgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -337,20 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "OFF",
-      "start_iso": "2026-07-24T13:00:00+02:00",
-      "end_iso": "2026-07-24T19:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA3MjRUMDcxNTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -363,7 +350,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2FvMm90dXRmcnAzbXMyYmZvcmZyazZkaWcgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -376,14 +363,14 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MjRUMTMzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     }
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti",
+      "name": "Report ADV Clienti ",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-06-05",
@@ -407,7 +394,7 @@
     {
       "name": "Controllo University",
       "project": "BeeFamily - Tech",
-      "notes": "Landing university + retargeting + thank you da controllare",
+      "notes": "Landing/Retargeting/Thank you University",
       "due": "2026-07-16",
       "days_to_due": -4,
       "is_today": false,
@@ -418,7 +405,7 @@
     {
       "name": "Controllo Webinar 3 settembre",
       "project": "BeeFamily - Tech",
-      "notes": "Manca orario webinar (blocca tutto) + link diretta Zoom/Meet per follow-up",
+      "notes": "Manca orario webinar + link diretta Zoom/Meet",
       "due": "2026-07-16",
       "days_to_due": -4,
       "is_today": false,
@@ -427,31 +414,9 @@
       "is_aghc": false
     },
     {
-      "name": "Offerta Special Week (29/8-5/9)",
-      "project": "Brora",
-      "notes": "Ultime 2 offerte fine stagione. 7 notti Village vista mare €1.590; doppia €1.140",
-      "due": "2026-07-16",
-      "days_to_due": -4,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216585128136476",
-      "is_aghc": false
-    },
-    {
-      "name": "Offerta Flash Days (fino a fine stagione)",
-      "project": "Brora",
-      "notes": "Easy Village AI Dream. Pacchetti 2-4 notti per periodo",
-      "due": "2026-07-16",
-      "days_to_due": -4,
-      "is_today": false,
-      "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216585408021282",
-      "is_aghc": false
-    },
-    {
       "name": "ads meta",
       "project": "B612",
-      "notes": "Puoi partire, budget confermato. Manda tutto prima di attivare",
+      "notes": "puoi partire! budget confermato. mandami tutto prima di attivare",
       "due": "2026-07-16",
       "days_to_due": -4,
       "is_today": false,
@@ -462,7 +427,7 @@
     {
       "name": "Apify Facebook Ad Library Scraper — tool da valutare",
       "project": "BeeFamily - Tech",
-      "notes": "Tool per analisi ads competitor (durata inserzioni). Test con account gratuito",
+      "notes": "Tool Apify per analisi ads competitor",
       "due": "2026-07-16",
       "days_to_due": -4,
       "is_today": false,
@@ -473,7 +438,7 @@
     {
       "name": "Controllo Home BeeFamily + Squeeze Le 10 Azioni",
       "project": "BeeFamily - Tech",
-      "notes": "Manca URL video Chi è BeeFamily; squeeze lead magnet collegata",
+      "notes": "Manca URL video 'Chi è BeeFamily'",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -484,7 +449,7 @@
     {
       "name": "Nuovo Sito BEEFAMILY.IT",
       "project": "BeeFamily - Tech",
-      "notes": "2 versioni: V1 base vecchio sito TOV aggiornato; V2 struttura+TOV stravolti",
+      "notes": "2 versioni: V1 TOV aggiornato, V2 struttura+TOV stravolti",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -495,7 +460,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Carrello non finalizza checkout + Direct Checkout plugin errore sito non pubblicato",
+      "notes": "Checkout non finalizza + errore plugin Direct Checkout",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -506,7 +471,7 @@
     {
       "name": "Revisione sequenza Nurture Core (9 email + 2 WhatsApp)",
       "project": "BeeFamily - Tech",
-      "notes": "9 settimane email+WA, endpoint = call /30min. Da revisionare",
+      "notes": "Nuova sequenza nurturing endpoint = call",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -517,7 +482,7 @@
     {
       "name": "Rispondere alla mail con presa in carico + conferma ads partite",
       "project": "Tasto 9",
-      "notes": "Entro ven 10/7: mail conferma presa in carico e ads partite",
+      "notes": "Entro ven 10/7: mail conferma ads partite",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -528,7 +493,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Tagli selezionati + video CTA candidature. Attendere link da Ambra",
+      "notes": "Awareness Tasto 9, attendere link candidature",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -539,7 +504,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Puntare su tagli con più views in organico",
+      "notes": "Tagli con più views in organico",
       "due": "2026-07-17",
       "days_to_due": -3,
       "is_today": false,
@@ -550,7 +515,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "Webinar, University, Home, Funnel CheckUp, Banda bianca, Nurture Core",
+      "notes": "Rework BeeFamily: webinar, university, home, funnel checkup, nurture",
       "due": "2026-07-20",
       "days_to_due": 0,
       "is_today": true,
@@ -561,12 +526,34 @@
     {
       "name": "Workflow lead adv",
       "project": "BeeFamily - Tech",
-      "notes": "Collegare file drive lead campagne / GHL a Close via API",
+      "notes": "Collegare drive/GHL lead campagne → Close (API)",
       "due": "2026-07-20",
       "days_to_due": 0,
       "is_today": true,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630518",
+      "is_aghc": false
+    },
+    {
+      "name": "in questa data diminuire a 40€ il budget meta",
+      "project": "Brora",
+      "notes": "",
+      "due": "2026-07-27",
+      "days_to_due": 7,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833813/task/1216714613920074",
+      "is_aghc": false
+    },
+    {
+      "name": "Creare Landing Triangolo del Margine - 12 Ottobre Riccione",
+      "project": "BeeFamily - Tech",
+      "notes": "Base scorsa edizione, cambia data/luogo + sequenze email",
+      "due": "2026-07-27",
+      "days_to_due": 7,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216707755874379",
       "is_aghc": false
     }
   ],
@@ -574,7 +561,7 @@
     {
       "name": "spingere ads solo su offerta agosto",
       "subtitle": "Trieste · ambra.sartini · 20/07",
-      "notes": "ambra.sartini: «https://www.hotel-trieste.net/offerte/agosto-vacanza-all-inclusive-cesenatico/ @Francesco Maria Mosca @Marco - Google Ads»",
+      "notes": "ambra.sartini: «spingere ads solo su offerta agosto: hotel-trieste.net/offerte/agosto-vacanza-all-inclusive-cesenatico @Francesco Maria Mosca @Marco - Google Ads»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209191922415744/task/1216703740958215",
@@ -585,7 +572,7 @@
     {
       "name": "consulto strategico ads b612",
       "subtitle": "B612 · ambra.sartini · 20/07",
-      "notes": "ambra.sartini: «tu come sei messo?»",
+      "notes": "ambra.sartini: «tu come sei messo? consulto strategico ads b612»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215903031387472/task/1216617762871125",
@@ -596,7 +583,7 @@
     {
       "name": "Vendete e Moltiplicateli",
       "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
+      "notes": "Andrea: «remind Vendete e Moltiplicateli»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216555802765682",
@@ -607,7 +594,7 @@
     {
       "name": "Nuovo Sito BEEFAMILY.IT",
       "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «possiamo appuntare questa task come chiusa? Ci dovrebbe essere l'altra sul sito con il mio link a video loom»",
+      "notes": "Andrea: «possiamo appuntare questa task come chiusa? Ci dovrebbe essere...»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
@@ -618,7 +605,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
+      "notes": "Andrea: «remind Risoluzione PROBLEMA Carrello WooCommerce»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -629,7 +616,7 @@
     {
       "name": "5 PDF bonus del libro Vendete e Moltiplicateli",
       "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
+      "notes": "Andrea: «remind 5 PDF bonus del libro Vendete e Moltiplicateli»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216569752256130",
@@ -662,7 +649,7 @@
     {
       "name": "nuova offerta settembre",
       "subtitle": "Mexico · ambra.sartini · 16/07",
-      "notes": "ambra.sartini: «hotelevillaggiperfamiglie.it/offerte/settembre-hotel-mexico-torre-pedrera @Francesco Maria Mosca @Marco - Google Ads»",
+      "notes": "ambra.sartini: «nuova offerta settembre hotelevillaggiperfamiglie.it/offerte/settembre-hotel-mexico... @Francesco Maria Mosca @Marco - Google Ads»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216617762871138",
@@ -695,7 +682,7 @@
     {
       "name": "stop campagne su offerta luglio - tutto su agosto",
       "subtitle": "Mexico · ambra.sartini · 15/07",
-      "notes": "ambra.sartini: «@Marco - Google Ads @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «URGENTE! @Marco - Google Ads @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216584840635051",
@@ -706,10 +693,10 @@
     {
       "name": "rivedere link campagne con url titanka",
       "subtitle": "Mexico · ambra.sartini · 15/07",
-      "notes": "ambra.sartini: «feedback?»",
+      "notes": "ambra.sartini: «feedback? rivedere link campagne con url titanka»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216521769860951",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -717,10 +704,10 @@
     {
       "name": "aggiornamento last minute",
       "subtitle": "Color Holiday · ambra.sartini · 13/07",
-      "notes": null,
+      "notes": "ambra.sartini: «mi dai feedback? aggiornamento last minute»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
+      "url": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1216521769860951",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -748,11 +735,67 @@
       "is_aghc": true
     }
   ],
-  "monday": [],
+  "monday": [
+    {
+      "name": "Jungano",
+      "subtitle": "2025 - 2026 Report trimestrali Senape",
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup Meta",
+      "subtitle": "Start up nuovi progetti",
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup TikTok e TikTok ADS",
+      "subtitle": "Start up nuovi progetti",
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "Setup GMB",
+      "subtitle": "Start up nuovi progetti",
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "due": null,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
+      "is_today": false,
+      "is_urgent": false,
+      "is_aghc": false
+    },
+    {
+      "name": "User e Pass / Gmail per Tik Tok",
+      "subtitle": "Account TIK TOK AGHC",
+      "status": "Assegnato",
+      "status_kind": "warn",
+      "due": "2025-04-04",
+      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": true
+    }
+  ],
   "monday_mentions": [
     {
-      "name": "[Assegnato a te] Hannah Hotels Collection",
-      "subtitle": "Hannah Hotels Collection · Panoramica PED AG SQUAD 2026 · 17/07",
+      "name": "Hannah Hotels Collection",
+      "subtitle": "Panoramica PED AG SQUAD 2026 > PED AG — Arianna · Automations · 17/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -762,8 +805,8 @@
       "is_aghc": true
     },
     {
-      "name": "[Assegnato a te] Start Up",
-      "subtitle": "Start Up · Gestione — Scintille Editore · 17/07",
+      "name": "Start Up",
+      "subtitle": "Gestione > Scintille Editore · Cristina Patrizi · 17/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -773,8 +816,8 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato a te] Premessa",
-      "subtitle": "Premessa · Gestione — Scintille Editore · 17/07",
+      "name": "Premessa",
+      "subtitle": "Gestione > Scintille Editore · Cristina Patrizi · 17/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -784,9 +827,9 @@
       "is_aghc": false
     },
     {
-      "name": "PED DELLA PIANA AGOSTO-SETTEMBRE 2026 — fase 3. Copy inseriti: tocca a te",
-      "subtitle": "PED DELLA PIANA AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 15/07",
-      "notes": null,
+      "name": "PED DELLA PIANA AGOSTO-SETTEMBRE 2026",
+      "subtitle": "Panoramica PED AG SQUAD 2026 > PED AG — Daniela · Automations · 15/07",
+      "notes": "In fase '3. Copy inseriti'. Tocca a te: sposta la Fase per far proseguire il PED.",
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12519256710",
@@ -795,8 +838,8 @@
       "is_aghc": true
     },
     {
-      "name": "[Assegnato a te] PIANO ADS AGOSTO",
-      "subtitle": "PIANO ADS AGOSTO · Gestione ADV · 14/07",
+      "name": "PIANO ADS AGOSTO",
+      "subtitle": "Gestione > ADV · Maria Vittoria Rossi · 14/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -806,8 +849,8 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato a te] PIANO ADS LUGLIO",
-      "subtitle": "PIANO ADS LUGLIO · Gestione ADV · 14/07",
+      "name": "PIANO ADS LUGLIO",
+      "subtitle": "Gestione > ADV · Maria Vittoria Rossi · 14/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -821,7 +864,7 @@
     {
       "name": "AI42-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO AMBRA · Alfredo De Grandis · 16/07",
-      "notes": "Alfredo De Grandis: «Alessandro Cattaneo campagna non stava performando 1 lead in 6 giorni, la rifacciamo; valuta con Francesco Maria Mosca dal report KPI se cambiare frontend o rifare le creatività»",
+      "notes": "Alfredo De Grandis: «Alessandro Cattaneo campagna non stava performando 1 lead in 6 giorni, la rifacciamo; valuta insieme a Francesco Maria Mosca dal suo report KPI se cambiare frontend o riprenotarla»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004873401",
