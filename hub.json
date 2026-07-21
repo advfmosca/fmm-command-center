@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T08:46:36.821019+02:00",
+  "updated_at": "2026-07-21T09:59:24.461502+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -617,12 +617,12 @@
     },
     {
       "name": "Nuovo Sito BEEFAMILY.IT",
-      "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «possiamo appuntare questa task come chiusa?»",
+      "subtitle": "BeeFamily - Tech · Andrea · 21/07",
+      "notes": "Andrea: «possiamo appuntare questa task come chiusa? Ci dovrebbe essere l'altra sul sito con il mio link a video loom»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
-      "is_today": false,
+      "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     },
