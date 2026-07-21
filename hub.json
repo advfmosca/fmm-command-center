@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T14:44:15.165011+02:00",
+  "updated_at": "2026-07-21T15:52:15.250631+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -572,7 +572,7 @@
   ],
   "asana_mentions": [
     {
-      "name": "aggiornamento ads luglio — El cid campeador",
+      "name": "aggiornamento ads luglio",
       "subtitle": "El cid campeador · ambra.sartini · 21/07",
       "notes": "ambra.sartini: «…pochi giorni → elcidcampeador.it/offerta/pochi-giorni-vacanza-all-inclusive-torre-pedrera @Francesco Maria Mosca @Marco - Google Ads»",
       "status": "Mention",
@@ -585,7 +585,7 @@
     {
       "name": "ADV +30-40% — Tutte strutture Color Holiday fino al 5/8",
       "subtitle": "Color Holiday · ambra.sartini · 21/07",
-      "notes": "ambra.sartini: «…far chiudere quelle settimane il prima possibile. spingere su offerte last minute già in corso @Francesco Maria Mosca @Marco - Google Ads»",
+      "notes": "ambra.sartini: «…farli chiudere quelle settimane il prima possibile. spingere su offerte last minute già in corso @Francesco Maria Mosca @Marco - Google Ads»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216619784016132",
@@ -596,7 +596,7 @@
     {
       "name": "ADV +30-40% — Albatros agosto",
       "subtitle": "Albatros · ambra.sartini · 21/07",
-      "notes": "ambra.sartini: «offerta agosto all'Albatros Village — hotelalbatros.biz @Francesco Maria Mosca @Marco - Google Ads»",
+      "notes": "ambra.sartini: «…hotelalbatros.biz/it/albatros-special-weeks + offerta-agosto-all-albatros-village @Francesco Maria Mosca @Marco - Google Ads»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1216619784025705",
@@ -741,7 +741,7 @@
     {
       "design_id": "DAHOIbDH0H4",
       "design_title": "PED VILLA ERMELLINA LUGLIO-AGOSTO 2026",
-      "design_url": "https://www.canva.com/d/lEkZWviUWU05pnb",
+      "design_url": "https://www.canva.com/d/NIhnEGEFpIe7ot4",
       "comment_id": "KAHP52wfv8Y",
       "author": "Elisa Nicolaci",
       "comment_text": "il budget è corretto? considerando anche le altre adv. abbiamo aggiornato Interest match?",
@@ -813,6 +813,28 @@
   ],
   "monday_mentions": [
     {
+      "name": "PED MAGARI ESTATES AGOSTO-SETTEMBRE 2026 — in fase «3. Copy inseriti»",
+      "subtitle": "Automations · Panoramica PED AG SQUAD 2026 · 21/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12574917082",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
+      "name": "PED MONTEMAGNO AGOSTO 2026 — in fase «3. Copy inseriti»",
+      "subtitle": "Automations · Panoramica PED AG SQUAD 2026 · 21/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12575205019",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "Hannah Hotels Collection",
       "subtitle": "Automations · PED AG SQUAD 2026 > PED AG — Arianna · 17/07",
       "notes": null,
@@ -883,7 +905,7 @@
     {
       "name": "AI42-T71 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - CENTRO ESTETICO AMBRA · Alfredo De Grandis · 16/07",
-      "notes": "Alfredo De Grandis: «Alessandro Cattaneo campagna non stava performando (1 lead in 6 giorni), la rifacciamo; valuta con Francesco Maria Mosca dal report KPI se cambiare frontend o rifare solo le creatività»",
+      "notes": "Alfredo De Grandis: «Alessandro Cattaneo, campagna non stava performando (1 lead in 6 giorni), la rifacciamo; valuta con Francesco Maria Mosca dal report KPI se cambiare frontend o riprenotarla»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000004873401",
