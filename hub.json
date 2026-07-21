@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T15:52:15.250631+02:00",
+  "updated_at": "2026-07-21T16:39:55.183604+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -737,18 +737,7 @@
       "is_aghc": false
     }
   ],
-  "canva": [
-    {
-      "design_id": "DAHOIbDH0H4",
-      "design_title": "PED VILLA ERMELLINA LUGLIO-AGOSTO 2026",
-      "design_url": "https://www.canva.com/d/NIhnEGEFpIe7ot4",
-      "comment_id": "KAHP52wfv8Y",
-      "author": "Elisa Nicolaci",
-      "comment_text": "il budget è corretto? considerando anche le altre adv. abbiamo aggiornato Interest match?",
-      "created_iso": "2026-07-20T09:51:31+02:00",
-      "is_aghc": true
-    }
-  ],
+  "canva": [],
   "monday": [
     {
       "name": "Jungano",
