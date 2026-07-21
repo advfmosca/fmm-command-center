@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T09:59:24.461502+02:00",
+  "updated_at": "2026-07-21T10:45:23.399441+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -572,6 +572,39 @@
   ],
   "asana_mentions": [
     {
+      "name": "ADV +30-40% — Tutte strutture Color Holiday fino al 5/8",
+      "subtitle": "Color Holiday · ambra.sartini · 21/07",
+      "notes": "ambra.sartini: «…far chiudere quelle settimane il prima possibile. spingere su offerte last minute già in corso @Francesco Maria Mosca @Marco - Google Ads»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216619784016132",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "ADV +30-40% — Albatros agosto",
+      "subtitle": "Albatros · ambra.sartini · 21/07",
+      "notes": "ambra.sartini: «offerta agosto all'Albatros Village — hotelalbatros.biz @Francesco Maria Mosca @Marco - Google Ads»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1216619784025705",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "Nuovo Sito BEEFAMILY.IT",
+      "subtitle": "BeeFamily - Tech · Andrea · 21/07",
+      "notes": "Andrea: «possiamo appuntare questa task come chiusa? Ci dovrebbe essere l'altra sul sito con il mio link a video loom»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "spingere ads solo su offerta agosto",
       "subtitle": "Trieste · ambra.sartini · 20/07",
       "notes": "ambra.sartini: «spingere ads solo su offerta agosto — hotel-trieste.net @Francesco Maria Mosca @Marco - Google Ads»",
@@ -612,17 +645,6 @@
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216569752256130",
       "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Nuovo Sito BEEFAMILY.IT",
-      "subtitle": "BeeFamily - Tech · Andrea · 21/07",
-      "notes": "Andrea: «possiamo appuntare questa task come chiusa? Ci dovrebbe essere l'altra sul sito con il mio link a video loom»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
-      "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     },
@@ -713,24 +735,13 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "aggiornamento last minute",
-      "subtitle": "Color Holiday · ambra.sartini · 15/07",
-      "notes": "ambra.sartini: «mi dai feedback? aggiornamento last minute»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216523277289486",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
     }
   ],
   "canva": [
     {
       "design_id": "DAHOIbDH0H4",
       "design_title": "PED VILLA ERMELLINA LUGLIO-AGOSTO 2026",
-      "design_url": "https://www.canva.com/d/8FBtFEGc4043kMG",
+      "design_url": "https://www.canva.com/d/9sW-jVeeE9QzPKh",
       "comment_id": "KAHP52wfv8Y",
       "author": "Elisa Nicolaci",
       "comment_text": "il budget è corretto? considerando anche le altre adv. abbiamo aggiornato Interest match?",
