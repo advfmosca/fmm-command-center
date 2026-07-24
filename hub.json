@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T08:44:47.165338+02:00",
+  "updated_at": "2026-07-24T09:41:22.081502+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -418,7 +418,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Campagna awareness dal profilo Tasto 9, budget €10/giorno. Includere video CTA candidature. Attendere link candidature da Ambra.",
+      "notes": "Campagna awareness dal profilo Tasto 9, budget €10/giorno + video CTA candidature.",
       "due": "2026-07-17",
       "days_to_due": -7,
       "is_today": false,
@@ -429,7 +429,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i migliori tagli (anche già pubblicati) puntando su quelli che in organico hanno performato meglio.",
+      "notes": "Selezionare i migliori tagli (best performing in organico) per la campagna awareness.",
       "due": "2026-07-17",
       "days_to_due": -7,
       "is_today": false,
@@ -440,7 +440,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "Ripartire dal rework BeeFamily: WEBINAR, UNIVERSITY, HOME, FUNNEL CHECKUP, BANDA BIANCA, NURTURE CORE.",
+      "notes": "Ripartire dal rework BeeFamily: Webinar, University, Home, Funnel Checkup, Banda Bianca, Nurture Core.",
       "due": "2026-07-20",
       "days_to_due": -4,
       "is_today": false,
@@ -451,7 +451,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "puoi partire! budget confermato. magari mandami tutto prima di attivare così ci guardiamo insieme",
+      "notes": "Puoi partire, budget confermato. Mandare tutto prima di attivare.",
       "due": "2026-07-22",
       "days_to_due": -2,
       "is_today": false,
@@ -462,12 +462,23 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce: bottone Visualizza Carrello non funziona + errore 'Sito non Pubblicato' installando WooCommerce Direct Checkout.",
+      "notes": "Carrello WooCommerce non finalizza acquisto + errore 'Sito non Pubblicato' su plugin Direct Checkout.",
       "due": "2026-07-24",
       "days_to_due": 0,
       "is_today": true,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
+      "is_aghc": false
+    },
+    {
+      "name": "Rosabianca Collection — Far ripartire campagne ADV",
+      "project": "Generale",
+      "notes": "Richiesta Emilio (cc Andrea): rilancio ADV Rosabianca Collection (Meta+Google?), budget/tempistica/landing. Allineamento con Andrea.",
+      "due": "2026-07-28",
+      "days_to_due": 4,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1216845655967857",
       "is_aghc": false
     }
   ],
