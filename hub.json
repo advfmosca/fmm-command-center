@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T10:52:49.542903+02:00",
+  "updated_at": "2026-07-24T12:52:23.498806+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -130,19 +130,6 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MnMzOGVobm8zb25odWllajRkYjYwbWRwMG8gbW9zY2FkdkBt",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Piedi Ilaria",
-      "start_iso": "2026-07-27T10:00:00+02:00",
-      "end_iso": "2026-07-27T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Y2hrNWlxbW5qNjRyY2lwZHRnYzZoN2p1cWMgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -342,6 +329,19 @@
       "is_aghc": false
     },
     {
+      "summary": "OFF",
+      "start_iso": "2026-07-30T08:30:00+02:00",
+      "end_iso": "2026-07-30T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MzBUMDYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
       "summary": "CEA + M&T : Check, Balance e Resolution",
       "start_iso": "2026-07-30T15:00:00+02:00",
       "end_iso": "2026-07-30T16:00:00+02:00",
@@ -364,6 +364,19 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MzBUMTQwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Adv Check Fra + Mark",
+      "start_iso": "2026-07-31T09:15:00+02:00",
+      "end_iso": "2026-07-31T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA3MzFUMDcxNTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -596,7 +609,7 @@
     {
       "design_id": "DAHMpvEWMvc",
       "design_title": "LOBA Strategy 2026",
-      "design_url": "https://www.canva.com/d/7nn2Z_bsXMJ2TvZ",
+      "design_url": "https://www.canva.com/d/s_J2bLHjG1lbu7S",
       "comment_id": "KAHQJlm5Ptg",
       "author": "Maria Vittoria",
       "comment_text": "questo ci conferma che effettivamente è una domanda alla quale non abbiamo risposta perché Martina stessa ci stava ragionando. Io arriverei venerdì però con una proposta. Si può fare?",
