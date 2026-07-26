@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-26T08:51:00.206754+02:00",
+ "updated_at": "2026-07-26T14:12:24.635870+02:00",
  "source": "fmm-command-center-refresh",
  "errors": 0,
  "calendar": [
@@ -251,6 +251,32 @@
    "is_aghc": false
   },
   {
+   "summary": "BOOTYFARM 2.0",
+   "start_iso": "2026-07-29T18:30:00+02:00",
+   "end_iso": "2026-07-29T19:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": "",
+   "conference_url": "https://meet.google.com/exa-zcnn-ugn",
+   "html_link": "https://www.google.com/calendar/event?eid=NXZucmRuNzVjYzBsdHUzdXNnZHU0cWVrazQgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "OFF",
+   "start_iso": "2026-07-30T08:30:00+02:00",
+   "end_iso": "2026-07-30T14:30:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": "",
+   "conference_url": "",
+   "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MzBUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
    "summary": "CEA + M&T : Check, Balance e Resolution",
    "start_iso": "2026-07-30T15:00:00+02:00",
    "end_iso": "2026-07-30T16:00:00+02:00",
@@ -394,7 +420,7 @@
   {
    "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
    "project": "Tasto 9",
-   "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono partite.",
+   "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono effettivamente partite.",
    "due": "2026-07-17",
    "days_to_due": -9,
    "is_today": false,
@@ -464,7 +490,7 @@
    "due": "2026-07-28",
    "days_to_due": 2,
    "is_today": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "permalink": "https://app.asana.com/1/1199398735335909/task/1216845655967857",
    "is_aghc": false
   }
@@ -583,14 +609,14 @@
  ],
  "canva": [
   {
-   "design_id": "DAHLT2E4n20",
-   "design_title": "PED VILLA ERMELLINA GIUGNO - LUGLIO 2026",
-   "design_url": "https://www.canva.com/d/7dlODqJU8gjmtso",
-   "comment_id": "KAHMEOxTzyU",
-   "author": "Elisa Nicolaci",
-   "comment_text": "qui siamo sicuri? dovrà essere rivisto sulla base di quello che ci diremo nella call? dobbiamo fare un ragionamento sull'F&B? target? @FMM Consulting @Simone Pisa",
-   "created_iso": "2026-04-09T20:47:25+02:00",
-   "is_aghc": true
+   "design_id": "DAHMpvEWMvc",
+   "design_title": "LOBA Strategy 2026",
+   "design_url": "https://www.canva.com/d/ZiAqQPTWQ_Z0ngu",
+   "comment_id": "KAHQJlm5Ptg",
+   "author": "Maria Vittoria",
+   "comment_text": "questo ci conferma che effettivamente è una domanda alla quale non abbiamo risposta perchè Martina stessa ci stava ragionando. Io arriverei venerdì però con una proposta. Si può fare?",
+   "created_iso": "2026-07-23T00:11:41+02:00",
+   "is_aghc": false
   }
  ],
  "monday": [
@@ -651,6 +677,17 @@
   }
  ],
  "monday_mentions": [
+  {
+   "name": "[Assegnato a te] Allineamento Pre Lancio",
+   "subtitle": "Allineamento Pre Lancio · Gestione · 26/07",
+   "notes": null,
+   "status": "Notifica",
+   "status_kind": "warn",
+   "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12631328568",
+   "is_today": true,
+   "is_urgent": true,
+   "is_aghc": false
+  },
   {
    "name": "\"PED HANNAH - agosto/settembre 2026\" è in fase \"3. Copy inseriti\". Tocca a te: finito il tuo passaggio, sposta la Fase per far proseguire il PED.",
    "subtitle": "PED HANNAH - agosto/settembre 2026 · Panoramica PED AG SQUAD 2026 · 22/07",
