@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T08:54:14+0200",
+  "updated_at": "2026-07-27T09:49:22+0200",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -27,7 +27,7 @@
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Z3ZsOGhldjI2cGdrcW84Mm9razJibDJwcjAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "summary": "🔴 Lia Nunziante · spesa anomala alta",
@@ -40,7 +40,7 @@
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Mmthb240YnNqMWY3cHA1cTNua21hOGZnbnMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
       "summary": "[Monday] Mention: Ciao tutti! Faccio un attimo il punto… (ritardo 1gg)",
@@ -48,7 +48,7 @@
       "end_iso": "2026-07-27T09:45:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=dWFmN3N2ajJmYjFhdGdxZmNwZDZyZjRlNXMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -191,7 +191,7 @@
       "end_iso": "2026-07-29T14:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=NzJscjM1ajJzdGh0Nm5iNHY2ODFmcnAwa3MgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -204,7 +204,7 @@
       "end_iso": "2026-07-29T14:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Y3Q2NmlydWFqYnQ1bWI2dnZyMG5iY2tnZjAgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -234,6 +234,19 @@
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "BOOTYFARM 2.0",
+      "start_iso": "2026-07-29T18:30:00+02:00",
+      "end_iso": "2026-07-29T19:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/exa-zcnn-ugn",
+      "html_link": "https://www.google.com/calendar/event?eid=NXZucmRuNzVjYzBsdHUzdXNnZHU0cWVrazQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -405,7 +418,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Campagna awareness dal profilo Tasto 9, budget €10/giorno; attendere link candidature da Ambra.",
+      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature.",
       "due": "2026-07-17",
       "days_to_due": -10,
       "is_today": false,
@@ -416,7 +429,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i migliori tagli, puntando su quelli che in organico hanno performato meglio.",
+      "notes": "Selezionare i migliori tagli, anche già pubblicati, puntando su quelli che in organico hanno performato meglio.",
       "due": "2026-07-17",
       "days_to_due": -10,
       "is_today": false,
@@ -449,7 +462,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce + plugin Direct Checkout con errore 'Sito non Pubblicato'.",
+      "notes": "Carrello WooCommerce non finalizza l'acquisto + errore 'Sito non Pubblicato' installando WooCommerce Direct Checkout.",
       "due": "2026-07-24",
       "days_to_due": -3,
       "is_today": false,
@@ -460,7 +473,7 @@
     {
       "name": "Rosabianca Collection — Far ripartire campagne ADV",
       "project": "Generale",
-      "notes": "Richiesta di Emilio: definire strategia rilancio ADV Rosabianca Collection (Meta + Google), budget e tempistica. Allineamento con Andrea.",
+      "notes": "Richiesta di Emilio: definire strategia rilancio ADV Rosabianca Collection (Meta + Google?), budget, tempistica, materiali/landing. Allineamento con Andrea.",
       "due": "2026-07-28",
       "days_to_due": 1,
       "is_today": false,
@@ -484,7 +497,7 @@
     {
       "name": "ADV +30-40% — Tutte strutture Color Holiday fino al 5/8",
       "subtitle": "Color Holiday · ambra.sartini · 21/07",
-      "notes": "ambra.sartini: «…chiudere quelle settimane il prima possibile. spingere su offerte last minute già in corso @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «…argli chiudere quelle settimane il prima possibile. spingere su offerte last minute già in corso»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1216619784016132",
@@ -495,7 +508,7 @@
     {
       "name": "ADV +30-40% — Albatros agosto",
       "subtitle": "Albatros · ambra.sartini · 21/07",
-      "notes": "ambra.sartini: «albatros-special-weeks / offerta-agosto-all-albatros-village @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «hotelalbatros.biz/it/albatros-special-weeks + offerta-agosto-all-albatros-village»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208914205372780/task/1216619784025705",
@@ -504,9 +517,20 @@
       "is_aghc": false
     },
     {
+      "name": "Nuovo Sito BEEFAMILY.IT",
+      "subtitle": "BeeFamily · Andrea · 21/07",
+      "notes": "Andrea: «possiamo apuntare questa task come chiusa? Ci dovrebbe essere l'altra sul sito con il mio link a video loom»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "spingere ads solo su offerta agosto -->",
       "subtitle": "Trieste · ambra.sartini · 20/07",
-      "notes": "ambra.sartini: «hotel-trieste.net/offerte/agosto-vacanza-all-inclusive-cesenatico @Francesco Maria Mosca»",
+      "notes": "ambra.sartini: «https://www.hotel-trieste.net/offerte/agosto-vacanza-all-inclusive-cesenatico/»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209191922415744/task/1216703740958215",
@@ -524,64 +548,20 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "Vendete e Moltiplicateli",
-      "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216555802765682",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Controllo funnel Audit Ads + nurturing",
-      "subtitle": "BeeFamily - Tech · Andrea · 16/07",
-      "notes": "Andrea: «qui entrambe le landing mi danno erroe 404, fai un check»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216590214415280",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Nuovo Sito BEEFAMILY.IT",
-      "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «possiamo apuntare questa task come chiusa?»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216247267149795",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Risoluzione PROBLEMA Carrello WooCommerce",
-      "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "5 PDF bonus del libro Vendete e Moltiplicateli",
-      "subtitle": "BeeFamily - Tech · Andrea · 20/07",
-      "notes": "Andrea: «remind»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216569752256130",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
     }
   ],
-  "canva": [],
+  "canva": [
+    {
+      "design_id": "DAHMpvEWMvc",
+      "design_title": "LOBA Strategy 2026",
+      "design_url": "https://www.canva.com/d/DAHMpvEWMvc",
+      "comment_id": "KAHQJlm5Ptg",
+      "author": "Maria Vittoria",
+      "comment_text": "questo ci conferma che effettivamente è una domanda alla quale non abbiamo risposta perchè Martina stessa ci stava ragionando. Io arriverei venerdì però con una proposta. Si può fare?",
+      "created_iso": "2026-07-22T22:11:41Z",
+      "is_aghc": true
+    }
+  ],
   "monday": [
     {
       "name": "Jungano",
@@ -652,7 +632,7 @@
       "is_aghc": false
     },
     {
-      "name": "\"PED HANNAH - agosto/settembre 2026\" è in fase \"3. Copy inseriti\". Tocca a te.",
+      "name": "\"PED HANNAH - agosto/settembre 2026\" è in fase \"3. Copy inseriti\". Tocca a te: finito il tuo passaggio, sposta la Fase per far proseguire il PED.",
       "subtitle": "PED HANNAH - agosto/settembre 2026 · Panoramica PED AG SQUAD 2026 · 22/07",
       "notes": null,
       "status": "Notifica",
@@ -674,7 +654,7 @@
       "is_aghc": true
     },
     {
-      "name": "\"PED MONTEMAGNO AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te.",
+      "name": "\"PED MONTEMAGNO AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: finito il tuo passaggio, sposta la Fase per far proseguire il PED.",
       "subtitle": "PED MONTEMAGNO AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 21/07",
       "notes": null,
       "status": "Notifica",
