@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-07-28T16:43:30.175848+02:00",
+  "updated_at": "2026-07-28T17:43:23.487318+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "Canva list-comments DAHODbbz1MY (PED Mare Hotel Luglio-Agosto): permission denied — design saltato",
+    "Canva: mention Villa Ermellina (budget/Interest match) e Puntebianche già risposte da FMM — escluse",
     "Monday updates mentions (1g): nessuna mention trovata (0 risultati)"
   ],
   "calendar": [
@@ -542,28 +543,7 @@
       "is_aghc": false
     }
   ],
-  "canva": [
-    {
-      "design_id": "DAHCanvoYBA",
-      "design_title": "4. Monthly Report_Hotel Castello Aprile",
-      "design_url": "https://www.canva.com/d/d1rIaJsYVsbfBwz",
-      "comment_id": "KAHJWXHgNJg",
-      "author": "Annalisa_Digitalmarketing",
-      "comment_text": "tristino tutto in rosso 🫠 @FMM Consulting",
-      "created_iso": "2026-05-06",
-      "is_aghc": true
-    },
-    {
-      "design_id": "DAHCanvoYBA",
-      "design_title": "4. Monthly Report_Hotel Castello Aprile",
-      "design_url": "https://www.canva.com/d/d1rIaJsYVsbfBwz",
-      "comment_id": "KAHJWVk1j-4",
-      "author": "Annalisa_Digitalmarketing",
-      "comment_text": "aggiorniamo per l'hotel? Non abbiamo dati dello scorso anno @FMM Consulting",
-      "created_iso": "2026-05-06",
-      "is_aghc": true
-    }
-  ],
+  "canva": [],
   "monday": [
     {
       "name": "Jungano",
@@ -622,6 +602,17 @@
     }
   ],
   "monday_mentions": [
+    {
+      "name": "PED ALTAFIUMARA SETTEMBRE 2026",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 28/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12597232000",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "PED PUNTEBIANCHE AGO-SETT 2026",
       "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 28/07",
