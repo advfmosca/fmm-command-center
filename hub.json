@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-28T15:46:29.912061+02:00",
+  "updated_at": "2026-07-28T16:43:30.175848+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
-    "Canva list-comments DAHCarz6rv4 (Monthly Report Hotel Castello Marzo): permission denied — design saltato",
+    "Canva list-comments DAHODbbz1MY (PED Mare Hotel Luglio-Agosto): permission denied — design saltato",
     "Monday updates mentions (1g): nessuna mention trovata (0 risultati)"
   ],
   "calendar": [
@@ -622,6 +622,17 @@
     }
   ],
   "monday_mentions": [
+    {
+      "name": "PED PUNTEBIANCHE AGO-SETT 2026",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 28/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12622310544",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "PED HEMANAIRE AGOSTO SETTEMBRE 2026",
       "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 27/07",
