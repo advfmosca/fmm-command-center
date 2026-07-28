@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T10:49:09+02:00",
+  "updated_at": "2026-07-28T11:50:09.954193+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -126,7 +126,7 @@
       "end_iso": "2026-07-28T10:45:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=Mzd0a2hmZzQzcDI0amgxZmlpbGFlOWQ2dDQgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -139,7 +139,7 @@
       "end_iso": "2026-07-28T12:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
       "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA3MjhUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -152,7 +152,7 @@
       "end_iso": "2026-07-28T15:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/ige-iwch-xsa",
       "html_link": "https://www.google.com/calendar/event?eid=NTRqcHFqczJra2Y2a2puNm1pYWx1NnFpNXRfMjAyNjA3MjdUMDkwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -165,7 +165,7 @@
       "end_iso": "2026-07-28T17:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
       "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA3MjhUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -313,19 +313,6 @@
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MzFUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": true
-    },
-    {
-      "summary": "Registrazione Ospiti",
-      "start_iso": "2026-07-31T18:00:00+02:00",
-      "end_iso": "2026-07-31T18:15:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
       "is_aghc": false
     },
     {
@@ -357,7 +344,7 @@
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti",
+      "name": "Report ADV Clienti ",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-06-05",
@@ -381,7 +368,7 @@
     {
       "name": "Rispondere alla mail con presa in carico + conferma ads partite (Francesco)",
       "project": "Tasto 9",
-      "notes": "Inviare mail di risposta confermando presa in carico e ads partite.",
+      "notes": "Entro venerdì 10/7: inviare mail di risposta confermando la presa in carico e che le ads sono partite.",
       "due": "2026-07-17",
       "days_to_due": -11,
       "is_today": false,
@@ -392,7 +379,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Campagna awareness dal profilo Tasto 9, tagli selezionati, budget €10/g + video CTA candidature.",
+      "notes": "Campagna awareness dal profilo Tasto 9, budget €10/giorno + video CTA candidature.",
       "due": "2026-07-17",
       "days_to_due": -11,
       "is_today": false,
@@ -403,7 +390,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i tagli con miglior performance organica come base awareness.",
+      "notes": "Selezionare i migliori tagli (più visualizzazioni in organico) per la awareness.",
       "due": "2026-07-17",
       "days_to_due": -11,
       "is_today": false,
@@ -414,7 +401,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "Rework backlog: Webinar, University, Home, Funnel Checkup, Banda Bianca, Nurture Core.",
+      "notes": "Rework BeeFamily: webinar, university, home, funnel checkup, nurture core.",
       "due": "2026-07-20",
       "days_to_due": -8,
       "is_today": false,
@@ -425,7 +412,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "Puoi partire, budget confermato. Mandare tutto prima di attivare.",
+      "notes": "Budget confermato, puoi partire. Mandare tutto prima di attivare.",
       "due": "2026-07-22",
       "days_to_due": -6,
       "is_today": false,
@@ -436,7 +423,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi: Aggiungi al carrello/Visualizza carrello non finalizza; plugin Direct Checkout errore 'Sito non Pubblicato'.",
+      "notes": "Carrello WooCommerce non finalizza + errore WooCommerce Direct Checkout.",
       "due": "2026-07-24",
       "days_to_due": -4,
       "is_today": false,
@@ -447,7 +434,7 @@
     {
       "name": "Attivare Meta Ads (ITA + ENG) a supporto delle campagne Google",
       "project": "Sardinia family villas",
-      "notes": "Campagne Meta FB+IG ITA+ENG a supporto Google, pubblici/creativi per lingua, tracking pixel+CAPI, ok Andrea prima del lancio.",
+      "notes": "Campagne Meta ITA+ENG a supporto di Google, tracciamento verificato, ok Andrea prima del lancio.",
       "due": "2026-07-28",
       "days_to_due": 0,
       "is_today": true,
@@ -458,7 +445,7 @@
     {
       "name": "Rosabianca Collection — Far ripartire campagne ADV",
       "project": "Generale",
-      "notes": "Richiesta Emilio: rilancio ADV Rosabianca (Meta+Google?), budget/tempistica, materiali/landing, allineamento Andrea.",
+      "notes": "Richiesta Emilio: strategia rilancio ADV Rosabianca (Meta+Google), budget e landing.",
       "due": "2026-07-28",
       "days_to_due": 0,
       "is_today": true,
@@ -469,9 +456,20 @@
   ],
   "asana_mentions": [
     {
+      "name": "restart ads teti",
+      "subtitle": "Teti · ambra.sartini · 28/07",
+      "notes": "ambra.sartini: «@Francesco Maria Mosca hai fatto?»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208913926319129/task/1216847593888530",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "subtitle": "BeeFamily - Tech · Andrea · 27/07",
-      "notes": "Andrea: «sei riuscito a fare accesso con le credenziali che abbiamo visto in call??»",
+      "notes": "Andrea: «@Francesco Maria Mosca sei riuscito a fare accesso con le credenziali che abbiamo visto in call??»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -480,13 +478,24 @@
       "is_aghc": false
     },
     {
-      "name": "aggiornamento ads luglio",
+      "name": "aggiornamento ads luglio -->",
       "subtitle": "El cid campeador · ambra.sartini · 24/07",
-      "notes": "ambra.sartini: «Fatto. Spento Ad generici e andato solo sulle 2 offerte,»",
+      "notes": "ambra.sartini: «@Francesco Maria Mosca?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834121/task/1216715895318349",
       "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "recap offerte ads",
+      "subtitle": "beefamily.it · ambra.sartini · 28/07",
+      "notes": "ambra.sartini: «Ho fatto un recap delle offerte da spingere su tutti i clienti, per capire se siamo allineati con le ads. Check e conferma @Francesco Maria Mosca @Marco»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1212879221097969/task/1216905388138251",
+      "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     }
@@ -497,7 +506,7 @@
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
       "status": "Assegnato",
-      "status_kind": null,
+      "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
@@ -508,7 +517,7 @@
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
       "status": "Assegnato",
-      "status_kind": null,
+      "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
@@ -519,7 +528,7 @@
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
       "status": "Assegnato",
-      "status_kind": null,
+      "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
@@ -530,7 +539,7 @@
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
       "status": "Assegnato",
-      "status_kind": null,
+      "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
@@ -541,18 +550,18 @@
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
       "status": "Assegnato",
-      "status_kind": null,
+      "status_kind": "warn",
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
     {
-      "name": "PED HEMANAIRE AGOSTO SETTEMBRE 2026",
-      "subtitle": "in fase «3. Copy inseriti» · Panoramica PED AG · 27/07",
+      "name": "\"PED HEMANAIRE AGOSTO SETTEMBRE 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase.",
+      "subtitle": "PED HEMANAIRE AGOSTO SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -562,8 +571,8 @@
       "is_aghc": true
     },
     {
-      "name": "PED LUNETTA AGOSTO-SETTEMBRE 2026",
-      "subtitle": "in fase «3. Copy inseriti» · Panoramica PED AG · 27/07",
+      "name": "\"PED LUNETTA AGOSTO-SETTEMBRE 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase.",
+      "subtitle": "PED LUNETTA AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -573,8 +582,8 @@
       "is_aghc": true
     },
     {
-      "name": "IMPORTANTE: prime info",
-      "subtitle": "Gestione › La Rotta Giusta · Stefano Bizzarri ti ha assegnato · 27/07",
+      "name": "[Assegnato a te] IMPORTANTE: prime info",
+      "subtitle": "IMPORTANTE: prime info · Gestione La Rotta Giusta · 27/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -584,8 +593,8 @@
       "is_aghc": false
     },
     {
-      "name": "Allineamento Pre Lancio",
-      "subtitle": "Gestione · Maria Vittoria Rossi ti ha assegnato · 26/07",
+      "name": "[Assegnato a te] Allineamento Pre Lancio",
+      "subtitle": "Allineamento Pre Lancio · Gestione · 26/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -595,8 +604,8 @@
       "is_aghc": false
     },
     {
-      "name": "PED HANNAH - agosto/settembre 2026",
-      "subtitle": "in fase «3. Copy inseriti» · Panoramica PED AG · 22/07",
+      "name": "\"PED HANNAH - agosto/settembre 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase.",
+      "subtitle": "PED HANNAH - agosto/settembre 2026 · Panoramica PED AG SQUAD 2026 · 22/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -606,8 +615,8 @@
       "is_aghc": true
     },
     {
-      "name": "PED MAGARI ESTATES AGOSTO-SETTEMBRE 2026",
-      "subtitle": "in fase «3. Copy inseriti» · Panoramica PED AG · 21/07",
+      "name": "[Assegnato a te] PED MAGARI ESTATES AGOSTO-SETTEMBRE 2026",
+      "subtitle": "PED MAGARI ESTATES AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 21/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -617,8 +626,8 @@
       "is_aghc": true
     },
     {
-      "name": "PED MONTEMAGNO AGOSTO 2026",
-      "subtitle": "in fase «3. Copy inseriti» · Panoramica PED AG · 21/07",
+      "name": "\"PED MONTEMAGNO AGOSTO 2026\" è in fase \"3. Copy inseriti\". Tocca a te: sposta la Fase.",
+      "subtitle": "PED MONTEMAGNO AGOSTO 2026 · Panoramica PED AG SQUAD 2026 · 21/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -632,7 +641,7 @@
     {
       "name": "A5G5-T204 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA MARTELLETTO · Alessandro Cattaneo · 27/07",
-      "notes": "Alessandro Cattaneo: «avevo chiesto a Francesco Maria Mosca analisi delle campagne per 6-7 clienti ed anche per loro, ma sono gli unici dei quali mi sia scordato di scrivere. Lo faccio ora»",
+      "notes": "Alessandro Cattaneo: «Greta Bellorini sì, mi dispiace, avevo chiesto a Francesco Maria Mosca analisi delle campagne per 6-7 clienti ed anche per loro, ma sono gli unici dei quali mi sia scordato di scrivere. Lo faccio ora»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199572",
