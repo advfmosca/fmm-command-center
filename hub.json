@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T09:46:21+02:00",
+  "updated_at": "2026-07-29T10:50:00+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -507,8 +507,8 @@
     },
     {
       "name": "recap offerte ads",
-      "subtitle": "beefamily.it · ambra.sartini · 28/07",
-      "notes": "ambra.sartini: «Ho fatto un recap delle offerte da spingere su tutti i clienti, fate un check e datemi conferma»",
+      "subtitle": "Beefamily / clienti · ambra.sartini · 28/07",
+      "notes": "ambra.sartini: «Ciao Ragazzi, ho fatto un recap delle offerte da spingere su tutti i clienti, per capire se siamo allineati con le ads. Vi chiedo di fare un check e darmi conferma»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1212879221097969/task/1216905388138251",
@@ -528,9 +528,9 @@
       "is_aghc": false
     },
     {
-      "name": "aggiornamento ads luglio -->",
+      "name": "aggiornamento ads luglio",
       "subtitle": "El cid campeador · ambra.sartini · 24/07",
-      "notes": "ambra.sartini ti ha menzionato su «aggiornamento ads luglio»",
+      "notes": "ambra.sartini: «?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834121/task/1216715895318349",
@@ -605,7 +605,7 @@
   "monday_mentions": [
     {
       "name": "[Assegnato a te] AMM CONSAPEVOLI",
-      "subtitle": "AMM CONSAPEVOLI · Gestione › ADV · 28/07",
+      "subtitle": "AMM CONSAPEVOLI · Gestione · 28/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -660,7 +660,7 @@
     },
     {
       "name": "[Assegnato a te] IMPORTANTE: prime info",
-      "subtitle": "IMPORTANTE: prime info · Gestione › La Rotta Giusta · 27/07",
+      "subtitle": "IMPORTANTE: prime info · Gestione · 27/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -696,7 +696,7 @@
     {
       "name": "A503-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA SCAVELLI · Alfredo De Grandis · 28/07",
-      "notes": "Alfredo De Grandis: «Campagna pronta e approvata dal cliente; per attivarla serve la verifica di un numero sul BM del cliente — come già fatto altrove, mettete il vostro numero (tu o Francesco Maria Mosca) e parte tutto»",
+      "notes": "Alfredo De Grandis: «Alessandro Cattaneo campagna pronta in app con il video tutto ok il cliente ha approvato è piaciuto, altrimenti le inserzioni non si pubblicano Però la campagna per essere attivata deve prima passare per la…»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006296107",
@@ -707,7 +707,7 @@
     {
       "name": "A5G5-T204 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA MARTELLETTO · Alessandro Cattaneo · 27/07",
-      "notes": "Alessandro Cattaneo: «Avevo chiesto a Francesco Maria Mosca l'analisi delle campagne per 6-7 clienti ed anche per loro, mi ero scordato di scriverlo. Lo faccio ora»",
+      "notes": "Alessandro Cattaneo: «Greta Bellorini sì, mi dispiace, avevo chiesto a Francesco Maria Mosca analisi delle campagne per 6-7 clienti ed anche per loro, ma sono gli unici dei quali mi sia scordato di scrivere. Lo faccio ora»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199572",
