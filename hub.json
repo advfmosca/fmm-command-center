@@ -1,9 +1,7 @@
 {
-  "updated_at": "2026-07-30T12:41:45.084063+02:00",
+  "updated_at": "2026-07-30T14:50:27.609552+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [
-    "Canva list-comments non consentito su design 'PED MARE HOTEL LUGLIO-AGOSTO 2026' (DAHODbbz1MY) — permessi"
-  ],
+  "errors": [],
   "calendar": [
     {
       "summary": "OFF",
@@ -11,10 +9,10 @@
       "end_iso": "2026-07-30T14:30:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MzBUMDYzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MzBUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -27,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MGViajU2ODBmNnN1NGtyN2hyNDNndWlmZDQgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=MGViajU2ODBmNnN1NGtyN2hyNDNndWlmZDQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -40,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=cDIyZnQ2aDIzanYyc3Z0ZXRhZzk3cGZvcjggbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=cDIyZnQ2aDIzanYyc3Z0ZXRhZzk3cGZvcjggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -53,7 +51,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=OGRvNnA5OXFnNGxwZ2oxMjUxMzVnNWhjNjAgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=OGRvNnA5OXFnNGxwZ2oxMjUxMzVnNWhjNjAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -66,7 +64,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=dGlicDkycjJrYTBmNzlqdGp1NmM1NHZrMGMgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=dGlicDkycjJrYTBmNzlqdGp1NmM1NHZrMGMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -79,7 +77,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=ZnM4M3AzdHM0dTljMzZnOWxrbG82ZG4wMTAgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=ZnM4M3AzdHM0dTljMzZnOWxrbG82ZG4wMTAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -89,10 +87,10 @@
       "end_iso": "2026-07-30T16:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA3MzBUMTMwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA3MzBUMTMwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -102,10 +100,10 @@
       "end_iso": "2026-07-30T17:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MzBUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA3MzBUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -115,23 +113,10 @@
       "end_iso": "2026-07-30T18:15:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzBUMTYwMDAwWiBtb3NjYWR2QG0",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Adv Check Fra + Mark",
-      "start_iso": "2026-07-31T09:15:00+02:00",
-      "end_iso": "2026-07-31T10:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA3MzFUMDcxNTAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MjlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -144,7 +129,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/ipg-siog-exx",
-      "html_link": "https://www.google.com/calendar/event?eid=M3I0OWc4MGV2bzNnYTRvNDlqa2tmbnZtaG4gbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=M3I0OWc4MGV2bzNnYTRvNDlqa2tmbnZtaG4gbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -157,7 +142,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA3MzBUMDYzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA3MzFUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -170,7 +155,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MzFUMTMzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA3MzFUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -183,7 +168,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzBUMTYwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -196,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NXRsNm05MjkwMWRiMGQ2c212djBzams1NGUgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=NXRsNm05MjkwMWRiMGQ2c212djBzams1NGUgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -209,7 +194,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA4MDFUMDgwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA4MDFUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -222,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA4MDFUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA4MDFUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -235,7 +220,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MDJUMTEzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MDJUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -248,12 +233,12 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzBUMTYwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MDJUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
     {
-      "summary": "Impegno per chiusura Report e Fatture Mese Precedente ",
+      "summary": "Impegno per chiusura Report e Fatture Mese Precedente",
       "start_iso": "2026-08-03T09:00:00+02:00",
       "end_iso": "2026-08-03T19:00:00+02:00",
       "is_today": false,
@@ -261,7 +246,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA4MDNUMDcwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA4MDNUMDcwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -274,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MDNUMDg0NTAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MDNUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -287,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/ige-iwch-xsa",
-      "html_link": "https://www.google.com/calendar/event?eid=NTRqcHFqczJra2Y2a2puNm1pYWx1NnFpNXRfMjAyNjA4MDNUMDkwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NTRqcHFqczJra2Y2a2puNm1pYWx1NnFpNXRfMjAyNjA4MDNUMDkwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -300,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
-      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA4MDNUMTIzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA4MDNUMTIzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -313,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA4MDNUMTYwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA4MDNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -326,12 +311,12 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA3MzBUMTYwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MDNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
     {
-      "summary": "BootyFarm - Riunione ",
+      "summary": "BootyFarm - Riunione",
       "start_iso": "2026-08-04T10:30:00+02:00",
       "end_iso": "2026-08-04T12:00:00+02:00",
       "is_today": false,
@@ -339,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MDRUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MDRUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -352,7 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/xpv-kkmv-ttq",
-      "html_link": "https://www.google.com/calendar/event?eid=MTg1NWExcTVuMDNhbHB2OW02Z2V0NDhhYTggbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=MTg1NWExcTVuMDNhbHB2OW02Z2V0NDhhYTggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -365,7 +350,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MDRUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MDRUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -378,14 +363,27 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MDVUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MDVUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-08-05T13:30:00+02:00",
+      "end_iso": "2026-08-05T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MDVUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     }
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti ",
+      "name": "Report ADV Clienti",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-06-05",
@@ -420,7 +418,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action. Attendere da Ambra il link candidature corretto.",
+      "notes": "Mettere in campagna di awareness dal profilo Tasto 9 i tagli selezionati, budget €10/giorno. Includere anche il video di call to action per le candidature.",
       "due": "2026-07-17",
       "days_to_due": -13,
       "is_today": false,
@@ -442,7 +440,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "Ripartire dal rework BeeFamily: WEBINAR, UNIVERSITY, HOME, FUNNEL CHECKUP, BANDA BIANCA, NURTURE CORE.",
+      "notes": "Ripartire dal rework BeeFamily (WEBINAR, UNIVERSITY, HOME, FUNNEL CHECKUP, BANDA BIANCA, NURTURE CORE).",
       "due": "2026-07-20",
       "days_to_due": -10,
       "is_today": false,
@@ -464,7 +462,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Problema carrello WooCommerce + plugin Direct Checkout, sito non pubblicato. Blocca collegamento link alle landing.",
+      "notes": "2 problemi: carrello WooCommerce non finalizza acquisto; plugin Direct Checkout dà errore Sito non Pubblicato.",
       "due": "2026-07-24",
       "days_to_due": -6,
       "is_today": false,
@@ -475,7 +473,7 @@
     {
       "name": "Attivare Meta Ads (ITA + ENG) a supporto delle campagne Google",
       "project": "Sardinia family villas",
-      "notes": "Attivare Meta Ads FB+IG in doppia lingua a supporto di Google. Struttura duplicata ITA/ENG, tracking verificato, ok da Andrea prima del lancio.",
+      "notes": "Attivare campagne Meta Ads (FB+IG) a supporto di Google su Sardinia Family Villas, doppia lingua. Condividere struttura con Andrea prima del lancio.",
       "due": "2026-07-28",
       "days_to_due": -2,
       "is_today": false,
@@ -486,7 +484,7 @@
     {
       "name": "Rosabianca Collection — Far ripartire campagne ADV",
       "project": "Generale",
-      "notes": "Richiesta di Emilio: far ripartire ADV Rosabianca Collection (Meta+Google?), definire strategia rilancio, budget e tempistica, allineamento con Andrea.",
+      "notes": "Richiesta di Emilio: far ripartire le campagne ADV per Rosabianca Collection. Definire strategia rilancio (Meta+Google?), budget, materiali/landing. Allineamento con Andrea.",
       "due": "2026-07-28",
       "days_to_due": -2,
       "is_today": false,
@@ -498,8 +496,8 @@
   "asana_mentions": [
     {
       "name": "recap offerte ads",
-      "subtitle": "ambra.sartini · 29/07",
-      "notes": "ambra.sartini: «albatros → special weeks + flash days (sito ufficiale) → OK offerte in scadenza tra 3 gg; arianna → estate 2026 + HP → OK ferme perché carta scaduta»",
+      "subtitle": "Generale · ambra.sartini · 29/07",
+      "notes": "ambra.sartini: «albatros → special weeks + flash days (sito ufficiale) → OK offerte sarebbero in scadenza tra 3 gg arianna → estate 2026 + HP (sito ufficiale) → OK ferme perché hanno carta scaduta e non rispondono co»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1212879221097969/task/1216905388138251",
@@ -510,7 +508,7 @@
     {
       "name": "restart ads teti",
       "subtitle": "Teti · ambra.sartini · 29/07",
-      "notes": "ambra.sartini: «grazie per la segnalazione! hai fatto?»",
+      "notes": "ambra.sartini: «grazie per la segnalazione!, hai fatto?»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208913926319129/task/1216847593888530",
@@ -545,11 +543,11 @@
     {
       "design_id": "DAG36JP1N8w",
       "design_title": "VILLA MILIANI - STRATEGY AG 2025/2026",
-      "design_url": "https://www.canva.com/d/xoMkZC_6D9cD6FE",
+      "design_url": "https://www.canva.com/design/DAG36JP1N8w/view",
       "comment_id": "KAG4a_ejbfg",
       "author": "Simone",
-      "comment_text": "(menzione senza testo — tag a FMM Consulting)",
-      "created_iso": "2025-11-11T18:00:56+01:00",
+      "comment_text": "@FMM Consulting (mention only, no accompanying text)",
+      "created_iso": "2025-11-11T19:20:56Z",
       "is_aghc": true
     }
   ],
@@ -557,7 +555,7 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Assegnato",
+      "status": "Task",
       "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
@@ -568,7 +566,7 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
+      "status": "Task",
       "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
@@ -579,7 +577,7 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
+      "status": "Task",
       "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
@@ -590,7 +588,7 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Assegnato",
+      "status": "Task",
       "status_kind": "warn",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
@@ -601,7 +599,7 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Assegnato",
+      "status": "Scaduto",
       "status_kind": "danger",
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
@@ -613,7 +611,7 @@
   "monday_mentions": [
     {
       "name": "[Sei iscritto] Gestione",
-      "subtitle": "Gestione · Gestione · 29/07",
+      "subtitle": "Gestione ·  · 29/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -623,7 +621,7 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato] Start up social",
+      "name": "[Assegnato a te] Start up social",
       "subtitle": "Start up social · Gestione · 29/07",
       "notes": null,
       "status": "Notifica",
@@ -634,7 +632,7 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato] Digital strategy",
+      "name": "[Assegnato a te] Digital strategy",
       "subtitle": "Digital strategy · Gestione · 29/07",
       "notes": null,
       "status": "Notifica",
@@ -645,8 +643,8 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato] AMM CONSAPEVOLI",
-      "subtitle": "AMM CONSAPEVOLI · Gestione ADV · 28/07",
+      "name": "[Sei iscritto] AMM CONSAPEVOLI",
+      "subtitle": "AMM CONSAPEVOLI · Gestione · 28/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -656,7 +654,7 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato] PED ALTAFIUMARA SETTEMBRE 2026",
+      "name": "[Assegnato a te] PED ALTAFIUMARA SETTEMBRE 2026",
       "subtitle": "PED ALTAFIUMARA SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 28/07",
       "notes": null,
       "status": "Notifica",
@@ -667,7 +665,7 @@
       "is_aghc": true
     },
     {
-      "name": "PED PUNTEBIANCHE AGO-SETT 2026 — fase 3 Copy inseriti",
+      "name": "[Assegnato a te] PED PUNTEBIANCHE AGO-SETT 2026",
       "subtitle": "PED PUNTEBIANCHE AGO-SETT 2026 · Panoramica PED AG SQUAD 2026 · 28/07",
       "notes": null,
       "status": "Notifica",
@@ -678,7 +676,7 @@
       "is_aghc": true
     },
     {
-      "name": "PED HEMANAIRE AGO-SETT 2026 — fase 3 Copy inseriti",
+      "name": "PED HEMANAIRE AGOSTO SETTEMBRE 2026 — in fase 3. Copy inseriti (tocca a te)",
       "subtitle": "PED HEMANAIRE AGOSTO SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
       "notes": null,
       "status": "Notifica",
@@ -689,7 +687,7 @@
       "is_aghc": true
     },
     {
-      "name": "PED LUNETTA AGO-SETT 2026 — fase 3 Copy inseriti",
+      "name": "[Assegnato a te] PED LUNETTA AGOSTO-SETTEMBRE 2026",
       "subtitle": "PED LUNETTA AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
       "notes": null,
       "status": "Notifica",
@@ -700,8 +698,8 @@
       "is_aghc": true
     },
     {
-      "name": "[Assegnato] IMPORTANTE: prime info",
-      "subtitle": "IMPORTANTE: prime info · Gestione (La Rotta Giusta) · 27/07",
+      "name": "[Assegnato a te] IMPORTANTE: prime info",
+      "subtitle": "IMPORTANTE: prime info · Gestione · 27/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -711,7 +709,7 @@
       "is_aghc": false
     },
     {
-      "name": "[Assegnato] Allineamento Pre Lancio",
+      "name": "[Assegnato a te] Allineamento Pre Lancio",
       "subtitle": "Allineamento Pre Lancio · Gestione · 26/07",
       "notes": null,
       "status": "Notifica",
@@ -726,7 +724,7 @@
     {
       "name": "A503-T24 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA SCAVELLI · Alfredo De Grandis · 28/07",
-      "notes": "Alfredo De Grandis: «campagna pronta in app, cliente ha approvato. Per attivarla serve prima la verifica di un numero sul BM del cliente. Come già fatto, metti il vostro numero e parte l'inserzione, poi avvisami»",
+      "notes": "Alfredo De Grandis: «campagna pronta in app col video, il cliente ha approvato. Per attivarla serve la verifica di un numero sul BM del cliente. Era già successo con un altro centro, l'avevi gestita tu o Francesco Maria Mosca mettendo il vostro numero»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006296107",
@@ -737,7 +735,7 @@
     {
       "name": "A5G5-T204 Chiamata luglio 26 manager/beauty",
       "subtitle": "CEA % - FARMACIA MARTELLETTO · Alessandro Cattaneo · 27/07",
-      "notes": "Alessandro Cattaneo: «avevo chiesto a Francesco Maria Mosca l'analisi delle campagne per 6-7 clienti ed anche per loro, ma sono gli unici dei quali mi sia scordato di scrivere. Lo faccio ora»",
+      "notes": "Alessandro Cattaneo: «sì, mi dispiace, avevo chiesto a Francesco Maria Mosca analisi delle campagne per 6-7 clienti ed anche per loro, ma sono gli unici dei quali mi sia scordato di scrivere. Lo faccio ora»",
       "status": "Pending reply",
       "status_kind": "danger",
       "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199572",
