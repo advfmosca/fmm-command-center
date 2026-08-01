@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-01T08:45:57.936225+02:00",
+ "updated_at": "2026-08-01T14:14:23.451817+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -61,7 +61,7 @@
    "end_iso": "2026-08-01T09:50:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=Z2N2bTd0Z2JjNGkwcW42MHRsYTczdDByanMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -74,7 +74,7 @@
    "end_iso": "2026-08-01T10:00:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=aGhxMWJrZjRsNHI2MGhwOWFraXJuaW5vMjQgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -87,7 +87,7 @@
    "end_iso": "2026-08-01T11:00:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA4MDFUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -100,11 +100,11 @@
    "end_iso": "2026-08-01T11:30:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA4MDFUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
+   "alert_kind": "warn",
    "is_aghc": true
   },
   {
@@ -113,7 +113,7 @@
    "end_iso": "2026-08-01T11:40:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=NzkzMzQwdTNwb3F0Z21xYzE1MGswcnE4NnMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -126,7 +126,7 @@
    "end_iso": "2026-08-01T11:50:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=NWtkMDBrcWdpNjkyMDVrcXM2aHR2aTBwZHMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -139,11 +139,24 @@
    "end_iso": "2026-08-01T12:00:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=Y2JtcjR0NDVhMzNvZjR0OGFrajJoNXVoMTAgbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": "warn",
+   "is_aghc": false
+  },
+  {
+   "summary": "Presentazione preventivi | Mario Caucci | Sabato 01 Agosto 2026",
+   "start_iso": "2026-08-01T12:30:00+02:00",
+   "end_iso": "2026-08-01T13:30:00+02:00",
+   "is_today": true,
+   "is_tomorrow": false,
+   "is_urgent": true,
+   "location": null,
+   "conference_url": "https://meet.google.com/otj-eymy-bza",
+   "html_link": "https://www.google.com/calendar/event?eid=NzBvZzZ1dGVlc21la2hpbmhxMGxmb2xjdDcgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
    "is_aghc": false
   },
   {
@@ -195,6 +208,19 @@
    "location": null,
    "conference_url": "https://meet.google.com/bfd-jajk-cct",
    "html_link": "https://www.google.com/calendar/event?eid=MHFvbmhra3ZwNXM5anZkcWo0b3IwajRucWUgbW9zY2FkdkBt&ctz=Europe/Rome",
+   "alert_kind": null,
+   "is_aghc": false
+  },
+  {
+   "summary": "Fatture META check",
+   "start_iso": "2026-08-03T10:15:00+02:00",
+   "end_iso": "2026-08-03T11:15:00+02:00",
+   "is_today": false,
+   "is_tomorrow": false,
+   "is_urgent": false,
+   "location": null,
+   "conference_url": "https://meet.google.com/epk-xiuo-ncp",
+   "html_link": "https://www.google.com/calendar/event?eid=Nmg5ZnM0ZHZwaTU0cWY3YW8xN2VhNzRsOXUgbW9zY2FkdkBt&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
   },
@@ -366,32 +392,6 @@
    "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MDZUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
-  },
-  {
-   "summary": "AS+Bea+Franci riunione referenti",
-   "start_iso": "2026-08-06T10:00:00+02:00",
-   "end_iso": "2026-08-06T11:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-   "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA4MDZUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "CEA + M&T : Check, Balance e Resolution",
-   "start_iso": "2026-08-06T15:00:00+02:00",
-   "end_iso": "2026-08-06T16:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=NmIyNThnZWtsdW9na2wwbm4waTRzNmh0aWJfMjAyNjA4MDZUMTMwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
   }
  ],
  "asana": [
@@ -418,9 +418,9 @@
    "is_aghc": false
   },
   {
-   "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
+   "name": "Lanciare campagna ads awareness da profilo Tasto 9 (10 EUR/giorno)",
    "project": "Tasto 9",
-   "notes": "",
+   "notes": "Mettere in campagna awareness i tagli selezionati, budget 10 EUR/giorno + video CTA candidature. Attendere link candidature da Ambra.",
    "due": "2026-07-17",
    "days_to_due": -15,
    "is_today": false,
@@ -431,7 +431,7 @@
   {
    "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
    "project": "Tasto 9",
-   "notes": "",
+   "notes": "Selezionare i migliori tagli (anche pubblicati) con piu visualizzazioni in organico. Base per campagna awareness.",
    "due": "2026-07-17",
    "days_to_due": -15,
    "is_today": false,
@@ -442,7 +442,7 @@
   {
    "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
    "project": "Generale",
-   "notes": "Rework BeeFamily (webinar, university, home, funnel checkup, nurture core)",
+   "notes": "Rework BeeFamily: Webinar, University, Home, Funnel Checkup, Banda Bianca, Nurture Core.",
    "due": "2026-07-20",
    "days_to_due": -12,
    "is_today": false,
@@ -453,7 +453,7 @@
   {
    "name": "ads meta",
    "project": "B612",
-   "notes": "Budget confermato, mandare tutto prima di attivare",
+   "notes": "Puoi partire, budget confermato. Mandare tutto prima di attivare.",
    "due": "2026-07-22",
    "days_to_due": -10,
    "is_today": false,
@@ -464,7 +464,7 @@
   {
    "name": "Risoluzione PROBLEMA Carrello WooCommerce",
    "project": "BeeFamily - Tech",
-   "notes": "Carrello WooCommerce non finalizza + errore plugin Direct Checkout",
+   "notes": "2 problemi: carrello WooCommerce non finalizza acquisto; plugin Direct Checkout errore 'Sito non Pubblicato'.",
    "due": "2026-07-24",
    "days_to_due": -8,
    "is_today": false,
@@ -475,7 +475,7 @@
   {
    "name": "Attivare Meta Ads (ITA + ENG) a supporto delle campagne Google",
    "project": "Sardinia family villas",
-   "notes": "Struttura ITA+ENG, pubblici, tracking pixel/CAPI prima del lancio",
+   "notes": "Struttura campagne per lingua, pubblici freddo/retargeting/lookalike, pixel + CAPI. Condividere con Andrea prima del lancio.",
    "due": "2026-07-28",
    "days_to_due": -4,
    "is_today": false,
@@ -486,7 +486,7 @@
   {
    "name": "Rosabianca Collection — Far ripartire campagne ADV",
    "project": "Generale",
-   "notes": "Richiesta Emilio: strategia rilancio ADV (Meta+Google), budget, materiali",
+   "notes": "Richiesta Emilio: definire strategia rilancio ADV Rosabianca (Meta+Google), budget, tempistiche, materiali. Allineamento con Andrea.",
    "due": "2026-07-28",
    "days_to_due": -4,
    "is_today": false,
@@ -530,7 +530,7 @@
   {
    "name": "University — Landing: inserire profili coach confermati + date ufficiali",
    "project": "BeeFamily - Tech",
-   "notes": "Profili coach (Claudia Ferrero, Ilaria Bigliazzi, ecc.) + date ufficiali",
+   "notes": "Inserire in landing University i profili coach confermati (Claudia Ferrero, Ilaria Bigliazzi, Gaetano Barbuto, Gerardo Castellano, Ambra Sartini) + date ufficiali dei 3 blocchi.",
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -576,7 +576,7 @@
   {
    "name": "recap offerte ads",
    "subtitle": "beefamily.it · ambra.sartini · 29/07",
-   "notes": "ambra.sartini: «Check stato offerte per cliente (albatros, arianna, brora, ciccio, cirillo, color...) — dare conferma allineamento ads»",
+   "notes": "ambra.sartini: «ho fatto un recap delle offerte da spingere su tutti i clienti, per capire se siamo allineati con le ads. Vi chiedo di fare un check e darmi conferma»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1212879221097969/task/1216905388138251",
@@ -587,7 +587,7 @@
   {
    "name": "restart ads teti",
    "subtitle": "Teti · ambra.sartini · 29/07",
-   "notes": "ambra.sartini: «hai fatto?» (sollecito restart ads Teti)",
+   "notes": "ambra.sartini: «30 EUR meta / 30 EUR google fino all'8 agosto, poi riaggiorniamoci per modifiche budget»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1208913926319129/task/1216847593888530",
@@ -598,7 +598,7 @@
   {
    "name": "Risoluzione PROBLEMA Carrello WooCommerce",
    "subtitle": "BeeFamily - Tech · Andrea · 27/07",
-   "notes": "Andrea: «sei riuscito a fare accesso con le credenziali che abbiamo visto in call?? — remind»",
+   "notes": "Andrea: «sei riuscito a fare accesso con le credenziali che abbiamo visto in call?»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -607,18 +607,7 @@
    "is_aghc": false
   }
  ],
- "canva": [
-  {
-   "design_id": "DAHCatKKEDY",
-   "design_title": "5. Monthly Report_Hotel Castello Maggio",
-   "design_url": "https://www.canva.com/d/i330n7E877YBmRO",
-   "comment_id": "KAHMP6avV0w",
-   "author": "Alessia De Fabiani AG Hotel Consulting",
-   "comment_text": "Mancano le voci che indicano a cosa si riferiscono i dati",
-   "created_iso": "2026-06-11T09:33:44+02:00",
-   "is_aghc": true
-  }
- ],
+ "canva": [],
  "monday": [
   {
    "name": "Jungano",
@@ -627,9 +616,9 @@
    "status_kind": "warn",
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
    "is_aghc": false
   },
   {
@@ -639,9 +628,9 @@
    "status_kind": "warn",
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
    "is_aghc": false
   },
   {
@@ -651,9 +640,9 @@
    "status_kind": "warn",
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
    "is_aghc": false
   },
   {
@@ -663,21 +652,21 @@
    "status_kind": "warn",
    "due": null,
    "days_to_due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
    "is_aghc": false
   },
   {
    "name": "User e Pass / Gmail per Tik Tok",
    "subtitle": "Account TIK TOK AGHC",
    "status": "Da fare",
-   "status_kind": "warn",
+   "status_kind": "danger",
    "due": "2025-04-04",
    "days_to_due": -484,
-   "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_today": false,
    "is_urgent": true,
+   "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_aghc": true
   }
  ],
@@ -819,7 +808,7 @@
   {
    "name": "A5G5-T204 Chiamata luglio 26 manager/beauty",
    "subtitle": "CEA % - FARMACIA MARTELLETTO · Alessandro Cattaneo · 30/07",
-   "notes": "Alessandro Cattaneo: «Greta Bellorini fatta campagna da 47€ che parte il 1° Agosto. Appena approvano, avviso Francesco Maria Mosca di estendere a 18 km il raggio come da loro richiesta»",
+   "notes": "Alessandro Cattaneo: «Greta Bellorini fatta campagna da 47 EUR che parte il 1 Agosto come da richiesta di Nunzia. Appena approvano, avviso Francesco Maria Mosca di estendere a 18 km il raggio come da loro richiesta»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199572",
@@ -830,7 +819,7 @@
   {
    "name": "A503-T24 Chiamata luglio 26 manager/beauty",
    "subtitle": "CEA % - FARMACIA SCAVELLI · Alfredo De Grandis · 28/07",
-   "notes": "Alfredo De Grandis: «Campagna pronta e approvata dal cliente. Per attivarla serve verificare un numero sul BM del cliente — come già fatto altrove, mettete il vostro numero (tu o Francesco Maria Mosca) e parte tutto, poi avvisami»",
+   "notes": "Alfredo De Grandis: «Campagna pronta in app, cliente ha approvato. Per attivarla serve la verifica di un numero sul BM del cliente — come gia fatto altre volte da te o Francesco Maria Mosca mettendo il vostro numero. Fai la stessa cosa e avvisami con un commento»",
    "status": "Pending reply",
    "status_kind": "danger",
    "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006296107",
