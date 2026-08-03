@@ -499,7 +499,7 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
 
   <div class="kpis">
     <div class="kpi total" data-source="calendar" title="Clicca per filtrare solo Agenda"><div class="label">Eventi oggi</div><div class="value" id="k-cal">–</div><div class="sub">Calendar</div></div>
-    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Canva + Monday + Zoho + To-Do</div></div>
+    <div class="kpi" data-source="asana" title="Clicca per filtrare solo task aperti"><div class="label">Task aperti</div><div class="value" id="k-asana">–</div><div class="sub">Asana + Canva + Monday + To-Do</div></div>
   </div>
 
   <div class="filter-bar">
@@ -524,10 +524,6 @@ section.col .body::-webkit-scrollbar-thumb { background: var(--border); border-r
     <section class="col" data-source="monday">
       <h2><span class="col-ico">📋</span>Senape / AGHC<span class="pill" id="count-monday">…</span></h2>
       <div class="body" id="cards-monday"><div class="skeleton"></div><div class="skeleton"></div></div>
-    </section>
-    <section class="col" data-source="zoho-projects">
-      <h2><span class="col-ico">📂</span>CEA / Med&amp;Tech<span class="pill" id="count-zoho-proj">…</span></h2>
-      <div class="body" id="cards-zoho-proj"><div class="skeleton"></div><div class="skeleton"></div></div>
     </section>
     <section class="col" data-source="canva">
       <h2><span class="col-ico">🎨</span>Canva<span class="pill" id="count-canva">…</span></h2>
@@ -733,8 +729,7 @@ const EMPTY_STATES = {
   "calendar":         { title: "Nessun evento in programma" },
   "asana":            { title: "Nessun task aperto" },
   "canva":            { title: "Nessun tag aperto" },
-  "monday":           { title: "Nessun item Monday" },
-  "zoho-projects":    { title: "Nessun tag in attesa di risposta" }
+  "monday":           { title: "Nessun item Monday" }
 };
 
 // ── recalcCounts: aggiorna KPI + badge colonna in base agli item VISIBILI ──
@@ -745,9 +740,8 @@ function recalcCounts(){
     {src: "asana",            cnt: "count-asana",            kpi: null,          todayOnly: false},
     {src: "canva",            cnt: "count-canva",            kpi: null,          todayOnly: false},
     {src: "monday",           cnt: "count-monday",           kpi: null,          todayOnly: false},
-    {src: "zoho-projects",    cnt: "count-zoho-proj",        kpi: null,          todayOnly: false},
   ];
-  let asanaVis = 0, canvaVis = 0, mondayVis = 0, zohoVis = 0;
+  let asanaVis = 0, canvaVis = 0, mondayVis = 0;
   cfg.forEach(c => {
     const col = document.querySelector(`.col[data-source="${c.src}"]`);
     if(!col) return;
@@ -768,7 +762,6 @@ function recalcCounts(){
     if(c.src === "asana") asanaVis = visible;
     if(c.src === "canva") canvaVis = visible;
     if(c.src === "monday") mondayVis = visible;
-    if(c.src === "zoho-projects") zohoVis = visible;
 
     // Empty-state placeholder: se 0 visibili e box non ha già un placeholder,
     // iniettalo. Se torna > 0, rimuovilo. Uso classe .empty-state per distinguere
@@ -789,10 +782,10 @@ function recalcCounts(){
       }
     }
   });
-  // KPI aggregato "Task aperti" = Asana + Canva + Monday + Zoho + To-Do FMM attive
+  // KPI aggregato "Task aperti" = Asana + Canva + Monday + To-Do FMM attive
   // (getActiveTodos è definita più sotto ma è disponibile a runtime quando recalcCounts gira)
   const todosVis = (typeof getActiveTodos === "function") ? getActiveTodos().length : 0;
-  $("k-asana").textContent = asanaVis + canvaVis + mondayVis + zohoVis + todosVis;
+  $("k-asana").textContent = asanaVis + canvaVis + mondayVis + todosVis;
 
   // ── Ricalcola i count dei project-group Asana e nascondi i gruppi vuoti ──
   // Fix bug: dopo dismiss, il badge totale Asana andava a 0 ma i pill dei project-group
@@ -1000,9 +993,9 @@ $("toggle-hidden").addEventListener("click", ()=>{
 // KPI "Eventi oggi" (data-source="calendar") → focus solo Agenda
 // KPI "Task aperti"  (data-source="asana")   → mostra tutte le colonne task
 //                                              (Bee Family + Senape/AGHC +
-//                                              CEA/Med&Tech + Canva), nasconde Agenda
+//                                              Canva), nasconde Agenda
 let activeSource = null;
-const TASK_SOURCES = new Set(["asana","monday","zoho-projects","canva","todos"]);
+const TASK_SOURCES = new Set(["asana","monday","canva","todos"]);
 
 function focusSource(src){
   activeSource = (activeSource === src) ? null : src;
@@ -1793,9 +1786,6 @@ async function loadHub(){
     ];
     renderGeneric("cards-monday", "count-monday", null, mondayUnified, {
       emptyTitle: "Nessun item Monday"
-    });
-    renderGeneric("cards-zoho-proj", "count-zoho-proj", null, hub.zoho_projects || [], {
-      emptyTitle: "Nessun tag in attesa di risposta"
     });
     renderCanva(hub.canva || []);
     // KPI "Task aperti" e tutti gli altri vengono ricalcolati da recalcCounts() in applyDismissed()

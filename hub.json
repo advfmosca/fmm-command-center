@@ -790,29 +790,5 @@
       "is_urgent": true,
       "is_aghc": false
     }
-  ],
-  "zoho_projects": [
-    {
-      "name": "A5G5-T204 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - FARMACIA MARTELLETTO · Alessandro Cattaneo · 30/07",
-      "notes": "Alessandro Cattaneo: «Greta Bellorini fatta campagna da 47 EUR che parte il 1 Agosto come da richiesta di Nunzia. Appena approvano, avviso Francesco Maria Mosca di estendere a 18 km il raggio come da loro richiesta»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000005199572",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "A503-T24 Chiamata luglio 26 manager/beauty",
-      "subtitle": "CEA % - FARMACIA SCAVELLI · Alfredo De Grandis · 28/07",
-      "notes": "Alfredo De Grandis: «campagna pronta in app, cliente ha approvato. Per attivarla serve la verifica di un numero sul BM del cliente: come già fatto con un altro centro, mettete tu o Francesco Maria Mosca il vostro numero e parte tutto»",
-      "status": "Pending reply",
-      "status_kind": "danger",
-      "url": "https://projects.zoho.eu/portal/onbeautysrl#zp/task-detail/205729000006296107",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    }
   ]
 }
