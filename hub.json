@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T09:47:09.624684+02:00",
+  "updated_at": "2026-08-03T10:45:20.677469+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -77,19 +77,6 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "ALLIN OPEN DAI",
-      "start_iso": "2026-08-03T11:00:00+02:00",
-      "end_iso": "2026-08-03T12:00:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/ige-iwch-xsa",
       "html_link": null,
       "alert_kind": null,
       "is_aghc": false
@@ -342,22 +329,9 @@
       "is_aghc": false
     },
     {
-      "summary": "AS+Bea+Franci riunione referenti",
-      "start_iso": "2026-08-06T10:00:00+02:00",
-      "end_iso": "2026-08-06T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "CEA + M&T : Check, Balance e Resolution",
-      "start_iso": "2026-08-06T15:00:00+02:00",
-      "end_iso": "2026-08-06T16:00:00+02:00",
+      "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
+      "start_iso": "2026-08-06T16:00:00+02:00",
+      "end_iso": "2026-08-06T17:00:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
@@ -368,9 +342,35 @@
       "is_aghc": false
     },
     {
-      "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
-      "start_iso": "2026-08-06T16:00:00+02:00",
-      "end_iso": "2026-08-06T17:00:00+02:00",
+      "summary": "Adv Check Fra + Mark",
+      "start_iso": "2026-08-07T09:15:00+02:00",
+      "end_iso": "2026-08-07T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-08-07T13:00:00+02:00",
+      "end_iso": "2026-08-07T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Piedi Ilaria",
+      "start_iso": "2026-08-07T13:15:00+02:00",
+      "end_iso": "2026-08-07T14:15:00+02:00",
       "is_today": false,
       "is_tomorrow": false,
       "is_urgent": false,
