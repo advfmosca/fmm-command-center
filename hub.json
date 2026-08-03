@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T10:45:20.677469+02:00",
+  "updated_at": "2026-08-03T15:49:02.116747+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -12,7 +12,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJwdWdtczY5MWJtbmg3aTcyNnMyNmwxOW9fMjAyNjA4MDNUMDcwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -25,7 +25,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bfd-jajk-cct",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MHFvbmhra3ZwNXM5anZkcWo0b3IwajRucWUgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -38,7 +38,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=bGkxOGkxb2JyNTV2NWhqYXJmdjcwdmJyamMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -51,7 +51,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aG0xOWV2Z2NpZmNubnRzbW1iY2kyMnJiZDggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -64,7 +64,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/epk-xiuo-ncp",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Nmg5ZnM0ZHZwaTU0cWY3YW8xN2VhNzRsOXUgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -77,7 +77,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MDNUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -90,7 +90,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NGN0ZXVhdTA2dmxtNjFrN3FrMzRjMXBjM2sgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -103,7 +103,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MmEzMzJndWRvdWdoZmJ1c3ZtZ2oyZjFmZDAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -116,7 +116,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=OTRndjJuNDdraTdkNGlib2I5OTNsODVhMDggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -129,7 +129,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=YjZ1ODAzZGYwZ2p1cmxwdmtrMDFxN2trdmcgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -142,7 +142,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=M2FoNTlzbXJxZWFxN2JybHNtdW9wZWRhb2MgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -152,10 +152,10 @@
       "end_iso": "2026-08-03T13:25:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Y2c1Nmo1YTZnamFua3Jubjg2cnJldjcza2cgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -168,9 +168,9 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc4MThoMnQ3NjRtaDAxaWoyNWdzZzh1YnJfMjAyNjA4MDNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
@@ -181,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MDNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -194,7 +194,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cjh2Y2RpMGdsaHA0MHE1dTkwNHBoaDRyc28gbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -207,7 +207,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NG81NTY3MmRsZDB0bzZjZmUyNzdlbzFtb2MgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -217,10 +217,10 @@
       "end_iso": "2026-08-04T09:30:00+02:00",
       "is_today": false,
       "is_tomorrow": true,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=djBhNXB1ZjRoNmV1NnV1bXRwamNjYThsdnMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -233,7 +233,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MDRUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -246,7 +246,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/xpv-kkmv-ttq",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MTg1NWExcTVuMDNhbHB2OW02Z2V0NDhhYTggbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -259,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MDRUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -272,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MDVUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -285,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MDVUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -298,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/aay-vybk-ksx",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aXVmbnIzYTIzZzc1cHYzYzZrbzY3ZmJ2MTAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -311,7 +311,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MDVUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -324,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MDZUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -337,7 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MDZUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -350,7 +350,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MDdUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -363,7 +363,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MDdUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -376,7 +376,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=bHE4OXRsMW9mNzhoZmZpb21lazlsa2I3ZzQgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -407,7 +407,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "Awareness dal profilo Tasto 9, budget €10/giorno + video CTA candidature.",
+      "notes": "Awareness dal profilo Tasto 9, budget €10/giorno + video CTA candidature. Attendere link candidature da Ambra.",
       "due": "2026-07-17",
       "days_to_due": -17,
       "is_today": false,
@@ -418,7 +418,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "Selezionare i tagli migliori per la campagna awareness Tasto 9.",
+      "notes": "Selezionare i migliori tagli (anche pubblicati) con più views organiche. Base campagna awareness Tasto 9.",
       "due": "2026-07-17",
       "days_to_due": -17,
       "is_today": false,
@@ -429,7 +429,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "Ripartire dal rework BeeFamily (Webinar, University, Home, Funnel Checkup, Nurture Core).",
+      "notes": "Ripartire dal rework BeeFamily: Webinar, University, Home, Funnel Checkup, Banda Bianca, Nurture Core.",
       "due": "2026-07-20",
       "days_to_due": -14,
       "is_today": false,
@@ -440,7 +440,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "Budget confermato, puoi partire. Mandare tutto prima di attivare.",
+      "notes": "Puoi partire, budget confermato. Mandare tutto prima di attivare.",
       "due": "2026-07-22",
       "days_to_due": -12,
       "is_today": false,
@@ -451,7 +451,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Carrello WooCommerce non finalizza + errore Direct Checkout.",
+      "notes": "2 problemi carrello/checkout WooCommerce da risolvere prima di collegare i link alle landing.",
       "due": "2026-07-24",
       "days_to_due": -10,
       "is_today": false,
@@ -462,7 +462,7 @@
     {
       "name": "Attivare Meta Ads (ITA + ENG) a supporto delle campagne Google",
       "project": "Sardinia family villas",
-      "notes": "Meta Ads ITA+ENG a supporto Google. Condividere struttura con Andrea prima del lancio.",
+      "notes": "Campagne Meta ITA+ENG a supporto di Google, doppia lingua, tracciamento verificato. Lancio dopo ok Andrea.",
       "due": "2026-07-28",
       "days_to_due": -6,
       "is_today": false,
@@ -473,7 +473,7 @@
     {
       "name": "Rosabianca Collection — Far ripartire campagne ADV",
       "project": "Generale",
-      "notes": "Richiesta Emilio: rilancio ADV Rosabianca Collection (Meta+Google), budget e materiali.",
+      "notes": "Richiesta Emilio: rilancio ADV Rosabianca Collection (Meta+Google?), budget e tempistica. Allineamento con Andrea.",
       "due": "2026-07-28",
       "days_to_due": -6,
       "is_today": false,
@@ -482,14 +482,36 @@
       "is_aghc": false
     },
     {
+      "name": "UPDATE ADV ->",
+      "project": "Mexico",
+      "notes": "Gabriele: eliminare le altre offerte di settembre e concentrare le campagne sull'offerta SPECIALE SETTEMBRE AL MARE.",
+      "due": "2026-08-03",
+      "days_to_due": 0,
+      "is_today": true,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1216105116766750/task/1217103593658489",
+      "is_aghc": false
+    },
+    {
       "name": "🚨 IMPORTANTE — RADDOPPIARE BUDGET ADV FINO AL 15.08 (crisi Trieste, riempire 10 camere Ferragosto)",
       "project": "Generale",
-      "notes": "Priorità alta Emilio: raddoppiare budget Hotel Trieste fino al 15/08, check giornaliero.",
+      "notes": "Richiesta Emilio: raddoppiare budget ADV Hotel Trieste fino al 15/08, check giornaliero. 10 camere da riempire Ferragosto.",
       "due": "2026-08-04",
       "days_to_due": 1,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1217091495405221",
+      "is_aghc": false
+    },
+    {
+      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato su Google)",
+      "project": "BeeFamily - Tech",
+      "notes": "Redirect 301 formulafamily.it → sito attuale. Francesco propone mappatura, Andrea approva.",
+      "due": "2026-08-07",
+      "days_to_due": 4,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_aghc": false
     },
     {
@@ -528,7 +550,7 @@
     {
       "name": "University — Landing: inserire profili coach confermati + date ufficiali",
       "project": "BeeFamily - Tech",
-      "notes": "Inserire profili coach (Ferrero, Bigliazzi, Barbuto, Castellano, Sartini) + date ufficiali.",
+      "notes": "Inserire in landing University profili coach confermati + date ufficiali (3 blocchi da 2 giorni, Bologna).",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -572,20 +594,42 @@
   ],
   "asana_mentions": [
     {
+      "name": "Triangolo Riccione 12 ott — dati logistici mancanti (sede/orari)",
+      "subtitle": "BeeFamily - Tech · Andrea · 03/08",
+      "notes": "Andrea: «Francesco Maria Mosca, alcune modifiche tirate fuori con Cleopatra — INTERVENTO 1 headline principale»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216830335950010",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "Controllo Webinar 3 settembre",
+      "subtitle": "BeeFamily - Tech · Andrea · 03/08",
+      "notes": "Andrea: «al netto del link webinar che faremo più avanti, è tutto pronto per partire con le adv questa settimana?»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216571785334184",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "Creare offerta doppia uscita sul sito",
-      "subtitle": "Sardinia family villas · Andrea · 02/08",
-      "notes": "Andrea: «@Francesco Maria Mosca remind»",
+      "subtitle": "Sardinia family villas · Andrea · 03/08",
+      "notes": "Andrea: «Ok, resta solo da girare le url a Marco per le adv Google»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1217091496699386",
-      "is_today": false,
+      "is_today": true,
       "is_urgent": true,
       "is_aghc": false
     },
     {
       "name": "recap offerte ads",
-      "subtitle": "beefamily.it · ambra.sartini · 29/07",
-      "notes": "ambra.sartini: «@Francesco Maria Mosca @Marco - Google Ads, vi chiedo di fare un check e darmi conferma che siamo allineati con le ads»",
+      "subtitle": "Generale · ambra.sartini · 29/07",
+      "notes": "ambra.sartini: «Vi chiedo di fare un check e darmi conferma, grazie @Francesco Maria Mosca»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1212879221097969/task/1216905388138251",
@@ -596,21 +640,10 @@
     {
       "name": "restart ads teti",
       "subtitle": "Teti · ambra.sartini · 29/07",
-      "notes": "ambra.sartini: «@Francesco Maria Mosca hai fatto? restart ads teti»",
+      "notes": "ambra.sartini: «hai fatto? restart ads teti»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208913926319129/task/1216847593888530",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Risoluzione PROBLEMA Carrello WooCommerce",
-      "subtitle": "BeeFamily - Tech · Andrea · 27/07",
-      "notes": "Andrea: «sei riuscito a fare accesso con le credenziali che abbiamo visto insieme?»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -675,11 +708,22 @@
       "days_to_due": -486,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
+    {
+      "name": "PED LIVATA AGO-SETT 2026",
+      "subtitle": "PED LIVATA AGO-SETT 2026 · Panoramica PED AG SQUAD 2026 · 03/08",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12671839758",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
     {
       "name": "primo video ads per lancio corsi",
       "subtitle": "primo video ads per lancio corsi · Gestione · 02/08",
@@ -714,8 +758,19 @@
       "is_aghc": true
     },
     {
+      "name": "Gestione",
+      "subtitle": "Gestione · Start Up · 29/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18424288105",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "Start up social",
-      "subtitle": "Start up social · Gestione › Start Up · 29/07",
+      "subtitle": "Start up social · Gestione · 29/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -726,11 +781,22 @@
     },
     {
       "name": "Digital strategy",
-      "subtitle": "Digital strategy · Gestione › Start Up · 29/07",
+      "subtitle": "Digital strategy · Gestione · 29/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18424288105/pulses/12662799702",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "AMM CONSAPEVOLI",
+      "subtitle": "AMM CONSAPEVOLI · Gestione ADV · 28/07",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12650980293",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -756,39 +822,6 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
-    },
-    {
-      "name": "PED HEMANAIRE AGOSTO SETTEMBRE 2026",
-      "subtitle": "PED HEMANAIRE AGOSTO SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12588079404",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "PED LUNETTA AGOSTO-SETTEMBRE 2026",
-      "subtitle": "PED LUNETTA AGOSTO-SETTEMBRE 2026 · Panoramica PED AG SQUAD 2026 · 27/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12537672258",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
-    },
-    {
-      "name": "IMPORTANTE: prime info",
-      "subtitle": "IMPORTANTE: prime info · Gestione › La Rotta Giusta · 27/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12635320215",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
     }
   ]
 }
