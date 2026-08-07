@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T14:37:00+02:00",
+  "updated_at": "2026-08-07T15:43:22+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -396,7 +396,7 @@
     {
       "name": "Report ADV BeeFamily",
       "project": "Generale",
-      "notes": "",
+      "notes": null,
       "due": "2026-06-12",
       "days_to_due": -56,
       "is_today": false,
@@ -407,7 +407,7 @@
     {
       "name": "Lanciare campagna ads awareness da profilo Tasto 9 (€10/giorno)",
       "project": "Tasto 9",
-      "notes": "",
+      "notes": "Awareness dal profilo Tasto 9, budget €10/giorno + video CTA candidature.",
       "due": "2026-07-17",
       "days_to_due": -21,
       "is_today": false,
@@ -418,7 +418,7 @@
     {
       "name": "Selezionare i migliori tagli per le ads awareness (Tasto 9)",
       "project": "Tasto 9",
-      "notes": "",
+      "notes": "Selezionare i migliori tagli per la campagna awareness Tasto 9.",
       "due": "2026-07-17",
       "days_to_due": -21,
       "is_today": false,
@@ -429,7 +429,7 @@
     {
       "name": "🔄 Riprendere BeeFamily — chiudere il backlog",
       "project": "Generale",
-      "notes": "",
+      "notes": "Rework BeeFamily: webinar, university, home, funnel checkup, nurture core.",
       "due": "2026-07-20",
       "days_to_due": -18,
       "is_today": false,
@@ -440,7 +440,7 @@
     {
       "name": "ads meta",
       "project": "B612",
-      "notes": "budget confermato, mandami tutto prima di attivare",
+      "notes": "Budget confermato, mandare tutto prima di attivare.",
       "due": "2026-07-22",
       "days_to_due": -16,
       "is_today": false,
@@ -451,7 +451,7 @@
     {
       "name": "Attivare Meta Ads (ITA + ENG) a supporto delle campagne Google",
       "project": "Sardinia family villas",
-      "notes": "",
+      "notes": "Sardinia Family Villas: Meta a supporto di Google, ITA+ENG.",
       "due": "2026-07-28",
       "days_to_due": -10,
       "is_today": false,
@@ -462,7 +462,7 @@
     {
       "name": "Rosabianca Collection — Far ripartire campagne ADV",
       "project": "Generale",
-      "notes": "Richiesta di Emilio",
+      "notes": "Richiesta Emilio: rilancio ADV Rosabianca Collection (Meta+Google), budget e tempistica.",
       "due": "2026-07-28",
       "days_to_due": -10,
       "is_today": false,
@@ -471,9 +471,9 @@
       "is_aghc": false
     },
     {
-      "name": "UPDATE ADV -> (offerta settembre Mexico)",
+      "name": "UPDATE ADV ->",
       "project": "Mexico",
-      "notes": "Email da Gabriele di Mexico",
+      "notes": "Mexico: concentrare campagne sull'offerta settembre al mare.",
       "due": "2026-08-03",
       "days_to_due": -4,
       "is_today": false,
@@ -484,7 +484,7 @@
     {
       "name": "Follow-up Workflow lead adv — costruire ponte GHL → Close (Make)",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "Appena Andrea risponde: setup ponte GHL→Close su Make (dedup).",
       "due": "2026-08-07",
       "days_to_due": 0,
       "is_today": true,
@@ -495,7 +495,7 @@
     {
       "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "Redirect 301 vecchio dominio formulafamily.it, proposta mappatura + OK Andrea.",
       "due": "2026-08-10",
       "days_to_due": 3,
       "is_today": false,
@@ -506,7 +506,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "Carrello WooCommerce non finalizza + errore sito non pubblicato.",
       "due": "2026-08-10",
       "days_to_due": 3,
       "is_today": false,
@@ -517,7 +517,7 @@
     {
       "name": "Webinar — Report giornaliero iscritti (totale cumulativo)",
       "project": "BeeFamily - Tech",
-      "notes": "Andrea vuole totale cumulativo ogni giorno fino al 3/9",
+      "notes": "Andrea vuole ogni giorno il totale cumulativo iscritti webinar fino al 3/9.",
       "due": "2026-08-10",
       "days_to_due": 3,
       "is_today": false,
@@ -528,7 +528,7 @@
     {
       "name": "Webinar — Link UTM per video Instagram di Andrea",
       "project": "BeeFamily - Tech",
-      "notes": "",
+      "notes": "Link UTM verso landing webinar per il video IG di Andrea.",
       "due": "2026-08-10",
       "days_to_due": 3,
       "is_today": false,
@@ -539,7 +539,7 @@
     {
       "name": "[Social] Farsi aggiungere come amministratore",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-08-24",
       "days_to_due": 17,
       "is_today": false,
@@ -550,7 +550,7 @@
     {
       "name": "Inserire link Google Meet della diretta webinar 3/9",
       "project": "BeeFamily - Tech",
-      "notes": "Entro 1/9",
+      "notes": "Inserire link Meet diretta in TY page + email reminder SEQ-02 entro 1/9.",
       "due": "2026-09-01",
       "days_to_due": 25,
       "is_today": false,
@@ -561,7 +561,7 @@
     {
       "name": "[Meta Ads] Creazione account pubblicitario su BM BeeFamily",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-09-21",
       "days_to_due": 45,
       "is_today": false,
@@ -572,7 +572,7 @@
     {
       "name": "[Meta Ads] Setup Pixel",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-09-21",
       "days_to_due": 45,
       "is_today": false,
@@ -583,7 +583,7 @@
     {
       "name": "[Meta Ads] Aggiornamento sheet clienti",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -594,7 +594,7 @@
     {
       "name": "[Meta Ads] Setup eventi",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -605,7 +605,7 @@
     {
       "name": "[Meta Ads] Collegare account No Panic",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -616,20 +616,9 @@
   ],
   "asana_mentions": [
     {
-      "name": "Workflow lead adv",
-      "subtitle": "BeeFamily - Tech · Andrea · 05/08",
-      "notes": "Andrea: «remind Workflow lead adv»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630518",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "Controllo Webinar 3 settembre",
+      "name": "Cambio FAQ / iscrizione TDM (post-webinar)",
       "subtitle": "BeeFamily - Tech · Andrea · 06/08",
-      "notes": "Andrea: «Sto cambiando le FAQ perché non ci sarà più offerta University post-webinar»",
+      "notes": "Andrea: «Sto cambiando le FAQ perchè non ci sarà più offerta University post Webinar, ma iscrizione al TDM… te le giro tra poco»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216571785334184",
@@ -638,9 +627,20 @@
       "is_aghc": false
     },
     {
+      "name": "Workflow lead adv",
+      "subtitle": "BeeFamily - Tech · Andrea · 05/08",
+      "notes": "Andrea: «remind»",
+      "status": "Mention",
+      "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1214190446630518",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
       "name": "NEWSLETTER Lancio University — verifica materiali",
       "subtitle": "BeeFamily - Tech · Andrea · 03/08",
-      "notes": "Andrea: «allegati qui sopra tre file markdown: SEQ-03, SEQ-08 e SEQ-04»",
+      "notes": null,
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217122755269771",
@@ -649,9 +649,9 @@
       "is_aghc": false
     },
     {
-      "name": "University — Landing: inserire profili coach confermati + date",
+      "name": "University — Landing: profili coach + date",
       "subtitle": "BeeFamily - Tech · Andrea · 03/08",
-      "notes": "Andrea: «per le sequenze mi piacerebbe rivederle tutte»",
+      "notes": "Andrea: «per le sequenze mi piacerebbe rivederle tutte ricevendole sulla mia casella…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217059123231509",
@@ -662,7 +662,7 @@
     {
       "name": "Triangolo Riccione 12 ott — dati logistici mancanti",
       "subtitle": "BeeFamily - Tech · Andrea · 03/08",
-      "notes": "Andrea: «alcune modifiche che ho tirato fuori con Cleopatra»",
+      "notes": null,
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216830335950010",
@@ -673,7 +673,7 @@
     {
       "name": "Creare offerta doppia uscita sul sito",
       "subtitle": "Sardinia family villas · Andrea · 03/08",
-      "notes": "Andrea: «Ok resta solo da girare le url a Marco per le adv»",
+      "notes": "Andrea: «Ok resta solo da girare le url a Marco per le adv Google»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692833932/task/1217091496699386",
@@ -687,8 +687,8 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": null,
-      "status_kind": null,
+      "status": "Task",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
@@ -698,8 +698,8 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Task",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
@@ -709,8 +709,8 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Task",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
@@ -720,8 +720,8 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Task",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
@@ -731,8 +731,8 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": null,
-      "status_kind": null,
+      "status": "Task",
+      "status_kind": "neutral",
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
@@ -742,19 +742,30 @@
   ],
   "monday_mentions": [
     {
+      "name": "PED TERRAZZA FLAVIA SETTEMBRE 2026",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · 07/08",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12638712772",
+      "is_today": true,
+      "is_urgent": true,
+      "is_aghc": true
+    },
+    {
       "name": "PED PASSPARTOUT AGO-SETT 2026",
-      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 05/08",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · 05/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12722012113",
       "is_today": false,
       "is_urgent": true,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "name": "PED CASTELLO AGOSTO SETTEMBRE 2026",
-      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 05/08",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · 05/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -776,7 +787,7 @@
     },
     {
       "name": "PED ERMELLINA AGO-SETT 2026",
-      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 04/08",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · 04/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -798,7 +809,7 @@
     },
     {
       "name": "PED LIVATA AGO-SETT 2026",
-      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 03/08",
+      "subtitle": "Panoramica PED AG SQUAD 2026 · 03/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -820,7 +831,7 @@
     },
     {
       "name": "RESTART ADV // Settembre 2026",
-      "subtitle": "Gestione Tangovivo · Nicola D'Anna · 31/07",
+      "subtitle": "Gestione Tangovivo · Nicola DAnna · 31/07",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
@@ -828,17 +839,6 @@
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
-    },
-    {
-      "name": "PED MARE HOTEL AGO-SETT 2026",
-      "subtitle": "Panoramica PED AG SQUAD 2026 · Automations · 31/07",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18419928875/pulses/12640906611",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": true
     }
   ]
 }
