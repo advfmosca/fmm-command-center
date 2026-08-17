@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T12:43:57.987415+02:00",
+  "updated_at": "2026-08-17T14:43:47.749379+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "canva: comments non accessibili per 1 design condiviso (DAHODbbz1MY - PED Mare Hotel Luglio-Agosto)"
@@ -290,84 +290,6 @@
       "html_link": null,
       "alert_kind": null,
       "is_aghc": false
-    },
-    {
-      "summary": "BootyFarm - Riunione",
-      "start_iso": "2026-08-25T10:30:00+02:00",
-      "end_iso": "2026-08-25T12:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Recap AGHC",
-      "start_iso": "2026-08-25T16:00:00+02:00",
-      "end_iso": "2026-08-25T17:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": true
-    },
-    {
-      "summary": "Reel Forno da Milvio: milvio poesia",
-      "start_iso": "2026-08-26T10:00:00+02:00",
-      "end_iso": "2026-08-26T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=amtoaGN2ZDJ0aWR1NzJsdHVka20ybGo5aGMgbW9zY2FkdkBt&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Allenamento Calenda",
-      "start_iso": "2026-08-26T10:30:00+02:00",
-      "end_iso": "2026-08-26T12:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Ordine Biancheria",
-      "start_iso": "2026-08-26T13:30:00+02:00",
-      "end_iso": "2026-08-26T14:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Registrazione Ospiti",
-      "start_iso": "2026-08-26T18:00:00+02:00",
-      "end_iso": "2026-08-26T18:15:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": null,
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
     }
   ],
   "asana": [
@@ -413,6 +335,17 @@
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1217350427164773",
+      "is_aghc": false
+    },
+    {
+      "name": "staccare meta ads",
+      "project": "Helios",
+      "notes": null,
+      "due": "2026-08-17",
+      "days_to_due": 0,
+      "is_today": true,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1212015010806802/task/1217541536092986",
       "is_aghc": false
     },
     {
@@ -531,9 +464,9 @@
       "name": "[PRIORITA ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato su Google)",
       "subtitle": "BeeFamily - Tech · Andrea · 15/08",
       "notes": "Andrea: «@Emilio Zorini @Francesco Maria Mosca risolto»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -542,9 +475,9 @@
       "name": "solo brand",
       "subtitle": "Mauritius · ambra.sartini · 13/08",
       "notes": "ambra.sartini: «staccare meta e tenere attivo solo google con brand 5-10€»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1216521909371779",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1216521909371779",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -553,9 +486,9 @@
       "name": "DEM Countdown Webinar 3/9 — montare 17 email (1 al giorno, 12/8 → 1/9)",
       "subtitle": "BeeFamily - Tech · Andrea · 12/08",
       "notes": "Andrea: «dammi un feedback quando sono montate»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217366284143544",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217366284143544",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -564,9 +497,9 @@
       "name": "Clarity installato sulla landing webinar — ottimizzazione tra un paio di giorni",
       "subtitle": "BeeFamily - Tech · Andrea · 12/08",
       "notes": "Andrea: «abbiamo qualche dato interessante da vedere?»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217320176720159",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217320176720159",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -575,9 +508,9 @@
       "name": "Webinar — Report giornaliero iscritti (totale cumulativo)",
       "subtitle": "BeeFamily - Tech · Andrea · 12/08",
       "notes": "Andrea: «possiamo chiudere questa task, mi sono fatto un agente che ogni 60 minuti mi pinga il numero totale su Telegram»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217224803404555",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217224803404555",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -586,9 +519,9 @@
       "name": "Webinar — Link UTM per video Instagram di Andrea",
       "subtitle": "BeeFamily - Tech · Andrea · 12/08",
       "notes": "Andrea: «il link però non mi è arrivato»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217232987188553",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217232987188553",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -597,9 +530,9 @@
       "name": "Edit Video ADS Webinar",
       "subtitle": "Bee Family · Andrea · 11/08",
       "notes": "Andrea: «le video ads sono girate, 6 in totale»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217358210550397",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217358210550397",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -608,15 +541,26 @@
       "name": "aggiornamento budget",
       "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 10/08",
       "notes": "ambra.sartini: «…ssare del 30% sia meta che google poi teniamoci pronti per partire con la montagna da settembre»",
+      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1217313961872889",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1217313961872889",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     }
   ],
-  "canva": [],
+  "canva": [
+    {
+      "design_id": "DAHQMe7D7Ws",
+      "design_title": "7. Monthly Report_Montemagno Luglio",
+      "design_url": "https://www.canva.com/d/JuQcjwClHcQgbbR",
+      "comment_id": "KAHR4CPpfc8",
+      "author": "Alessia De Fabiani AG Hotel Consulting",
+      "comment_text": "correggere valore budget restante",
+      "created_iso": "2026-08-10T10:29:06+02:00",
+      "is_aghc": true
+    }
+  ],
   "monday": [
     {
       "name": "Jungano",
