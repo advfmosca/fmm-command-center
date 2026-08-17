@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T11:43:05.219220+02:00",
+  "updated_at": "2026-08-17T12:43:57.987415+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "canva: comments non accessibili per 1 design condiviso (DAHODbbz1MY - PED Mare Hotel Luglio-Agosto)"
@@ -14,7 +14,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjYzdmQ0NnBranZ2cXUwbzQxb2JxZWczczYgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -27,7 +27,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=ajRoNTg2N2pudmxkYnNmZ3VkOWlzZzVjZXMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -40,7 +40,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MTdUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -53,20 +53,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": "https://meet.google.com/ohb-bhqb-vyq",
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Progress @senape",
-      "start_iso": "2026-08-17T18:00:00+02:00",
-      "end_iso": "2026-08-17T19:00:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": "https://meet.google.com/kqp-peii-ten",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTJjYTAyMTJndGJqcDg2M2I4MDRsdm9iZ2sgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -92,7 +79,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MThUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -105,7 +92,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MThUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -118,7 +105,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=cXQ5aGxncHJjZWJrZDV2dnA0c3RlMjhma3MgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -196,7 +183,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjFUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -274,7 +261,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": null,
+      "html_link": "https://www.google.com/calendar/event?eid=ZGEwdG9ncTR1cDA4cDRxOW5wbzJvdDBraG8gbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -287,19 +274,6 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/hsi-disc-pvb",
-      "html_link": null,
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Progress @senape",
-      "start_iso": "2026-08-24T18:00:00+02:00",
-      "end_iso": "2026-08-24T19:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": null,
-      "conference_url": "https://meet.google.com/kqp-peii-ten",
       "html_link": null,
       "alert_kind": null,
       "is_aghc": false
@@ -352,6 +326,45 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=amtoaGN2ZDJ0aWR1NzJsdHVka20ybGo5aGMgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Allenamento Calenda",
+      "start_iso": "2026-08-26T10:30:00+02:00",
+      "end_iso": "2026-08-26T12:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-08-26T13:30:00+02:00",
+      "end_iso": "2026-08-26T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-08-26T18:00:00+02:00",
+      "end_iso": "2026-08-26T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
       "html_link": null,
       "alert_kind": null,
       "is_aghc": false
@@ -383,7 +396,7 @@
     {
       "name": "Follow-up Workflow lead adv — costruire ponte GHL → Close (Make)",
       "project": "BeeFamily - Tech",
-      "notes": "Appena Andrea risponde con le 2 info richieste (connessione Close↔GHL esistente + come sono taggati i lead adv in GHL) → procedere col setup del ponte GHL → Close su Make.com.",
+      "notes": null,
       "due": "2026-08-07",
       "days_to_due": -10,
       "is_today": false,
@@ -394,7 +407,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche: Malaspina (Google budget 6.210€ ma spesa 0), Cirillo (manca account Google su Windsor), Sardinia (Meta spesa 3.112€ ma budget 0). Poi presentare ad Ambra.",
+      "notes": null,
       "due": "2026-08-13",
       "days_to_due": -4,
       "is_today": false,
@@ -416,12 +429,12 @@
     {
       "name": "Azioni budget campagne Meta – Color Holiday (14/08 e 20/08)",
       "project": "Color Holiday",
-      "notes": "Azioni budget Meta per struttura/data. 14/08: Palace staccare tutto tranne brand; Alexandra Plaza/Mokambo/Green Village/Bay Village -50% Meta e Google.",
+      "notes": null,
       "due": "2026-08-17",
       "days_to_due": 0,
       "is_today": true,
       "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1217537772635747",
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834008/task/1217537772635747",
       "is_aghc": false
     },
     {
@@ -438,7 +451,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce: 1) tasto Visualizza Carrello non finalizza l'acquisto (blocca collegamento link→landing); 2) plugin WooCommerce Direct Checkout dà errore 'Sito non Pubblicato'.",
+      "notes": null,
       "due": "2026-08-30",
       "days_to_due": 13,
       "is_today": false,
@@ -471,7 +484,7 @@
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff API GHL media: endpoint POST /medias/upload-file (multipart) → URL pubblico. Blocchi: manca User-Agent (403/1010 Cloudflare) e nome file col path assoluto. Generare un PIT proprio. Non usare Social Planner per caroselli.",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -515,9 +528,9 @@
   ],
   "asana_mentions": [
     {
-      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio indicizzato su Google)",
+      "name": "[PRIORITA ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato su Google)",
       "subtitle": "BeeFamily - Tech · Andrea · 15/08",
-      "notes": "Andrea: «risolto»",
+      "notes": "Andrea: «@Emilio Zorini @Francesco Maria Mosca risolto»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
@@ -594,7 +607,7 @@
     {
       "name": "aggiornamento budget",
       "subtitle": "H&V HOTEL E VILLAGGI · ambra.sartini · 10/08",
-      "notes": "ambra.sartini: «…ssare del 30% sia meta che google, poi teniamoci pronti per partire con la montagna da settembre»",
+      "notes": "ambra.sartini: «…ssare del 30% sia meta che google poi teniamoci pronti per partire con la montagna da settembre»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1217313961872889",
