@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-19T10:43:44.313819+02:00",
+ "updated_at": "2026-08-19T13:28:50.796584+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -74,7 +74,7 @@
    "end_iso": "2026-08-19T12:30:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MTlUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -87,7 +87,7 @@
    "end_iso": "2026-08-19T14:30:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MTlUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -100,7 +100,7 @@
    "end_iso": "2026-08-19T18:15:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MTlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -318,7 +318,7 @@
  ],
  "asana": [
   {
-   "name": "Report ADV Clienti",
+   "name": "Report ADV Clienti ",
    "project": "Generale",
    "notes": "Da inviare ad Ambra",
    "due": "2026-07-03",
@@ -331,7 +331,7 @@
   {
    "name": "Report ADV BeeFamily",
    "project": "Generale",
-   "notes": "",
+   "notes": null,
    "due": "2026-07-10",
    "days_to_due": -40,
    "is_today": false,
@@ -342,7 +342,7 @@
   {
    "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
    "project": "Generale",
-   "notes": "3 verifiche da fare: MALASPINA (budget Google 6.210€ spesa 0), CIRILLO (budget Google 4.720€ spesa 0, manca account), SARDINIA (Meta spesa 3.112€ budget 0). Presentare foglio ad Ambra.",
+   "notes": "3 verifiche da fare (Malaspina/Cirillo/Sardinia) + presentare foglio ad Ambra",
    "due": "2026-08-13",
    "days_to_due": -6,
    "is_today": false,
@@ -353,7 +353,7 @@
   {
    "name": "[Social] Farsi aggiungere come amministratore",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": "2026-08-24",
    "days_to_due": 5,
    "is_today": false,
@@ -364,7 +364,7 @@
   {
    "name": "Risoluzione PROBLEMA Carrello WooCommerce",
    "project": "BeeFamily - Tech",
-   "notes": "Carrello WooCommerce non finalizza acquisto + errore plugin Direct Checkout 'Sito non Pubblicato'. Blocca collegamento link alle landing.",
+   "notes": "2 problemi carrello WooCommerce (checkout + Direct Checkout plugin)",
    "due": "2026-08-30",
    "days_to_due": 11,
    "is_today": false,
@@ -375,7 +375,7 @@
   {
    "name": "[Meta Ads] Creazione account pubblicitario su BM BeeFamily",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": "2026-09-21",
    "days_to_due": 33,
    "is_today": false,
@@ -386,7 +386,7 @@
   {
    "name": "[Meta Ads] Setup Pixel",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": "2026-09-21",
    "days_to_due": 33,
    "is_today": false,
@@ -397,7 +397,7 @@
   {
    "name": "GHL Media Library — come caricare le creative via API (handoff)",
    "project": "BeeFamily - Tech",
-   "notes": "Handoff caricamento creative su GoHighLevel via API: endpoint POST /medias/upload-file, serve User-Agent browser-like (altrimenti 403/1010), passare solo basename. Evitare Social Planner per caroselli",
+   "notes": "Handoff completo upload creative su GoHighLevel via API (User-Agent + basename)",
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -408,7 +408,7 @@
   {
    "name": "[Meta Ads] Aggiornamento sheet clienti",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -419,7 +419,7 @@
   {
    "name": "[Meta Ads] Setup eventi",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -430,7 +430,7 @@
   {
    "name": "[Meta Ads] Collegare account No Panic",
    "project": "Galassia",
-   "notes": "",
+   "notes": null,
    "due": null,
    "days_to_due": null,
    "is_today": false,
@@ -443,7 +443,7 @@
   {
    "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale",
    "subtitle": "BeeFamily - Tech · Andrea · 15/08",
-   "notes": "Andrea: «risolto — Attendiamo risposta alla e-mail girata oggi»",
+   "notes": "Andrea: «@Francesco @Emilio risolto»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
@@ -463,7 +463,7 @@
    "is_aghc": false
   },
   {
-   "name": "DEM Countdown Webinar 3/9 — montare 17 email",
+   "name": "DEM Countdown Webinar 3/9 — montare 17 email (1 al giorno, 12/8 → 1/9)",
    "subtitle": "BeeFamily - Tech · Andrea · 12/08",
    "notes": "Andrea: «dammi un feedback quando sono montate»",
    "status": "Mention",
@@ -487,7 +487,7 @@
   {
    "name": "Webinar — Report giornaliero iscritti (totale cumulativo)",
    "subtitle": "BeeFamily - Tech · Andrea · 12/08",
-   "notes": "Andrea: «possiamo chiudere questa task, mi sono fatto un agente che ogni 60 min mi pinga il totale su Telegram»",
+   "notes": "Andrea: «possiamo chiudere questa task, mi sono fatto un agente che ogni 60 minuti mi pinga il totale su Telegram»",
    "status": "Mention",
    "status_kind": "danger",
    "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217224803404555",
@@ -515,9 +515,10 @@
    "status": null,
    "status_kind": null,
    "due": null,
-   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
+   "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
    "is_aghc": false
   },
   {
@@ -526,9 +527,10 @@
    "status": null,
    "status_kind": null,
    "due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
+   "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
    "is_aghc": false
   },
   {
@@ -537,9 +539,10 @@
    "status": null,
    "status_kind": null,
    "due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
+   "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
    "is_aghc": false
   },
   {
@@ -548,9 +551,10 @@
    "status": null,
    "status_kind": null,
    "due": null,
-   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
+   "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
+   "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
    "is_aghc": false
   },
   {
@@ -559,16 +563,17 @@
    "status": null,
    "status_kind": null,
    "due": "2025-04-04",
-   "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+   "days_to_due": -502,
    "is_today": false,
    "is_urgent": true,
+   "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_aghc": true
   }
  ],
  "monday_mentions": [
   {
-   "name": "Add On Strategy — Scintille Editore",
-   "subtitle": "Stefano Bizzarri · Gestione Scintille Editore > Add On Strategy · 18/08",
+   "name": "Re: \"Add On Strategy\" — @Maria Vittoria Rossi @Francesco M Mosca",
+   "subtitle": "Add On Strategy · Gestione Scintille Editore · 18/08",
    "notes": null,
    "status": "Notifica",
    "status_kind": "warn",
