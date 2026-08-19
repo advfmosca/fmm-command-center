@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-19T08:44:32.178553+02:00",
+ "updated_at": "2026-08-19T09:43:46.470746+02:00",
  "source": "fmm-command-center-refresh",
  "errors": [],
  "calendar": [
@@ -48,7 +48,7 @@
    "end_iso": "2026-08-19T09:40:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=dTF2aXI4YW5oazM4OTE3c29pZGdjc2lvZXMgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -61,7 +61,7 @@
    "end_iso": "2026-08-19T11:00:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=cXQ5aGxncHJjZWJrZDV2dnA0c3RlMjhma3MgbW9zY2FkdkBt&ctz=Europe/Rome",
@@ -74,7 +74,7 @@
    "end_iso": "2026-08-19T12:30:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MTlUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -87,7 +87,7 @@
    "end_iso": "2026-08-19T14:30:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MTlUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -100,7 +100,7 @@
    "end_iso": "2026-08-19T18:15:00+02:00",
    "is_today": true,
    "is_tomorrow": false,
-   "is_urgent": false,
+   "is_urgent": true,
    "location": null,
    "conference_url": null,
    "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MTlUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
@@ -225,19 +225,6 @@
    "is_aghc": false
   },
   {
-   "summary": "AS+Bea+Franci riunione referenti",
-   "start_iso": "2026-08-24T14:30:00+02:00",
-   "end_iso": "2026-08-24T15:30:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/hsi-disc-pvb",
-   "html_link": "https://www.google.com/calendar/event?eid=Xzc0cGs0Z2EyNm9vamViYTY4Y3EzMmI5azhkMmo0YmEyOGgyamdiOXA4Y3MzNGRwbzY5Mmo4Z2hqNmNfMjAyNjA4MjRUMTIzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
    "summary": "Registrazione Ospiti",
    "start_iso": "2026-08-24T18:00:00+02:00",
    "end_iso": "2026-08-24T18:15:00+02:00",
@@ -327,71 +314,6 @@
    "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjZUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
    "alert_kind": null,
    "is_aghc": false
-  },
-  {
-   "summary": "OFF",
-   "start_iso": "2026-08-27T08:30:00+02:00",
-   "end_iso": "2026-08-27T14:30:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MjdUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "AS+Bea+Franci riunione referenti",
-   "start_iso": "2026-08-27T10:00:00+02:00",
-   "end_iso": "2026-08-27T11:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-   "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA4MjdUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
-   "start_iso": "2026-08-27T16:00:00+02:00",
-   "end_iso": "2026-08-27T17:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjdUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "Adv Check Fra + Mark",
-   "start_iso": "2026-08-28T09:15:00+02:00",
-   "end_iso": "2026-08-28T10:30:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-   "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjhUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
-  },
-  {
-   "summary": "OFF",
-   "start_iso": "2026-08-28T13:00:00+02:00",
-   "end_iso": "2026-08-28T19:00:00+02:00",
-   "is_today": false,
-   "is_tomorrow": false,
-   "is_urgent": false,
-   "location": null,
-   "conference_url": null,
-   "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MjhUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-   "alert_kind": null,
-   "is_aghc": false
   }
  ],
  "asana": [
@@ -420,7 +342,7 @@
   {
    "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
    "project": "Generale",
-   "notes": "3 verifiche da fare: MALASPINA (budget Google 6.210€ ma spesa 0 su Windsor), CIRILLO (budget Google 4.720€ ma spesa 0, manca account Google), SARDINIA (Meta spesa 3.112€ ma budget 0). Presentare il foglio ad Ambra.",
+   "notes": "3 verifiche: MALASPINA (budget Google 6.210€ ma spesa 0 su Windsor), CIRILLO (budget Google 4.720€ ma manca account su Windsor), SARDINIA (Meta spesa 3.112€ ma budget 0). Poi presentare ad Ambra.",
    "due": "2026-08-13",
    "days_to_due": -6,
    "is_today": false,
@@ -436,18 +358,18 @@
    "days_to_due": 5,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217057141856445",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057141856445",
    "is_aghc": false
   },
   {
    "name": "Risoluzione PROBLEMA Carrello WooCommerce",
    "project": "BeeFamily - Tech",
-   "notes": "2 problemi: 1) Aggiungi al carrello → Visualizza Carrello non finalizza l'acquisto (blocca collegamento link alle landing). 2) WooCommerce Direct Checkout non installabile: WordPress restituisce 'Sito non Pubblicato'.",
+   "notes": "1) 'Aggiungi al carrello' → 'Visualizza carrello' non fa nulla, blocca il collegamento landing. 2) WooCommerce Direct Checkout non installabile: WordPress restituisce 'Sito non Pubblicato'.",
    "due": "2026-08-30",
    "days_to_due": 11,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896218",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
    "is_aghc": false
   },
   {
@@ -458,7 +380,7 @@
    "days_to_due": 33,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217057142334234",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
    "is_aghc": false
   },
   {
@@ -469,18 +391,18 @@
    "days_to_due": 33,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982304957",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
    "is_aghc": false
   },
   {
    "name": "GHL Media Library — come caricare le creative via API (handoff)",
    "project": "BeeFamily - Tech",
-   "notes": "Handoff caricamento creative su GoHighLevel via API. Endpoint POST /medias/upload-file. Blocchi: 403 err 1010 = manca User-Agent (Cloudflare); passare solo il basename del file. NON usare Social Planner per caroselli programmati (tronca a 1 immagine).",
+   "notes": "Handoff da Emilio: endpoint POST /medias/upload-file (multipart) → URL pubblico. Blocco 403/1010 = manca User-Agent browser-like (Cloudflare). Passare solo basename nel campo name. NON usare Social Planner per caroselli.",
    "due": null,
    "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217516341810369",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217516341810369",
    "is_aghc": false
   },
   {
@@ -491,7 +413,7 @@
    "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982870994",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982870994",
    "is_aghc": false
   },
   {
@@ -502,7 +424,7 @@
    "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217060951451134",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217060951451134",
    "is_aghc": false
   },
   {
@@ -513,7 +435,7 @@
    "days_to_due": null,
    "is_today": false,
    "is_urgent": false,
-   "permalink": "https://app.asana.com/1/1199398735335909/task/1217047924522456",
+   "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047924522456",
    "is_aghc": false
   }
  ],
@@ -524,7 +446,7 @@
    "notes": "Andrea: «risolto»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1217110796876222",
+   "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -535,7 +457,7 @@
    "notes": "ambra.sartini: «staccare meta e tenere attivo solo google con brand 5-10€»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1216521909371779",
+   "url": "https://app.asana.com/1/1199398735335909/project/1208934692833879/task/1216521909371779",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -546,7 +468,7 @@
    "notes": "Andrea: «dammi un feedback quando sono montate»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1217366284143544",
+   "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217366284143544",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -557,7 +479,7 @@
    "notes": "Andrea: «abbiamo qualche dato interessante da vedere?»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1217320176720159",
+   "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217320176720159",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -568,7 +490,7 @@
    "notes": "Andrea: «possiamo chiudere questa task, mi sono fatto un agente che ogni 60 minuti mi pinga il numero totale su Telegram»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1217224803404555",
+   "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217224803404555",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -579,7 +501,7 @@
    "notes": "Andrea: «il link però non mi è arrivato»",
    "status": "Mention",
    "status_kind": "danger",
-   "url": "https://app.asana.com/1/1199398735335909/task/1217232987188553",
+   "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217232987188553",
    "is_today": false,
    "is_urgent": true,
    "is_aghc": false
@@ -643,7 +565,7 @@
    "due": "2025-04-04",
    "days_to_due": -502,
    "is_today": false,
-   "is_urgent": true,
+   "is_urgent": false,
    "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
    "is_aghc": true
   }
