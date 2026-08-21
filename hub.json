@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21T11:43:43.967961+02:00",
+  "updated_at": "2026-08-21T12:42:41.074159+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "Canva design DAHODbbz1MY (PED Mare Hotel): comments non accessibili (403) — saltato",
-    "1g Monday updates mentions: nessun risultato (mention Scintille catturate via 1f)"
+    "1g Monday updates mentions: nessun risultato nel periodo"
   ],
   "calendar": [
     {
@@ -145,7 +145,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MjVUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -158,7 +158,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MjVUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": true
     },
@@ -236,7 +236,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Mm5mODQwY2YzamdncHIwNWV1bWxyN3JnbGQgbW9zY2FkdkBt",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": true
     },
@@ -262,7 +262,137 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjdUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Adv Check Fra + Mark",
+      "start_iso": "2026-08-28T09:15:00+02:00",
+      "end_iso": "2026-08-28T10:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-08-28T13:00:00+02:00",
+      "end_iso": "2026-08-28T19:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Progress Interno AG",
+      "start_iso": "2026-08-28T15:30:00+02:00",
+      "end_iso": "2026-08-28T16:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/sfm-tcbz-ran",
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-08-28T18:00:00+02:00",
+      "end_iso": "2026-08-28T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-08-30T13:30:00+02:00",
+      "end_iso": "2026-08-30T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-08-30T18:00:00+02:00",
+      "end_iso": "2026-08-30T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "📋 Checklist pre-lancio sequenze post-webinar (Francesco + Simona)",
+      "start_iso": "2026-08-31T09:00:00+02:00",
+      "end_iso": "2026-08-31T10:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Gruppo Stratego - Email di Recap",
+      "start_iso": "2026-08-31T10:45:00+02:00",
+      "end_iso": "2026-08-31T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-08-31T18:00:00+02:00",
+      "end_iso": "2026-08-31T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Never Enough - Documentazione",
+      "start_iso": "2026-09-01T10:00:00+02:00",
+      "end_iso": "2026-09-01T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     }
@@ -293,7 +423,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche: Malaspina budget Google 6.210€ spesa 0; Cirillo budget Google 4.720€ spesa 0 (manca account); Sardinia Meta spesa 3.112€ budget 0. Presentare ad Ambra.",
+      "notes": "3 verifiche da fare su budget Google/Meta (Malaspina, Cirillo, Sardinia) + presentare foglio ad Ambra.",
       "due": "2026-08-13",
       "days_to_due": -8,
       "is_today": false,
@@ -315,7 +445,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi: 1) su product page il tasto Visualizza Carrello non finalizza l'acquisto; 2) WooCommerce Direct Checkout non installabile (errore Sito non Pubblicato).",
+      "notes": "2 problemi carrello WooCommerce: 'Aggiungi al carrello' non finalizza; plugin Direct Checkout dà errore 'Sito non Pubblicato'.",
       "due": "2026-08-30",
       "days_to_due": 9,
       "is_today": false,
@@ -348,7 +478,7 @@
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "project": "BeeFamily - Tech",
-      "notes": "Modifiche ads 16/8 su account BeeFamily 2 (Lead Gen Corporate): pause/tagli budget da 165 a 119€/g. Report: totale campagna 2.290€ / 174 lead / CPL 13,16€.",
+      "notes": "Recap modifiche ads 16/8 (campagna Lead Gen Corporate): adset spenti/in pausa, budget ridotto a 119€/g. Report spesa: TOTALE 2.290€, 174 lead, CPL medio 13,16€.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -359,7 +489,7 @@
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff upload creative su GoHighLevel via API: endpoint POST /medias/upload-file. Trappole: manca User-Agent (403/1010 Cloudflare), name = basename non path assoluto. Non usare Social Planner per caroselli.",
+      "notes": "Handoff upload creative su GoHighLevel via API: endpoint POST /medias/upload-file; serve User-Agent browser-like (403/1010 senza); passare basename nel campo name.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -408,9 +538,9 @@
       "notes": "Emilio: «2290€ in quanti giorni? cerchiamo di controllare budget se no rischiamo fine di aprile e meaggio»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
       "is_today": true,
       "is_urgent": true,
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
       "is_aghc": false
     },
     {
@@ -419,9 +549,9 @@
       "notes": "Andrea: «risolto»",
       "status": "Mention",
       "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_today": false,
       "is_urgent": true,
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_aghc": false
     }
   ],
@@ -430,8 +560,8 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": "Task",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
@@ -441,8 +571,8 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
@@ -452,8 +582,8 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
@@ -463,8 +593,8 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": "Task",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
@@ -474,36 +604,36 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": "Task",
-      "status_kind": "neutral",
+      "status": null,
+      "status_kind": null,
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
     {
-      "name": "Add On Strategy",
-      "subtitle": "Scintille Editore · nuova menzione (MV Rossi / S. Bizzarri) · 18/08",
+      "name": "Info Prodotti Corsi Online",
+      "subtitle": "Info Prodotti Corsi Online · Gestione · 20/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559479466",
       "is_today": false,
       "is_urgent": true,
+      "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12852535930",
       "is_aghc": false
     },
     {
-      "name": "Info Prodotti Corsi Online",
-      "subtitle": "Gestione · assegnato da MV Rossi · 20/08",
-      "notes": null,
+      "name": "Add On Strategy (Scintille)",
+      "subtitle": "Stefano Bizzarri · Gestione > Scintille Editore · 18/08",
+      "notes": "«@Francesco M Mosca ciao e grazie! Proviamo a chiedere 4k e vediamo che succede…» (thread Add On Strategy — allineamento budget PED Scintille 2026-2027)",
       "status": "Notifica",
       "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12852535930",
       "is_today": false,
       "is_urgent": true,
+      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559479466/posts/5463078074",
       "is_aghc": false
     }
   ]
