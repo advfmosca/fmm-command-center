@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T17:54:21.955280+02:00",
+  "updated_at": "2026-08-21T08:43:46.684685+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [
     "canva: commenti non accessibili per 1 design (DAHODbbz1MY - PED MARE HOTEL): possibile mention non rilevata"
@@ -19,41 +19,28 @@
       "is_aghc": false
     },
     {
-      "summary": "OFF",
-      "start_iso": "2026-08-20T08:30:00+02:00",
-      "end_iso": "2026-08-20T14:30:00+02:00",
+      "summary": "🔴 Hotel Livata · spesa anomala alta (Meta)",
+      "start_iso": "2026-08-21T09:00:00+02:00",
+      "end_iso": "2026-08-21T09:10:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MjBUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MzZpaGdzNzAya3VwZzB1c3ZnMHB0YzVjYWMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": false
+      "is_aghc": true
     },
     {
-      "summary": "📊 Report BEEFAMILY + Recap ANDREA + EMILIO — Settimanale",
-      "start_iso": "2026-08-20T16:00:00+02:00",
-      "end_iso": "2026-08-20T17:00:00+02:00",
-      "is_today": true,
-      "is_tomorrow": false,
-      "is_urgent": true,
-      "location": null,
-      "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjBUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
-      "summary": "Adv Check Fra + Mark",
+      "summary": "⚫ Adv Sardinia Family Villas · nuovo account fermo (Meta)",
       "start_iso": "2026-08-21T09:15:00+02:00",
-      "end_iso": "2026-08-21T10:30:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
+      "end_iso": "2026-08-21T09:25:00+02:00",
+      "is_today": true,
+      "is_tomorrow": false,
       "is_urgent": true,
       "location": null,
-      "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjFUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=aG5hMWcxcW02b3NtajMzZ29uMmY2MHZ2aTAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -61,8 +48,8 @@
       "summary": "OFF",
       "start_iso": "2026-08-21T13:00:00+02:00",
       "end_iso": "2026-08-21T19:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
+      "is_today": true,
+      "is_tomorrow": false,
       "is_urgent": true,
       "location": null,
       "conference_url": null,
@@ -74,8 +61,8 @@
       "summary": "Registrazione Ospiti",
       "start_iso": "2026-08-21T18:00:00+02:00",
       "end_iso": "2026-08-21T18:15:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
+      "is_today": true,
+      "is_tomorrow": false,
       "is_urgent": true,
       "location": null,
       "conference_url": null,
@@ -240,6 +227,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Creare Report aggiornato Montemagno",
+      "start_iso": "2026-08-27T09:30:00+02:00",
+      "end_iso": "2026-08-27T09:45:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=Mm5mODQwY2YzamdncHIwNWV1bWxyN3JnbGQgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
       "summary": "AS+Bea+Franci riunione referenti",
       "start_iso": "2026-08-27T10:00:00+02:00",
       "end_iso": "2026-08-27T11:00:00+02:00",
@@ -302,7 +302,7 @@
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
       "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA4MjhUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
       "alert_kind": null,
-      "is_aghc": true
+      "is_aghc": false
     },
     {
       "summary": "Registrazione Ospiti",
@@ -402,7 +402,7 @@
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-07-03",
-      "days_to_due": -48,
+      "days_to_due": -49,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1217613845978984",
@@ -411,9 +411,9 @@
     {
       "name": "Report ADV BeeFamily",
       "project": "Generale",
-      "notes": "",
+      "notes": null,
       "due": "2026-07-10",
-      "days_to_due": -41,
+      "days_to_due": -42,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1217624602717861",
@@ -422,9 +422,9 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche da fare: Malaspina, Cirillo, Sardinia. Presentare il foglio ad Ambra.",
+      "notes": "3 verifiche da fare: MALASPINA budget Google 6.210€ ma spesa 0 su Windsor; CIRILLO budget Google 4.720€ ma spesa 0; SARDINIA Meta spesa 3.112€ ma budget 0. Presentare il foglio ad Ambra.",
       "due": "2026-08-13",
-      "days_to_due": -7,
+      "days_to_due": -8,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/task/1217350427164773",
@@ -433,9 +433,9 @@
     {
       "name": "[Social] Farsi aggiungere come amministratore",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-08-24",
-      "days_to_due": 4,
+      "days_to_due": 3,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057141856445",
@@ -444,9 +444,9 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce: 'Visualizza Carrello' non finalizza; plugin Direct Checkout errore 'Sito non Pubblicato'.",
+      "notes": "2 problemi carrello WooCommerce: (1) tasto Visualizza Carrello non finalizza acquisto; (2) plugin Direct Checkout dà errore 'Sito non Pubblicato'.",
       "due": "2026-08-30",
-      "days_to_due": 10,
+      "days_to_due": 9,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
@@ -455,9 +455,9 @@
     {
       "name": "[Meta Ads] Creazione account pubblicitario su BM BeeFamily",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-09-21",
-      "days_to_due": 32,
+      "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
@@ -466,18 +466,29 @@
     {
       "name": "[Meta Ads] Setup Pixel",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": "2026-09-21",
-      "days_to_due": 32,
+      "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
       "is_aghc": false
     },
     {
+      "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
+      "project": "BeeFamily - Tech",
+      "notes": "Recap webinar 16/8 (account BeeFamily 2). Modifiche adset + report spesa: totale campagna 2.290€, 174 lead, CPL medio 13,16€.",
+      "due": null,
+      "days_to_due": null,
+      "is_today": false,
+      "is_urgent": false,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
+      "is_aghc": false
+    },
+    {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff: endpoint POST /medias/upload-file; serve User-Agent browser-like (403/1010 Cloudflare); passare basename del file. Genera PIT dedicato.",
+      "notes": "Handoff caricamento creative su GoHighLevel via API: endpoint POST /medias/upload-file, serve User-Agent browser-like (403/1010 senza), passare solo basename del file.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -488,7 +499,7 @@
     {
       "name": "[Meta Ads] Aggiornamento sheet clienti",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -499,7 +510,7 @@
     {
       "name": "[Meta Ads] Setup eventi",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -510,7 +521,7 @@
     {
       "name": "[Meta Ads] Collegare account No Panic",
       "project": "Galassia",
-      "notes": "",
+      "notes": null,
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -521,9 +532,9 @@
   ],
   "asana_mentions": [
     {
-      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato)",
+      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato su Google)",
       "subtitle": "BeeFamily - Tech · Andrea · 15/08",
-      "notes": "Andrea: «risolto» (thread chiuso)",
+      "notes": "Andrea: «risolto»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
@@ -584,10 +595,9 @@
       "status": null,
       "status_kind": null,
       "due": "2025-04-04",
-      "days_to_due": -503,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
@@ -599,14 +609,14 @@
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12852535930",
-      "is_today": true,
+      "is_today": false,
       "is_urgent": true,
       "is_aghc": false
     },
     {
-      "name": "Nuova menzione: Add On Strategy (Scintille Editore)",
-      "subtitle": "Stefano Bizzarri · Gestione · 18/08",
-      "notes": "«Proviamo a chiedere 4k e vediamo che succede… per me possiamo procedere»",
+      "name": "[Nuova menzione] Add On Strategy — @Maria Vittoria Rossi @Francesco M Mosca",
+      "subtitle": "Add On Strategy · Gestione · 18/08",
+      "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
       "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559479466",
