@@ -1,9 +1,7 @@
 {
-  "updated_at": "2026-08-21T08:43:46.684685+02:00",
+  "updated_at": "2026-08-21T09:44:05.311538+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [
-    "canva: commenti non accessibili per 1 design (DAHODbbz1MY - PED MARE HOTEL): possibile mention non rilevata"
-  ],
+  "errors": [],
   "calendar": [
     {
       "summary": "FERIE",
@@ -14,7 +12,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjYzdmQ0NnBranZ2cXUwbzQxb2JxZWczczYgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MjYzdmQ0NnBranZ2cXUwbzQxb2JxZWczczYgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -27,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MzZpaGdzNzAya3VwZzB1c3ZnMHB0YzVjYWMgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MzZpaGdzNzAya3VwZzB1c3ZnMHB0YzVjYWMgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -37,10 +35,10 @@
       "end_iso": "2026-08-21T09:25:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=aG5hMWcxcW02b3NtajMzZ29uMmY2MHZ2aTAgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=aG5hMWcxcW02b3NtajMzZ29uMmY2MHZ2aTAgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -50,10 +48,10 @@
       "end_iso": "2026-08-21T19:00:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MjFUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MjFUMTEwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -63,10 +61,10 @@
       "end_iso": "2026-08-21T18:15:00+02:00",
       "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjFUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -79,7 +77,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MjNUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MjNUMTEzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -92,7 +90,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjNUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjNUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -105,7 +103,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MjRUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MjRUMDg0NTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -118,7 +116,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=ZGEwdG9ncTR1cDA4cDRxOW5wbzJvdDBraG8gbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=ZGEwdG9ncTR1cDA4cDRxOW5wbzJvdDBraG8gbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -131,7 +129,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjRUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjRUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -144,7 +142,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MjVUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MjVUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -157,7 +155,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MjVUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MjVUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -170,7 +168,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=amtoaGN2ZDJ0aWR1NzJsdHVka20ybGo5aGMgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=amtoaGN2ZDJ0aWR1NzJsdHVka20ybGo5aGMgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -183,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MjZUMDgzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MjZUMDgzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -196,7 +194,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MjZUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA4MjZUMTEzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -209,7 +207,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjZUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjZUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -222,7 +220,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MjdUMDYzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA4MjdUMDYzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -235,7 +233,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Mm5mODQwY2YzamdncHIwNWV1bWxyN3JnbGQgbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=Mm5mODQwY2YzamdncHIwNWV1bWxyN3JnbGQgbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -248,7 +246,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA4MjdUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA4MjdUMDgwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -261,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjdUMTQwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjdUMTQwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -274,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjhUMDcxNTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjhUMDcxNTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -287,7 +285,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MjhUMTEwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=NTdhaGx2bzVrNG5rcGJxYjRoMm0zaWU3NzNfMjAyNjA4MjhUMTEwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -300,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA4MjhUMTMzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA4MjhUMTMzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -313,7 +311,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjhUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MjhUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -326,7 +324,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MzBUMTEzMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=Xzg5MmppZTloOG9zajBiOWk4OG9qYWI5azc0cWplYmEyNzRyajZiOWs2c280NmQ5ajc0cDQ0aGk0NjRfMjAyNjA4MzBUMTEzMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -339,7 +337,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MzBUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MzBUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -352,7 +350,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=bW1uaHQ4dnEwYTlnMTZkMHU2cW52cG9uZTggbW9zY2FkdkBt&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=bW1uaHQ4dnEwYTlnMTZkMHU2cW52cG9uZTggbW9zY2FkdkBt",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -365,7 +363,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MzFUMDg0NTAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MzFUMDg0NTAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -378,7 +376,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MzFUMTYwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA4MzFUMTYwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -391,7 +389,137 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA5MDFUMDgwMDAwWiBtb3NjYWR2QG0&ctz=Europe/Rome",
+      "html_link": "https://www.google.com/calendar/event?eid=MmxtYmJpMDYxZThrdXQ0YjJudWhiZGpiZGZfMjAyNjA5MDFUMDgwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "📊 Report AGHC — Mese precedente",
+      "start_iso": "2026-09-01T10:30:00+02:00",
+      "end_iso": "2026-09-01T11:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDBpMm83OHZjc2ZqMWpqNmdrazBudWFscjhfMjAyNjA5MDFUMDgzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
+      "summary": "BootyFarm - Riunione",
+      "start_iso": "2026-09-01T10:30:00+02:00",
+      "end_iso": "2026-09-01T12:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
+      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA5MDFUMDgzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Recap AGHC",
+      "start_iso": "2026-09-01T16:00:00+02:00",
+      "end_iso": "2026-09-01T17:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA5MDFUMTQwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
+      "summary": "Promemoria (1/2) — Prep tag presenze webinar (domani la diretta)",
+      "start_iso": "2026-09-02T09:00:00+02:00",
+      "end_iso": "2026-09-02T10:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=YWY1OTltdDRpZTEzN3FrOWk0cDdzcGhzajQgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Reel Forno da Milvio: linea",
+      "start_iso": "2026-09-02T10:00:00+02:00",
+      "end_iso": "2026-09-02T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=bHBiZGhsa3E5YjF1Z2ZlaWNmMGJoNGNoNWMgbW9zY2FkdkBt",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Allenamento Calenda",
+      "start_iso": "2026-09-02T10:30:00+02:00",
+      "end_iso": "2026-09-02T12:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA5MDJUMDgzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Ordine Biancheria",
+      "start_iso": "2026-09-02T13:30:00+02:00",
+      "end_iso": "2026-09-02T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=XzZoMWthZDFsOG9wajRiYTI4aDJrMmI5azg4cWtjYjlwNmdyMzBiOWw3NHA0YWRoazcwczRhY3E2NjhfMjAyNjA5MDJUMTEzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "Registrazione Ospiti",
+      "start_iso": "2026-09-02T18:00:00+02:00",
+      "end_iso": "2026-09-02T18:15:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=N2JyaHRkZGJldXJzamdmZGQ0a3U4dDBsM3RfMjAyNjA5MDJUMTYwMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "OFF",
+      "start_iso": "2026-09-03T08:30:00+02:00",
+      "end_iso": "2026-09-03T14:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": null,
+      "html_link": "https://www.google.com/calendar/event?eid=NTc5cTNhMHBwYnBiZHR1YWNyMGwzZWRnYXNfMjAyNjA5MDNUMDYzMDAwWiBtb3NjYWR2QG0",
+      "alert_kind": null,
+      "is_aghc": false
+    },
+    {
+      "summary": "AS+Bea+Franci riunione referenti",
+      "start_iso": "2026-09-03T10:00:00+02:00",
+      "end_iso": "2026-09-03T11:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": null,
+      "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
+      "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA5MDNUMDgwMDAwWiBtb3NjYWR2QG0",
       "alert_kind": null,
       "is_aghc": false
     }
@@ -422,7 +550,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche da fare: MALASPINA budget Google 6.210€ ma spesa 0 su Windsor; CIRILLO budget Google 4.720€ ma spesa 0; SARDINIA Meta spesa 3.112€ ma budget 0. Presentare il foglio ad Ambra.",
+      "notes": "3 verifiche da fare su Malaspina/Cirillo/Sardinia + presentare ad Ambra",
       "due": "2026-08-13",
       "days_to_due": -8,
       "is_today": false,
@@ -438,18 +566,18 @@
       "days_to_due": 3,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057141856445",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217057141856445",
       "is_aghc": false
     },
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce: (1) tasto Visualizza Carrello non finalizza acquisto; (2) plugin Direct Checkout dà errore 'Sito non Pubblicato'.",
+      "notes": "2 problemi carrello WooCommerce da risolvere prima di collegare le landing",
       "due": "2026-08-30",
       "days_to_due": 9,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896218",
       "is_aghc": false
     },
     {
@@ -460,7 +588,7 @@
       "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217057142334234",
       "is_aghc": false
     },
     {
@@ -471,29 +599,29 @@
       "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982304957",
       "is_aghc": false
     },
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "project": "BeeFamily - Tech",
-      "notes": "Recap webinar 16/8 (account BeeFamily 2). Modifiche adset + report spesa: totale campagna 2.290€, 174 lead, CPL medio 13,16€.",
+      "notes": "Recap modifiche ADS webinar + report spesa/CPL",
       "due": null,
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217692740012288",
       "is_aghc": false
     },
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff caricamento creative su GoHighLevel via API: endpoint POST /medias/upload-file, serve User-Agent browser-like (403/1010 senza), passare solo basename del file.",
+      "notes": "Handoff caricamento creative su GoHighLevel via API",
       "due": null,
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217516341810369",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217516341810369",
       "is_aghc": false
     },
     {
@@ -504,7 +632,7 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982870994",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982870994",
       "is_aghc": false
     },
     {
@@ -515,7 +643,7 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217060951451134",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217060951451134",
       "is_aghc": false
     },
     {
@@ -526,15 +654,15 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047924522456",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047924522456",
       "is_aghc": false
     }
   ],
   "asana_mentions": [
     {
-      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale (vecchio dominio ancora indicizzato su Google)",
+      "name": "[PRIORITÀ ALTA] Redirect formulafamily.it → sito attuale",
       "subtitle": "BeeFamily - Tech · Andrea · 15/08",
-      "notes": "Andrea: «risolto»",
+      "notes": "Andrea: «@Emilio Zorini @Francesco Maria Mosca risolto»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
@@ -614,8 +742,8 @@
       "is_aghc": false
     },
     {
-      "name": "[Nuova menzione] Add On Strategy — @Maria Vittoria Rossi @Francesco M Mosca",
-      "subtitle": "Add On Strategy · Gestione · 18/08",
+      "name": "[Nuova menzione] Add On Strategy",
+      "subtitle": "Add On Strategy · Gestione Scintille Editore · 18/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
