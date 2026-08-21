@@ -1,18 +1,15 @@
 {
-  "updated_at": "2026-08-21T16:42:50.400285+02:00",
+  "updated_at": "2026-08-21T17:54:25+0200",
   "source": "fmm-command-center-refresh",
-  "errors": [
-    "Canva design DAHODbbz1MY (PED Mare Hotel): comments non accessibili (403) — saltato",
-    "1g Monday updates mentions: nessun risultato nel periodo"
-  ],
+  "errors": [],
   "calendar": [
     {
       "summary": "FERIE",
       "start_iso": "2026-08-10T07:00:00+02:00",
       "end_iso": "2026-09-02T21:00:00+02:00",
-      "is_today": false,
+      "is_today": true,
       "is_tomorrow": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "location": null,
       "conference_url": null,
       "html_link": null,
@@ -28,7 +25,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MzZpaGdzNzAya3VwZzB1c3ZnMHB0YzVjYWMgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=MzZpaGdzNzAya3VwZzB1c3ZnMHB0YzVjYWMgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": true
     },
@@ -41,7 +38,7 @@
       "is_urgent": true,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=aG5hMWcxcW02b3NtajMzZ29uMmY2MHZ2aTAgbW9zY2FkdkBt",
+      "html_link": "https://www.google.com/calendar/event?eid=aG5hMWcxcW02b3NtajMzZ29uMmY2MHZ2aTAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
       "is_aghc": false
     },
@@ -106,7 +103,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MjhhbDI2NTNuZTBodGJocnNjZ3R1ZXIxc25fMjAyNjA4MjRUMDg0NTAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -119,7 +116,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=ZGEwdG9ncTR1cDA4cDRxOW5wbzJvdDBraG8gbW9zY2FkdkBt",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -145,7 +142,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/bjf-rmhc-ycg",
-      "html_link": "https://www.google.com/calendar/event?eid=NXMxNTRzMHB2MGdudG9zbjl2MW5qNTA0a3RfMjAyNjA4MjVUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -158,7 +155,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=MDJiamM1NDJsMXA5c2NzY212MGdkM2h0NzBfMjAyNjA4MjVUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": true
     },
@@ -171,7 +168,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=amtoaGN2ZDJ0aWR1NzJsdHVka20ybGo5aGMgbW9zY2FkdkBt",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -184,7 +181,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=anE5cDNodGtydmIyYTM3b2JkMGNla2xuaDNfMjAyNjA4MjZUMDgzMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -236,7 +233,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Mm5mODQwY2YzamdncHIwNWV1bWxyN3JnbGQgbW9zY2FkdkBt",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": true
     },
@@ -249,7 +246,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": "https://www.google.com/calendar/event?eid=XzY5MjMwYzlvNjRwa2FiOXA3MHM0MmI5azg1MWoyYmEyNmNzajJiYTM4OHAzMmNwaTZjcGs4ZHBoNjhfMjAyNjA4MjdUMDgwMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -262,7 +259,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": null,
-      "html_link": "https://www.google.com/calendar/event?eid=Zzk0ajBxNGNoOG0xY2N0dGkwdWN1NDk2aGVfMjAyNjA4MjdUMTQwMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -275,7 +272,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/mbk-cbej-gcf",
-      "html_link": "https://www.google.com/calendar/event?eid=aDlwdTBsa25mOGYwcXNzbTBrY3VwdWs4czFfMjAyNjA4MjhUMDcxNTAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -301,7 +298,7 @@
       "is_urgent": false,
       "location": null,
       "conference_url": "https://meet.google.com/sfm-tcbz-ran",
-      "html_link": "https://www.google.com/calendar/event?eid=MDQxc2Zkc21idGtodGZtYjNqa2xoOTU5M2lfMjAyNjA4MjhUMTMzMDAwWiBtb3NjYWR2QG0",
+      "html_link": null,
       "alert_kind": null,
       "is_aghc": false
     },
@@ -345,7 +342,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche da fare: Malaspina, Cirillo, Sardinia (vedi Asana). Presentare il foglio ad Ambra.",
+      "notes": "3 verifiche: Malaspina budget Google 6.210€ spesa 0; Cirillo budget Google 4.720€ spesa 0 manca account; Sardinia Meta spesa 3.112€ budget 0. Presentare ad Ambra.",
       "due": "2026-08-13",
       "days_to_due": -8,
       "is_today": false,
@@ -367,7 +364,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Problema tasto Aggiungi al Carrello / Visualizza Carrello su oldsite.beefamily.it e plugin Direct Checkout (errore Sito non Pubblicato).",
+      "notes": "Carrello WooCommerce: Visualizza Carrello non finalizza acquisto; plugin Direct Checkout dà errore Sito non Pubblicato.",
       "due": "2026-08-30",
       "days_to_due": 9,
       "is_today": false,
@@ -379,8 +376,8 @@
       "name": "[Meta Ads] Creazione account pubblicitario su BM BeeFamily",
       "project": "Galassia",
       "notes": "",
-      "due": null,
-      "days_to_due": null,
+      "due": "2026-09-21",
+      "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
@@ -390,8 +387,8 @@
       "name": "[Meta Ads] Setup Pixel",
       "project": "Galassia",
       "notes": "",
-      "due": null,
-      "days_to_due": null,
+      "due": "2026-09-21",
+      "days_to_due": 31,
       "is_today": false,
       "is_urgent": false,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
@@ -400,7 +397,7 @@
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "project": "BeeFamily - Tech",
-      "notes": "Recap webinar 16/8: modifiche ads + report spesa/CPL (totale campagna 2.290€ | 174 lead | CPL 13,16€).",
+      "notes": "Recap webinar 16/8: adset spenti/in pausa, budget ridotto 165→119€/g. Campagna 2.290€/174 lead/CPL 13,16€.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -411,7 +408,7 @@
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff upload creative su GoHighLevel via API: endpoint POST /medias/upload-file, serve User-Agent browser-like (403/1010 con curl), passare solo basename. Non usare Social Planner per caroselli.",
+      "notes": "Handoff upload creative su GoHighLevel via API: endpoint /medias/upload-file, serve User-Agent browser (403/1010), passare basename nel name.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -457,12 +454,12 @@
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "subtitle": "BeeFamily - Tech · Emilio · 21/08",
-      "notes": "Emilio: «2290€ in quanti giorni? cerchiamo di controllare budget se no rischiamo fine di aprile e meaggio»",
+      "notes": "Emilio: «2290€ in quanti giorni? cerchiamo di controllare budget se no rischiamo»",
       "status": "Mention",
       "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
       "is_today": true,
       "is_urgent": true,
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
       "is_aghc": false
     },
     {
@@ -471,9 +468,9 @@
       "notes": "Andrea: «risolto»",
       "status": "Mention",
       "status_kind": "danger",
+      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_today": false,
       "is_urgent": true,
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217110796876222",
       "is_aghc": false
     }
   ],
@@ -482,8 +479,8 @@
     {
       "name": "Jungano",
       "subtitle": "2025 - 2026 Report trimestrali Senape",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
@@ -493,8 +490,8 @@
     {
       "name": "Setup Meta",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
@@ -504,8 +501,8 @@
     {
       "name": "Setup TikTok e TikTok ADS",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
@@ -515,8 +512,8 @@
     {
       "name": "Setup GMB",
       "subtitle": "Start up nuovi progetti",
-      "status": null,
-      "status_kind": null,
+      "status": "Da fare",
+      "status_kind": "neutral",
       "due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
@@ -526,8 +523,8 @@
     {
       "name": "User e Pass / Gmail per Tik Tok",
       "subtitle": "Account TIK TOK AGHC",
-      "status": null,
-      "status_kind": null,
+      "status": "Scaduto",
+      "status_kind": "danger",
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
@@ -537,25 +534,25 @@
   ],
   "monday_mentions": [
     {
-      "name": "Info Prodotti Corsi Online",
+      "name": "[Nuova menzione] Add On Strategy — @Maria Vittoria Rossi @Francesco M Mosca",
+      "subtitle": "Add On Strategy · Gestione (Scintille Editore) · 18/08",
+      "notes": null,
+      "status": "Notifica",
+      "status_kind": "warn",
+      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559479466",
+      "is_today": false,
+      "is_urgent": true,
+      "is_aghc": false
+    },
+    {
+      "name": "[Assegnato a te] Info Prodotti Corsi Online",
       "subtitle": "Info Prodotti Corsi Online · Gestione · 20/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
-      "is_today": false,
-      "is_urgent": true,
       "url": "https://senapedigital.monday.com/boards/18417843897/pulses/12852535930",
-      "is_aghc": false
-    },
-    {
-      "name": "Add On Strategy (Scintille)",
-      "subtitle": "Stefano Bizzarri · Gestione > Scintille Editore · 18/08",
-      "notes": "«@Francesco M Mosca ciao e grazie! Proviamo a chiedere 4k e vediamo che succede…» (thread Add On Strategy — allineamento budget PED Scintille 2026-2027)",
-      "status": "Notifica",
-      "status_kind": "warn",
       "is_today": false,
       "is_urgent": true,
-      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12559479466/posts/5463078074",
       "is_aghc": false
     }
   ]
