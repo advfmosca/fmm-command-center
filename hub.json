@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T15:41:57+02:00",
+  "updated_at": "2026-08-31T16:42:28+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -122,8 +122,8 @@
     },
     {
       "summary": "Screen Call interview with Smartness S.r.l.",
-      "start_iso": "2026-08-31T15:30:00+02:00",
-      "end_iso": "2026-08-31T16:00:00+02:00",
+      "start_iso": "2026-08-31T15:30:00+00:00",
+      "end_iso": "2026-08-31T16:00:00+00:00",
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
@@ -153,7 +153,7 @@
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
-      "location": "",
+      "location": "https://meet.google.com/tgu-tawf-ewc",
       "conference_url": "https://meet.google.com/tgu-tawf-ewc",
       "html_link": "https://www.google.com/calendar/event?eid=r706393q0qjfvrrvg4bqn3jv00",
       "alert_kind": null,
@@ -238,6 +238,19 @@
       "is_aghc": false
     },
     {
+      "summary": "Recap AGHC",
+      "start_iso": "2026-09-01T16:00:00+02:00",
+      "end_iso": "2026-09-01T17:00:00+02:00",
+      "is_today": false,
+      "is_tomorrow": true,
+      "is_urgent": false,
+      "location": "",
+      "conference_url": "",
+      "html_link": "https://www.google.com/calendar/event?eid=02bjc542l1p9scscmv0gd3ht70_20260901T140000Z",
+      "alert_kind": null,
+      "is_aghc": true
+    },
+    {
       "summary": "Promemoria (1/2) — Prep tag presenze webinar (domani la diretta)",
       "start_iso": "2026-09-02T09:00:00+02:00",
       "end_iso": "2026-09-02T10:00:00+02:00",
@@ -316,19 +329,6 @@
       "is_aghc": false
     },
     {
-      "summary": "AS+Bea+Franci riunione referenti",
-      "start_iso": "2026-09-03T10:00:00+02:00",
-      "end_iso": "2026-09-03T11:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": false,
-      "is_urgent": false,
-      "location": "",
-      "conference_url": "https://meet.google.com/gmj-rcvx-nzv",
-      "html_link": "https://www.google.com/calendar/event?eid=_69230c9o64pkab9p70s42b9k851j2ba26csj2ba388p32cpi6cpk8dph68_20260903T080000Z",
-      "alert_kind": null,
-      "is_aghc": false
-    },
-    {
       "summary": "Francesco Maria Mosca (Sara Angrisani)",
       "start_iso": "2026-09-03T15:00:00+02:00",
       "end_iso": "2026-09-03T15:45:00+02:00",
@@ -379,6 +379,19 @@
       "html_link": "https://www.google.com/calendar/event?eid=h9pu0lknf8f0qssm0kcupuk8s1_20260904T071500Z",
       "alert_kind": null,
       "is_aghc": false
+    },
+    {
+      "summary": "Piedi",
+      "start_iso": "2026-09-04T12:30:00+02:00",
+      "end_iso": "2026-09-04T13:30:00+02:00",
+      "is_today": false,
+      "is_tomorrow": false,
+      "is_urgent": false,
+      "location": "",
+      "conference_url": "",
+      "html_link": "https://www.google.com/calendar/event?eid=2em7jfnq6efsj32bhlsg4m07ig",
+      "alert_kind": null,
+      "is_aghc": false
     }
   ],
   "asana": [
@@ -407,7 +420,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche budget/spesa (Malaspina, Cirillo, Sardinia) + presentare foglio ad Ambra",
+      "notes": "3 verifiche da fare — MALASPINA (budget Google 6.210€ ma spesa 0), CIRILLO (manca account Google), SARDINIA (Meta spesa 3.112€ ma budget 0). Presentare il foglio ad Ambra.",
       "due": "2026-08-13",
       "days_to_due": -18,
       "is_today": false,
@@ -429,7 +442,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Carrello WooCommerce non finalizza acquisto + errore plugin Direct Checkout",
+      "notes": "2 problemi carrello WooCommerce su beefamily.it: Visualizza Carrello non finalizza; plugin Direct Checkout dà 'Sito non Pubblicato'.",
       "due": "2026-08-30",
       "days_to_due": -1,
       "is_today": false,
@@ -473,7 +486,7 @@
     {
       "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
       "project": "BeeFamily - Tech",
-      "notes": "Mancano menu+prezzo pranzo Hotel Promenade e 2 video testimonianze",
+      "notes": "Per chiudere la sequenza post-iscrizione TDM (12 ott, Hotel Promenade): 1) menu+prezzo pranzo bistrot; 2) 2 link video testimonianze.",
       "due": "2026-09-01",
       "days_to_due": 1,
       "is_today": false,
@@ -484,7 +497,7 @@
     {
       "name": "Review Funnel webinar -> tdm -> university",
       "project": "BeeFamily - Tech",
-      "notes": "Nuova logica funnel: Webinar→University+FDD, TDM standalone dal 3/9, University retargeting",
+      "notes": "Cambiata logica funnel: Webinar→University+Fuori Dai Denti; TDM standalone dal 3/9; University retargeting iscritti webinar. Servono carrello deposito 500€, newsletter lancio, update landing.",
       "due": "2026-09-01",
       "days_to_due": 1,
       "is_today": false,
@@ -495,7 +508,7 @@
     {
       "name": "Registrare BeeFamily su OpenAI come agenzia per ChatGPT Ads",
       "project": "Bee Family",
-      "notes": "Registrarsi su ads.openai.com come agenzia; account separato per cliente",
+      "notes": "Far registrare BeeFamily da OpenAI come agenzia abilitata a ChatGPT Ads. Registrarsi su ads.openai.com, richiedere contatto commerciale, candidarsi a OpenAI Ads Solutions. Account separato per ogni cliente.",
       "due": "2026-09-01",
       "days_to_due": 1,
       "is_today": false,
@@ -510,7 +523,7 @@
       "due": "2026-09-21",
       "days_to_due": 21,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
       "is_aghc": false
     },
@@ -521,18 +534,18 @@
       "due": "2026-09-21",
       "days_to_due": 21,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
       "is_aghc": false
     },
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff API GHL: endpoint /medias/upload-file, User-Agent obbligatorio, basename file",
+      "notes": "Handoff upload creative su GoHighLevel via API: endpoint POST /medias/upload-file. Fix 403/1010 = manca User-Agent browser-like; passare solo il basename del file; NON usare Social Planner per caroselli.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217516341810369",
       "is_aghc": false
     },
@@ -543,7 +556,7 @@
       "due": null,
       "days_to_due": null,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982870994",
       "is_aghc": false
     },
@@ -554,7 +567,7 @@
       "due": null,
       "days_to_due": null,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217060951451134",
       "is_aghc": false
     },
@@ -565,7 +578,7 @@
       "due": null,
       "days_to_due": null,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047924522456",
       "is_aghc": false
     }
@@ -602,6 +615,7 @@
       "status": null,
       "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18428332465/pulses/12905496513",
       "is_today": false,
       "is_urgent": false,
@@ -613,6 +627,7 @@
       "status": null,
       "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_today": false,
       "is_urgent": false,
@@ -624,6 +639,7 @@
       "status": null,
       "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_today": false,
       "is_urgent": false,
@@ -635,6 +651,7 @@
       "status": null,
       "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_today": false,
       "is_urgent": false,
@@ -646,6 +663,7 @@
       "status": null,
       "status_kind": null,
       "due": null,
+      "days_to_due": null,
       "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_today": false,
       "is_urgent": false,
@@ -657,23 +675,12 @@
       "status": null,
       "status_kind": null,
       "due": "2025-04-04",
+      "days_to_due": -514,
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": true
     }
   ],
-  "monday_mentions": [
-    {
-      "name": "[Assegnato a te] BM",
-      "subtitle": "BM · Gestione · 24/08",
-      "notes": null,
-      "status": "Notifica",
-      "status_kind": "warn",
-      "url": "https://senapedigital.monday.com/boards/18402300880/pulses/12880668368",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    }
-  ]
+  "monday_mentions": []
 }
