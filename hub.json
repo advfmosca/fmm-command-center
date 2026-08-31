@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-08-31T08:42:40+02:00",
+  "updated_at": "2026-08-31T09:41:49+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [],
+  "errors": [
+    "canva: connettore non autorizzato in questa sessione (OAuth richiesto) — sezione Canva non aggiornata in questo run"
+  ],
   "calendar": [
     {
       "summary": "FERIE",
@@ -554,7 +556,7 @@
     {
       "name": "Scadenza OfferteFamily.it",
       "subtitle": "Bee Family · Emilio · 27/08",
-      "notes": "Emilio: «scarichiamo da offerte family tutto quello che può servire, la nostra idea è quello di creare du ghl un master dominio per gestire in futuro le landing per ogni cliente...»",
+      "notes": "Emilio: «scarichiamo da offerte family tutto quello che può servire, la nostra idea è quello di creare du ghl un master dominio per gestire in futuro le landing per ogni cliente che compra una lanidng page»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217870180985870",
@@ -565,7 +567,7 @@
     {
       "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
       "subtitle": "BeeFamily - Tech · Andrea · 25/08",
-      "notes": "Andrea: «Ciao Francesco Maria Mosca ancora non ho le info sul pranzo, mannaggia loro; sulla landing intanto inseriamo le info sul dove sarà perché l'hotel è figo...»",
+      "notes": "Andrea: «Ciao Francesco Maria Mosca ancora non ho le info sul pranzo, mannaggia loro in ogni caso, sulla landing intanto inseriamo le info sul dove sarà perchè l'hotel è figo»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217124140812604",
@@ -575,8 +577,8 @@
     },
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
-      "subtitle": "BeeFamily - Tech · Emilio · 24/08",
-      "notes": "Emilio: «2290€ in quanti giorni? Francesco Maria Mosca cerchiamo di controllare budget se no rischiamo fine di aprile e maggio»",
+      "subtitle": "BeeFamily - Tech · Emilio · 22/08",
+      "notes": "Emilio: «2290€ in quanti giorni? cerchiamo di controllare budget se no rischiamo fine di aprile e meaggio»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
@@ -650,7 +652,7 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": true,
+      "is_urgent": false,
       "is_aghc": true
     }
   ],
