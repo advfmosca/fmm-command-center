@@ -1,9 +1,7 @@
 {
-  "updated_at": "2026-08-31T09:41:49+02:00",
+  "updated_at": "2026-08-31T10:42:26+02:00",
   "source": "fmm-command-center-refresh",
-  "errors": [
-    "canva: connettore non autorizzato in questa sessione (OAuth richiesto) — sezione Canva non aggiornata in questo run"
-  ],
+  "errors": [],
   "calendar": [
     {
       "summary": "FERIE",
@@ -155,7 +153,7 @@
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
-      "location": "https://meet.google.com/tgu-tawf-ewc",
+      "location": "",
       "conference_url": "https://meet.google.com/tgu-tawf-ewc",
       "html_link": "https://www.google.com/calendar/event?eid=cjcwNjM5M3EwcWpmdnJydmc0YnFuM2p2MDAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
@@ -422,7 +420,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche: Malaspina (budget Google ma spesa 0 su Windsor), Cirillo (manca account Google), Sardinia (Meta spesa ma budget 0). Presentare ad Ambra.",
+      "notes": "3 verifiche (Malaspina, Cirillo, Sardinia) su budget/spesa Google e Meta, poi presentare il foglio ad Ambra.",
       "due": "2026-08-13",
       "days_to_due": -18,
       "is_today": false,
@@ -444,7 +442,7 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "Carrello WooCommerce non finalizza acquisto + errore 'Sito non Pubblicato' installando WooCommerce Direct Checkout.",
+      "notes": "2 problemi carrello WooCommerce: tasto Visualizza Carrello non finalizza; plugin Direct Checkout dà errore Sito non Pubblicato.",
       "due": "2026-08-30",
       "days_to_due": -1,
       "is_today": false,
@@ -466,7 +464,7 @@
     {
       "name": "Registrare BeeFamily su OpenAI come agenzia per ChatGPT Ads",
       "project": "Bee Family",
-      "notes": "Far registrare BeeFamily da OpenAI come agenzia abilitata a ChatGPT Ads. Registrarsi su ads.openai.com, richiedere contatto commerciale, candidarsi a OpenAI Ads Solutions.",
+      "notes": "Far registrare BeeFamily come agenzia abilitata a ChatGPT Ads; account advertiser separato per ogni cliente.",
       "due": "2026-09-01",
       "days_to_due": 1,
       "is_today": false,
@@ -499,7 +497,7 @@
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "project": "BeeFamily - Tech",
-      "notes": "Recap webinar 16/8: modifiche ads (pausa creative/video a CPL alto, budget RET 36→15). Totale campagna 2.290€ | 174 lead | CPL 13,16€.",
+      "notes": "Recap modifiche ads 16/8 + report spesa e CPL campagna Bee Family Lead Gen Corporate.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -510,7 +508,7 @@
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff upload creative su GoHighLevel via API: endpoint POST /medias/upload-file, serve User-Agent browser-like (403/1010 senza), passare solo basename. Non usare Social Planner per caroselli.",
+      "notes": "Handoff upload creative su GoHighLevel via API (endpoint medias/upload-file, User-Agent, basename).",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -556,7 +554,7 @@
     {
       "name": "Scadenza OfferteFamily.it",
       "subtitle": "Bee Family · Emilio · 27/08",
-      "notes": "Emilio: «scarichiamo da offerte family tutto quello che può servire, la nostra idea è quello di creare du ghl un master dominio per gestire in futuro le landing per ogni cliente che compra una lanidng page»",
+      "notes": "Emilio: «scarichiamo da offerte family tutto quello che può servire, la nostra idea è creare su ghl un master dominio per gestire in futuro le landing per ogni cliente…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217870180985870",
@@ -567,21 +565,10 @@
     {
       "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
       "subtitle": "BeeFamily - Tech · Andrea · 25/08",
-      "notes": "Andrea: «Ciao Francesco Maria Mosca ancora non ho le info sul pranzo, mannaggia loro in ogni caso, sulla landing intanto inseriamo le info sul dove sarà perchè l'hotel è figo»",
+      "notes": "Andrea: «ancora non ho le info sul pranzo, mannaggia loro; sulla landing intanto inseriamo le info sul dove sarà perché l'hotel è figo…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217124140812604",
-      "is_today": false,
-      "is_urgent": true,
-      "is_aghc": false
-    },
-    {
-      "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
-      "subtitle": "BeeFamily - Tech · Emilio · 22/08",
-      "notes": "Emilio: «2290€ in quanti giorni? cerchiamo di controllare budget se no rischiamo fine di aprile e meaggio»",
-      "status": "Mention",
-      "status_kind": "danger",
-      "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
       "is_today": false,
       "is_urgent": true,
       "is_aghc": false
@@ -652,14 +639,14 @@
       "due": "2025-04-04",
       "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
       "is_aghc": true
     }
   ],
   "monday_mentions": [
     {
       "name": "[Assegnato a te] BM",
-      "subtitle": "BM · Gestione (Scintille Editore) · 24/08",
+      "subtitle": "BM · Gestione · 24/08",
       "notes": null,
       "status": "Notifica",
       "status_kind": "warn",
