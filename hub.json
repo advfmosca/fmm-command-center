@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T10:42:26+02:00",
+  "updated_at": "2026-08-31T11:42:49+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -122,8 +122,8 @@
     },
     {
       "summary": "Screen Call interview with Smartness S.r.l.",
-      "start_iso": "2026-08-31T15:30:00+02:00",
-      "end_iso": "2026-08-31T16:00:00+02:00",
+      "start_iso": "2026-08-31T15:30:00+00:00",
+      "end_iso": "2026-08-31T16:00:00+00:00",
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
@@ -153,7 +153,7 @@
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
-      "location": "",
+      "location": "https://meet.google.com/tgu-tawf-ewc",
       "conference_url": "https://meet.google.com/tgu-tawf-ewc",
       "html_link": "https://www.google.com/calendar/event?eid=cjcwNjM5M3EwcWpmdnJydmc0YnFuM2p2MDAgbW9zY2FkdkBt&ctz=Europe/Rome",
       "alert_kind": null,
@@ -420,7 +420,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche (Malaspina, Cirillo, Sardinia) su budget/spesa Google e Meta, poi presentare il foglio ad Ambra.",
+      "notes": "3 verifiche budget Google/Meta (Malaspina, Cirillo, Sardinia) + presentare foglio ad Ambra.",
       "due": "2026-08-13",
       "days_to_due": -18,
       "is_today": false,
@@ -436,18 +436,18 @@
       "days_to_due": -7,
       "is_today": false,
       "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057141856445",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217057141856445",
       "is_aghc": false
     },
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce: tasto Visualizza Carrello non finalizza; plugin Direct Checkout dà errore Sito non Pubblicato.",
+      "notes": "2 problemi carrello WooCommerce: tasto Visualizza Carrello non finalizza; plugin Direct Checkout dà errore 'Sito non Pubblicato'.",
       "due": "2026-08-30",
       "days_to_due": -1,
       "is_today": false,
       "is_urgent": true,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1216237784896218",
       "is_aghc": false
     },
     {
@@ -469,7 +469,7 @@
       "days_to_due": 1,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217857673036780",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217857673036780",
       "is_aghc": false
     },
     {
@@ -480,7 +480,7 @@
       "days_to_due": 21,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217057142334234",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217057142334234",
       "is_aghc": false
     },
     {
@@ -491,29 +491,29 @@
       "days_to_due": 21,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982304957",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982304957",
       "is_aghc": false
     },
     {
       "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
       "project": "BeeFamily - Tech",
-      "notes": "Recap modifiche ads 16/8 + report spesa e CPL campagna Bee Family Lead Gen Corporate.",
+      "notes": "Recap modifiche ads webinar 16/8; totale campagna 2.290€ / 174 lead / CPL 13,16€.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217692740012288",
       "is_aghc": false
     },
     {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff upload creative su GoHighLevel via API (endpoint medias/upload-file, User-Agent, basename).",
+      "notes": "Handoff upload creative su GHL via API (POST /medias/upload-file); serve User-Agent browser-like per evitare 403/1010.",
       "due": null,
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217516341810369",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217516341810369",
       "is_aghc": false
     },
     {
@@ -524,7 +524,7 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047982870994",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047982870994",
       "is_aghc": false
     },
     {
@@ -535,7 +535,7 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217060951451134",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217060951451134",
       "is_aghc": false
     },
     {
@@ -546,7 +546,7 @@
       "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1211921943390897/task/1217047924522456",
+      "permalink": "https://app.asana.com/1/1199398735335909/task/1217047924522456",
       "is_aghc": false
     }
   ],
@@ -565,7 +565,7 @@
     {
       "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
       "subtitle": "BeeFamily - Tech · Andrea · 25/08",
-      "notes": "Andrea: «ancora non ho le info sul pranzo, mannaggia loro; sulla landing intanto inseriamo le info sul dove sarà perché l'hotel è figo…»",
+      "notes": "Andrea: «Ciao Francesco ancora non ho le info sul pranzo, mannaggia loro; sulla landing intanto inseriamo le info sul dove sarà perché l'hotel è figo…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217124140812604",
@@ -582,9 +582,10 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/18428332465/pulses/12905496513",
+      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/18428332465/pulses/12905496513",
       "is_aghc": true
     },
     {
@@ -593,9 +594,10 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
+      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/18115636165/pulses/18115636255",
       "is_aghc": false
     },
     {
@@ -604,9 +606,10 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
+      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912683634",
       "is_aghc": false
     },
     {
@@ -615,9 +618,10 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
+      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682768",
       "is_aghc": false
     },
     {
@@ -626,9 +630,10 @@
       "status": null,
       "status_kind": null,
       "due": null,
-      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
+      "days_to_due": null,
       "is_today": false,
       "is_urgent": false,
+      "url": "https://senapedigital.monday.com/boards/8912682667/pulses/8912682812",
       "is_aghc": false
     },
     {
@@ -637,9 +642,10 @@
       "status": null,
       "status_kind": null,
       "due": "2025-04-04",
-      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
+      "days_to_due": -514,
       "is_today": false,
       "is_urgent": true,
+      "url": "https://senapedigital.monday.com/boards/8875622786/pulses/8875622892",
       "is_aghc": true
     }
   ],
