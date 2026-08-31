@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T14:42:00+02:00",
+  "updated_at": "2026-08-31T15:41:57+02:00",
   "source": "fmm-command-center-refresh",
   "errors": [],
   "calendar": [
@@ -153,7 +153,7 @@
       "is_today": true,
       "is_tomorrow": false,
       "is_urgent": true,
-      "location": "https://meet.google.com/tgu-tawf-ewc",
+      "location": "",
       "conference_url": "https://meet.google.com/tgu-tawf-ewc",
       "html_link": "https://www.google.com/calendar/event?eid=r706393q0qjfvrrvg4bqn3jv00",
       "alert_kind": null,
@@ -225,7 +225,7 @@
       "is_aghc": true
     },
     {
-      "summary": "BootyFarm - Riunione",
+      "summary": "BootyFarm - Riunione ",
       "start_iso": "2026-09-01T10:30:00+02:00",
       "end_iso": "2026-09-01T12:00:00+02:00",
       "is_today": false,
@@ -236,19 +236,6 @@
       "html_link": "https://www.google.com/calendar/event?eid=5s154s0pv0gntosn9v1nj504kt_20260901T083000Z",
       "alert_kind": null,
       "is_aghc": false
-    },
-    {
-      "summary": "Recap AGHC",
-      "start_iso": "2026-09-01T16:00:00+02:00",
-      "end_iso": "2026-09-01T17:00:00+02:00",
-      "is_today": false,
-      "is_tomorrow": true,
-      "is_urgent": false,
-      "location": "",
-      "conference_url": "",
-      "html_link": "https://www.google.com/calendar/event?eid=02bjc542l1p9scscmv0gd3ht70_20260901T140000Z",
-      "alert_kind": null,
-      "is_aghc": true
     },
     {
       "summary": "Promemoria (1/2) — Prep tag presenze webinar (domani la diretta)",
@@ -396,7 +383,7 @@
   ],
   "asana": [
     {
-      "name": "Report ADV Clienti",
+      "name": "Report ADV Clienti ",
       "project": "Generale",
       "notes": "Da inviare ad Ambra",
       "due": "2026-07-03",
@@ -420,7 +407,7 @@
     {
       "name": "Foglio Budget & Spesa 2026 — 3 verifiche (Malaspina/Cirillo/Sardinia) + presentazione ad Ambra",
       "project": "Generale",
-      "notes": "3 verifiche da fare: Malaspina (Google 6.210€ spesa 0), Cirillo (Google 4.720€ spesa 0, manca account), Sardinia (Meta spesa 3.112€ budget 0). Presentare il foglio ad Ambra.",
+      "notes": "3 verifiche budget/spesa (Malaspina, Cirillo, Sardinia) + presentare foglio ad Ambra",
       "due": "2026-08-13",
       "days_to_due": -18,
       "is_today": false,
@@ -442,12 +429,23 @@
     {
       "name": "Risoluzione PROBLEMA Carrello WooCommerce",
       "project": "BeeFamily - Tech",
-      "notes": "2 problemi carrello WooCommerce (product page non finalizza acquisto; Direct Checkout plugin errore Sito non Pubblicato).",
+      "notes": "Carrello WooCommerce non finalizza acquisto + errore plugin Direct Checkout",
       "due": "2026-08-30",
       "days_to_due": -1,
       "is_today": false,
       "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1216237784896218",
+      "is_aghc": false
+    },
+    {
+      "name": "staccare meta ads",
+      "project": "H&V HOTEL E VILLAGGI",
+      "notes": "prepararsi per campagne montagna dal 15 settembre",
+      "due": "2026-08-31",
+      "days_to_due": 0,
+      "is_today": true,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1208934692834073/task/1217991086791540",
       "is_aghc": false
     },
     {
@@ -473,13 +471,35 @@
       "is_aghc": false
     },
     {
-      "name": "Registrare BeeFamily su OpenAI come agenzia per ChatGPT Ads",
-      "project": "Bee Family",
-      "notes": "Registrare BeeFamily da OpenAI come agenzia abilitata a ChatGPT Ads. Advertiser account separato per ogni cliente.",
+      "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
+      "project": "BeeFamily - Tech",
+      "notes": "Mancano menu+prezzo pranzo Hotel Promenade e 2 video testimonianze",
       "due": "2026-09-01",
       "days_to_due": 1,
       "is_today": false,
-      "is_urgent": false,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217124140812604",
+      "is_aghc": false
+    },
+    {
+      "name": "Review Funnel webinar -> tdm -> university",
+      "project": "BeeFamily - Tech",
+      "notes": "Nuova logica funnel: Webinar→University+FDD, TDM standalone dal 3/9, University retargeting",
+      "due": "2026-09-01",
+      "days_to_due": 1,
+      "is_today": false,
+      "is_urgent": true,
+      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217989422675011",
+      "is_aghc": false
+    },
+    {
+      "name": "Registrare BeeFamily su OpenAI come agenzia per ChatGPT Ads",
+      "project": "Bee Family",
+      "notes": "Registrarsi su ads.openai.com come agenzia; account separato per cliente",
+      "due": "2026-09-01",
+      "days_to_due": 1,
+      "is_today": false,
+      "is_urgent": true,
       "permalink": "https://app.asana.com/1/1199398735335909/project/1209165228277604/task/1217857673036780",
       "is_aghc": false
     },
@@ -506,20 +526,9 @@
       "is_aghc": false
     },
     {
-      "name": "RECAP Ads Webinar 16/8 — modifiche + report spesa/CPL",
-      "project": "BeeFamily - Tech",
-      "notes": "Modifiche ads BeeFamily (adset spenti/pausa, budget RET 36→15). Totale campagna 2.290€, 174 lead, CPL medio 13,16€.",
-      "due": null,
-      "days_to_due": null,
-      "is_today": false,
-      "is_urgent": false,
-      "permalink": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217692740012288",
-      "is_aghc": false
-    },
-    {
       "name": "GHL Media Library — come caricare le creative via API (handoff)",
       "project": "BeeFamily - Tech",
-      "notes": "Handoff upload creative su GoHighLevel via API (POST /medias/upload-file). Trappole: manca User-Agent (403/1010), nome file, hosted=false, .strip() token.",
+      "notes": "Handoff API GHL: endpoint /medias/upload-file, User-Agent obbligatorio, basename file",
       "due": null,
       "days_to_due": null,
       "is_today": false,
@@ -574,9 +583,9 @@
       "is_aghc": false
     },
     {
-      "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video tes…",
+      "name": "Triangolo Riccione — servono: menu+prezzo pranzo e 2 video testimonianze",
       "subtitle": "BeeFamily - Tech · Andrea · 25/08",
-      "notes": "Andrea: «Ciao Francesco Maria Mosca ancora non ho le info sul pranzo, mannaggia loro in ogni caso, sulla landing intanto inseriamo le info sul dove sarà perchè l'hotel è figo, ti lascio…»",
+      "notes": "Andrea: «ancora non ho le info sul pranzo, mannaggia loro; sulla landing intanto inseriamo le info sul dove sarà; per le testimonianze video Lorenzo Bellè e Riccardo Pollarini…»",
       "status": "Mention",
       "status_kind": "danger",
       "url": "https://app.asana.com/1/1199398735335909/project/1215935048303582/task/1217124140812604",
